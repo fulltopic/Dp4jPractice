@@ -481,8 +481,8 @@ public class MahjongClassifier {
             MahjongClassifier classifier = new MahjongClassifier();
 //            classifier.runScratchModels();
 //            classifier.runScratchModel(16, 20, 0.0005, 0.01, 2);
-//            classifier.runTransferModels();
-            classifier.runRamdomSearchScratchModels(1);
+            classifier.runTransferModels();
+//            classifier.runRamdomSearchScratchModels(1);
 
             classifier.close();
         }catch(Exception e) {

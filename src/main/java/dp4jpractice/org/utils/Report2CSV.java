@@ -58,8 +58,8 @@ public class Report2CSV {
 
     public static void main(String[] args) {
         File reportsDir = new File("datasets/reports");
-        String srcPath = reportsDir.getAbsolutePath() + "/scratchreport1526301141825.txt";
-        String dstPath = reportsDir.getAbsolutePath() + "/scratchreport1526301141825.csv";
+        String srcPath = reportsDir.getAbsolutePath() + "/scratchreport1526541748551.txt";
+        String dstPath = reportsDir.getAbsolutePath() + "/scratchreport1526541748551.csv";
 
         Report2CSV converter = new Report2CSV(srcPath, dstPath);
         try {
