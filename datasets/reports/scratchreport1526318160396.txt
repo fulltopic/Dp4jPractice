@@ -1,0 +1,4183 @@
+
+
+
+/**************************************** Case ***************************************/
+16.0, 15.0, 5.0E-4, 0.02, 2.0, 
+
+Examples labeled as 1 classified by model as 3: 9 times
+Examples labeled as 2 classified by model as 3: 9 times
+Examples labeled as 3 classified by model as 3: 9 times
+
+Warning: 2 classes were never predicted by the model and were excluded from average precision
+Classes excluded from average precision: [0, 1]
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.3333
+ Precision:       0.3333	(2 classes excluded from average)
+ Recall:          0.3333
+ F1 Score:        0.5000	(2 classes excluded from average)
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 15.0, 5.0E-4, 0.02, 3.0, 
+
+Examples labeled as 1 classified by model as 1: 6 times
+Examples labeled as 1 classified by model as 3: 3 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 3: 9 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.8889
+ Precision:       0.9167
+ Recall:          0.8889
+ F1 Score:        0.8857
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 15.0, 5.0E-4, 0.02, 4.0, 
+
+Examples labeled as 1 classified by model as 1: 5 times
+Examples labeled as 1 classified by model as 2: 1 times
+Examples labeled as 1 classified by model as 3: 3 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 3: 9 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.8519
+ Precision:       0.8833
+ Recall:          0.8519
+ F1 Score:        0.8396
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 15.0, 5.0E-4, 0.02, 5.0, 
+
+Examples labeled as 1 classified by model as 1: 5 times
+Examples labeled as 1 classified by model as 3: 4 times
+Examples labeled as 2 classified by model as 2: 7 times
+Examples labeled as 2 classified by model as 3: 2 times
+Examples labeled as 3 classified by model as 3: 9 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.7778
+ Precision:       0.8667
+ Recall:          0.7778
+ F1 Score:        0.7798
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 15.0, 5.0E-4, 0.01, 2.0, 
+
+Examples labeled as 1 classified by model as 1: 6 times
+Examples labeled as 1 classified by model as 2: 1 times
+Examples labeled as 1 classified by model as 3: 2 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 3: 9 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.8889
+ Precision:       0.9061
+ Recall:          0.8889
+ F1 Score:        0.8825
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 15.0, 5.0E-4, 0.01, 3.0, 
+
+Examples labeled as 1 classified by model as 1: 7 times
+Examples labeled as 1 classified by model as 3: 2 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 3: 9 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.9259
+ Precision:       0.9394
+ Recall:          0.9259
+ F1 Score:        0.9250
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 15.0, 5.0E-4, 0.01, 4.0, 
+
+Examples labeled as 1 classified by model as 1: 7 times
+Examples labeled as 1 classified by model as 2: 1 times
+Examples labeled as 1 classified by model as 3: 1 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 2: 1 times
+Examples labeled as 3 classified by model as 3: 8 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.8889
+ Precision:       0.9024
+ Recall:          0.8889
+ F1 Score:        0.8880
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 15.0, 5.0E-4, 0.01, 5.0, 
+
+Examples labeled as 1 classified by model as 1: 5 times
+Examples labeled as 1 classified by model as 3: 4 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 3: 9 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.8519
+ Precision:       0.8974
+ Recall:          0.8519
+ F1 Score:        0.8442
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 15.0, 5.0E-4, 0.005, 2.0, 
+
+Examples labeled as 1 classified by model as 1: 7 times
+Examples labeled as 1 classified by model as 2: 1 times
+Examples labeled as 1 classified by model as 3: 1 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 1: 1 times
+Examples labeled as 3 classified by model as 3: 8 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.8889
+ Precision:       0.8880
+ Recall:          0.8889
+ F1 Score:        0.8866
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 15.0, 5.0E-4, 0.005, 3.0, 
+
+Examples labeled as 1 classified by model as 1: 5 times
+Examples labeled as 1 classified by model as 2: 1 times
+Examples labeled as 1 classified by model as 3: 3 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 1: 1 times
+Examples labeled as 3 classified by model as 3: 8 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.8148
+ Precision:       0.8202
+ Recall:          0.8148
+ F1 Score:        0.8047
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 15.0, 5.0E-4, 0.005, 4.0, 
+
+Examples labeled as 1 classified by model as 1: 7 times
+Examples labeled as 1 classified by model as 2: 1 times
+Examples labeled as 1 classified by model as 3: 1 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 1: 1 times
+Examples labeled as 3 classified by model as 2: 1 times
+Examples labeled as 3 classified by model as 3: 7 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.8519
+ Precision:       0.8561
+ Recall:          0.8519
+ F1 Score:        0.8490
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 15.0, 5.0E-4, 0.005, 5.0, 
+
+Examples labeled as 1 classified by model as 1: 6 times
+Examples labeled as 1 classified by model as 2: 1 times
+Examples labeled as 1 classified by model as 3: 2 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 1: 1 times
+Examples labeled as 3 classified by model as 3: 8 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.8519
+ Precision:       0.8524
+ Recall:          0.8519
+ F1 Score:        0.8465
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 15.0, 5.0E-4, 0.001, 2.0, 
+
+Examples labeled as 1 classified by model as 1: 8 times
+Examples labeled as 1 classified by model as 2: 1 times
+Examples labeled as 2 classified by model as 1: 5 times
+Examples labeled as 2 classified by model as 2: 4 times
+Examples labeled as 3 classified by model as 1: 8 times
+Examples labeled as 3 classified by model as 2: 1 times
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [2]
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.4444
+ Precision:       0.5238	(1 class excluded from average)
+ Recall:          0.4444
+ F1 Score:        0.5333	(1 class excluded from average)
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 15.0, 5.0E-4, 0.001, 3.0, 
+
+Examples labeled as 1 classified by model as 1: 8 times
+Examples labeled as 1 classified by model as 2: 1 times
+Examples labeled as 2 classified by model as 1: 7 times
+Examples labeled as 2 classified by model as 2: 2 times
+Examples labeled as 3 classified by model as 1: 8 times
+Examples labeled as 3 classified by model as 2: 1 times
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [2]
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.3704
+ Precision:       0.4239	(1 class excluded from average)
+ Recall:          0.3704
+ F1 Score:        0.4038	(1 class excluded from average)
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 15.0, 5.0E-4, 0.001, 4.0, 
+
+Examples labeled as 1 classified by model as 1: 9 times
+Examples labeled as 2 classified by model as 1: 2 times
+Examples labeled as 2 classified by model as 2: 7 times
+Examples labeled as 3 classified by model as 1: 8 times
+Examples labeled as 3 classified by model as 2: 1 times
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [2]
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.5926
+ Precision:       0.6743	(1 class excluded from average)
+ Recall:          0.5926
+ F1 Score:        0.7332	(1 class excluded from average)
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 15.0, 5.0E-4, 0.001, 5.0, 
+
+Examples labeled as 1 classified by model as 1: 8 times
+Examples labeled as 1 classified by model as 2: 1 times
+Examples labeled as 2 classified by model as 1: 3 times
+Examples labeled as 2 classified by model as 2: 6 times
+Examples labeled as 3 classified by model as 1: 7 times
+Examples labeled as 3 classified by model as 2: 1 times
+Examples labeled as 3 classified by model as 3: 1 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.5556
+ Precision:       0.7315
+ Recall:          0.5556
+ F1 Score:        0.4995
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 15.0, 2.0E-4, 0.02, 2.0, 
+
+Examples labeled as 1 classified by model as 1: 5 times
+Examples labeled as 1 classified by model as 2: 1 times
+Examples labeled as 1 classified by model as 3: 3 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 3: 9 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.8519
+ Precision:       0.8833
+ Recall:          0.8519
+ F1 Score:        0.8396
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 15.0, 2.0E-4, 0.02, 3.0, 
+
+Examples labeled as 1 classified by model as 1: 6 times
+Examples labeled as 1 classified by model as 3: 3 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 3: 9 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.8889
+ Precision:       0.9167
+ Recall:          0.8889
+ F1 Score:        0.8857
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 15.0, 2.0E-4, 0.02, 4.0, 
+
+Examples labeled as 1 classified by model as 1: 5 times
+Examples labeled as 1 classified by model as 3: 4 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 3: 9 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.8519
+ Precision:       0.8974
+ Recall:          0.8519
+ F1 Score:        0.8442
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 15.0, 2.0E-4, 0.02, 5.0, 
+
+Examples labeled as 1 classified by model as 1: 5 times
+Examples labeled as 1 classified by model as 3: 4 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 3: 9 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.8519
+ Precision:       0.8974
+ Recall:          0.8519
+ F1 Score:        0.8442
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 15.0, 2.0E-4, 0.01, 2.0, 
+
+Examples labeled as 1 classified by model as 1: 6 times
+Examples labeled as 1 classified by model as 2: 1 times
+Examples labeled as 1 classified by model as 3: 2 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 3: 9 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.8889
+ Precision:       0.9061
+ Recall:          0.8889
+ F1 Score:        0.8825
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 15.0, 2.0E-4, 0.01, 3.0, 
+
+Examples labeled as 1 classified by model as 1: 6 times
+Examples labeled as 1 classified by model as 3: 3 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 3: 9 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.8889
+ Precision:       0.9167
+ Recall:          0.8889
+ F1 Score:        0.8857
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 15.0, 2.0E-4, 0.01, 4.0, 
+
+Examples labeled as 1 classified by model as 1: 6 times
+Examples labeled as 1 classified by model as 2: 1 times
+Examples labeled as 1 classified by model as 3: 2 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 3: 9 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.8889
+ Precision:       0.9061
+ Recall:          0.8889
+ F1 Score:        0.8825
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 15.0, 2.0E-4, 0.01, 5.0, 
+
+Examples labeled as 1 classified by model as 1: 7 times
+Examples labeled as 1 classified by model as 2: 1 times
+Examples labeled as 1 classified by model as 3: 1 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 3: 9 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.9259
+ Precision:       0.9333
+ Recall:          0.9259
+ F1 Score:        0.9232
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 15.0, 2.0E-4, 0.005, 2.0, 
+
+Examples labeled as 1 classified by model as 1: 7 times
+Examples labeled as 1 classified by model as 2: 1 times
+Examples labeled as 1 classified by model as 3: 1 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 1: 1 times
+Examples labeled as 3 classified by model as 3: 8 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.8889
+ Precision:       0.8880
+ Recall:          0.8889
+ F1 Score:        0.8866
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 15.0, 2.0E-4, 0.005, 3.0, 
+
+Examples labeled as 1 classified by model as 1: 5 times
+Examples labeled as 1 classified by model as 2: 1 times
+Examples labeled as 1 classified by model as 3: 3 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 1: 1 times
+Examples labeled as 3 classified by model as 3: 8 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.8148
+ Precision:       0.8202
+ Recall:          0.8148
+ F1 Score:        0.8047
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 15.0, 2.0E-4, 0.005, 4.0, 
+
+Examples labeled as 1 classified by model as 1: 7 times
+Examples labeled as 1 classified by model as 2: 1 times
+Examples labeled as 1 classified by model as 3: 1 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 1: 1 times
+Examples labeled as 3 classified by model as 2: 1 times
+Examples labeled as 3 classified by model as 3: 7 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.8519
+ Precision:       0.8561
+ Recall:          0.8519
+ F1 Score:        0.8490
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 15.0, 2.0E-4, 0.005, 5.0, 
+
+Examples labeled as 1 classified by model as 1: 6 times
+Examples labeled as 1 classified by model as 2: 1 times
+Examples labeled as 1 classified by model as 3: 2 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 1: 1 times
+Examples labeled as 3 classified by model as 3: 8 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.8519
+ Precision:       0.8524
+ Recall:          0.8519
+ F1 Score:        0.8465
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 15.0, 2.0E-4, 0.001, 2.0, 
+
+Examples labeled as 1 classified by model as 1: 8 times
+Examples labeled as 1 classified by model as 2: 1 times
+Examples labeled as 2 classified by model as 1: 4 times
+Examples labeled as 2 classified by model as 2: 5 times
+Examples labeled as 3 classified by model as 1: 8 times
+Examples labeled as 3 classified by model as 2: 1 times
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [2]
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.4815
+ Precision:       0.5571	(1 class excluded from average)
+ Recall:          0.4815
+ F1 Score:        0.5884	(1 class excluded from average)
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 15.0, 2.0E-4, 0.001, 3.0, 
+
+Examples labeled as 1 classified by model as 1: 8 times
+Examples labeled as 1 classified by model as 2: 1 times
+Examples labeled as 2 classified by model as 1: 5 times
+Examples labeled as 2 classified by model as 2: 4 times
+Examples labeled as 3 classified by model as 1: 8 times
+Examples labeled as 3 classified by model as 2: 1 times
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [2]
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.4444
+ Precision:       0.5238	(1 class excluded from average)
+ Recall:          0.4444
+ F1 Score:        0.5333	(1 class excluded from average)
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 15.0, 2.0E-4, 0.001, 4.0, 
+
+Examples labeled as 1 classified by model as 1: 9 times
+Examples labeled as 2 classified by model as 1: 2 times
+Examples labeled as 2 classified by model as 2: 7 times
+Examples labeled as 3 classified by model as 1: 7 times
+Examples labeled as 3 classified by model as 2: 1 times
+Examples labeled as 3 classified by model as 3: 1 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.6296
+ Precision:       0.7917
+ Recall:          0.6296
+ F1 Score:        0.5634
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 15.0, 2.0E-4, 0.001, 5.0, 
+
+Examples labeled as 1 classified by model as 1: 8 times
+Examples labeled as 1 classified by model as 2: 1 times
+Examples labeled as 2 classified by model as 1: 2 times
+Examples labeled as 2 classified by model as 2: 7 times
+Examples labeled as 3 classified by model as 1: 7 times
+Examples labeled as 3 classified by model as 2: 1 times
+Examples labeled as 3 classified by model as 3: 1 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.5926
+ Precision:       0.7495
+ Recall:          0.5926
+ F1 Score:        0.5311
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 15.0, 1.0E-4, 0.02, 2.0, 
+
+Examples labeled as 1 classified by model as 1: 5 times
+Examples labeled as 1 classified by model as 3: 4 times
+Examples labeled as 2 classified by model as 2: 8 times
+Examples labeled as 2 classified by model as 3: 1 times
+Examples labeled as 3 classified by model as 3: 9 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.8148
+ Precision:       0.8810
+ Recall:          0.8148
+ F1 Score:        0.8127
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 15.0, 1.0E-4, 0.02, 3.0, 
+
+Examples labeled as 1 classified by model as 1: 6 times
+Examples labeled as 1 classified by model as 3: 3 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 3: 9 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.8889
+ Precision:       0.9167
+ Recall:          0.8889
+ F1 Score:        0.8857
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 15.0, 1.0E-4, 0.02, 4.0, 
+
+Examples labeled as 1 classified by model as 1: 6 times
+Examples labeled as 1 classified by model as 3: 3 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 3: 9 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.8889
+ Precision:       0.9167
+ Recall:          0.8889
+ F1 Score:        0.8857
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 15.0, 1.0E-4, 0.02, 5.0, 
+
+Examples labeled as 1 classified by model as 1: 6 times
+Examples labeled as 1 classified by model as 3: 3 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 3: 9 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.8889
+ Precision:       0.9167
+ Recall:          0.8889
+ F1 Score:        0.8857
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 15.0, 1.0E-4, 0.01, 2.0, 
+
+Examples labeled as 1 classified by model as 1: 6 times
+Examples labeled as 1 classified by model as 2: 1 times
+Examples labeled as 1 classified by model as 3: 2 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 3: 9 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.8889
+ Precision:       0.9061
+ Recall:          0.8889
+ F1 Score:        0.8825
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 15.0, 1.0E-4, 0.01, 3.0, 
+
+Examples labeled as 1 classified by model as 1: 6 times
+Examples labeled as 1 classified by model as 3: 3 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 3: 9 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.8889
+ Precision:       0.9167
+ Recall:          0.8889
+ F1 Score:        0.8857
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 15.0, 1.0E-4, 0.01, 4.0, 
+
+Examples labeled as 1 classified by model as 1: 7 times
+Examples labeled as 1 classified by model as 2: 1 times
+Examples labeled as 1 classified by model as 3: 1 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 3: 9 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.9259
+ Precision:       0.9333
+ Recall:          0.9259
+ F1 Score:        0.9232
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 15.0, 1.0E-4, 0.01, 5.0, 
+
+Examples labeled as 1 classified by model as 1: 5 times
+Examples labeled as 1 classified by model as 2: 1 times
+Examples labeled as 1 classified by model as 3: 3 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 3: 9 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.8519
+ Precision:       0.8833
+ Recall:          0.8519
+ F1 Score:        0.8396
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 15.0, 1.0E-4, 0.005, 2.0, 
+
+Examples labeled as 1 classified by model as 1: 7 times
+Examples labeled as 1 classified by model as 2: 1 times
+Examples labeled as 1 classified by model as 3: 1 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 3: 9 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.9259
+ Precision:       0.9333
+ Recall:          0.9259
+ F1 Score:        0.9232
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 15.0, 1.0E-4, 0.005, 3.0, 
+
+Examples labeled as 1 classified by model as 1: 5 times
+Examples labeled as 1 classified by model as 2: 1 times
+Examples labeled as 1 classified by model as 3: 3 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 1: 1 times
+Examples labeled as 3 classified by model as 3: 8 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.8148
+ Precision:       0.8202
+ Recall:          0.8148
+ F1 Score:        0.8047
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 15.0, 1.0E-4, 0.005, 4.0, 
+
+Examples labeled as 1 classified by model as 1: 7 times
+Examples labeled as 1 classified by model as 2: 1 times
+Examples labeled as 1 classified by model as 3: 1 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 1: 1 times
+Examples labeled as 3 classified by model as 2: 1 times
+Examples labeled as 3 classified by model as 3: 7 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.8519
+ Precision:       0.8561
+ Recall:          0.8519
+ F1 Score:        0.8490
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 15.0, 1.0E-4, 0.005, 5.0, 
+
+Examples labeled as 1 classified by model as 1: 6 times
+Examples labeled as 1 classified by model as 2: 1 times
+Examples labeled as 1 classified by model as 3: 2 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 1: 1 times
+Examples labeled as 3 classified by model as 2: 1 times
+Examples labeled as 3 classified by model as 3: 7 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.8148
+ Precision:       0.8177
+ Recall:          0.8148
+ F1 Score:        0.8093
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 15.0, 1.0E-4, 0.001, 2.0, 
+
+Examples labeled as 1 classified by model as 1: 8 times
+Examples labeled as 1 classified by model as 2: 1 times
+Examples labeled as 2 classified by model as 1: 5 times
+Examples labeled as 2 classified by model as 2: 4 times
+Examples labeled as 3 classified by model as 1: 8 times
+Examples labeled as 3 classified by model as 2: 1 times
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [2]
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.4444
+ Precision:       0.5238	(1 class excluded from average)
+ Recall:          0.4444
+ F1 Score:        0.5333	(1 class excluded from average)
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 15.0, 1.0E-4, 0.001, 3.0, 
+
+Examples labeled as 1 classified by model as 1: 8 times
+Examples labeled as 1 classified by model as 2: 1 times
+Examples labeled as 2 classified by model as 1: 5 times
+Examples labeled as 2 classified by model as 2: 4 times
+Examples labeled as 3 classified by model as 1: 7 times
+Examples labeled as 3 classified by model as 2: 1 times
+Examples labeled as 3 classified by model as 3: 1 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.4815
+ Precision:       0.6889
+ Recall:          0.4815
+ F1 Score:        0.4284
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 15.0, 1.0E-4, 0.001, 4.0, 
+
+Examples labeled as 1 classified by model as 1: 8 times
+Examples labeled as 1 classified by model as 2: 1 times
+Examples labeled as 2 classified by model as 1: 1 times
+Examples labeled as 2 classified by model as 2: 8 times
+Examples labeled as 3 classified by model as 1: 7 times
+Examples labeled as 3 classified by model as 2: 1 times
+Examples labeled as 3 classified by model as 3: 1 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.6296
+ Precision:       0.7667
+ Recall:          0.6296
+ F1 Score:        0.5607
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 15.0, 1.0E-4, 0.001, 5.0, 
+
+Examples labeled as 1 classified by model as 1: 9 times
+Examples labeled as 2 classified by model as 1: 3 times
+Examples labeled as 2 classified by model as 2: 6 times
+Examples labeled as 3 classified by model as 1: 7 times
+Examples labeled as 3 classified by model as 2: 1 times
+Examples labeled as 3 classified by model as 3: 1 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.5926
+ Precision:       0.7769
+ Recall:          0.5926
+ F1 Score:        0.5310
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 20.0, 5.0E-4, 0.02, 2.0, 
+
+Examples labeled as 1 classified by model as 1: 6 times
+Examples labeled as 1 classified by model as 3: 3 times
+Examples labeled as 2 classified by model as 2: 8 times
+Examples labeled as 2 classified by model as 3: 1 times
+Examples labeled as 3 classified by model as 3: 9 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.8519
+ Precision:       0.8974
+ Recall:          0.8519
+ F1 Score:        0.8531
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 20.0, 5.0E-4, 0.02, 3.0, 
+
+Examples labeled as 1 classified by model as 1: 6 times
+Examples labeled as 1 classified by model as 3: 3 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 3: 9 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.8889
+ Precision:       0.9167
+ Recall:          0.8889
+ F1 Score:        0.8857
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 20.0, 5.0E-4, 0.02, 4.0, 
+
+Examples labeled as 1 classified by model as 1: 5 times
+Examples labeled as 1 classified by model as 2: 1 times
+Examples labeled as 1 classified by model as 3: 3 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 3: 9 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.8519
+ Precision:       0.8833
+ Recall:          0.8519
+ F1 Score:        0.8396
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 20.0, 5.0E-4, 0.02, 5.0, 
+
+Examples labeled as 1 classified by model as 1: 5 times
+Examples labeled as 1 classified by model as 3: 4 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 3: 9 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.8519
+ Precision:       0.8974
+ Recall:          0.8519
+ F1 Score:        0.8442
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 20.0, 5.0E-4, 0.01, 2.0, 
+
+Examples labeled as 1 classified by model as 1: 6 times
+Examples labeled as 1 classified by model as 2: 1 times
+Examples labeled as 1 classified by model as 3: 2 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 3: 9 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.8889
+ Precision:       0.9061
+ Recall:          0.8889
+ F1 Score:        0.8825
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 20.0, 5.0E-4, 0.01, 3.0, 
+
+Examples labeled as 1 classified by model as 1: 6 times
+Examples labeled as 1 classified by model as 3: 3 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 3: 9 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.8889
+ Precision:       0.9167
+ Recall:          0.8889
+ F1 Score:        0.8857
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 20.0, 5.0E-4, 0.01, 4.0, 
+
+Examples labeled as 1 classified by model as 1: 7 times
+Examples labeled as 1 classified by model as 2: 1 times
+Examples labeled as 1 classified by model as 3: 1 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 1: 1 times
+Examples labeled as 3 classified by model as 3: 8 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.8889
+ Precision:       0.8880
+ Recall:          0.8889
+ F1 Score:        0.8866
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 20.0, 5.0E-4, 0.01, 5.0, 
+
+Examples labeled as 1 classified by model as 1: 5 times
+Examples labeled as 1 classified by model as 2: 1 times
+Examples labeled as 1 classified by model as 3: 3 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 3: 9 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.8519
+ Precision:       0.8833
+ Recall:          0.8519
+ F1 Score:        0.8396
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 20.0, 5.0E-4, 0.005, 2.0, 
+
+Examples labeled as 1 classified by model as 1: 7 times
+Examples labeled as 1 classified by model as 2: 1 times
+Examples labeled as 1 classified by model as 3: 1 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 1: 1 times
+Examples labeled as 3 classified by model as 3: 8 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.8889
+ Precision:       0.8880
+ Recall:          0.8889
+ F1 Score:        0.8866
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 20.0, 5.0E-4, 0.005, 3.0, 
+
+Examples labeled as 1 classified by model as 1: 5 times
+Examples labeled as 1 classified by model as 2: 1 times
+Examples labeled as 1 classified by model as 3: 3 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 1: 1 times
+Examples labeled as 3 classified by model as 3: 8 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.8148
+ Precision:       0.8202
+ Recall:          0.8148
+ F1 Score:        0.8047
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 20.0, 5.0E-4, 0.005, 4.0, 
+
+Examples labeled as 1 classified by model as 1: 7 times
+Examples labeled as 1 classified by model as 2: 1 times
+Examples labeled as 1 classified by model as 3: 1 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 1: 1 times
+Examples labeled as 3 classified by model as 2: 1 times
+Examples labeled as 3 classified by model as 3: 7 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.8519
+ Precision:       0.8561
+ Recall:          0.8519
+ F1 Score:        0.8490
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 20.0, 5.0E-4, 0.005, 5.0, 
+
+Examples labeled as 1 classified by model as 1: 6 times
+Examples labeled as 1 classified by model as 2: 1 times
+Examples labeled as 1 classified by model as 3: 2 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 1: 1 times
+Examples labeled as 3 classified by model as 2: 1 times
+Examples labeled as 3 classified by model as 3: 7 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.8148
+ Precision:       0.8177
+ Recall:          0.8148
+ F1 Score:        0.8093
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 20.0, 5.0E-4, 0.001, 2.0, 
+
+Examples labeled as 1 classified by model as 1: 8 times
+Examples labeled as 1 classified by model as 2: 1 times
+Examples labeled as 2 classified by model as 1: 4 times
+Examples labeled as 2 classified by model as 2: 5 times
+Examples labeled as 3 classified by model as 1: 8 times
+Examples labeled as 3 classified by model as 2: 1 times
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [2]
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.4815
+ Precision:       0.5571	(1 class excluded from average)
+ Recall:          0.4815
+ F1 Score:        0.5884	(1 class excluded from average)
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 20.0, 5.0E-4, 0.001, 3.0, 
+
+Examples labeled as 1 classified by model as 1: 8 times
+Examples labeled as 1 classified by model as 2: 1 times
+Examples labeled as 2 classified by model as 1: 5 times
+Examples labeled as 2 classified by model as 2: 4 times
+Examples labeled as 3 classified by model as 1: 7 times
+Examples labeled as 3 classified by model as 2: 1 times
+Examples labeled as 3 classified by model as 3: 1 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.4815
+ Precision:       0.6889
+ Recall:          0.4815
+ F1 Score:        0.4284
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 20.0, 5.0E-4, 0.001, 4.0, 
+
+Examples labeled as 1 classified by model as 1: 8 times
+Examples labeled as 1 classified by model as 2: 1 times
+Examples labeled as 2 classified by model as 1: 1 times
+Examples labeled as 2 classified by model as 2: 8 times
+Examples labeled as 3 classified by model as 1: 7 times
+Examples labeled as 3 classified by model as 2: 1 times
+Examples labeled as 3 classified by model as 3: 1 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.6296
+ Precision:       0.7667
+ Recall:          0.6296
+ F1 Score:        0.5607
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 20.0, 5.0E-4, 0.001, 5.0, 
+
+Examples labeled as 1 classified by model as 1: 8 times
+Examples labeled as 1 classified by model as 2: 1 times
+Examples labeled as 2 classified by model as 1: 2 times
+Examples labeled as 2 classified by model as 2: 7 times
+Examples labeled as 3 classified by model as 1: 7 times
+Examples labeled as 3 classified by model as 2: 1 times
+Examples labeled as 3 classified by model as 3: 1 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.5926
+ Precision:       0.7495
+ Recall:          0.5926
+ F1 Score:        0.5311
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 20.0, 2.0E-4, 0.02, 2.0, 
+
+Examples labeled as 1 classified by model as 1: 6 times
+Examples labeled as 1 classified by model as 3: 3 times
+Examples labeled as 2 classified by model as 2: 8 times
+Examples labeled as 2 classified by model as 3: 1 times
+Examples labeled as 3 classified by model as 3: 9 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.8519
+ Precision:       0.8974
+ Recall:          0.8519
+ F1 Score:        0.8531
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 20.0, 2.0E-4, 0.02, 3.0, 
+
+Examples labeled as 1 classified by model as 1: 6 times
+Examples labeled as 1 classified by model as 3: 3 times
+Examples labeled as 2 classified by model as 2: 8 times
+Examples labeled as 2 classified by model as 3: 1 times
+Examples labeled as 3 classified by model as 3: 9 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.8519
+ Precision:       0.8974
+ Recall:          0.8519
+ F1 Score:        0.8531
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 20.0, 2.0E-4, 0.02, 4.0, 
+
+Examples labeled as 1 classified by model as 1: 6 times
+Examples labeled as 1 classified by model as 3: 3 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 3: 9 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.8889
+ Precision:       0.9167
+ Recall:          0.8889
+ F1 Score:        0.8857
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 20.0, 2.0E-4, 0.02, 5.0, 
+
+Examples labeled as 1 classified by model as 1: 5 times
+Examples labeled as 1 classified by model as 3: 4 times
+Examples labeled as 2 classified by model as 2: 7 times
+Examples labeled as 2 classified by model as 3: 2 times
+Examples labeled as 3 classified by model as 3: 9 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.7778
+ Precision:       0.8667
+ Recall:          0.7778
+ F1 Score:        0.7798
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 20.0, 2.0E-4, 0.01, 2.0, 
+
+Examples labeled as 1 classified by model as 1: 6 times
+Examples labeled as 1 classified by model as 2: 1 times
+Examples labeled as 1 classified by model as 3: 2 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 3: 9 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.8889
+ Precision:       0.9061
+ Recall:          0.8889
+ F1 Score:        0.8825
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 20.0, 2.0E-4, 0.01, 3.0, 
+
+Examples labeled as 1 classified by model as 1: 7 times
+Examples labeled as 1 classified by model as 3: 2 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 3: 9 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.9259
+ Precision:       0.9394
+ Recall:          0.9259
+ F1 Score:        0.9250
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 20.0, 2.0E-4, 0.01, 4.0, 
+
+Examples labeled as 1 classified by model as 1: 7 times
+Examples labeled as 1 classified by model as 2: 1 times
+Examples labeled as 1 classified by model as 3: 1 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 3: 9 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.9259
+ Precision:       0.9333
+ Recall:          0.9259
+ F1 Score:        0.9232
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 20.0, 2.0E-4, 0.01, 5.0, 
+
+Examples labeled as 1 classified by model as 1: 5 times
+Examples labeled as 1 classified by model as 3: 4 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 3: 9 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.8519
+ Precision:       0.8974
+ Recall:          0.8519
+ F1 Score:        0.8442
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 20.0, 2.0E-4, 0.005, 2.0, 
+
+Examples labeled as 1 classified by model as 1: 7 times
+Examples labeled as 1 classified by model as 2: 1 times
+Examples labeled as 1 classified by model as 3: 1 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 1: 1 times
+Examples labeled as 3 classified by model as 3: 8 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.8889
+ Precision:       0.8880
+ Recall:          0.8889
+ F1 Score:        0.8866
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 20.0, 2.0E-4, 0.005, 3.0, 
+
+Examples labeled as 1 classified by model as 1: 5 times
+Examples labeled as 1 classified by model as 2: 1 times
+Examples labeled as 1 classified by model as 3: 3 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 1: 1 times
+Examples labeled as 3 classified by model as 3: 8 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.8148
+ Precision:       0.8202
+ Recall:          0.8148
+ F1 Score:        0.8047
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 20.0, 2.0E-4, 0.005, 4.0, 
+
+Examples labeled as 1 classified by model as 1: 7 times
+Examples labeled as 1 classified by model as 2: 1 times
+Examples labeled as 1 classified by model as 3: 1 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 1: 1 times
+Examples labeled as 3 classified by model as 2: 1 times
+Examples labeled as 3 classified by model as 3: 7 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.8519
+ Precision:       0.8561
+ Recall:          0.8519
+ F1 Score:        0.8490
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 20.0, 2.0E-4, 0.005, 5.0, 
+
+Examples labeled as 1 classified by model as 1: 6 times
+Examples labeled as 1 classified by model as 2: 1 times
+Examples labeled as 1 classified by model as 3: 2 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 1: 1 times
+Examples labeled as 3 classified by model as 3: 8 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.8519
+ Precision:       0.8524
+ Recall:          0.8519
+ F1 Score:        0.8465
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 20.0, 2.0E-4, 0.001, 2.0, 
+
+Examples labeled as 1 classified by model as 1: 8 times
+Examples labeled as 1 classified by model as 2: 1 times
+Examples labeled as 2 classified by model as 1: 4 times
+Examples labeled as 2 classified by model as 2: 5 times
+Examples labeled as 3 classified by model as 1: 8 times
+Examples labeled as 3 classified by model as 2: 1 times
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [2]
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.4815
+ Precision:       0.5571	(1 class excluded from average)
+ Recall:          0.4815
+ F1 Score:        0.5884	(1 class excluded from average)
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 20.0, 2.0E-4, 0.001, 3.0, 
+
+Examples labeled as 1 classified by model as 1: 8 times
+Examples labeled as 1 classified by model as 2: 1 times
+Examples labeled as 2 classified by model as 1: 4 times
+Examples labeled as 2 classified by model as 2: 5 times
+Examples labeled as 3 classified by model as 1: 6 times
+Examples labeled as 3 classified by model as 2: 1 times
+Examples labeled as 3 classified by model as 3: 2 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.5556
+ Precision:       0.7196
+ Recall:          0.5556
+ F1 Score:        0.5271
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 20.0, 2.0E-4, 0.001, 4.0, 
+
+Examples labeled as 1 classified by model as 1: 8 times
+Examples labeled as 1 classified by model as 2: 1 times
+Examples labeled as 2 classified by model as 1: 1 times
+Examples labeled as 2 classified by model as 2: 8 times
+Examples labeled as 3 classified by model as 1: 6 times
+Examples labeled as 3 classified by model as 2: 1 times
+Examples labeled as 3 classified by model as 3: 2 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.6667
+ Precision:       0.7778
+ Recall:          0.6667
+ F1 Score:        0.6241
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 20.0, 2.0E-4, 0.001, 5.0, 
+
+Examples labeled as 1 classified by model as 1: 8 times
+Examples labeled as 1 classified by model as 2: 1 times
+Examples labeled as 2 classified by model as 1: 1 times
+Examples labeled as 2 classified by model as 2: 8 times
+Examples labeled as 3 classified by model as 1: 7 times
+Examples labeled as 3 classified by model as 2: 1 times
+Examples labeled as 3 classified by model as 3: 1 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.6296
+ Precision:       0.7667
+ Recall:          0.6296
+ F1 Score:        0.5607
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 20.0, 1.0E-4, 0.02, 2.0, 
+
+Examples labeled as 1 classified by model as 1: 7 times
+Examples labeled as 1 classified by model as 3: 2 times
+Examples labeled as 2 classified by model as 2: 8 times
+Examples labeled as 2 classified by model as 3: 1 times
+Examples labeled as 3 classified by model as 3: 9 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.8889
+ Precision:       0.9167
+ Recall:          0.8889
+ F1 Score:        0.8911
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 20.0, 1.0E-4, 0.02, 3.0, 
+
+Examples labeled as 1 classified by model as 1: 6 times
+Examples labeled as 1 classified by model as 3: 3 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 3: 9 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.8889
+ Precision:       0.9167
+ Recall:          0.8889
+ F1 Score:        0.8857
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 20.0, 1.0E-4, 0.02, 4.0, 
+
+Examples labeled as 1 classified by model as 1: 6 times
+Examples labeled as 1 classified by model as 3: 3 times
+Examples labeled as 2 classified by model as 2: 8 times
+Examples labeled as 2 classified by model as 3: 1 times
+Examples labeled as 3 classified by model as 3: 9 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.8519
+ Precision:       0.8974
+ Recall:          0.8519
+ F1 Score:        0.8531
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 20.0, 1.0E-4, 0.02, 5.0, 
+
+Examples labeled as 1 classified by model as 1: 6 times
+Examples labeled as 1 classified by model as 3: 3 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 3: 9 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.8889
+ Precision:       0.9167
+ Recall:          0.8889
+ F1 Score:        0.8857
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 20.0, 1.0E-4, 0.01, 2.0, 
+
+Examples labeled as 1 classified by model as 1: 6 times
+Examples labeled as 1 classified by model as 2: 1 times
+Examples labeled as 1 classified by model as 3: 2 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 3: 9 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.8889
+ Precision:       0.9061
+ Recall:          0.8889
+ F1 Score:        0.8825
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 20.0, 1.0E-4, 0.01, 3.0, 
+
+Examples labeled as 1 classified by model as 1: 7 times
+Examples labeled as 1 classified by model as 3: 2 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 3: 9 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.9259
+ Precision:       0.9394
+ Recall:          0.9259
+ F1 Score:        0.9250
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 20.0, 1.0E-4, 0.01, 4.0, 
+
+Examples labeled as 1 classified by model as 1: 7 times
+Examples labeled as 1 classified by model as 2: 1 times
+Examples labeled as 1 classified by model as 3: 1 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 3: 9 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.9259
+ Precision:       0.9333
+ Recall:          0.9259
+ F1 Score:        0.9232
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 20.0, 1.0E-4, 0.01, 5.0, 
+
+Examples labeled as 1 classified by model as 1: 5 times
+Examples labeled as 1 classified by model as 2: 1 times
+Examples labeled as 1 classified by model as 3: 3 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 3: 9 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.8519
+ Precision:       0.8833
+ Recall:          0.8519
+ F1 Score:        0.8396
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 20.0, 1.0E-4, 0.005, 2.0, 
+
+Examples labeled as 1 classified by model as 1: 7 times
+Examples labeled as 1 classified by model as 2: 1 times
+Examples labeled as 1 classified by model as 3: 1 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 1: 1 times
+Examples labeled as 3 classified by model as 3: 8 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.8889
+ Precision:       0.8880
+ Recall:          0.8889
+ F1 Score:        0.8866
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 20.0, 1.0E-4, 0.005, 3.0, 
+
+Examples labeled as 1 classified by model as 1: 5 times
+Examples labeled as 1 classified by model as 2: 1 times
+Examples labeled as 1 classified by model as 3: 3 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 1: 1 times
+Examples labeled as 3 classified by model as 3: 8 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.8148
+ Precision:       0.8202
+ Recall:          0.8148
+ F1 Score:        0.8047
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 20.0, 1.0E-4, 0.005, 4.0, 
+
+Examples labeled as 1 classified by model as 1: 7 times
+Examples labeled as 1 classified by model as 2: 1 times
+Examples labeled as 1 classified by model as 3: 1 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 1: 1 times
+Examples labeled as 3 classified by model as 2: 1 times
+Examples labeled as 3 classified by model as 3: 7 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.8519
+ Precision:       0.8561
+ Recall:          0.8519
+ F1 Score:        0.8490
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 20.0, 1.0E-4, 0.005, 5.0, 
+
+Examples labeled as 1 classified by model as 1: 6 times
+Examples labeled as 1 classified by model as 2: 1 times
+Examples labeled as 1 classified by model as 3: 2 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 1: 1 times
+Examples labeled as 3 classified by model as 3: 8 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.8519
+ Precision:       0.8524
+ Recall:          0.8519
+ F1 Score:        0.8465
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 20.0, 1.0E-4, 0.001, 2.0, 
+
+Examples labeled as 1 classified by model as 1: 8 times
+Examples labeled as 1 classified by model as 2: 1 times
+Examples labeled as 2 classified by model as 1: 3 times
+Examples labeled as 2 classified by model as 2: 6 times
+Examples labeled as 3 classified by model as 1: 8 times
+Examples labeled as 3 classified by model as 2: 1 times
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [2]
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.5185
+ Precision:       0.5855	(1 class excluded from average)
+ Recall:          0.5185
+ F1 Score:        0.6387	(1 class excluded from average)
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 20.0, 1.0E-4, 0.001, 3.0, 
+
+Examples labeled as 1 classified by model as 1: 8 times
+Examples labeled as 1 classified by model as 2: 1 times
+Examples labeled as 2 classified by model as 1: 2 times
+Examples labeled as 2 classified by model as 2: 7 times
+Examples labeled as 3 classified by model as 1: 6 times
+Examples labeled as 3 classified by model as 2: 1 times
+Examples labeled as 3 classified by model as 3: 2 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.6296
+ Precision:       0.7593
+ Recall:          0.6296
+ F1 Score:        0.5938
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 20.0, 1.0E-4, 0.001, 4.0, 
+
+Examples labeled as 1 classified by model as 1: 8 times
+Examples labeled as 1 classified by model as 2: 1 times
+Examples labeled as 2 classified by model as 1: 1 times
+Examples labeled as 2 classified by model as 2: 8 times
+Examples labeled as 3 classified by model as 1: 6 times
+Examples labeled as 3 classified by model as 2: 1 times
+Examples labeled as 3 classified by model as 3: 2 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.6667
+ Precision:       0.7778
+ Recall:          0.6667
+ F1 Score:        0.6241
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 20.0, 1.0E-4, 0.001, 5.0, 
+
+Examples labeled as 1 classified by model as 1: 8 times
+Examples labeled as 1 classified by model as 2: 1 times
+Examples labeled as 2 classified by model as 1: 1 times
+Examples labeled as 2 classified by model as 2: 8 times
+Examples labeled as 3 classified by model as 1: 7 times
+Examples labeled as 3 classified by model as 2: 1 times
+Examples labeled as 3 classified by model as 3: 1 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.6296
+ Precision:       0.7667
+ Recall:          0.6296
+ F1 Score:        0.5607
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 25.0, 5.0E-4, 0.02, 2.0, 
+
+Examples labeled as 1 classified by model as 1: 5 times
+Examples labeled as 1 classified by model as 3: 4 times
+Examples labeled as 2 classified by model as 2: 8 times
+Examples labeled as 2 classified by model as 3: 1 times
+Examples labeled as 3 classified by model as 3: 9 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.8148
+ Precision:       0.8810
+ Recall:          0.8148
+ F1 Score:        0.8127
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 25.0, 5.0E-4, 0.02, 3.0, 
+
+Examples labeled as 1 classified by model as 1: 6 times
+Examples labeled as 1 classified by model as 3: 3 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 3: 9 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.8889
+ Precision:       0.9167
+ Recall:          0.8889
+ F1 Score:        0.8857
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 25.0, 5.0E-4, 0.02, 4.0, 
+
+Examples labeled as 1 classified by model as 1: 5 times
+Examples labeled as 1 classified by model as 3: 4 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 3: 9 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.8519
+ Precision:       0.8974
+ Recall:          0.8519
+ F1 Score:        0.8442
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 25.0, 5.0E-4, 0.02, 5.0, 
+
+Examples labeled as 1 classified by model as 1: 5 times
+Examples labeled as 1 classified by model as 3: 4 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 3: 9 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.8519
+ Precision:       0.8974
+ Recall:          0.8519
+ F1 Score:        0.8442
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 25.0, 5.0E-4, 0.01, 2.0, 
+
+Examples labeled as 1 classified by model as 1: 6 times
+Examples labeled as 1 classified by model as 2: 1 times
+Examples labeled as 1 classified by model as 3: 2 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 3: 9 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.8889
+ Precision:       0.9061
+ Recall:          0.8889
+ F1 Score:        0.8825
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 25.0, 5.0E-4, 0.01, 3.0, 
+
+Examples labeled as 1 classified by model as 1: 5 times
+Examples labeled as 1 classified by model as 3: 4 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 3: 9 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.8519
+ Precision:       0.8974
+ Recall:          0.8519
+ F1 Score:        0.8442
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 25.0, 5.0E-4, 0.01, 4.0, 
+
+Examples labeled as 1 classified by model as 1: 8 times
+Examples labeled as 1 classified by model as 3: 1 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 3: 9 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.9630
+ Precision:       0.9667
+ Recall:          0.9630
+ F1 Score:        0.9628
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 25.0, 5.0E-4, 0.01, 5.0, 
+
+Examples labeled as 1 classified by model as 1: 5 times
+Examples labeled as 1 classified by model as 2: 1 times
+Examples labeled as 1 classified by model as 3: 3 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 3: 9 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.8519
+ Precision:       0.8833
+ Recall:          0.8519
+ F1 Score:        0.8396
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 25.0, 5.0E-4, 0.005, 2.0, 
+
+Examples labeled as 1 classified by model as 1: 7 times
+Examples labeled as 1 classified by model as 2: 1 times
+Examples labeled as 1 classified by model as 3: 1 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 3: 9 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.9259
+ Precision:       0.9333
+ Recall:          0.9259
+ F1 Score:        0.9232
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 25.0, 5.0E-4, 0.005, 3.0, 
+
+Examples labeled as 1 classified by model as 1: 5 times
+Examples labeled as 1 classified by model as 2: 1 times
+Examples labeled as 1 classified by model as 3: 3 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 1: 1 times
+Examples labeled as 3 classified by model as 3: 8 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.8148
+ Precision:       0.8202
+ Recall:          0.8148
+ F1 Score:        0.8047
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 25.0, 5.0E-4, 0.005, 4.0, 
+
+Examples labeled as 1 classified by model as 1: 7 times
+Examples labeled as 1 classified by model as 2: 1 times
+Examples labeled as 1 classified by model as 3: 1 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 1: 1 times
+Examples labeled as 3 classified by model as 2: 1 times
+Examples labeled as 3 classified by model as 3: 7 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.8519
+ Precision:       0.8561
+ Recall:          0.8519
+ F1 Score:        0.8490
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 25.0, 5.0E-4, 0.005, 5.0, 
+
+Examples labeled as 1 classified by model as 1: 6 times
+Examples labeled as 1 classified by model as 2: 1 times
+Examples labeled as 1 classified by model as 3: 2 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 1: 1 times
+Examples labeled as 3 classified by model as 3: 8 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.8519
+ Precision:       0.8524
+ Recall:          0.8519
+ F1 Score:        0.8465
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 25.0, 5.0E-4, 0.001, 2.0, 
+
+Examples labeled as 1 classified by model as 1: 8 times
+Examples labeled as 1 classified by model as 2: 1 times
+Examples labeled as 2 classified by model as 1: 4 times
+Examples labeled as 2 classified by model as 2: 5 times
+Examples labeled as 3 classified by model as 1: 8 times
+Examples labeled as 3 classified by model as 2: 1 times
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [2]
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.4815
+ Precision:       0.5571	(1 class excluded from average)
+ Recall:          0.4815
+ F1 Score:        0.5884	(1 class excluded from average)
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 25.0, 5.0E-4, 0.001, 3.0, 
+
+Examples labeled as 1 classified by model as 1: 8 times
+Examples labeled as 1 classified by model as 2: 1 times
+Examples labeled as 2 classified by model as 1: 4 times
+Examples labeled as 2 classified by model as 2: 5 times
+Examples labeled as 3 classified by model as 1: 7 times
+Examples labeled as 3 classified by model as 2: 1 times
+Examples labeled as 3 classified by model as 3: 1 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.5185
+ Precision:       0.7118
+ Recall:          0.5185
+ F1 Score:        0.4655
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 25.0, 5.0E-4, 0.001, 4.0, 
+
+Examples labeled as 1 classified by model as 1: 8 times
+Examples labeled as 1 classified by model as 2: 1 times
+Examples labeled as 2 classified by model as 1: 1 times
+Examples labeled as 2 classified by model as 2: 8 times
+Examples labeled as 3 classified by model as 1: 7 times
+Examples labeled as 3 classified by model as 2: 1 times
+Examples labeled as 3 classified by model as 3: 1 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.6296
+ Precision:       0.7667
+ Recall:          0.6296
+ F1 Score:        0.5607
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 25.0, 5.0E-4, 0.001, 5.0, 
+
+Examples labeled as 1 classified by model as 1: 8 times
+Examples labeled as 1 classified by model as 2: 1 times
+Examples labeled as 2 classified by model as 1: 2 times
+Examples labeled as 2 classified by model as 2: 7 times
+Examples labeled as 3 classified by model as 1: 7 times
+Examples labeled as 3 classified by model as 2: 1 times
+Examples labeled as 3 classified by model as 3: 1 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.5926
+ Precision:       0.7495
+ Recall:          0.5926
+ F1 Score:        0.5311
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 25.0, 2.0E-4, 0.02, 2.0, 
+
+Examples labeled as 1 classified by model as 1: 7 times
+Examples labeled as 1 classified by model as 3: 2 times
+Examples labeled as 2 classified by model as 2: 8 times
+Examples labeled as 2 classified by model as 3: 1 times
+Examples labeled as 3 classified by model as 3: 9 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.8889
+ Precision:       0.9167
+ Recall:          0.8889
+ F1 Score:        0.8911
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 25.0, 2.0E-4, 0.02, 3.0, 
+
+Examples labeled as 1 classified by model as 1: 6 times
+Examples labeled as 1 classified by model as 3: 3 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 3: 9 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.8889
+ Precision:       0.9167
+ Recall:          0.8889
+ F1 Score:        0.8857
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 25.0, 2.0E-4, 0.02, 4.0, 
+
+Examples labeled as 1 classified by model as 1: 5 times
+Examples labeled as 1 classified by model as 2: 1 times
+Examples labeled as 1 classified by model as 3: 3 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 3: 9 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.8519
+ Precision:       0.8833
+ Recall:          0.8519
+ F1 Score:        0.8396
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 25.0, 2.0E-4, 0.02, 5.0, 
+
+Examples labeled as 1 classified by model as 1: 5 times
+Examples labeled as 1 classified by model as 3: 4 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 3: 9 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.8519
+ Precision:       0.8974
+ Recall:          0.8519
+ F1 Score:        0.8442
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 25.0, 2.0E-4, 0.01, 2.0, 
+
+Examples labeled as 1 classified by model as 1: 6 times
+Examples labeled as 1 classified by model as 2: 1 times
+Examples labeled as 1 classified by model as 3: 2 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 3: 9 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.8889
+ Precision:       0.9061
+ Recall:          0.8889
+ F1 Score:        0.8825
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 25.0, 2.0E-4, 0.01, 3.0, 
+
+Examples labeled as 1 classified by model as 1: 7 times
+Examples labeled as 1 classified by model as 3: 2 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 3: 9 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.9259
+ Precision:       0.9394
+ Recall:          0.9259
+ F1 Score:        0.9250
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 25.0, 2.0E-4, 0.01, 4.0, 
+
+Examples labeled as 1 classified by model as 1: 5 times
+Examples labeled as 1 classified by model as 2: 1 times
+Examples labeled as 1 classified by model as 3: 3 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 3: 9 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.8519
+ Precision:       0.8833
+ Recall:          0.8519
+ F1 Score:        0.8396
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 25.0, 2.0E-4, 0.01, 5.0, 
+
+Examples labeled as 1 classified by model as 1: 5 times
+Examples labeled as 1 classified by model as 2: 1 times
+Examples labeled as 1 classified by model as 3: 3 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 3: 9 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.8519
+ Precision:       0.8833
+ Recall:          0.8519
+ F1 Score:        0.8396
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 25.0, 2.0E-4, 0.005, 2.0, 
+
+Examples labeled as 1 classified by model as 1: 7 times
+Examples labeled as 1 classified by model as 2: 1 times
+Examples labeled as 1 classified by model as 3: 1 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 1: 1 times
+Examples labeled as 3 classified by model as 3: 8 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.8889
+ Precision:       0.8880
+ Recall:          0.8889
+ F1 Score:        0.8866
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 25.0, 2.0E-4, 0.005, 3.0, 
+
+Examples labeled as 1 classified by model as 1: 5 times
+Examples labeled as 1 classified by model as 2: 1 times
+Examples labeled as 1 classified by model as 3: 3 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 1: 1 times
+Examples labeled as 3 classified by model as 3: 8 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.8148
+ Precision:       0.8202
+ Recall:          0.8148
+ F1 Score:        0.8047
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 25.0, 2.0E-4, 0.005, 4.0, 
+
+Examples labeled as 1 classified by model as 1: 7 times
+Examples labeled as 1 classified by model as 2: 1 times
+Examples labeled as 1 classified by model as 3: 1 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 1: 1 times
+Examples labeled as 3 classified by model as 2: 1 times
+Examples labeled as 3 classified by model as 3: 7 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.8519
+ Precision:       0.8561
+ Recall:          0.8519
+ F1 Score:        0.8490
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 25.0, 2.0E-4, 0.005, 5.0, 
+
+Examples labeled as 1 classified by model as 1: 6 times
+Examples labeled as 1 classified by model as 2: 1 times
+Examples labeled as 1 classified by model as 3: 2 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 1: 1 times
+Examples labeled as 3 classified by model as 3: 8 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.8519
+ Precision:       0.8524
+ Recall:          0.8519
+ F1 Score:        0.8465
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 25.0, 2.0E-4, 0.001, 2.0, 
+
+Examples labeled as 1 classified by model as 1: 8 times
+Examples labeled as 1 classified by model as 2: 1 times
+Examples labeled as 2 classified by model as 1: 4 times
+Examples labeled as 2 classified by model as 2: 5 times
+Examples labeled as 3 classified by model as 1: 8 times
+Examples labeled as 3 classified by model as 2: 1 times
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [2]
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.4815
+ Precision:       0.5571	(1 class excluded from average)
+ Recall:          0.4815
+ F1 Score:        0.5884	(1 class excluded from average)
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 25.0, 2.0E-4, 0.001, 3.0, 
+
+Examples labeled as 1 classified by model as 1: 8 times
+Examples labeled as 1 classified by model as 2: 1 times
+Examples labeled as 2 classified by model as 1: 2 times
+Examples labeled as 2 classified by model as 2: 7 times
+Examples labeled as 3 classified by model as 1: 6 times
+Examples labeled as 3 classified by model as 2: 1 times
+Examples labeled as 3 classified by model as 3: 2 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.6296
+ Precision:       0.7593
+ Recall:          0.6296
+ F1 Score:        0.5938
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 25.0, 2.0E-4, 0.001, 4.0, 
+
+Examples labeled as 1 classified by model as 1: 8 times
+Examples labeled as 1 classified by model as 2: 1 times
+Examples labeled as 2 classified by model as 1: 1 times
+Examples labeled as 2 classified by model as 2: 8 times
+Examples labeled as 3 classified by model as 1: 6 times
+Examples labeled as 3 classified by model as 2: 1 times
+Examples labeled as 3 classified by model as 3: 2 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.6667
+ Precision:       0.7778
+ Recall:          0.6667
+ F1 Score:        0.6241
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 25.0, 2.0E-4, 0.001, 5.0, 
+
+Examples labeled as 1 classified by model as 1: 8 times
+Examples labeled as 1 classified by model as 2: 1 times
+Examples labeled as 2 classified by model as 1: 1 times
+Examples labeled as 2 classified by model as 2: 8 times
+Examples labeled as 3 classified by model as 1: 7 times
+Examples labeled as 3 classified by model as 2: 1 times
+Examples labeled as 3 classified by model as 3: 1 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.6296
+ Precision:       0.7667
+ Recall:          0.6296
+ F1 Score:        0.5607
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 25.0, 1.0E-4, 0.02, 2.0, 
+
+Examples labeled as 1 classified by model as 1: 6 times
+Examples labeled as 1 classified by model as 3: 3 times
+Examples labeled as 2 classified by model as 2: 8 times
+Examples labeled as 2 classified by model as 3: 1 times
+Examples labeled as 3 classified by model as 3: 9 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.8519
+ Precision:       0.8974
+ Recall:          0.8519
+ F1 Score:        0.8531
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 25.0, 1.0E-4, 0.02, 3.0, 
+
+Examples labeled as 1 classified by model as 1: 6 times
+Examples labeled as 1 classified by model as 3: 3 times
+Examples labeled as 2 classified by model as 2: 8 times
+Examples labeled as 2 classified by model as 3: 1 times
+Examples labeled as 3 classified by model as 3: 9 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.8519
+ Precision:       0.8974
+ Recall:          0.8519
+ F1 Score:        0.8531
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 25.0, 1.0E-4, 0.02, 4.0, 
+
+Examples labeled as 1 classified by model as 1: 5 times
+Examples labeled as 1 classified by model as 3: 4 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 3: 9 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.8519
+ Precision:       0.8974
+ Recall:          0.8519
+ F1 Score:        0.8442
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 25.0, 1.0E-4, 0.02, 5.0, 
+
+Examples labeled as 1 classified by model as 1: 5 times
+Examples labeled as 1 classified by model as 3: 4 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 3: 9 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.8519
+ Precision:       0.8974
+ Recall:          0.8519
+ F1 Score:        0.8442
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 25.0, 1.0E-4, 0.01, 2.0, 
+
+Examples labeled as 1 classified by model as 1: 6 times
+Examples labeled as 1 classified by model as 2: 1 times
+Examples labeled as 1 classified by model as 3: 2 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 3: 9 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.8889
+ Precision:       0.9061
+ Recall:          0.8889
+ F1 Score:        0.8825
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 25.0, 1.0E-4, 0.01, 3.0, 
+
+Examples labeled as 1 classified by model as 1: 5 times
+Examples labeled as 1 classified by model as 3: 4 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 3: 9 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.8519
+ Precision:       0.8974
+ Recall:          0.8519
+ F1 Score:        0.8442
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 25.0, 1.0E-4, 0.01, 4.0, 
+
+Examples labeled as 1 classified by model as 1: 7 times
+Examples labeled as 1 classified by model as 3: 2 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 3: 9 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.9259
+ Precision:       0.9394
+ Recall:          0.9259
+ F1 Score:        0.9250
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 25.0, 1.0E-4, 0.01, 5.0, 
+
+Examples labeled as 1 classified by model as 1: 5 times
+Examples labeled as 1 classified by model as 3: 4 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 3: 9 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.8519
+ Precision:       0.8974
+ Recall:          0.8519
+ F1 Score:        0.8442
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 25.0, 1.0E-4, 0.005, 2.0, 
+
+Examples labeled as 1 classified by model as 1: 7 times
+Examples labeled as 1 classified by model as 2: 1 times
+Examples labeled as 1 classified by model as 3: 1 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 1: 1 times
+Examples labeled as 3 classified by model as 3: 8 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.8889
+ Precision:       0.8880
+ Recall:          0.8889
+ F1 Score:        0.8866
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 25.0, 1.0E-4, 0.005, 3.0, 
+
+Examples labeled as 1 classified by model as 1: 5 times
+Examples labeled as 1 classified by model as 2: 1 times
+Examples labeled as 1 classified by model as 3: 3 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 3: 9 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.8519
+ Precision:       0.8833
+ Recall:          0.8519
+ F1 Score:        0.8396
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 25.0, 1.0E-4, 0.005, 4.0, 
+
+Examples labeled as 1 classified by model as 1: 6 times
+Examples labeled as 1 classified by model as 2: 1 times
+Examples labeled as 1 classified by model as 3: 2 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 1: 1 times
+Examples labeled as 3 classified by model as 2: 1 times
+Examples labeled as 3 classified by model as 3: 7 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.8148
+ Precision:       0.8177
+ Recall:          0.8148
+ F1 Score:        0.8093
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 25.0, 1.0E-4, 0.005, 5.0, 
+
+Examples labeled as 1 classified by model as 1: 7 times
+Examples labeled as 1 classified by model as 3: 2 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 1: 1 times
+Examples labeled as 3 classified by model as 3: 8 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.8889
+ Precision:       0.8917
+ Recall:          0.8889
+ F1 Score:        0.8885
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 25.0, 1.0E-4, 0.001, 2.0, 
+
+Examples labeled as 1 classified by model as 1: 8 times
+Examples labeled as 1 classified by model as 2: 1 times
+Examples labeled as 2 classified by model as 1: 3 times
+Examples labeled as 2 classified by model as 2: 6 times
+Examples labeled as 3 classified by model as 1: 8 times
+Examples labeled as 3 classified by model as 2: 1 times
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [2]
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.5185
+ Precision:       0.5855	(1 class excluded from average)
+ Recall:          0.5185
+ F1 Score:        0.6387	(1 class excluded from average)
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 25.0, 1.0E-4, 0.001, 3.0, 
+
+Examples labeled as 1 classified by model as 1: 8 times
+Examples labeled as 1 classified by model as 2: 1 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 1: 6 times
+Examples labeled as 3 classified by model as 2: 1 times
+Examples labeled as 3 classified by model as 3: 2 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.7037
+ Precision:       0.7965
+ Recall:          0.7037
+ F1 Score:        0.6531
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 25.0, 1.0E-4, 0.001, 4.0, 
+
+Examples labeled as 1 classified by model as 1: 8 times
+Examples labeled as 1 classified by model as 2: 1 times
+Examples labeled as 2 classified by model as 1: 1 times
+Examples labeled as 2 classified by model as 2: 8 times
+Examples labeled as 3 classified by model as 1: 6 times
+Examples labeled as 3 classified by model as 2: 1 times
+Examples labeled as 3 classified by model as 3: 2 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.6667
+ Precision:       0.7778
+ Recall:          0.6667
+ F1 Score:        0.6241
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 25.0, 1.0E-4, 0.001, 5.0, 
+
+Examples labeled as 1 classified by model as 1: 8 times
+Examples labeled as 1 classified by model as 2: 1 times
+Examples labeled as 2 classified by model as 1: 1 times
+Examples labeled as 2 classified by model as 2: 8 times
+Examples labeled as 3 classified by model as 1: 7 times
+Examples labeled as 3 classified by model as 2: 1 times
+Examples labeled as 3 classified by model as 3: 1 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.6296
+ Precision:       0.7667
+ Recall:          0.6296
+ F1 Score:        0.5607
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 30.0, 5.0E-4, 0.02, 2.0, 
+
+Examples labeled as 1 classified by model as 1: 5 times
+Examples labeled as 1 classified by model as 3: 4 times
+Examples labeled as 2 classified by model as 2: 8 times
+Examples labeled as 2 classified by model as 3: 1 times
+Examples labeled as 3 classified by model as 3: 9 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.8148
+ Precision:       0.8810
+ Recall:          0.8148
+ F1 Score:        0.8127
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 30.0, 5.0E-4, 0.02, 3.0, 
+
+Examples labeled as 1 classified by model as 1: 6 times
+Examples labeled as 1 classified by model as 3: 3 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 3: 9 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.8889
+ Precision:       0.9167
+ Recall:          0.8889
+ F1 Score:        0.8857
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 30.0, 5.0E-4, 0.02, 4.0, 
+
+Examples labeled as 1 classified by model as 1: 5 times
+Examples labeled as 1 classified by model as 2: 1 times
+Examples labeled as 1 classified by model as 3: 3 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 3: 9 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.8519
+ Precision:       0.8833
+ Recall:          0.8519
+ F1 Score:        0.8396
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 30.0, 5.0E-4, 0.02, 5.0, 
+
+Examples labeled as 1 classified by model as 1: 6 times
+Examples labeled as 1 classified by model as 3: 3 times
+Examples labeled as 2 classified by model as 2: 8 times
+Examples labeled as 2 classified by model as 3: 1 times
+Examples labeled as 3 classified by model as 3: 9 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.8519
+ Precision:       0.8974
+ Recall:          0.8519
+ F1 Score:        0.8531
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 30.0, 5.0E-4, 0.01, 2.0, 
+
+Examples labeled as 1 classified by model as 1: 6 times
+Examples labeled as 1 classified by model as 2: 1 times
+Examples labeled as 1 classified by model as 3: 2 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 3: 9 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.8889
+ Precision:       0.9061
+ Recall:          0.8889
+ F1 Score:        0.8825
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 30.0, 5.0E-4, 0.01, 3.0, 
+
+Examples labeled as 1 classified by model as 1: 5 times
+Examples labeled as 1 classified by model as 3: 4 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 3: 9 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.8519
+ Precision:       0.8974
+ Recall:          0.8519
+ F1 Score:        0.8442
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 30.0, 5.0E-4, 0.01, 4.0, 
+
+Examples labeled as 1 classified by model as 1: 5 times
+Examples labeled as 1 classified by model as 3: 4 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 3: 9 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.8519
+ Precision:       0.8974
+ Recall:          0.8519
+ F1 Score:        0.8442
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 30.0, 5.0E-4, 0.01, 5.0, 
+
+Examples labeled as 1 classified by model as 1: 5 times
+Examples labeled as 1 classified by model as 3: 4 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 3: 9 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.8519
+ Precision:       0.8974
+ Recall:          0.8519
+ F1 Score:        0.8442
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 30.0, 5.0E-4, 0.005, 2.0, 
+
+Examples labeled as 1 classified by model as 1: 7 times
+Examples labeled as 1 classified by model as 2: 1 times
+Examples labeled as 1 classified by model as 3: 1 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 3: 9 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.9259
+ Precision:       0.9333
+ Recall:          0.9259
+ F1 Score:        0.9232
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 30.0, 5.0E-4, 0.005, 3.0, 
+
+Examples labeled as 1 classified by model as 1: 5 times
+Examples labeled as 1 classified by model as 2: 1 times
+Examples labeled as 1 classified by model as 3: 3 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 1: 1 times
+Examples labeled as 3 classified by model as 3: 8 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.8148
+ Precision:       0.8202
+ Recall:          0.8148
+ F1 Score:        0.8047
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 30.0, 5.0E-4, 0.005, 4.0, 
+
+Examples labeled as 1 classified by model as 1: 7 times
+Examples labeled as 1 classified by model as 2: 1 times
+Examples labeled as 1 classified by model as 3: 1 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 1: 1 times
+Examples labeled as 3 classified by model as 2: 1 times
+Examples labeled as 3 classified by model as 3: 7 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.8519
+ Precision:       0.8561
+ Recall:          0.8519
+ F1 Score:        0.8490
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 30.0, 5.0E-4, 0.005, 5.0, 
+
+Examples labeled as 1 classified by model as 1: 7 times
+Examples labeled as 1 classified by model as 3: 2 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 1: 1 times
+Examples labeled as 3 classified by model as 3: 8 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.8889
+ Precision:       0.8917
+ Recall:          0.8889
+ F1 Score:        0.8885
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 30.0, 5.0E-4, 0.001, 2.0, 
+
+Examples labeled as 1 classified by model as 1: 8 times
+Examples labeled as 1 classified by model as 2: 1 times
+Examples labeled as 2 classified by model as 1: 4 times
+Examples labeled as 2 classified by model as 2: 5 times
+Examples labeled as 3 classified by model as 1: 8 times
+Examples labeled as 3 classified by model as 2: 1 times
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [2]
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.4815
+ Precision:       0.5571	(1 class excluded from average)
+ Recall:          0.4815
+ F1 Score:        0.5884	(1 class excluded from average)
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 30.0, 5.0E-4, 0.001, 3.0, 
+
+Examples labeled as 1 classified by model as 1: 8 times
+Examples labeled as 1 classified by model as 2: 1 times
+Examples labeled as 2 classified by model as 1: 4 times
+Examples labeled as 2 classified by model as 2: 5 times
+Examples labeled as 3 classified by model as 1: 6 times
+Examples labeled as 3 classified by model as 2: 1 times
+Examples labeled as 3 classified by model as 3: 2 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.5556
+ Precision:       0.7196
+ Recall:          0.5556
+ F1 Score:        0.5271
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 30.0, 5.0E-4, 0.001, 4.0, 
+
+Examples labeled as 1 classified by model as 1: 8 times
+Examples labeled as 1 classified by model as 2: 1 times
+Examples labeled as 2 classified by model as 1: 1 times
+Examples labeled as 2 classified by model as 2: 8 times
+Examples labeled as 3 classified by model as 1: 6 times
+Examples labeled as 3 classified by model as 2: 1 times
+Examples labeled as 3 classified by model as 3: 2 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.6667
+ Precision:       0.7778
+ Recall:          0.6667
+ F1 Score:        0.6241
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 30.0, 5.0E-4, 0.001, 5.0, 
+
+Examples labeled as 1 classified by model as 1: 8 times
+Examples labeled as 1 classified by model as 2: 1 times
+Examples labeled as 2 classified by model as 1: 1 times
+Examples labeled as 2 classified by model as 2: 8 times
+Examples labeled as 3 classified by model as 1: 7 times
+Examples labeled as 3 classified by model as 2: 1 times
+Examples labeled as 3 classified by model as 3: 1 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.6296
+ Precision:       0.7667
+ Recall:          0.6296
+ F1 Score:        0.5607
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 30.0, 2.0E-4, 0.02, 2.0, 
+
+Examples labeled as 1 classified by model as 1: 6 times
+Examples labeled as 1 classified by model as 3: 3 times
+Examples labeled as 2 classified by model as 2: 8 times
+Examples labeled as 2 classified by model as 3: 1 times
+Examples labeled as 3 classified by model as 3: 9 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.8519
+ Precision:       0.8974
+ Recall:          0.8519
+ F1 Score:        0.8531
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 30.0, 2.0E-4, 0.02, 3.0, 
+
+Examples labeled as 1 classified by model as 1: 6 times
+Examples labeled as 1 classified by model as 3: 3 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 3: 9 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.8889
+ Precision:       0.9167
+ Recall:          0.8889
+ F1 Score:        0.8857
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 30.0, 2.0E-4, 0.02, 4.0, 
+
+Examples labeled as 1 classified by model as 1: 5 times
+Examples labeled as 1 classified by model as 2: 1 times
+Examples labeled as 1 classified by model as 3: 3 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 3: 9 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.8519
+ Precision:       0.8833
+ Recall:          0.8519
+ F1 Score:        0.8396
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 30.0, 2.0E-4, 0.02, 5.0, 
+
+Examples labeled as 1 classified by model as 1: 6 times
+Examples labeled as 1 classified by model as 3: 3 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 3: 9 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.8889
+ Precision:       0.9167
+ Recall:          0.8889
+ F1 Score:        0.8857
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 30.0, 2.0E-4, 0.01, 2.0, 
+
+Examples labeled as 1 classified by model as 1: 6 times
+Examples labeled as 1 classified by model as 2: 1 times
+Examples labeled as 1 classified by model as 3: 2 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 3: 9 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.8889
+ Precision:       0.9061
+ Recall:          0.8889
+ F1 Score:        0.8825
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 30.0, 2.0E-4, 0.01, 3.0, 
+
+Examples labeled as 1 classified by model as 1: 5 times
+Examples labeled as 1 classified by model as 3: 4 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 3: 9 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.8519
+ Precision:       0.8974
+ Recall:          0.8519
+ F1 Score:        0.8442
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 30.0, 2.0E-4, 0.01, 4.0, 
+
+Examples labeled as 1 classified by model as 1: 5 times
+Examples labeled as 1 classified by model as 3: 4 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 3: 9 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.8519
+ Precision:       0.8974
+ Recall:          0.8519
+ F1 Score:        0.8442
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 30.0, 2.0E-4, 0.01, 5.0, 
+
+Examples labeled as 1 classified by model as 1: 5 times
+Examples labeled as 1 classified by model as 3: 4 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 3: 9 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.8519
+ Precision:       0.8974
+ Recall:          0.8519
+ F1 Score:        0.8442
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 30.0, 2.0E-4, 0.005, 2.0, 
+
+Examples labeled as 1 classified by model as 1: 7 times
+Examples labeled as 1 classified by model as 2: 1 times
+Examples labeled as 1 classified by model as 3: 1 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 3: 9 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.9259
+ Precision:       0.9333
+ Recall:          0.9259
+ F1 Score:        0.9232
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 30.0, 2.0E-4, 0.005, 3.0, 
+
+Examples labeled as 1 classified by model as 1: 5 times
+Examples labeled as 1 classified by model as 2: 1 times
+Examples labeled as 1 classified by model as 3: 3 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 1: 1 times
+Examples labeled as 3 classified by model as 3: 8 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.8148
+ Precision:       0.8202
+ Recall:          0.8148
+ F1 Score:        0.8047
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 30.0, 2.0E-4, 0.005, 4.0, 
+
+Examples labeled as 1 classified by model as 1: 7 times
+Examples labeled as 1 classified by model as 2: 1 times
+Examples labeled as 1 classified by model as 3: 1 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 1: 1 times
+Examples labeled as 3 classified by model as 2: 1 times
+Examples labeled as 3 classified by model as 3: 7 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.8519
+ Precision:       0.8561
+ Recall:          0.8519
+ F1 Score:        0.8490
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 30.0, 2.0E-4, 0.005, 5.0, 
+
+Examples labeled as 1 classified by model as 1: 7 times
+Examples labeled as 1 classified by model as 3: 2 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 1: 1 times
+Examples labeled as 3 classified by model as 3: 8 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.8889
+ Precision:       0.8917
+ Recall:          0.8889
+ F1 Score:        0.8885
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 30.0, 2.0E-4, 0.001, 2.0, 
+
+Examples labeled as 1 classified by model as 1: 8 times
+Examples labeled as 1 classified by model as 2: 1 times
+Examples labeled as 2 classified by model as 1: 2 times
+Examples labeled as 2 classified by model as 2: 7 times
+Examples labeled as 3 classified by model as 1: 8 times
+Examples labeled as 3 classified by model as 2: 1 times
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [2]
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.5556
+ Precision:       0.6111	(1 class excluded from average)
+ Recall:          0.5556
+ F1 Score:        0.6852	(1 class excluded from average)
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 30.0, 2.0E-4, 0.001, 3.0, 
+
+Examples labeled as 1 classified by model as 1: 8 times
+Examples labeled as 1 classified by model as 2: 1 times
+Examples labeled as 2 classified by model as 1: 1 times
+Examples labeled as 2 classified by model as 2: 8 times
+Examples labeled as 3 classified by model as 1: 6 times
+Examples labeled as 3 classified by model as 2: 1 times
+Examples labeled as 3 classified by model as 3: 2 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.6667
+ Precision:       0.7778
+ Recall:          0.6667
+ F1 Score:        0.6241
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 30.0, 2.0E-4, 0.001, 4.0, 
+
+Examples labeled as 1 classified by model as 1: 8 times
+Examples labeled as 1 classified by model as 2: 1 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 1: 6 times
+Examples labeled as 3 classified by model as 2: 1 times
+Examples labeled as 3 classified by model as 3: 2 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.7037
+ Precision:       0.7965
+ Recall:          0.7037
+ F1 Score:        0.6531
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 30.0, 2.0E-4, 0.001, 5.0, 
+
+Examples labeled as 1 classified by model as 1: 8 times
+Examples labeled as 1 classified by model as 2: 1 times
+Examples labeled as 2 classified by model as 1: 1 times
+Examples labeled as 2 classified by model as 2: 8 times
+Examples labeled as 3 classified by model as 1: 7 times
+Examples labeled as 3 classified by model as 2: 1 times
+Examples labeled as 3 classified by model as 3: 1 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.6296
+ Precision:       0.7667
+ Recall:          0.6296
+ F1 Score:        0.5607
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 30.0, 1.0E-4, 0.02, 2.0, 
+
+Examples labeled as 1 classified by model as 1: 6 times
+Examples labeled as 1 classified by model as 3: 3 times
+Examples labeled as 2 classified by model as 2: 8 times
+Examples labeled as 2 classified by model as 3: 1 times
+Examples labeled as 3 classified by model as 3: 9 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.8519
+ Precision:       0.8974
+ Recall:          0.8519
+ F1 Score:        0.8531
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 30.0, 1.0E-4, 0.02, 3.0, 
+
+Examples labeled as 1 classified by model as 1: 6 times
+Examples labeled as 1 classified by model as 3: 3 times
+Examples labeled as 2 classified by model as 2: 8 times
+Examples labeled as 2 classified by model as 3: 1 times
+Examples labeled as 3 classified by model as 3: 9 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.8519
+ Precision:       0.8974
+ Recall:          0.8519
+ F1 Score:        0.8531
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 30.0, 1.0E-4, 0.02, 4.0, 
+
+Examples labeled as 1 classified by model as 1: 5 times
+Examples labeled as 1 classified by model as 3: 4 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 3: 9 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.8519
+ Precision:       0.8974
+ Recall:          0.8519
+ F1 Score:        0.8442
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 30.0, 1.0E-4, 0.02, 5.0, 
+
+Examples labeled as 1 classified by model as 1: 6 times
+Examples labeled as 1 classified by model as 3: 3 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 3: 9 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.8889
+ Precision:       0.9167
+ Recall:          0.8889
+ F1 Score:        0.8857
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 30.0, 1.0E-4, 0.01, 2.0, 
+
+Examples labeled as 1 classified by model as 1: 7 times
+Examples labeled as 1 classified by model as 3: 2 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 3: 9 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.9259
+ Precision:       0.9394
+ Recall:          0.9259
+ F1 Score:        0.9250
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 30.0, 1.0E-4, 0.01, 3.0, 
+
+Examples labeled as 1 classified by model as 1: 6 times
+Examples labeled as 1 classified by model as 3: 3 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 3: 9 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.8889
+ Precision:       0.9167
+ Recall:          0.8889
+ F1 Score:        0.8857
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 30.0, 1.0E-4, 0.01, 4.0, 
+
+Examples labeled as 1 classified by model as 1: 6 times
+Examples labeled as 1 classified by model as 3: 3 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 3: 9 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.8889
+ Precision:       0.9167
+ Recall:          0.8889
+ F1 Score:        0.8857
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 30.0, 1.0E-4, 0.01, 5.0, 
+
+Examples labeled as 1 classified by model as 1: 5 times
+Examples labeled as 1 classified by model as 3: 4 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 3: 9 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.8519
+ Precision:       0.8974
+ Recall:          0.8519
+ F1 Score:        0.8442
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 30.0, 1.0E-4, 0.005, 2.0, 
+
+Examples labeled as 1 classified by model as 1: 7 times
+Examples labeled as 1 classified by model as 2: 1 times
+Examples labeled as 1 classified by model as 3: 1 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 3: 9 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.9259
+ Precision:       0.9333
+ Recall:          0.9259
+ F1 Score:        0.9232
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 30.0, 1.0E-4, 0.005, 3.0, 
+
+Examples labeled as 1 classified by model as 1: 5 times
+Examples labeled as 1 classified by model as 2: 1 times
+Examples labeled as 1 classified by model as 3: 3 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 3: 9 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.8519
+ Precision:       0.8833
+ Recall:          0.8519
+ F1 Score:        0.8396
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 30.0, 1.0E-4, 0.005, 4.0, 
+
+Examples labeled as 1 classified by model as 1: 6 times
+Examples labeled as 1 classified by model as 2: 1 times
+Examples labeled as 1 classified by model as 3: 2 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 1: 1 times
+Examples labeled as 3 classified by model as 2: 1 times
+Examples labeled as 3 classified by model as 3: 7 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.8148
+ Precision:       0.8177
+ Recall:          0.8148
+ F1 Score:        0.8093
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 30.0, 1.0E-4, 0.005, 5.0, 
+
+Examples labeled as 1 classified by model as 1: 7 times
+Examples labeled as 1 classified by model as 2: 1 times
+Examples labeled as 1 classified by model as 3: 1 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 1: 1 times
+Examples labeled as 3 classified by model as 3: 8 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.8889
+ Precision:       0.8880
+ Recall:          0.8889
+ F1 Score:        0.8866
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 30.0, 1.0E-4, 0.001, 2.0, 
+
+Examples labeled as 1 classified by model as 1: 8 times
+Examples labeled as 1 classified by model as 2: 1 times
+Examples labeled as 2 classified by model as 1: 3 times
+Examples labeled as 2 classified by model as 2: 6 times
+Examples labeled as 3 classified by model as 1: 8 times
+Examples labeled as 3 classified by model as 2: 1 times
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [2]
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.5185
+ Precision:       0.5855	(1 class excluded from average)
+ Recall:          0.5185
+ F1 Score:        0.6387	(1 class excluded from average)
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 30.0, 1.0E-4, 0.001, 3.0, 
+
+Examples labeled as 1 classified by model as 1: 8 times
+Examples labeled as 1 classified by model as 2: 1 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 1: 6 times
+Examples labeled as 3 classified by model as 2: 1 times
+Examples labeled as 3 classified by model as 3: 2 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.7037
+ Precision:       0.7965
+ Recall:          0.7037
+ F1 Score:        0.6531
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 30.0, 1.0E-4, 0.001, 4.0, 
+
+Examples labeled as 1 classified by model as 1: 8 times
+Examples labeled as 1 classified by model as 2: 1 times
+Examples labeled as 2 classified by model as 2: 9 times
+Examples labeled as 3 classified by model as 1: 6 times
+Examples labeled as 3 classified by model as 2: 1 times
+Examples labeled as 3 classified by model as 3: 2 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.7037
+ Precision:       0.7965
+ Recall:          0.7037
+ F1 Score:        0.6531
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+16.0, 30.0, 1.0E-4, 0.001, 5.0, 
+
+Examples labeled as 1 classified by model as 1: 8 times
+Examples labeled as 1 classified by model as 2: 1 times
+Examples labeled as 2 classified by model as 1: 1 times
+Examples labeled as 2 classified by model as 2: 8 times
+Examples labeled as 3 classified by model as 1: 7 times
+Examples labeled as 3 classified by model as 2: 1 times
+Examples labeled as 3 classified by model as 3: 1 times
+
+
+==========================Scores========================================
+ # of classes:    3
+ Accuracy:        0.6296
+ Precision:       0.7667
+ Recall:          0.6296
+ F1 Score:        0.5607
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+========================================================================
+
+
+
+/**************************************** Case ***************************************/
+32.0, 15.0, 5.0E-4, 0.02, 2.0, 
+
+
+
+
+  "pretrain" : false,
+  "seed" : 71,
+  "stepFunction" : null,
+  "useDropConnect" : false,
+  "useRegularization" : true,
+  "variables" : [ ]
+}
+05:03:33.172 [ADSI prefetch thread] DEBUG o.n.l.memory.abstracts.Nd4jWorkspace - Steps: 4
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  SIGSEGV (0xb) at pc=0x00007f2910758a20, pid=5739, tid=0x00007f294636f700
+#
+# JRE version: OpenJDK Runtime Environment (8.0_171-b10) (build 1.8.0_171-b10)
+[thread 139813143373568 also had an error]# Java VM: OpenJDK 64-Bit Server VM (25.171-b10 mixed mode linux-amd64 compressed oops)
+
+# Problematic frame:
+# C  [libnd4jcpu.so+0xa0a20]  simdOps::Im2col<float>::execSpecial(float*, int*, float*, int*, float*, int*, long long*) [clone ._omp_fn.1180]+0x3f0
+#
+# Core dump written. Default location: /home/zf/workspaces/workspace_java/mjconv2/core or core.5739
+#
+# An error report file with more information is saved as:
+# /home/zf/workspaces/workspace_java/mjconv2/hs_err_pid5739.log
+#
+# If you would like to submit a bug report, please visit:
+#   http://bugreport.java.com/bugreport/crash.jsp
+# The crash happened outside the Java Virtual Machine in native code.
+# See problematic frame for where to report the bug.
+#
+
+Process finished with exit code 134 (interrupted by signal 6: SIGABRT)
+
