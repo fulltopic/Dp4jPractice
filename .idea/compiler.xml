@@ -9,8 +9,5 @@
         <module name="mjpratice" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="mjpratice" target="1.7" />
-    </bytecodeTargetLevel>
   </component>
 </project>
