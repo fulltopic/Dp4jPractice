@@ -2,3 +2,5 @@ http://tenhou.net/3/?log=2018090901gm-0001-0000-89a66eb7&tw=3
 http://tenhou.net/3/?log=2018090901gm-0001-0000-c4fa5bd2&tw=3
 http://tenhou.net/3/?log=2018090902gm-0001-0000-b8e15385&tw=3
 http://tenhou.net/3/?log=2018090903gm-0001-0000-aaf51cce&tw=0
+http://tenhou.net/3/?log=2018090912gm-0001-0000-70e00635&tw=2 //Not learned other's environment
+http://tenhou.net/3/?log=2018090912gm-0001-0000-078b1bec&tw=2 //zimo
