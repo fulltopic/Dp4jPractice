@@ -2,37 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c5fff74-fee0-47ce-a9c3-25a6ec565306" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/a3c/1/a3c/DqnSetting_lstm_a3c.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/a3c/1/a3c/DqnSettings.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/a3c/2/a3c/A3CTenhouDense.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/a3c/2/a3c/A3CTenhouLstm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/a3c/2/a3c/A3CTenhouModelFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/a3c/2/a3c/A3CTenhouThreadDiscrete.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/a3c/2/a3c/ACTenhouPolicy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/a3c/2/a3c/DqnSetting_lstm_a3c.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/a3c/2/a3c/DqnSettings.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/a3c/2/a3c/TenhouActorCriticCompGraph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/a3c/2/a3c/TenhouActorCriticLoss.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/a3c/2/a3c/TenhouComputationGraph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/a3c/2/a3c/TenhouFF2CnnPreProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/a3c/2/a3c/TenhouInputPreProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/a3c/2/a3c/TenhouRnnToCnnPreProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/a3c/2/a3c/TestDenseA3C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/a3c/2/a3c/TestLstmA3C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/a3c/2/a3c/TestPolicy.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/a3c/2/after/fullacc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/a3c/2/after/fullacd.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/a3c/2/after/fulllsta.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/a3c/2/after/fulllstm.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/a3c/2/avoidvalidactions.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/a3c/2/debug1.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/a3c/3/a3c/A3CTenhouThreadDiscrete.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/a3c/3/a3c/DqnSetting_lstm_a3c.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/a3c/3/a3c/DqnSettings.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/a3c/3/a3c/MessageParseUtils.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/a3c/3/convergence.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/a3c/3/logs.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/a3c/3/notes.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -164,7 +133,7 @@
         <entry file="file://$PROJECT_DIR$/docs/a3c/3/notes.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="36">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+              <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -257,29 +226,6 @@
               <item name="mjpratice" type="462c0819:PsiDirectoryNode" />
               <item name="docs" type="462c0819:PsiDirectoryNode" />
               <item name="a3c" type="462c0819:PsiDirectoryNode" />
-              <item name="1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mjpratice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mjpratice" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
-              <item name="a3c" type="462c0819:PsiDirectoryNode" />
-              <item name="1" type="462c0819:PsiDirectoryNode" />
-              <item name="a3c" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mjpratice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mjpratice" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
-              <item name="a3c" type="462c0819:PsiDirectoryNode" />
-              <item name="1" type="462c0819:PsiDirectoryNode" />
-              <item name="after" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mjpratice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mjpratice" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
-              <item name="a3c" type="462c0819:PsiDirectoryNode" />
               <item name="2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -295,8 +241,7 @@
               <item name="mjpratice" type="462c0819:PsiDirectoryNode" />
               <item name="docs" type="462c0819:PsiDirectoryNode" />
               <item name="a3c" type="462c0819:PsiDirectoryNode" />
-              <item name="2" type="462c0819:PsiDirectoryNode" />
-              <item name="before" type="462c0819:PsiDirectoryNode" />
+              <item name="3" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mjpratice" type="b2602c69:ProjectViewProjectNode" />
@@ -304,82 +249,16 @@
               <item name="docs" type="462c0819:PsiDirectoryNode" />
               <item name="a3c" type="462c0819:PsiDirectoryNode" />
               <item name="3" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mjpratice" type="b2602c69:ProjectViewProjectNode" />
               <item name="mjpratice" type="462c0819:PsiDirectoryNode" />
               <item name="docs" type="462c0819:PsiDirectoryNode" />
-              <item name="supervisedgraph" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mjpratice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mjpratice" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
-              <item name="supervisedgraph" type="462c0819:PsiDirectoryNode" />
-              <item name="1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mjpratice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mjpratice" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
-              <item name="supervisedgraph" type="462c0819:PsiDirectoryNode" />
-              <item name="2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mjpratice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mjpratice" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
-              <item name="supervisedgraph" type="462c0819:PsiDirectoryNode" />
+              <item name="a3c" type="462c0819:PsiDirectoryNode" />
               <item name="3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mjpratice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mjpratice" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
-              <item name="supervisedgraph" type="462c0819:PsiDirectoryNode" />
-              <item name="4" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mjpratice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mjpratice" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
-              <item name="supervisedgraph" type="462c0819:PsiDirectoryNode" />
-              <item name="5" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mjpratice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mjpratice" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
-              <item name="supervisedgraph" type="462c0819:PsiDirectoryNode" />
-              <item name="6" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mjpratice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mjpratice" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
-              <item name="supervisedgraph" type="462c0819:PsiDirectoryNode" />
-              <item name="7" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mjpratice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mjpratice" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
-              <item name="supervisedgraph" type="462c0819:PsiDirectoryNode" />
-              <item name="8" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mjpratice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mjpratice" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
-              <item name="supervisedgraph" type="462c0819:PsiDirectoryNode" />
-              <item name="9" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mjpratice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mjpratice" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
-              <item name="supervisedgraph" type="462c0819:PsiDirectoryNode" />
-              <item name="10" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="1" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mjpratice" type="b2602c69:ProjectViewProjectNode" />
@@ -435,7 +314,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536741791412" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536742459949" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -578,7 +457,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="-37" width="1280" height="1061" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4961915" visible="true" weight="0.27597404" />
       <window_info id="Structure" order="1" sideWeight="0.5038085" side_tool="true" visible="true" weight="0.27597404" />
@@ -908,7 +786,7 @@
     <entry file="file://$PROJECT_DIR$/docs/a3c/3/notes.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
         </state>
       </provider>
     </entry>
