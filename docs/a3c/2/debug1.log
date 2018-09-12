@@ -1,0 +1,197 @@
+[2018-09-12 00:00:10 [testSystem-akka.actor.default-dispatcher-29] INFO  TenhouTcpConnection0 : sent to server <Z /> 
+[2018-09-12 00:00:10 [testSystem-akka.actor.default-dispatcher-14] INFO  TenhouTcpConnection1 : sent to server <Z /> 
+[2018-09-12 00:00:10 [testSystem-akka.actor.default-dispatcher-39] INFO  TenhouTcpConnection2 : sent to server <Z /> 
+[2018-09-12 00:00:10 [testSystem-akka.actor.default-dispatcher-38] DEBUG TenhouTcpConnection0 : Received data from server <LN n="BMs1BHM1Ux1FE" j="D7B1D12C4D4C8D4C16B8C3C6B2C" g="EU3E1Hw3M1o4E8Gk4Ck12Ec4BM4I8BI4M8M1Co2z2BR2M1Y1e1M1w2V"/>
+[2018-09-12 00:00:10 [testSystem-akka.actor.default-dispatcher-38] INFO  TenhouClient0 : Received repeated LN 10
+[2018-09-12 00:00:10 [testSystem-akka.actor.default-dispatcher-38] INFO  TenhouTcpConnection0 : sent to server <Z /> 
+[2018-09-12 00:00:10 [testSystem-akka.actor.default-dispatcher-25] INFO  TenhouTcpConnection3 : sent to server <Z /> 
+[2018-09-12 00:00:10 [testSystem-akka.actor.default-dispatcher-14] DEBUG TenhouTcpConnection1 : Received data from server <LN n="BMs1BHM1Ux1FE" j="D7B1D12C4D4C8D4C16B8C3C6B2C" g="EU3E1Hw3M1o4E8Gk4Ck12Ec4BM4I8BI4M8M1Co2z2BR2M1Y1e1M1w2V"/>
+[2018-09-12 00:00:10 [testSystem-akka.actor.default-dispatcher-14] INFO  TenhouClient1 : Received repeated LN 11
+[2018-09-12 00:00:10 [testSystem-akka.actor.default-dispatcher-14] ERROR TenhouClient1 : -----------------------> Failed in multiple LN try
+[2018-09-12 00:00:10 [testSystem-akka.actor.default-dispatcher-14] ERROR TenhouTcpConnection1 : tcp connection closing, received close command
+[2018-09-12 00:00:10 [testSystem-akka.actor.default-dispatcher-14] INFO  TenhouTcpConnection1 : sent to server <Z /> 
+[2018-09-12 00:00:10 [testSystem-akka.actor.default-dispatcher-14] ERROR TenhouTcpConnection1 : class akka.io.Tcp$Closed$
+[2018-09-12 00:00:10 [testSystem-akka.actor.default-dispatcher-14] ERROR TenhouTcpConnection1 : tcp connection aborted
+[2018-09-12 00:00:10 [testSystem-akka.actor.default-dispatcher-25] INFO  TenhouClient1 : Connection closed in retryInit
+[2018-09-12 00:00:10 [testSystem-akka.actor.default-dispatcher-29] DEBUG TenhouTcpConnection2 : Received data from server <LN n="BMs1BHM1Ux1FE" j="D7B1D12C4D4C8D4C16B8C3C6B2C" g="EU3E1Hw3M1o4E8Gk4Ck12Ec4BM4I8BI4M8M1Co2z2BR2M1Y1e1M1w2V"/>
+[2018-09-12 00:00:10 [testSystem-akka.actor.default-dispatcher-29] INFO  TenhouClient2 : Received repeated LN 7
+[2018-09-12 00:00:10 [testSystem-akka.actor.default-dispatcher-29] INFO  TenhouTcpConnection2 : sent to server <Z /> 
+[2018-09-12 00:00:10 [testSystem-akka.actor.default-dispatcher-28] DEBUG TenhouTcpConnection3 : Received data from server <LN n="BMs1BHM1Ux1FE" j="D7B1D12C4D4C8D4C16B8C3C6B2C" g="EU3E1Hw3M1o4E8Gk4Ck12Ec4BM4I8BI4M8M1Co2z2BR2M1Y1e1M1w2V"/>
+[2018-09-12 00:00:10 [testSystem-akka.actor.default-dispatcher-28] INFO  TenhouClient3 : Received repeated LN 7
+[2018-09-12 00:00:10 [testSystem-akka.actor.default-dispatcher-28] INFO  TenhouTcpConnection3 : sent to server <Z /> 
+[2018-09-12 00:00:11 [testSystem-akka.actor.default-dispatcher-29] DEBUG TenhouTcpConnection2 : Received data from server <LN n="BMv1BHP1Uv1Fa" j="D4D3C1D12C8C8D4D12B4B8C1C2B2C4B" g="EU3E1Hw3M1o4E8Gk4Cs12Ec4BM4I8BI4M8M1Cl2z2BR2M1Y1b1M1z2V"/>
+[2018-09-12 00:00:11 [testSystem-akka.actor.default-dispatcher-29] INFO  TenhouClient2 : Received repeated LN 8
+[2018-09-12 00:00:11 [testSystem-akka.actor.default-dispatcher-29] INFO  TenhouTcpConnection2 : sent to server <Z /> 
+[2018-09-12 00:00:11 [testSystem-akka.actor.default-dispatcher-28] DEBUG TenhouTcpConnection3 : Received data from server <LN n="BMv1BHP1Uv1Fa" j="D4D3C1D12C8C8D4D12B4B8C1C2B2C4B" g="EU3E1Hw3M1o4E8Gk4Cs12Ec4BM4I8BI4M8M1Cl2z2BR2M1Y1b1M1z2V"/>
+[2018-09-12 00:00:11 [testSystem-akka.actor.default-dispatcher-28] INFO  TenhouClient3 : Received repeated LN 8
+[2018-09-12 00:00:11 [testSystem-akka.actor.default-dispatcher-28] INFO  TenhouTcpConnection3 : sent to server <Z /> 
+[2018-09-12 00:00:11 [testSystem-akka.actor.default-dispatcher-25] INFO  TenhouTcpConnection1 : Tcp connecting /133.242.10.78:10080
+[2018-09-12 00:00:11 [testSystem-akka.actor.default-dispatcher-14] INFO  TenhouTcpConnection1 : Connection connected from /10.160.0.54:37974 to /133.242.10.78:10080
+[2018-09-12 00:00:11 [testSystem-akka.actor.default-dispatcher-14] INFO  TenhouTcpConnection1 : conn information Actor[akka://testSystem/system/IO-TCP/selectors/$a/133#-1573122204]
+[2018-09-12 00:00:11 [testSystem-akka.actor.default-dispatcher-32] INFO  TenhouClient1 : Connection ready
+[2018-09-12 00:00:11 [testSystem-akka.actor.default-dispatcher-32] INFO  TenhouClient1 : Sent hello to server
+[2018-09-12 00:00:11 [testSystem-akka.actor.default-dispatcher-25] INFO  TenhouTcpConnection1 : sent to server <HELO name="ID78A24927-c5bhBcQb" tid="f0" sx="M" /> 
+[2018-09-12 00:00:12 [testSystem-akka.actor.default-dispatcher-25] DEBUG TenhouTcpConnection1 : Received data from server <HELO uname="%66%75%6C%6C%61%63%64" auth="20180912-76cdaa5c" PF4="4,0,820.11,-2396.0,0,8,30,45,8,432,7,106,281,8" expire="20180912" expiredays="1" ratingscale="PF3=1.000000&PF4=1.000000&PF01C=0.582222&PF02C=0.501632&PF03C=0.414869&PF11C=0.823386&PF12C=0.709416&PF13C=0.586714&PF23C=0.378722&PF33C=0.535594&PF1C00=8.000000" rr="PF3=0,0&PF4=97855,0&PF01C=0,0&PF02C=0,0&PF03C=0,0&PF11C=0,0&PF12C=0,0&PF13C=0,0&PF23C=0,0&PF33C=0,0&PF1C00=0,0"/>
+[2018-09-12 00:00:12 [testSystem-akka.actor.default-dispatcher-32] INFO  TenhouTcpConnection1 : sent to server <AUTH val="20180912-5093f00d"/> 
+[2018-09-12 00:00:12 [testSystem-akka.actor.default-dispatcher-25] INFO  TenhouTcpConnection1 : sent to server <PXR V="9"/> 
+[2018-09-12 00:00:12 [testSystem-akka.actor.default-dispatcher-25] DEBUG TenhouTcpConnection1 : Received data from server <LN n="BMv1BHP1Uv1Fa" j="D4D3C1D12C8C8D4D12B4B8C1C2B2C4B" g="EU3E1Hw3M1o4E8Gk4Cs12Ec4BM4I8BI4M8M1Cl2z2BR2M1Y1b1M1z2V"/>
+[2018-09-12 00:00:12 [testSystem-akka.actor.default-dispatcher-14] INFO  TenhouTcpConnection1 : sent to server <Z /> 
+[2018-09-12 00:00:12 [testSystem-akka.actor.default-dispatcher-25] INFO  TenhouTcpConnection1 : sent to server <JOIN t="0,1"/> 
+[2018-09-12 00:00:16 [main] INFO  r.d.r.dqn.nn.a3c.A3CTenhouDense : ---------------------> Wait 60000
+[2018-09-12 00:00:25 [testSystem-akka.actor.default-dispatcher-29] INFO  TenhouTcpConnection0 : sent to server <Z /> 
+[2018-09-12 00:00:25 [testSystem-akka.actor.default-dispatcher-25] INFO  TenhouTcpConnection1 : sent to server <Z /> 
+[2018-09-12 00:00:25 [testSystem-akka.actor.default-dispatcher-39] INFO  TenhouTcpConnection2 : sent to server <Z /> 
+[2018-09-12 00:00:25 [testSystem-akka.actor.default-dispatcher-38] DEBUG TenhouTcpConnection0 : Received data from server <LN n="BMx1BHQ1Uv1Ff" j="D4D3C1D12D8C8D16B4B8C1C2C1B1C3B1C2B1B1B" g="EU3E1Hw3M1o4E8Gk4Cs12Ec4BQ4I8BI4M8M1Cl2z2BR2M1V1b1M1z2V"/>
+[2018-09-12 00:00:25 [testSystem-akka.actor.default-dispatcher-38] INFO  TenhouClient0 : Received repeated LN 11
+[2018-09-12 00:00:25 [testSystem-akka.actor.default-dispatcher-38] ERROR TenhouClient0 : -----------------------> Failed in multiple LN try
+[2018-09-12 00:00:25 [testSystem-akka.actor.default-dispatcher-38] ERROR TenhouTcpConnection0 : tcp connection closing, received close command
+[2018-09-12 00:00:25 [testSystem-akka.actor.default-dispatcher-38] INFO  TenhouTcpConnection0 : sent to server <Z /> 
+[2018-09-12 00:00:25 [testSystem-akka.actor.default-dispatcher-38] ERROR TenhouTcpConnection0 : class akka.io.Tcp$Closed$
+[2018-09-12 00:00:25 [testSystem-akka.actor.default-dispatcher-38] ERROR TenhouTcpConnection0 : tcp connection aborted
+[2018-09-12 00:00:25 [testSystem-akka.actor.default-dispatcher-38] INFO  TenhouClient0 : Connection closed in retryInit
+[2018-09-12 00:00:25 [testSystem-akka.actor.default-dispatcher-25] INFO  TenhouTcpConnection3 : sent to server <Z /> 
+[2018-09-12 00:00:25 [testSystem-akka.actor.default-dispatcher-32] DEBUG TenhouTcpConnection1 : Received data from server <LN n="BMx1BHQ1Uv1Ff" j="D4D3C1D12D8C8D16B4B8C1C2C1B1C3B1C2B1B1B" g="EU3E1Hw3M1o4E8Gk4Cs12Ec4BQ4I8BI4M8M1Cl2z2BR2M1V1b1M1z2V"/>
+[2018-09-12 00:00:25 [testSystem-akka.actor.default-dispatcher-32] INFO  TenhouClient1 : Received repeated LN 1
+[2018-09-12 00:00:25 [testSystem-akka.actor.default-dispatcher-25] INFO  TenhouTcpConnection1 : sent to server <Z /> 
+[2018-09-12 00:00:25 [testSystem-akka.actor.default-dispatcher-29] DEBUG TenhouTcpConnection2 : Received data from server <LN n="BMx1BHQ1Uv1Ff" j="D4D3C1D12D8C8D16B4B8C1C2C1B1C3B1C2B1B1B" g="EU3E1Hw3M1o4E8Gk4Cs12Ec4BQ4I8BI4M8M1Cl2z2BR2M1V1b1M1z2V"/>
+[2018-09-12 00:00:25 [testSystem-akka.actor.default-dispatcher-29] INFO  TenhouClient2 : Received repeated LN 9
+[2018-09-12 00:00:25 [testSystem-akka.actor.default-dispatcher-29] INFO  TenhouTcpConnection2 : sent to server <Z /> 
+[2018-09-12 00:00:25 [testSystem-akka.actor.default-dispatcher-25] DEBUG TenhouTcpConnection3 : Received data from server <LN n="BMx1BHQ1Uv1Ff" j="D4D3C1D12D8C8D16B4B8C1C2C1B1C3B1C2B1B1B" g="EU3E1Hw3M1o4E8Gk4Cs12Ec4BQ4I8BI4M8M1Cl2z2BR2M1V1b1M1z2V"/>
+[2018-09-12 00:00:25 [testSystem-akka.actor.default-dispatcher-25] INFO  TenhouClient3 : Received repeated LN 9
+[2018-09-12 00:00:25 [testSystem-akka.actor.default-dispatcher-25] INFO  TenhouTcpConnection3 : sent to server <Z /> 
+[2018-09-12 00:00:26 [testSystem-akka.actor.default-dispatcher-38] INFO  TenhouTcpConnection0 : Tcp connecting /133.242.10.78:10080
+[2018-09-12 00:00:26 [testSystem-akka.actor.default-dispatcher-38] INFO  TenhouTcpConnection0 : Connection connected from /10.160.0.54:37976 to /133.242.10.78:10080
+[2018-09-12 00:00:26 [testSystem-akka.actor.default-dispatcher-38] INFO  TenhouTcpConnection0 : conn information Actor[akka://testSystem/system/IO-TCP/selectors/$a/134#90923048]
+[2018-09-12 00:00:26 [testSystem-akka.actor.default-dispatcher-38] INFO  TenhouClient0 : Connection ready
+[2018-09-12 00:00:26 [testSystem-akka.actor.default-dispatcher-38] INFO  TenhouClient0 : Sent hello to server
+[2018-09-12 00:00:26 [testSystem-akka.actor.default-dispatcher-21] INFO  TenhouTcpConnection0 : sent to server <HELO name="ID612E00B1-8eVaBXdR" tid="f0" sx="M" /> 
+[2018-09-12 00:00:27 [testSystem-akka.actor.default-dispatcher-21] DEBUG TenhouTcpConnection0 : Received data from server <HELO uname="%66%75%6C%6C%61%63%63" auth="20180912-2d820167" PF4="5,50,799.22,-2721.0,2,13,27,58,8,547,39,131,375,11" ratingscale="PF3=1.000000&PF4=1.000000&PF01C=0.582222&PF02C=0.501632&PF03C=0.414869&PF11C=0.823386&PF12C=0.709416&PF13C=0.586714&PF23C=0.378722&PF33C=0.535594&PF1C00=8.000000" rr="PF3=0,0&PF4=97859,0&PF01C=0,0&PF02C=0,0&PF03C=0,0&PF11C=0,0&PF12C=0,0&PF13C=0,0&PF23C=0,0&PF33C=0,0&PF1C00=0,0"/>
+[2018-09-12 00:00:27 [testSystem-akka.actor.default-dispatcher-38] INFO  TenhouTcpConnection0 : sent to server <AUTH val="20180912-bdc5b36"/> 
+[2018-09-12 00:00:27 [testSystem-akka.actor.default-dispatcher-21] INFO  TenhouTcpConnection0 : sent to server <PXR V="9"/> 
+[2018-09-12 00:00:27 [testSystem-akka.actor.default-dispatcher-30] DEBUG TenhouTcpConnection0 : Received data from server <LN n="BMx1BHQ1Uv1Ff" j="D4D3C1D12D8C8D16B4B8C1C2C1B1C3B1C2B1B1B" g="EU3E1Hw3M1o4E8Gk4Cs12Ec4BQ4I8BI4M8M1Cl2z2BR2M1V1b1M1z2V"/>
+[2018-09-12 00:00:27 [testSystem-akka.actor.default-dispatcher-21] INFO  TenhouTcpConnection0 : sent to server <Z /> 
+[2018-09-12 00:00:27 [testSystem-akka.actor.default-dispatcher-30] INFO  TenhouTcpConnection0 : sent to server <JOIN t="0,1"/> 
+[2018-09-12 00:00:40 [testSystem-akka.actor.default-dispatcher-30] INFO  TenhouTcpConnection0 : sent to server <Z /> 
+[2018-09-12 00:00:40 [testSystem-akka.actor.default-dispatcher-32] INFO  TenhouTcpConnection1 : sent to server <Z /> 
+[2018-09-12 00:00:40 [testSystem-akka.actor.default-dispatcher-39] INFO  TenhouTcpConnection2 : sent to server <Z /> 
+[2018-09-12 00:00:40 [testSystem-akka.actor.default-dispatcher-24] INFO  TenhouTcpConnection3 : sent to server <Z /> 
+[2018-09-12 00:00:40 [testSystem-akka.actor.default-dispatcher-21] DEBUG TenhouTcpConnection0 : Received data from server <LN n="BNH1BHW1Uv1Fl" j="D4C3C1D4C12D4C8B4B12B4B8C1C2C1B1C2B1B1C2B1B1B" g="EU3E1Hs3M1o4E8Go4Co12Eg4BQ4I8BI4M8M1Co2z2BR2M1V1e1M1z2V"/>
+[2018-09-12 00:00:40 [testSystem-akka.actor.default-dispatcher-21] INFO  TenhouClient0 : Received repeated LN 1
+[2018-09-12 00:00:40 [testSystem-akka.actor.default-dispatcher-21] INFO  TenhouTcpConnection0 : sent to server <Z /> 
+[2018-09-12 00:00:40 [testSystem-akka.actor.default-dispatcher-14] DEBUG TenhouTcpConnection1 : Received data from server <LN n="BNH1BHW1Uv1Fl" j="D4C3C1D4C12D4C8B4B12B4B8C1C2C1B1C2B1B1C2B1B1B" g="EU3E1Hs3M1o4E8Go4Co12Eg4BQ4I8BI4M8M1Co2z2BR2M1V1e1M1z2V"/>
+[2018-09-12 00:00:40 [testSystem-akka.actor.default-dispatcher-14] INFO  TenhouClient1 : Received repeated LN 2
+[2018-09-12 00:00:40 [testSystem-akka.actor.default-dispatcher-14] INFO  TenhouTcpConnection1 : sent to server <Z /> 
+[2018-09-12 00:00:40 [testSystem-akka.actor.default-dispatcher-29] DEBUG TenhouTcpConnection2 : Received data from server <LN n="BNH1BHW1Uv1Fl" j="D4C3C1D4C12D4C8B4B12B4B8C1C2C1B1C2B1B1C2B1B1B" g="EU3E1Hs3M1o4E8Go4Co12Eg4BQ4I8BI4M8M1Co2z2BR2M1V1e1M1z2V"/>
+[2018-09-12 00:00:40 [testSystem-akka.actor.default-dispatcher-29] INFO  TenhouClient2 : Received repeated LN 10
+[2018-09-12 00:00:40 [testSystem-akka.actor.default-dispatcher-29] INFO  TenhouTcpConnection2 : sent to server <Z /> 
+[2018-09-12 00:00:40 [testSystem-akka.actor.default-dispatcher-24] DEBUG TenhouTcpConnection3 : Received data from server <LN n="BNH1BHW1Uv1Fl" j="D4C3C1D4C12D4C8B4B12B4B8C1C2C1B1C2B1B1C2B1B1B" g="EU3E1Hs3M1o4E8Go4Co12Eg4BQ4I8BI4M8M1Co2z2BR2M1V1e1M1z2V"/>
+[2018-09-12 00:00:40 [testSystem-akka.actor.default-dispatcher-24] INFO  TenhouClient3 : Received repeated LN 10
+[2018-09-12 00:00:40 [testSystem-akka.actor.default-dispatcher-24] INFO  TenhouTcpConnection3 : sent to server <Z /> 
+[2018-09-12 00:00:41 [testSystem-akka.actor.default-dispatcher-24] DEBUG TenhouTcpConnection3 : Received data from server <LN n="BNA1BHS1Uw1FZ" j="D3C1C1B2D1D16B4D8D4D12C12B1C3B1C2B2B3B1B" g="EU3E1Hs3M1o4E8Gk4Co12Ec4BQ4I8BI4M8M1Co2BC2BR2M1V1e1M1z2V"/>
+[2018-09-12 00:00:41 [testSystem-akka.actor.default-dispatcher-24] INFO  TenhouClient3 : Received repeated LN 11
+[2018-09-12 00:00:41 [testSystem-akka.actor.default-dispatcher-24] ERROR TenhouClient3 : -----------------------> Failed in multiple LN try
+[2018-09-12 00:00:41 [testSystem-akka.actor.default-dispatcher-28] ERROR TenhouTcpConnection3 : tcp connection closing, received close command
+[2018-09-12 00:00:41 [testSystem-akka.actor.default-dispatcher-28] INFO  TenhouTcpConnection3 : sent to server <Z /> 
+[2018-09-12 00:00:41 [testSystem-akka.actor.default-dispatcher-28] ERROR TenhouTcpConnection3 : class akka.io.Tcp$Closed$
+[2018-09-12 00:00:41 [testSystem-akka.actor.default-dispatcher-28] ERROR TenhouTcpConnection3 : tcp connection aborted
+[2018-09-12 00:00:41 [testSystem-akka.actor.default-dispatcher-28] INFO  TenhouClient3 : Connection closed in retryInit
+[2018-09-12 00:00:42 [testSystem-akka.actor.default-dispatcher-28] INFO  TenhouTcpConnection3 : Tcp connecting /133.242.10.78:10080
+[2018-09-12 00:00:42 [testSystem-akka.actor.default-dispatcher-24] INFO  TenhouTcpConnection3 : Connection connected from /10.160.0.54:37980 to /133.242.10.78:10080
+[2018-09-12 00:00:42 [testSystem-akka.actor.default-dispatcher-24] INFO  TenhouTcpConnection3 : conn information Actor[akka://testSystem/system/IO-TCP/selectors/$a/127#1060807502]
+[2018-09-12 00:00:42 [testSystem-akka.actor.default-dispatcher-28] INFO  TenhouClient3 : Connection ready
+[2018-09-12 00:00:42 [testSystem-akka.actor.default-dispatcher-28] INFO  TenhouClient3 : Sent hello to server
+[2018-09-12 00:00:42 [testSystem-akka.actor.default-dispatcher-25] INFO  TenhouTcpConnection3 : sent to server <HELO name="ID14BA4AD0-38gaDVBG" tid="f0" sx="M" /> 
+[2018-09-12 00:00:42 [testSystem-akka.actor.default-dispatcher-25] DEBUG TenhouTcpConnection3 : Received data from server <HELO uname="%66%75%6C%6C%6C%73%74%61" auth="20180912-3d4f6b7a" PF4="6,60,707.81,-8489.0,1,22,92,165,27,1541,20,326,1094,15" ratingscale="PF3=1.000000&PF4=1.000000&PF01C=0.582222&PF02C=0.501632&PF03C=0.414869&PF11C=0.823386&PF12C=0.709416&PF13C=0.586714&PF23C=0.378722&PF33C=0.535594&PF1C00=8.000000" rr="PF3=0,0&PF4=97865,0&PF01C=0,0&PF02C=0,0&PF03C=0,0&PF11C=0,0&PF12C=0,0&PF13C=0,0&PF23C=0,0&PF33C=0,0&PF1C00=0,0"/>
+[2018-09-12 00:00:42 [testSystem-akka.actor.default-dispatcher-24] INFO  TenhouTcpConnection3 : sent to server <AUTH val="20180912-1b11312b"/> 
+[2018-09-12 00:00:43 [testSystem-akka.actor.default-dispatcher-25] INFO  TenhouTcpConnection3 : sent to server <PXR V="9"/> 
+[2018-09-12 00:00:43 [testSystem-akka.actor.default-dispatcher-24] DEBUG TenhouTcpConnection3 : Received data from server <LN n="BNA1BHS1Uw1FZ" j="D3C1C1B2D1D16B4D8D4D12C12B1C3B1C2B2B3B1B" g="EU3E1Hs3M1o4E8Gk4Co12Ec4BQ4I8BI4M8M1Co2BC2BR2M1V1e1M1z2V"/>
+[2018-09-12 00:00:43 [testSystem-akka.actor.default-dispatcher-25] INFO  TenhouTcpConnection3 : sent to server <Z /> 
+[2018-09-12 00:00:43 [testSystem-akka.actor.default-dispatcher-24] INFO  TenhouTcpConnection3 : sent to server <JOIN t="0,1"/> 
+[2018-09-12 00:00:55 [testSystem-akka.actor.default-dispatcher-21] INFO  TenhouTcpConnection0 : sent to server <Z /> 
+[2018-09-12 00:00:55 [testSystem-akka.actor.default-dispatcher-32] INFO  TenhouTcpConnection1 : sent to server <Z /> 
+[2018-09-12 00:00:55 [testSystem-akka.actor.default-dispatcher-39] INFO  TenhouTcpConnection2 : sent to server <Z /> 
+[2018-09-12 00:00:55 [testSystem-akka.actor.default-dispatcher-24] INFO  TenhouTcpConnection3 : sent to server <Z /> 
+[2018-09-12 00:00:55 [testSystem-akka.actor.default-dispatcher-21] DEBUG TenhouTcpConnection0 : Received data from server <LN n="BMk1BHH1Up1FU" j="D1B2C1D1B2D1B4B40C12B1C2B1B1C2B2C2C1B1B" g="EU3E1Hs3M1s4E8GU4Co4E8Ec4BU4I8BI4M8M1Co2BC2BR2M1V1e1M1z2V"/>
+[2018-09-12 00:00:55 [testSystem-akka.actor.default-dispatcher-21] INFO  TenhouClient0 : Received repeated LN 2
+[2018-09-12 00:00:55 [testSystem-akka.actor.default-dispatcher-21] INFO  TenhouTcpConnection0 : sent to server <Z /> 
+[2018-09-12 00:00:55 [testSystem-akka.actor.default-dispatcher-32] DEBUG TenhouTcpConnection1 : Received data from server <LN n="BMk1BHH1Up1FU" j="D1B2C1D1B2D1B4B40C12B1C2B1B1C2B2C2C1B1B" g="EU3E1Hs3M1s4E8GU4Co4E8Ec4BU4I8BI4M8M1Co2BC2BR2M1V1e1M1z2V"/>
+[2018-09-12 00:00:55 [testSystem-akka.actor.default-dispatcher-32] INFO  TenhouClient1 : Received repeated LN 3
+[2018-09-12 00:00:55 [testSystem-akka.actor.default-dispatcher-32] INFO  TenhouTcpConnection1 : sent to server <Z /> 
+[2018-09-12 00:00:55 [testSystem-akka.actor.default-dispatcher-39] DEBUG TenhouTcpConnection2 : Received data from server <LN n="BMk1BHH1Up1FU" j="D1B2C1D1B2D1B4B40C12B1C2B1B1C2B2C2C1B1B" g="EU3E1Hs3M1s4E8GU4Co4E8Ec4BU4I8BI4M8M1Co2BC2BR2M1V1e1M1z2V"/>
+[2018-09-12 00:00:55 [testSystem-akka.actor.default-dispatcher-39] INFO  TenhouClient2 : Received repeated LN 11
+[2018-09-12 00:00:55 [testSystem-akka.actor.default-dispatcher-39] ERROR TenhouClient2 : -----------------------> Failed in multiple LN try
+[2018-09-12 00:00:55 [testSystem-akka.actor.default-dispatcher-39] ERROR TenhouTcpConnection2 : tcp connection closing, received close command
+[2018-09-12 00:00:55 [testSystem-akka.actor.default-dispatcher-39] INFO  TenhouTcpConnection2 : sent to server <Z /> 
+[2018-09-12 00:00:55 [testSystem-akka.actor.default-dispatcher-39] ERROR TenhouTcpConnection2 : class akka.io.Tcp$Closed$
+[2018-09-12 00:00:55 [testSystem-akka.actor.default-dispatcher-39] ERROR TenhouTcpConnection2 : tcp connection aborted
+[2018-09-12 00:00:55 [testSystem-akka.actor.default-dispatcher-39] INFO  TenhouClient2 : Connection closed in retryInit
+[2018-09-12 00:00:55 [testSystem-akka.actor.default-dispatcher-28] DEBUG TenhouTcpConnection3 : Received data from server <LN n="BMk1BHH1Up1FU" j="D1B2C1D1B2D1B4B40C12B1C2B1B1C2B2C2C1B1B" g="EU3E1Hs3M1s4E8GU4Co4E8Ec4BU4I8BI4M8M1Co2BC2BR2M1V1e1M1z2V"/>
+[2018-09-12 00:00:55 [testSystem-akka.actor.default-dispatcher-28] INFO  TenhouClient3 : Received repeated LN 1
+[2018-09-12 00:00:55 [testSystem-akka.actor.default-dispatcher-28] INFO  TenhouTcpConnection3 : sent to server <Z /> 
+[2018-09-12 00:00:56 [testSystem-akka.actor.default-dispatcher-28] INFO  TenhouTcpConnection2 : Tcp connecting /133.242.10.78:10080
+[2018-09-12 00:00:57 [testSystem-akka.actor.default-dispatcher-39] INFO  TenhouTcpConnection2 : Connection connected from /10.160.0.54:37984 to /133.242.10.78:10080
+[2018-09-12 00:00:57 [testSystem-akka.actor.default-dispatcher-39] INFO  TenhouTcpConnection2 : conn information Actor[akka://testSystem/system/IO-TCP/selectors/$a/121#-2054937299]
+[2018-09-12 00:00:57 [testSystem-akka.actor.default-dispatcher-39] INFO  TenhouClient2 : Connection ready
+[2018-09-12 00:00:57 [testSystem-akka.actor.default-dispatcher-39] INFO  TenhouClient2 : Sent hello to server
+[2018-09-12 00:00:57 [testSystem-akka.actor.default-dispatcher-28] INFO  TenhouTcpConnection2 : sent to server <HELO name="ID48547DBC-bBYmSGLD" tid="f0" sx="M" /> 
+[2018-09-12 00:00:57 [testSystem-akka.actor.default-dispatcher-28] DEBUG TenhouTcpConnection2 : Received data from server <HELO uname="%66%75%6C%6C%6C%73%74%6D" auth="20180912-7340f4dc" PF4="8,0,713.18,-27752.0,5,60,318,522,82,5021,35,1120,2020,54" ratingscale="PF3=1.000000&PF4=1.000000&PF01C=0.582222&PF02C=0.501632&PF03C=0.414869&PF11C=0.823386&PF12C=0.709416&PF13C=0.586714&PF23C=0.378722&PF33C=0.535594&PF1C00=8.000000" rr="PF3=0,0&PF4=97864,0&PF01C=0,0&PF02C=0,0&PF03C=0,0&PF11C=0,0&PF12C=0,0&PF13C=0,0&PF23C=0,0&PF33C=0,0&PF1C00=0,0"/>
+[2018-09-12 00:00:57 [testSystem-akka.actor.default-dispatcher-39] INFO  TenhouTcpConnection2 : sent to server <AUTH val="20180912-551eae8d"/> 
+[2018-09-12 00:00:57 [testSystem-akka.actor.default-dispatcher-28] INFO  TenhouTcpConnection2 : sent to server <PXR V="9"/> 
+[2018-09-12 00:00:57 [testSystem-akka.actor.default-dispatcher-28] DEBUG TenhouTcpConnection2 : Received data from server <LN n="BMk1BHH1Up1FU" j="D1B2C1D1B2D1B4B40C12B1C2B1B1C2B2C2C1B1B" g="EU3E1Hs3M1s4E8GU4Co4E8Ec4BU4I8BI4M8M1Co2BC2BR2M1V1e1M1z2V"/>
+[2018-09-12 00:00:57 [testSystem-akka.actor.default-dispatcher-38] INFO  TenhouTcpConnection2 : sent to server <Z /> 
+[2018-09-12 00:00:57 [testSystem-akka.actor.default-dispatcher-28] INFO  TenhouTcpConnection2 : sent to server <JOIN t="0,1"/> 
+[2018-09-12 00:01:10 [testSystem-akka.actor.default-dispatcher-30] INFO  TenhouTcpConnection0 : sent to server <Z /> 
+[2018-09-12 00:01:10 [testSystem-akka.actor.default-dispatcher-14] INFO  TenhouTcpConnection1 : sent to server <Z /> 
+[2018-09-12 00:01:10 [testSystem-akka.actor.default-dispatcher-28] INFO  TenhouTcpConnection2 : sent to server <Z /> 
+[2018-09-12 00:01:10 [testSystem-akka.actor.default-dispatcher-24] INFO  TenhouTcpConnection3 : sent to server <Z /> 
+[2018-09-12 00:01:10 [testSystem-akka.actor.default-dispatcher-38] DEBUG TenhouTcpConnection0 : Received data from server <LN n="BMc1BGz1VD1FB" j="D1B2C1D1C2D1B4B12D12C16C12C1B2B1B1C2C1B1B2C1B1B" g="EU3E1Hw3M1o12GQ4Ck4E8EY4BU4I8BI4M8M1Co2BC2BO2J1V1e1M1z2V"/>
+[2018-09-12 00:01:10 [testSystem-akka.actor.default-dispatcher-38] INFO  TenhouClient0 : Received repeated LN 3
+[2018-09-12 00:01:10 [testSystem-akka.actor.default-dispatcher-38] INFO  TenhouTcpConnection0 : sent to server <Z /> 
+[2018-09-12 00:01:10 [testSystem-akka.actor.default-dispatcher-32] DEBUG TenhouTcpConnection1 : Received data from server <LN n="BMc1BGz1VD1FB" j="D1B2C1D1C2D1B4B12D12C16C12C1B2B1B1C2C1B1B2C1B1B" g="EU3E1Hw3M1o12GQ4Ck4E8EY4BU4I8BI4M8M1Co2BC2BO2J1V1e1M1z2V"/>
+[2018-09-12 00:01:10 [testSystem-akka.actor.default-dispatcher-32] INFO  TenhouClient1 : Received repeated LN 4
+[2018-09-12 00:01:10 [testSystem-akka.actor.default-dispatcher-32] INFO  TenhouTcpConnection1 : sent to server <Z /> 
+[2018-09-12 00:01:10 [testSystem-akka.actor.default-dispatcher-28] DEBUG TenhouTcpConnection2 : Received data from server <LN n="BMc1BGz1VD1FB" j="D1B2C1D1C2D1B4B12D12C16C12C1B2B1B1C2C1B1B2C1B1B" g="EU3E1Hw3M1o12GQ4Ck4E8EY4BU4I8BI4M8M1Co2BC2BO2J1V1e1M1z2V"/>
+[2018-09-12 00:01:10 [testSystem-akka.actor.default-dispatcher-28] INFO  TenhouClient2 : Received repeated LN 1
+[2018-09-12 00:01:10 [testSystem-akka.actor.default-dispatcher-28] INFO  TenhouTcpConnection2 : sent to server <Z /> 
+[2018-09-12 00:01:10 [testSystem-akka.actor.default-dispatcher-28] DEBUG TenhouTcpConnection3 : Received data from server <LN n="BMc1BGz1VD1FB" j="D1B2C1D1C2D1B4B12D12C16C12C1B2B1B1C2C1B1B2C1B1B" g="EU3E1Hw3M1o12GQ4Ck4E8EY4BU4I8BI4M8M1Co2BC2BO2J1V1e1M1z2V"/>
+[2018-09-12 00:01:10 [testSystem-akka.actor.default-dispatcher-28] INFO  TenhouClient3 : Received repeated LN 2
+[2018-09-12 00:01:10 [testSystem-akka.actor.default-dispatcher-28] INFO  TenhouTcpConnection3 : sent to server <Z /> 
+[2018-09-12 00:01:12 [testSystem-akka.actor.default-dispatcher-29] DEBUG TenhouTcpConnection2 : Received data from server <LN n="BMU1BGq1Uw1Ez" j="D4B3C1D4D8C4D12B16C12C1B2C1B1C2C1C1B2C1B1B" g="EY3E1IA3M1o12GQ4Cg4E8Ec4BU4I8BE4M8J1Co2BC2BO2J1S1e1M1z2V"/>
+[2018-09-12 00:01:12 [testSystem-akka.actor.default-dispatcher-29] INFO  TenhouClient2 : Received repeated LN 2
+[2018-09-12 00:01:12 [testSystem-akka.actor.default-dispatcher-29] INFO  TenhouTcpConnection2 : sent to server <Z /> 
+[2018-09-12 00:01:16 [main] INFO  r.d.r.dqn.nn.a3c.A3CTenhouDense : ---------------------> Wait 60000
+[2018-09-12 00:01:25 [testSystem-akka.actor.default-dispatcher-30] INFO  TenhouTcpConnection0 : sent to server <Z /> 
+[2018-09-12 00:01:25 [testSystem-akka.actor.default-dispatcher-14] INFO  TenhouTcpConnection1 : sent to server <Z /> 
+[2018-09-12 00:01:25 [testSystem-akka.actor.default-dispatcher-38] INFO  TenhouTcpConnection2 : sent to server <Z /> 
+[2018-09-12 00:01:25 [testSystem-akka.actor.default-dispatcher-24] INFO  TenhouTcpConnection3 : sent to server <Z /> 
+[2018-09-12 00:01:25 [testSystem-akka.actor.default-dispatcher-21] DEBUG TenhouTcpConnection0 : Received data from server <LN n="BMb1BGz1Uk1FX" j="D4B3C5D8B4D12B16C12B1B2B2B2C1B" g="EY3E1IA3M1s12GU4Ck4E8Ec4BU4I8BE4M8M1Cr2BC2BR2J1S1e1J1BC2V"/>
+[2018-09-12 00:01:25 [testSystem-akka.actor.default-dispatcher-21] INFO  TenhouClient0 : Received repeated LN 4
+[2018-09-12 00:01:25 [testSystem-akka.actor.default-dispatcher-21] INFO  TenhouTcpConnection0 : sent to server <Z /> 
+[2018-09-12 00:01:25 [testSystem-akka.actor.default-dispatcher-32] DEBUG TenhouTcpConnection1 : Received data from server <LN n="BMb1BGz1Uk1FX" j="D4B3C5D8B4D12B16C12B1B2B2B2C1B" g="EY3E1IA3M1s12GU4Ck4E8Ec4BU4I8BE4M8M1Cr2BC2BR2J1S1e1J1BC2V"/>
+[2018-09-12 00:01:25 [testSystem-akka.actor.default-dispatcher-32] INFO  TenhouClient1 : Received repeated LN 5
+[2018-09-12 00:01:25 [testSystem-akka.actor.default-dispatcher-32] INFO  TenhouTcpConnection1 : sent to server <Z /> 
+[2018-09-12 00:01:25 [testSystem-akka.actor.default-dispatcher-29] DEBUG TenhouTcpConnection2 : Received data from server <LN n="BMb1BGz1Uk1FX" j="D4B3C5D8B4D12B16C12B1B2B2B2C1B" g="EY3E1IA3M1s12GU4Ck4E8Ec4BU4I8BE4M8M1Cr2BC2BR2J1S1e1J1BC2V"/>
+[2018-09-12 00:01:25 [testSystem-akka.actor.default-dispatcher-29] INFO  TenhouClient2 : Received repeated LN 3
+[2018-09-12 00:01:25 [testSystem-akka.actor.default-dispatcher-29] INFO  TenhouTcpConnection2 : sent to server <Z /> 
+[2018-09-12 00:01:25 [testSystem-akka.actor.default-dispatcher-28] DEBUG TenhouTcpConnection3 : Received data from server <LN n="BMb1BGz1Uk1FX" j="D4B3C5D8B4D12B16C12B1B2B2B2C1B" g="EY3E1IA3M1s12GU4Ck4E8Ec4BU4I8BE4M8M1Cr2BC2BR2J1S1e1J1BC2V"/>
+[2018-09-12 00:01:25 [testSystem-akka.actor.default-dispatcher-28] INFO  TenhouClient3 : Received repeated LN 3
+[2018-09-12 00:01:25 [testSystem-akka.actor.default-dispatcher-28] INFO  TenhouTcpConnection3 : sent to server <Z /> 
+[2018-09-12 00:01:40 [testSystem-akka.actor.default-dispatcher-30] INFO  TenhouTcpConnection0 : sent to server <Z /> 
+[2018-09-12 00:01:40 [testSystem-akka.actor.default-dispatcher-14] INFO  TenhouTcpConnection1 : sent to server <Z /> 
+[2018-09-12 00:01:40 [testSystem-akka.actor.default-dispatcher-38] INFO  TenhouTcpConnection2 : sent to server <Z /> 
+[2018-09-12 00:01:40 [testSystem-akka.actor.default-dispatcher-30] DEBUG TenhouTcpConnection0 : Received data from server <LN n="BMc1BHA1Uo1FX" j="D4B3C1B16D12B16C12C1C1B1B2B2C1B1B1C" g="EU3E1Hw3M1s4E8GY4Ck4E8Ec4BU4I8BE4M8M1Cr2BC2BR2J1P1e1J1BC2V"/>
+[2018-09-12 00:01:40 [testSystem-akka.actor.default-dispatcher-30] INFO  TenhouClient0 : Received repeated LN 5
+[2018-09-12 00:01:40 [testSystem-akka.actor.default-dispatcher-30] INFO  TenhouTcpConnection0 : sent to server <Z /> 
+[2018-09-12 00:01:40 [testSystem-akka.actor.default-dispatcher-24] INFO  TenhouTcpConnection3 : sent to server <Z /> 
+[2018-09-12 00:01:40 [testSystem-akka.actor.default-dispatcher-32] DEBUG TenhouTcpConnection1 : Received data from server <LN n="BMc1BHA1Uo1FX" j="D4B3C1B16D12B16C12C1C1B1B2B2C1B1B1C" g="EU3E1Hw3M1s4E8GY4Ck4E8Ec4BU4I8BE4M8M1Cr2BC2BR2J1P1e1J1BC2V"/>
+[2018-09-12 00:01:40 [testSystem-akka.actor.default-dispatcher-32] INFO  TenhouClient1 : Received repeated LN 6
+[2018-09-12 00:01:40 [testSystem-akka.actor.default-dispatcher-32] INFO  TenhouTcpConnection1 : sent to server <Z /> 
+[2018-09-12 00:01:40 [testSystem-akka.actor.default-dispatcher-38] DEBUG TenhouTcpConnection2 : Received data from server <LN n="BMc1BHA1Uo1FX" j="D4B3C1B16D12B16C12C1C1B1B2B2C1B1B1C" g="EU3E1Hw3M1s4E8GY4Ck4E8Ec4BU4I8BE4M8M1Cr2BC2BR2J1P1e1J1BC2V"/>
+[2018-09-12 00:01:40 [testSystem-akka.actor.default-dispatcher-38] INFO  TenhouClient2 : Received repeated LN 4
+[2018-09-12 00:01:40 [testSystem-akka.actor.default-dispatcher-38] INFO  TenhouTcpConnection2 : sent to server <Z /> 
+[2018-09-12 00:01:40 [testSystem-akka.actor.default-dispatcher-26] DEBUG TenhouTcpConnection3 : Received data from server <LN n="BMc1BHA1Uo1FX" j="D4B3C1B16D12B16C12C1C1B1B2B2C1B1B1C" g="EU3E1Hw3M1s4E8GY4Ck4E8Ec4BU4I8BE4M8M1Cr2BC2BR2J1P1e1J1BC2V"/>
+[2018-09-12 00:01:40 [testSystem-akka.actor.default-dispatcher-26] INFO  TenhouClient3 : Received repeated LN 4
+[2018-09-12 00:01:40 [testSystem-akka.actor.default-dispatcher-26] INFO  TenhouTcpConnection3 : sent to server <Z /> 
+[2018-09-12 00:01:41 [testSystem-akka.actor.default-dispatcher-32] DEBUG TenhouTcpConnection1 : Received data from server <LN n="BML1BGl1VA1FZ" j="D7C1C4B8D4D12C16D12B7C2B1B" g="EU3E1Hk3M1s4E8GU4Ck4E8EY4BQ4I8BE4M8M1Cr2BC2BR2J1P1b1J1BC2V"/>
+[2018-09-12 00:01:41 [testSystem-akka.actor.default-dispatcher-32] INFO  TenhouClient1 : Received repeated LN 7
+[2018-09-12 00:01:41 [testSystem-akka.actor.default-dispatcher-32] INFO  TenhouTcpConnection1 : sent to server <Z /> 

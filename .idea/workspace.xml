@@ -2,26 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c5fff74-fee0-47ce-a9c3-25a6ec565306" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/a3c/1/a3c/A3CTenhouDense.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/a3c/1/a3c/A3CTenhouLstm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/a3c/1/a3c/A3CTenhouModelFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/a3c/1/a3c/A3CTenhouThreadDiscrete.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/a3c/1/a3c/ACTenhouPolicy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/a3c/1/a3c/TenhouActorCriticCompGraph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/a3c/1/a3c/TenhouActorCriticLoss.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/a3c/1/a3c/TenhouComputationGraph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/a3c/1/a3c/TenhouFF2CnnPreProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/a3c/1/a3c/TenhouInputPreProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/a3c/1/a3c/TenhouRnnToCnnPreProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/a3c/1/a3c/TestDenseA3C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/a3c/1/a3c/TestLstmA3C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/a3c/1/a3c/TestPolicy.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/a3c/1/debug1.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/supervisedgraph/10/A3CTenhouThreadDiscrete.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/supervisedgraph/9/match1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/supervisedgraph/9/rawlog1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/a3c/1/a3c/DqnSetting_lstm_a3c.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/a3c/1/a3c/DqnSettings.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/a3c/2/a3c/A3CTenhouDense.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/a3c/2/a3c/A3CTenhouLstm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/a3c/2/a3c/A3CTenhouModelFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/a3c/2/a3c/A3CTenhouThreadDiscrete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/a3c/2/a3c/ACTenhouPolicy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/a3c/2/a3c/DqnSetting_lstm_a3c.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/a3c/2/a3c/DqnSettings.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/a3c/2/a3c/TenhouActorCriticCompGraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/a3c/2/a3c/TenhouActorCriticLoss.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/a3c/2/a3c/TenhouComputationGraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/a3c/2/a3c/TenhouFF2CnnPreProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/a3c/2/a3c/TenhouInputPreProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/a3c/2/a3c/TenhouRnnToCnnPreProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/a3c/2/a3c/TestDenseA3C.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/a3c/2/a3c/TestLstmA3C.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/a3c/2/a3c/TestPolicy.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/a3c/2/after/fullacc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/a3c/2/after/fullacd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/a3c/2/after/fulllsta.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/a3c/2/after/fulllstm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/a3c/2/avoidvalidactions.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/a3c/2/debug1.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/a3c/3/a3c/A3CTenhouThreadDiscrete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/a3c/3/a3c/DqnSetting_lstm_a3c.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/a3c/3/a3c/DqnSettings.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/a3c/3/a3c/MessageParseUtils.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/a3c/3/convergence.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/a3c/3/logs.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/a3c/3/notes.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/supervisedgraph/8/logs.txt" beforeDir="false" afterPath="$PROJECT_DIR$/docs/supervisedgraph/8/logs.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -49,45 +61,110 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="30" />
+          <entry key="java" value="33" />
           <entry key="md" value="5" />
-          <entry key="png" value="3" />
-          <entry key="scala" value="13" />
-          <entry key="txt" value="15" />
+          <entry key="png" value="12" />
+          <entry key="scala" value="17" />
+          <entry key="txt" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Image" value="3" />
-          <entry key="JAVA" value="30" />
+          <entry key="Image" value="12" />
+          <entry key="JAVA" value="33" />
           <entry key="Markdown" value="5" />
-          <entry key="PLAIN_TEXT" value="15" />
-          <entry key="Scala" value="13" />
+          <entry key="PLAIN_TEXT" value="22" />
+          <entry key="Scala" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="java" value="2" />
           <entry key="md" value="2081" />
-          <entry key="txt" value="73" />
+          <entry key="txt" value="382" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="2" />
           <entry key="Markdown" value="2081" />
-          <entry key="PLAIN_TEXT" value="73" />
+          <entry key="PLAIN_TEXT" value="382" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/docs/a3c/1/a3c/ACTenhouPolicy.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/a3c/3/a3c/DqnSettings.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="36">
+              <caret line="4" column="22" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/a3c/3/a3c/DqnSetting_lstm_a3c.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/a3c/3/convergence.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="24" column="46" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/a3c/2/a3c/A3CTenhouThreadDiscrete.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="827">
+              <caret line="291" column="49" lean-forward="true" selection-start-line="291" selection-start-column="49" selection-end-line="291" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/a3c/2/after/fullacc.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/a3c/2/after/fullacd.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/a3c/2/after/fulllstm.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/a3c/2/after/fulllsta.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/a3c/3/logs.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="61" selection-start-column="61" selection-end-column="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/docs/a3c/3/notes.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -131,6 +208,9 @@
         <option value="$PROJECT_DIR$/docs/supervisedgraph/9/testeval.txt" />
         <option value="$PROJECT_DIR$/docs/supervisedgraph/8/logs.txt" />
         <option value="$PROJECT_DIR$/docs/a3c/1/a3c/ACTenhouPolicy.java" />
+        <option value="$PROJECT_DIR$/docs/a3c/3/convergence.txt" />
+        <option value="$PROJECT_DIR$/docs/a3c/3/logs.txt" />
+        <option value="$PROJECT_DIR$/docs/a3c/3/notes.txt" />
       </list>
     </option>
   </component>
@@ -184,7 +264,46 @@
               <item name="mjpratice" type="462c0819:PsiDirectoryNode" />
               <item name="docs" type="462c0819:PsiDirectoryNode" />
               <item name="a3c" type="462c0819:PsiDirectoryNode" />
+              <item name="1" type="462c0819:PsiDirectoryNode" />
+              <item name="a3c" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mjpratice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mjpratice" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
+              <item name="a3c" type="462c0819:PsiDirectoryNode" />
+              <item name="1" type="462c0819:PsiDirectoryNode" />
+              <item name="after" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mjpratice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mjpratice" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
+              <item name="a3c" type="462c0819:PsiDirectoryNode" />
               <item name="2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mjpratice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mjpratice" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
+              <item name="a3c" type="462c0819:PsiDirectoryNode" />
+              <item name="2" type="462c0819:PsiDirectoryNode" />
+              <item name="after" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mjpratice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mjpratice" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
+              <item name="a3c" type="462c0819:PsiDirectoryNode" />
+              <item name="2" type="462c0819:PsiDirectoryNode" />
+              <item name="before" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mjpratice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mjpratice" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
+              <item name="a3c" type="462c0819:PsiDirectoryNode" />
+              <item name="3" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mjpratice" type="b2602c69:ProjectViewProjectNode" />
@@ -258,6 +377,13 @@
             <path>
               <item name="mjpratice" type="b2602c69:ProjectViewProjectNode" />
               <item name="mjpratice" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
+              <item name="supervisedgraph" type="462c0819:PsiDirectoryNode" />
+              <item name="10" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mjpratice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mjpratice" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -309,15 +435,15 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536652993385" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536741791412" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/docs/a3c/1" />
-      <recent name="$PROJECT_DIR$/docs/supervisedgraph/10" />
-      <recent name="$PROJECT_DIR$/docs/supervisedgraph/9" />
-      <recent name="$PROJECT_DIR$/docs/supervisedgraph/8" />
-      <recent name="$PROJECT_DIR$/docs/supervisedgraph/7" />
+      <recent name="$PROJECT_DIR$/docs/a3c/3/a3c" />
+      <recent name="$PROJECT_DIR$/docs/a3c/2/a3c" />
+      <recent name="$PROJECT_DIR$/docs/a3c/2" />
+      <recent name="$PROJECT_DIR$/docs/a3c/1/a3c" />
+      <recent name="$PROJECT_DIR$/docs/a3c/1/after" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -452,6 +578,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="-37" width="1280" height="1061" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4961915" visible="true" weight="0.27597404" />
       <window_info id="Structure" order="1" sideWeight="0.5038085" side_tool="true" visible="true" weight="0.27597404" />
@@ -492,134 +619,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Content of file" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/docs/supervisedgraph/1/evaluation.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="11621" column="26" selection-start-line="11621" selection-start-column="26" selection-end-line="11621" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/supervisedgraph/2/SupervisedComp.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="39" column="19" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/supervisedgraph/2/A3CTenhouModelFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="40" column="11" selection-start-line="40" selection-start-column="11" selection-end-line="40" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/supervisedgraph/2/TenhouRnnToCnnPreProcessor.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/supervisedgraph/2/evaluation.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="1456" column="25" selection-start-line="1456" selection-start-column="25" selection-end-line="1456" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/supervisedgraph/2/testeval.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28188">
-          <caret line="1566" column="26" selection-start-line="1566" selection-start-column="26" selection-end-line="1566" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/supervisedgraph/1/testeval.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21006">
-          <caret line="1167" selection-start-line="1167" selection-end-line="1167" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/supervisedgraph/3/evaluation.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155718">
-          <caret line="8651" column="17" selection-start-line="8651" selection-start-column="17" selection-end-line="8651" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/supervisedgraph/4/TenhouRnnToCnnPreProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/supervisedgraph/5/A3CTenhouModelFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="45" column="23" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/supervisedgraph/5/TenhouRnnToCnnPreProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/supervisedgraph/5/SupervisedComp.scala">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/supervisedgraph/3/SupervisedComp.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="37" column="29" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/supervisedgraph/4/A3CTenhouModelFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="43" column="8" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/supervisedgraph/4/SupervisedComp.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/supervisedgraph/4/evaluation.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7614">
-          <caret line="423" column="40" selection-start-line="423" selection-start-column="40" selection-end-line="423" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/supervisedgraph/3/scores.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/supervisedgraph/5/evaluation.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="2788" column="10" selection-start-line="2788" selection-start-column="10" selection-end-line="2788" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/supervisedgraph/6/TenhouRnnToCnnPreProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/supervisedgraph/6/SupervisedComp.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="57" column="5" lean-forward="true" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docs/supervisedgraph/3/A3CTenhouModelFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -731,13 +730,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/supervisedgraph/8/logs.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="68" selection-start-line="5" selection-start-column="68" selection-end-line="5" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docs/supervisedgraph/9/SupervisedComp.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="468">
@@ -812,8 +804,111 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/docs/a3c/1/a3c/ACTenhouPolicy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="558">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/supervisedgraph/9/rawlog1.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/supervisedgraph/8/logs.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="68" selection-start-line="5" selection-start-column="68" selection-end-line="5" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/a3c/2/before/fulllstm.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/a3c/1/a3c/DqnSettings.scala">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/a3c/1/a3c/DqnSetting_lstm_a3c.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/a3c/2/a3c/TestLstmA3C.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/a3c/2/a3c/DqnSettings.scala">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/a3c/2/before/fullacd.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/a3c/2/before/fulllsta.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/a3c/3/a3c/MessageParseUtils.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="31" column="38" lean-forward="true" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/a3c/3/a3c/A3CTenhouThreadDiscrete.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/a3c/3/a3c/DqnSettings.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="4" column="22" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/a3c/3/a3c/DqnSetting_lstm_a3c.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/a3c/3/convergence.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="24" column="46" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/a3c/2/a3c/A3CTenhouThreadDiscrete.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="827">
+          <caret line="291" column="49" lean-forward="true" selection-start-line="291" selection-start-column="49" selection-end-line="291" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/a3c/2/after/fullacc.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/a3c/2/after/fullacd.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/a3c/2/after/fulllstm.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/a3c/2/after/fulllsta.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/a3c/3/logs.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="61" selection-start-column="61" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/a3c/3/notes.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>

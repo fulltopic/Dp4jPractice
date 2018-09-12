@@ -1,0 +1,25 @@
+[2018-09-12 02:24:12 [Thread-4] INFO  r.d.r.dqn.nn.a3c.ACTenhouPolicy : policy [[0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  1.00,  0.00,  0.00]]
+[2018-09-12 02:24:12 [Thread-4] INFO  r.d.r.dqn.nn.a3c.ACTenhouPolicy : nextAction [[2.00,  1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  1.00,  0.00,  0.00,  1.00,  1.00,  1.00,  10.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  1.00,  0.00,  0.00,  0.00,  0.00,  192.00,  0.00,  0.00,  1.00,  0.00,  0.00,  0.00,  1.00,  0.00,  0.00,  0.00,  0.00,  2.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  2.00,  0.00,  0.00,  0.00,  0.00,  1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  1.00,  0.00,  1.00,  3.00,  0.00,  1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00]]
+[2018-09-12 02:24:12 [Thread-4] DEBUG MessageParseUtils : ----------------------> Drop actions
+[2018-09-12 02:24:12 [Thread-4] DEBUG MessageParseUtils : Available actions:
+[2018-09-12 02:24:12 [Thread-4] INFO  r.d.r.dqn.nn.a3c.ACTenhouPolicy : 4.492414598053043E-18, 25
+[2018-09-12 02:24:12 [testSystem-akka.actor.default-dispatcher-5] INFO  TenhouClient0 : ----------------------------> In drop action
+[2018-09-12 02:24:12 [testSystem-akka.actor.default-dispatcher-5] INFO  TenhouClient0 : ------------------------------> Pure drop
+[2018-09-12 02:24:12 [testSystem-akka.actor.default-dispatcher-5] DEBUG ActionParser : drop tiles 102
+[2018-09-12 02:24:12 [testSystem-akka.actor.default-dispatcher-4] INFO  TenhouTcpConnection0 : sent to server <D p="102"/>
+[2018-09-12 02:24:12 [testSystem-akka.actor.default-dispatcher-5] DEBUG TenhouTcpConnection0 : Received data from server <D102/>
+[2018-09-12 02:24:12 [testSystem-akka.actor.default-dispatcher-5] INFO  TenhouClient0 : Received message to be processed: <D102/>
+[2018-09-12 02:24:12 [testSystem-akka.actor.default-dispatcher-5] DEBUG MessageParseUtils : ======================================> Dropped 102
+[2018-09-12 02:24:13 [testSystem-akka.actor.default-dispatcher-9] DEBUG TenhouTcpConnection3 : Received data from server <G112/>
+[2018-09-12 02:24:13 [testSystem-akka.actor.default-dispatcher-9] DEBUG TenhouTcpConnection3 : Received data from server <T89/>
+[2018-09-12 02:24:13 [testSystem-akka.actor.default-dispatcher-10] INFO  TenhouClient3 : Received message to be processed: <G112/>
+[2018-09-12 02:24:13 [testSystem-akka.actor.default-dispatcher-10] INFO  TenhouClient3 : Received message to be processed: <T89/>
+[2018-09-12 02:24:13 [testSystem-akka.actor.default-dispatcher-10] DEBUG MessageParseUtils : Get ron action:
+[2018-09-12 02:24:13 [testSystem-akka.actor.default-dispatcher-10] DEBUG MessageParseUtils : Get ron action: T89
+[2018-09-12 02:24:13 [testSystem-akka.actor.default-dispatcher-10] DEBUG MessageParseUtils : ======================================> Accepted 89
+[2018-09-12 02:24:13 [Thread-7] DEBUG r.d.r.d.n.a.A3CTenhouThreadDiscrete : >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> [-0.16]
+[2018-09-12 02:24:13 [Thread-7] DEBUG r.d.r.d.n.a.A3CTenhouThreadDiscrete : >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 0.0
+[2018-09-12 02:24:13 [Thread-7] INFO  r.d.r.dqn.nn.a3c.ACTenhouPolicy : policy [[0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  1.00,  0.00,  0.00]]
+[2018-09-12 02:24:13 [Thread-7] INFO  r.d.r.dqn.nn.a3c.ACTenhouPolicy : nextAction [[64.00,  64.00,  64.00,  0.00,  9.00,  0.00,  0.00,  1.00,  0.00,  0.00,  0.00,  0.00,  1.00,  0.00,  1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  1.00,  1.00,  1.00,  2.00,  1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  1.00,  0.00,  0.00,  1.00,  1.00,  1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00]]
+
+This action is the least possible valid action
