@@ -1,0 +1,776 @@
+[2018-09-07 02:28:44 [testSystem-akka.actor.default-dispatcher-6] DEBUG TenhouTcpConnection0 : Received data from server <V/>
+[2018-09-07 02:28:44 [testSystem-akka.actor.default-dispatcher-3] INFO  TenhouClient0 : Received message to be processed: <INIT seed="0,0,0,0,4,114" ten="250,250,250,250" oya="2" hai="34,135,128,107,23,0,72,2,65,31,53,19,77"/>
+[2018-09-07 02:28:44 [testSystem-akka.actor.default-dispatcher-3] DEBUG MessageParseUtils : ======================================> Accepted 34
+[2018-09-07 02:28:44 [testSystem-akka.actor.default-dispatcher-3] DEBUG MessageParseUtils : ======================================> Accepted 135
+[2018-09-07 02:28:44 [testSystem-akka.actor.default-dispatcher-3] DEBUG MessageParseUtils : ======================================> Accepted 128
+[2018-09-07 02:28:44 [testSystem-akka.actor.default-dispatcher-3] DEBUG MessageParseUtils : ======================================> Accepted 107
+[2018-09-07 02:28:44 [testSystem-akka.actor.default-dispatcher-3] DEBUG MessageParseUtils : ======================================> Accepted 23
+[2018-09-07 02:28:44 [testSystem-akka.actor.default-dispatcher-3] DEBUG MessageParseUtils : ======================================> Accepted 0
+[2018-09-07 02:28:44 [testSystem-akka.actor.default-dispatcher-3] DEBUG MessageParseUtils : ======================================> Accepted 72
+[2018-09-07 02:28:44 [testSystem-akka.actor.default-dispatcher-3] DEBUG MessageParseUtils : ======================================> Accepted 2
+[2018-09-07 02:28:44 [testSystem-akka.actor.default-dispatcher-3] DEBUG MessageParseUtils : ======================================> Accepted 65
+[2018-09-07 02:28:44 [testSystem-akka.actor.default-dispatcher-3] DEBUG MessageParseUtils : ======================================> Accepted 31
+[2018-09-07 02:28:44 [testSystem-akka.actor.default-dispatcher-3] DEBUG MessageParseUtils : ======================================> Accepted 53
+[2018-09-07 02:28:44 [testSystem-akka.actor.default-dispatcher-3] DEBUG MessageParseUtils : ======================================> Accepted 19
+[2018-09-07 02:28:44 [testSystem-akka.actor.default-dispatcher-3] DEBUG MessageParseUtils : ======================================> Accepted 77
+[2018-09-07 02:28:44 [testSystem-akka.actor.default-dispatcher-3] INFO  TenhouClient0 : Received message to be processed: <V/>
+[2018-09-07 02:28:46 [ADSI prefetch thread] DEBUG TenhouLstmIterator : -----------------------------> Load 5585, 4032
+[2018-09-07 02:28:46 [ADSI prefetch thread] DEBUG TenhouLstmIterator : Get all readers loaded 8
+[2018-09-07 02:28:50 [testSystem-akka.actor.default-dispatcher-3] INFO  TenhouTcpConnection0 : sent to server <Z />
+[2018-09-07 02:28:51 [testSystem-akka.actor.default-dispatcher-2] DEBUG TenhouTcpConnection0 : Received data from server <F38/>
+[2018-09-07 02:28:51 [testSystem-akka.actor.default-dispatcher-2] DEBUG TenhouTcpConnection0 : Received data from server <W/>
+[2018-09-07 02:28:51 [testSystem-akka.actor.default-dispatcher-3] INFO  TenhouClient0 : Received message to be processed: <F38/>
+[2018-09-07 02:28:51 [testSystem-akka.actor.default-dispatcher-3] INFO  TenhouClient0 : Received message to be processed: <W/>
+[2018-09-07 02:28:53 [ADSI prefetch thread] DEBUG TenhouLstmIterator : -----------------------------> Load 5585, 4040
+[2018-09-07 02:28:53 [ADSI prefetch thread] DEBUG TenhouLstmIterator : Get all readers loaded 8
+[2018-09-07 02:28:55 [testSystem-akka.actor.default-dispatcher-2] DEBUG TenhouTcpConnection0 : Received data from server <G104/>
+[2018-09-07 02:28:55 [testSystem-akka.actor.default-dispatcher-2] DEBUG TenhouTcpConnection0 : Received data from server <T126/>
+[2018-09-07 02:28:55 [testSystem-akka.actor.default-dispatcher-3] INFO  TenhouClient0 : Received message to be processed: <G104/>
+[2018-09-07 02:28:55 [testSystem-akka.actor.default-dispatcher-3] INFO  TenhouClient0 : Received message to be processed: <T126/>
+[2018-09-07 02:28:55 [testSystem-akka.actor.default-dispatcher-3] DEBUG MessageParseUtils : Get ron action:
+[2018-09-07 02:28:55 [testSystem-akka.actor.default-dispatcher-3] DEBUG MessageParseUtils : Get ron action: T126
+[2018-09-07 02:28:55 [testSystem-akka.actor.default-dispatcher-3] DEBUG MessageParseUtils : ======================================> Accepted 126
+[2018-09-07 02:28:55 [Thread-4] DEBUG r.d.r.d.n.a.A3CTenhouThreadDiscrete : -------------------------------> isRecurrent true
+[2018-09-07 02:28:55 [Thread-4] INFO  r.d.r.dqn.nn.a3c.ACTenhouPolicy : policy [[0.03,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.01,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.02,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.87,  0.00,  0.00,  0.00,  0.00,  0.02,  0.02,  0.02,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00]]
+[2018-09-07 02:28:55 [Thread-4] INFO  r.d.r.dqn.nn.a3c.ACTenhouPolicy : nextAction [[2.00,  0.00,  0.00,  0.00,  1.00,  1.00,  0.00,  1.00,  1.00,  0.00,  0.00,  0.00,  0.00,  1.00,  0.00,  0.00,  1.00,  0.00,  1.00,  1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  1.00,  0.00,  0.00,  0.00,  0.00,  1.00,  1.00,  1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00]]
+[2018-09-07 02:28:55 [Thread-4] DEBUG MessageParseUtils : lastState[[2.00,  0.00,  0.00,  0.00,  1.00,  1.00,  0.00,  1.00,  1.00,  0.00,  0.00,  0.00,  0.00,  1.00,  0.00,  0.00,  1.00,  0.00,  1.00,  1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  1.00,  0.00,  0.00,  0.00,  0.00,  1.00,  1.00,  1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00]]
+[2018-09-07 02:28:55 [Thread-4] DEBUG MessageParseUtils : ----------------------> Drop actions
+[2018-09-07 02:28:55 [Thread-4] DEBUG MessageParseUtils : Available actions:
+[2018-09-07 02:28:55 [Thread-4] INFO  r.d.r.dqn.nn.a3c.ACTenhouPolicy : 0.8721100091934204, 26
+[2018-09-07 02:28:55 [testSystem-akka.actor.default-dispatcher-3] INFO  TenhouClient0 : ----------------------------> In drop action
+[2018-09-07 02:28:55 [testSystem-akka.actor.default-dispatcher-3] INFO  TenhouClient0 : ------------------------------> Pure drop
+[2018-09-07 02:28:55 [testSystem-akka.actor.default-dispatcher-3] DEBUG ActionParser : drop tiles 107
+[2018-09-07 02:28:55 [testSystem-akka.actor.default-dispatcher-2] INFO  TenhouTcpConnection0 : sent to server <D p="107"/>
+[2018-09-07 02:28:56 [testSystem-akka.actor.default-dispatcher-3] DEBUG TenhouTcpConnection0 : Received data from server <D107/>
+[2018-09-07 02:28:56 [testSystem-akka.actor.default-dispatcher-3] DEBUG TenhouTcpConnection0 : Received data from server <U/>
+[2018-09-07 02:28:56 [testSystem-akka.actor.default-dispatcher-2] INFO  TenhouClient0 : Received message to be processed: <D107/>
+[2018-09-07 02:28:56 [testSystem-akka.actor.default-dispatcher-2] DEBUG MessageParseUtils : ======================================> Dropped 107
+[2018-09-07 02:28:56 [testSystem-akka.actor.default-dispatcher-2] INFO  TenhouClient0 : Received message to be processed: <U/>
+[2018-09-07 02:29:03 [testSystem-akka.actor.default-dispatcher-2] DEBUG TenhouTcpConnection0 : Received data from server <E4/>
+[2018-09-07 02:29:03 [testSystem-akka.actor.default-dispatcher-2] DEBUG TenhouTcpConnection0 : Received data from server <V/>
+[2018-09-07 02:29:03 [testSystem-akka.actor.default-dispatcher-3] INFO  TenhouClient0 : Received message to be processed: <E4/>
+[2018-09-07 02:29:03 [testSystem-akka.actor.default-dispatcher-3] INFO  TenhouClient0 : Received message to be processed: <V/>
+[2018-09-07 02:29:04 [main] INFO  r.d.r.dqn.nn.a3c.A3CTenhouDense : ---------------------> Wait 60000
+[2018-09-07 02:29:05 [testSystem-akka.actor.default-dispatcher-3] INFO  TenhouTcpConnection0 : sent to server <Z />
+[2018-09-07 02:29:06 [ADSI prefetch thread] DEBUG TenhouLstmIterator : -----------------------------> Load 5585, 4048
+[2018-09-07 02:29:06 [ADSI prefetch thread] DEBUG TenhouLstmIterator : Get all readers loaded 7
+[2018-09-07 02:29:08 [testSystem-akka.actor.default-dispatcher-3] DEBUG TenhouTcpConnection0 : Received data from server <F10/>
+[2018-09-07 02:29:08 [testSystem-akka.actor.default-dispatcher-3] DEBUG TenhouTcpConnection0 : Received data from server <W/>
+[2018-09-07 02:29:08 [testSystem-akka.actor.default-dispatcher-6] INFO  TenhouClient0 : Received message to be processed: <F10/>
+[2018-09-07 02:29:08 [testSystem-akka.actor.default-dispatcher-6] INFO  TenhouClient0 : Received message to be processed: <W/>
+[2018-09-07 02:29:11 [testSystem-akka.actor.default-dispatcher-6] DEBUG TenhouTcpConnection0 : Received data from server <G68/>
+[2018-09-07 02:29:11 [testSystem-akka.actor.default-dispatcher-6] DEBUG TenhouTcpConnection0 : Received data from server <T60/>
+[2018-09-07 02:29:11 [testSystem-akka.actor.default-dispatcher-3] INFO  TenhouClient0 : Received message to be processed: <G68/>
+[2018-09-07 02:29:11 [testSystem-akka.actor.default-dispatcher-3] INFO  TenhouClient0 : Received message to be processed: <T60/>
+[2018-09-07 02:29:11 [testSystem-akka.actor.default-dispatcher-3] DEBUG MessageParseUtils : Get ron action:
+[2018-09-07 02:29:11 [testSystem-akka.actor.default-dispatcher-3] DEBUG MessageParseUtils : Get ron action: T60
+[2018-09-07 02:29:11 [testSystem-akka.actor.default-dispatcher-3] DEBUG MessageParseUtils : ======================================> Accepted 60
+[2018-09-07 02:29:11 [Thread-4] INFO  r.d.r.dqn.nn.a3c.ACTenhouPolicy : policy [[0.12,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.02,  0.00,  0.00,  0.00,  0.00,  0.01,  0.00,  0.00,  0.02,  0.00,  0.06,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.02,  0.01,  0.00,  0.50,  0.09,  0.15,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00]]
+[2018-09-07 02:29:11 [Thread-4] INFO  r.d.r.dqn.nn.a3c.ACTenhouPolicy : nextAction [[2.00,  0.00,  0.00,  0.00,  1.00,  1.00,  0.00,  1.00,  1.00,  0.00,  0.00,  0.00,  0.00,  1.00,  0.00,  1.00,  1.00,  0.00,  1.00,  1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  1.00,  1.00,  1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00]]
+[2018-09-07 02:29:11 [Thread-4] DEBUG MessageParseUtils : lastState[[2.00,  0.00,  0.00,  0.00,  1.00,  1.00,  0.00,  1.00,  1.00,  0.00,  0.00,  0.00,  0.00,  1.00,  0.00,  1.00,  1.00,  0.00,  1.00,  1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  1.00,  1.00,  1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00]]
+[2018-09-07 02:29:11 [Thread-4] DEBUG MessageParseUtils : ----------------------> Drop actions
+[2018-09-07 02:29:11 [Thread-4] DEBUG MessageParseUtils : Available actions:
+[2018-09-07 02:29:11 [Thread-4] INFO  r.d.r.dqn.nn.a3c.ACTenhouPolicy : 0.49640417098999023, 31
+[2018-09-07 02:29:11 [testSystem-akka.actor.default-dispatcher-3] INFO  TenhouClient0 : ----------------------------> In drop action
+[2018-09-07 02:29:11 [testSystem-akka.actor.default-dispatcher-3] INFO  TenhouClient0 : ------------------------------> Pure drop
+[2018-09-07 02:29:11 [testSystem-akka.actor.default-dispatcher-3] DEBUG ActionParser : drop tiles 126
+[2018-09-07 02:29:11 [testSystem-akka.actor.default-dispatcher-3] INFO  TenhouTcpConnection0 : sent to server <D p="126"/>
+[2018-09-07 02:29:12 [testSystem-akka.actor.default-dispatcher-3] DEBUG TenhouTcpConnection0 : Received data from server <D126/>
+[2018-09-07 02:29:12 [testSystem-akka.actor.default-dispatcher-3] DEBUG TenhouTcpConnection0 : Received data from server <U/>
+[2018-09-07 02:29:12 [testSystem-akka.actor.default-dispatcher-2] INFO  TenhouClient0 : Received message to be processed: <D126/>
+[2018-09-07 02:29:12 [testSystem-akka.actor.default-dispatcher-2] DEBUG MessageParseUtils : ======================================> Dropped 126
+[2018-09-07 02:29:12 [testSystem-akka.actor.default-dispatcher-2] INFO  TenhouClient0 : Received message to be processed: <U/>
+[2018-09-07 02:29:18 [testSystem-akka.actor.default-dispatcher-2] DEBUG TenhouTcpConnection0 : Received data from server <E44/>
+[2018-09-07 02:29:18 [testSystem-akka.actor.default-dispatcher-2] INFO  TenhouClient0 : Received message to be processed: <E44/>
+[2018-09-07 02:29:18 [ADSI prefetch thread] DEBUG TenhouLstmIterator : -----------------------------> Load 5585, 4056
+[2018-09-07 02:29:18 [ADSI prefetch thread] DEBUG TenhouLstmIterator : Get all readers loaded 7
+[2018-09-07 02:29:20 [testSystem-akka.actor.default-dispatcher-3] INFO  TenhouTcpConnection0 : sent to server <Z />
+[2018-09-07 02:29:20 [testSystem-akka.actor.default-dispatcher-3] DEBUG TenhouTcpConnection0 : Received data from server <V/>
+[2018-09-07 02:29:20 [testSystem-akka.actor.default-dispatcher-6] INFO  TenhouClient0 : Received message to be processed: <V/>
+[2018-09-07 02:29:23 [testSystem-akka.actor.default-dispatcher-6] DEBUG TenhouTcpConnection0 : Received data from server <F105/>
+[2018-09-07 02:29:23 [testSystem-akka.actor.default-dispatcher-6] DEBUG TenhouTcpConnection0 : Received data from server <W/>
+[2018-09-07 02:29:23 [testSystem-akka.actor.default-dispatcher-2] INFO  TenhouClient0 : Received message to be processed: <F105/>
+[2018-09-07 02:29:23 [testSystem-akka.actor.default-dispatcher-2] INFO  TenhouClient0 : Received message to be processed: <W/>
+[2018-09-07 02:29:28 [ADSI prefetch thread] DEBUG TenhouLstmIterator : -----------------------------> Load 5585, 4064
+[2018-09-07 02:29:28 [ADSI prefetch thread] DEBUG TenhouLstmIterator : Get all readers loaded 8
+[2018-09-07 02:29:30 [testSystem-akka.actor.default-dispatcher-2] DEBUG TenhouTcpConnection0 : Received data from server <G36/>
+[2018-09-07 02:29:30 [testSystem-akka.actor.default-dispatcher-2] DEBUG TenhouTcpConnection0 : Received data from server <T8/>
+[2018-09-07 02:29:30 [testSystem-akka.actor.default-dispatcher-6] INFO  TenhouClient0 : Received message to be processed: <G36/>
+[2018-09-07 02:29:30 [testSystem-akka.actor.default-dispatcher-6] INFO  TenhouClient0 : Received message to be processed: <T8/>
+[2018-09-07 02:29:30 [testSystem-akka.actor.default-dispatcher-6] DEBUG MessageParseUtils : Get ron action:
+[2018-09-07 02:29:30 [testSystem-akka.actor.default-dispatcher-6] DEBUG MessageParseUtils : Get ron action: T8
+[2018-09-07 02:29:30 [testSystem-akka.actor.default-dispatcher-6] DEBUG MessageParseUtils : ======================================> Accepted 8
+[2018-09-07 02:29:30 [Thread-4] INFO  r.d.r.dqn.nn.a3c.ACTenhouPolicy : policy [[0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.01,  0.00,  0.05,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.05,  0.03,  0.00,  0.03,  0.17,  0.65,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00]]
+[2018-09-07 02:29:30 [Thread-4] INFO  r.d.r.dqn.nn.a3c.ACTenhouPolicy : nextAction [[2.00,  0.00,  1.00,  0.00,  1.00,  1.00,  0.00,  1.00,  1.00,  0.00,  0.00,  0.00,  0.00,  1.00,  0.00,  1.00,  1.00,  0.00,  1.00,  1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  1.00,  1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  1.00,  0.00,  0.00,  0.00,  0.00,  1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00]]
+[2018-09-07 02:29:30 [Thread-4] DEBUG MessageParseUtils : lastState[[2.00,  0.00,  1.00,  0.00,  1.00,  1.00,  0.00,  1.00,  1.00,  0.00,  0.00,  0.00,  0.00,  1.00,  0.00,  1.00,  1.00,  0.00,  1.00,  1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  1.00,  1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  1.00,  0.00,  0.00,  0.00,  0.00,  1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00]]
+[2018-09-07 02:29:30 [Thread-4] DEBUG MessageParseUtils : ----------------------> Drop actions
+[2018-09-07 02:29:30 [Thread-4] DEBUG MessageParseUtils : Available actions:
+[2018-09-07 02:29:30 [Thread-4] INFO  r.d.r.dqn.nn.a3c.ACTenhouPolicy : 0.6457153558731079, 33
+[2018-09-07 02:29:30 [testSystem-akka.actor.default-dispatcher-6] INFO  TenhouClient0 : ----------------------------> In drop action
+[2018-09-07 02:29:30 [testSystem-akka.actor.default-dispatcher-6] INFO  TenhouClient0 : ------------------------------> Pure drop
+[2018-09-07 02:29:30 [testSystem-akka.actor.default-dispatcher-6] DEBUG ActionParser : drop tiles 135
+[2018-09-07 02:29:30 [testSystem-akka.actor.default-dispatcher-6] INFO  TenhouTcpConnection0 : sent to server <D p="135"/>
+[2018-09-07 02:29:31 [testSystem-akka.actor.default-dispatcher-6] DEBUG TenhouTcpConnection0 : Received data from server <D135/>
+[2018-09-07 02:29:31 [testSystem-akka.actor.default-dispatcher-6] DEBUG TenhouTcpConnection0 : Received data from server <U/>
+[2018-09-07 02:29:31 [testSystem-akka.actor.default-dispatcher-3] INFO  TenhouClient0 : Received message to be processed: <D135/>
+[2018-09-07 02:29:31 [testSystem-akka.actor.default-dispatcher-3] DEBUG MessageParseUtils : ======================================> Dropped 135
+[2018-09-07 02:29:31 [testSystem-akka.actor.default-dispatcher-3] INFO  TenhouClient0 : Received message to be processed: <U/>
+[2018-09-07 02:29:34 [testSystem-akka.actor.default-dispatcher-3] DEBUG TenhouTcpConnection0 : Received data from server <E17/>
+[2018-09-07 02:29:34 [testSystem-akka.actor.default-dispatcher-3] DEBUG TenhouTcpConnection0 : Received data from server <V/>
+[2018-09-07 02:29:34 [testSystem-akka.actor.default-dispatcher-6] INFO  TenhouClient0 : Received message to be processed: <E17/>
+[2018-09-07 02:29:34 [testSystem-akka.actor.default-dispatcher-6] INFO  TenhouClient0 : Received message to be processed: <V/>
+[2018-09-07 02:29:35 [testSystem-akka.actor.default-dispatcher-6] INFO  TenhouTcpConnection0 : sent to server <Z />
+[2018-09-07 02:29:35 [testSystem-akka.actor.default-dispatcher-6] DEBUG TenhouTcpConnection0 : Received data from server <F124/>
+[2018-09-07 02:29:35 [testSystem-akka.actor.default-dispatcher-6] DEBUG TenhouTcpConnection0 : Received data from server <W/>
+[2018-09-07 02:29:35 [testSystem-akka.actor.default-dispatcher-3] INFO  TenhouClient0 : Received message to be processed: <F124/>
+[2018-09-07 02:29:35 [testSystem-akka.actor.default-dispatcher-3] INFO  TenhouClient0 : Received message to be processed: <W/>
+[2018-09-07 02:29:36 [ADSI prefetch thread] DEBUG TenhouLstmIterator : -----------------------------> Load 5585, 4072
+[2018-09-07 02:29:36 [ADSI prefetch thread] DEBUG TenhouLstmIterator : Get all readers loaded 7
+[2018-09-07 02:29:39 [testSystem-akka.actor.default-dispatcher-3] DEBUG TenhouTcpConnection0 : Received data from server <g134/>
+[2018-09-07 02:29:39 [testSystem-akka.actor.default-dispatcher-3] DEBUG TenhouTcpConnection0 : Received data from server <T98/>
+[2018-09-07 02:29:39 [testSystem-akka.actor.default-dispatcher-6] INFO  TenhouClient0 : Received message to be processed: <g134/>
+[2018-09-07 02:29:39 [testSystem-akka.actor.default-dispatcher-6] INFO  TenhouClient0 : Received message to be processed: <T98/>
+[2018-09-07 02:29:39 [testSystem-akka.actor.default-dispatcher-6] DEBUG MessageParseUtils : Get ron action:
+[2018-09-07 02:29:39 [testSystem-akka.actor.default-dispatcher-6] DEBUG MessageParseUtils : Get ron action: T98
+[2018-09-07 02:29:39 [testSystem-akka.actor.default-dispatcher-6] DEBUG MessageParseUtils : ======================================> Accepted 98
+[2018-09-07 02:29:39 [Thread-4] INFO  r.d.r.dqn.nn.a3c.ACTenhouPolicy : policy [[0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.07,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.01,  0.15,  0.06,  0.00,  0.03,  0.59,  0.08,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00]]
+[2018-09-07 02:29:39 [Thread-4] INFO  r.d.r.dqn.nn.a3c.ACTenhouPolicy : nextAction [[2.00,  0.00,  1.00,  0.00,  1.00,  1.00,  0.00,  1.00,  1.00,  0.00,  0.00,  0.00,  0.00,  1.00,  0.00,  1.00,  1.00,  0.00,  1.00,  1.00,  0.00,  0.00,  0.00,  0.00,  1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  1.00,  0.00,  0.00,  0.00,  0.00,  1.00,  0.00,  1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00]]
+[2018-09-07 02:29:39 [Thread-4] DEBUG MessageParseUtils : lastState[[2.00,  0.00,  1.00,  0.00,  1.00,  1.00,  0.00,  1.00,  1.00,  0.00,  0.00,  0.00,  0.00,  1.00,  0.00,  1.00,  1.00,  0.00,  1.00,  1.00,  0.00,  0.00,  0.00,  0.00,  1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  1.00,  0.00,  0.00,  0.00,  0.00,  1.00,  0.00,  1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00]]
+[2018-09-07 02:29:39 [Thread-4] DEBUG MessageParseUtils : ----------------------> Drop actions
+[2018-09-07 02:29:39 [Thread-4] DEBUG MessageParseUtils : Available actions:
+[2018-09-07 02:29:39 [Thread-4] INFO  r.d.r.dqn.nn.a3c.ACTenhouPolicy : 0.5897475481033325, 32
+[2018-09-07 02:29:39 [testSystem-akka.actor.default-dispatcher-6] INFO  TenhouClient0 : ----------------------------> In drop action
+[2018-09-07 02:29:39 [testSystem-akka.actor.default-dispatcher-6] INFO  TenhouClient0 : ------------------------------> Pure drop
+[2018-09-07 02:29:39 [testSystem-akka.actor.default-dispatcher-6] DEBUG ActionParser : drop tiles 128
+[2018-09-07 02:29:39 [testSystem-akka.actor.default-dispatcher-6] INFO  TenhouTcpConnection0 : sent to server <D p="128"/>
+[2018-09-07 02:29:39 [testSystem-akka.actor.default-dispatcher-6] DEBUG TenhouTcpConnection0 : Received data from server <D128/>
+[2018-09-07 02:29:39 [testSystem-akka.actor.default-dispatcher-6] DEBUG TenhouTcpConnection0 : Received data from server <U/>
+[2018-09-07 02:29:39 [testSystem-akka.actor.default-dispatcher-3] INFO  TenhouClient0 : Received message to be processed: <D128/>
+[2018-09-07 02:29:39 [testSystem-akka.actor.default-dispatcher-3] DEBUG MessageParseUtils : ======================================> Dropped 128
+[2018-09-07 02:29:39 [testSystem-akka.actor.default-dispatcher-3] INFO  TenhouClient0 : Received message to be processed: <U/>
+[2018-09-07 02:29:45 [ADSI prefetch thread] DEBUG TenhouLstmIterator : -----------------------------> Load 5585, 4080
+[2018-09-07 02:29:45 [ADSI prefetch thread] DEBUG TenhouLstmIterator : Get all readers loaded 7
+[2018-09-07 02:29:45 [testSystem-akka.actor.default-dispatcher-3] DEBUG TenhouTcpConnection0 : Received data from server <E96/>
+[2018-09-07 02:29:45 [testSystem-akka.actor.default-dispatcher-3] INFO  TenhouClient0 : Received message to be processed: <E96/>
+[2018-09-07 02:29:46 [testSystem-akka.actor.default-dispatcher-2] DEBUG TenhouTcpConnection0 : Received data from server <V/>
+[2018-09-07 02:29:46 [testSystem-akka.actor.default-dispatcher-2] INFO  TenhouClient0 : Received message to be processed: <V/>
+[2018-09-07 02:29:50 [testSystem-akka.actor.default-dispatcher-2] INFO  TenhouTcpConnection0 : sent to server <Z />
+[2018-09-07 02:29:50 [testSystem-akka.actor.default-dispatcher-2] DEBUG TenhouTcpConnection0 : Received data from server <F62/>
+[2018-09-07 02:29:50 [testSystem-akka.actor.default-dispatcher-2] DEBUG TenhouTcpConnection0 : Received data from server <W/>
+[2018-09-07 02:29:50 [testSystem-akka.actor.default-dispatcher-2] INFO  TenhouClient0 : Received message to be processed: <F62/>
+[2018-09-07 02:29:50 [testSystem-akka.actor.default-dispatcher-2] INFO  TenhouClient0 : Received message to be processed: <W/>
+
+[2018-09-07 02:29:54 [testSystem-akka.actor.default-dispatcher-3] DEBUG TenhouTcpConnection0 : Received data from server <G71 t="4"/>
+[2018-09-07 02:29:54 [testSystem-akka.actor.default-dispatcher-3] INFO  TenhouClient0 : Received message to be processed: <G71 t="4"/>
+[2018-09-07 02:29:54 [testSystem-akka.actor.default-dispatcher-3] DEBUG MessageParseUtils : Get ron action:
+[2018-09-07 02:29:54 [testSystem-akka.actor.default-dispatcher-3] DEBUG MessageParseUtils : Get ron action: G71,t="4"
+[2018-09-07 02:29:54 [testSystem-akka.actor.default-dispatcher-3] DEBUG ActionParser : -------------> Get t = 4
+[2018-09-07 02:29:54 [testSystem-akka.actor.default-dispatcher-3] DEBUG ActionParser : Get tile for action: 71
+[2018-09-07 02:29:54 [Thread-4] INFO  r.d.r.dqn.nn.a3c.ACTenhouPolicy : policy [[0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.31,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.01,  0.63,  0.00,  0.00,  0.00,  0.00,  0.00,  0.03,  0.01,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00]]
+[2018-09-07 02:29:54 [Thread-4] INFO  r.d.r.dqn.nn.a3c.ACTenhouPolicy : nextAction [[2.00,  0.00,  1.00,  0.00,  1.00,  1.00,  0.00,  1.00,  1.00,  0.00,  0.00,  0.00,  0.00,  1.00,  0.00,  1.00,  1.00,  0.25,  1.00,  1.00,  0.00,  0.00,  0.00,  0.00,  1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  1.00,  0.00,  0.00,  0.00,  0.00,  1.00,  1.00,  1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00]]
+[2018-09-07 02:29:54 [Thread-4] DEBUG MessageParseUtils : lastState[[2.00,  0.00,  1.00,  0.00,  1.00,  1.00,  0.00,  1.00,  1.00,  0.00,  0.00,  0.00,  0.00,  1.00,  0.00,  1.00,  1.00,  0.25,  1.00,  1.00,  0.00,  0.00,  0.00,  0.00,  1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  1.00,  0.00,  0.00,  0.00,  0.00,  1.00,  1.00,  1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00]]
+[2018-09-07 02:29:54 [Thread-4] DEBUG MessageParseUtils : ----------------> Get steal tiles 17
+[2018-09-07 02:29:54 [Thread-4] DEBUG MessageParseUtils : ----------------> Get steal tile and delta 17, 0.25
+[2018-09-07 02:29:54 [Thread-4] DEBUG MessageParseUtils : Available actions:
+[2018-09-07 02:29:54 [Thread-4] INFO  r.d.r.dqn.nn.a3c.ACTenhouPolicy : 0.02774294652044773, 34
+[2018-09-07 02:29:54 [testSystem-akka.actor.default-dispatcher-2] DEBUG MsgHelper : deal with steal 34
+[2018-09-07 02:29:54 [testSystem-akka.actor.default-dispatcher-2] DEBUG ActionParser : -------------------------> Get steal tile 17
+[2018-09-07 02:29:54 [testSystem-akka.actor.default-dispatcher-2] DEBUG ActionParser : 2.0, 0.0, 1.0, 0.0, 1.0, 1.0, 0.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 1.0, 1.0, 0.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
+[2018-09-07 02:29:54 [testSystem-akka.actor.default-dispatcher-2] DEBUG ActionParser : 1, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+[2018-09-07 02:29:54 [testSystem-akka.actor.default-dispatcher-2] DEBUG ActionParser : --------------------------> Candidates 15
+[2018-09-07 02:29:54 [testSystem-akka.actor.default-dispatcher-2] DEBUG ActionParser : Get candidate 15
+[2018-09-07 02:29:54 [testSystem-akka.actor.default-dispatcher-2] DEBUG ActionParser : 15,16
+[2018-09-07 02:29:54 [testSystem-akka.actor.default-dispatcher-6] INFO  TenhouTcpConnection0 : sent to server <N type="3" hai0="60" hai1="65"/>
+[2018-09-07 02:29:54 [testSystem-akka.actor.default-dispatcher-2] DEBUG TenhouTcpConnection0 : Received data from server <N who="0" m="42407" />
+[2018-09-07 02:29:54 [testSystem-akka.actor.default-dispatcher-2] INFO  TenhouClient0 : Received message to be processed: <N who="0" m="42407" />
+[2018-09-07 02:29:54 [testSystem-akka.actor.default-dispatcher-2] DEBUG MessageParseUtils : ======================================> Accepted 71
+[2018-09-07 02:29:54 [Thread-4] INFO  r.d.r.dqn.nn.a3c.ACTenhouPolicy : policy [[0.00,  0.01,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.99,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00]]
+[2018-09-07 02:29:54 [Thread-4] INFO  r.d.r.dqn.nn.a3c.ACTenhouPolicy : nextAction [[2.00,  0.00,  1.00,  0.00,  1.00,  1.00,  0.00,  1.00,  1.00,  0.00,  0.00,  0.00,  0.00,  1.00,  0.00,  64.00,  64.00,  64.00,  1.00,  1.00,  0.00,  0.00,  0.00,  0.00,  1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  1.00,  1.00,  1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  1.00,  0.00,  0.00,  0.00,  0.00,  1.00,  1.00,  1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00]]
+[2018-09-07 02:29:54 [Thread-4] DEBUG MessageParseUtils : lastState[[2.00,  0.00,  1.00,  0.00,  1.00,  1.00,  0.00,  1.00,  1.00,  0.00,  0.00,  0.00,  0.00,  1.00,  0.00,  64.00,  64.00,  64.00,  1.00,  1.00,  0.00,  0.00,  0.00,  0.00,  1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  1.00,  1.00,  1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  1.00,  0.00,  0.00,  0.00,  0.00,  1.00,  1.00,  1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00]]
+[2018-09-07 02:29:54 [Thread-4] DEBUG MessageParseUtils : ----------------------> Drop actions
+[2018-09-07 02:29:54 [Thread-4] DEBUG MessageParseUtils : Available actions:
+[2018-09-07 02:29:54 [Thread-4] INFO  r.d.r.dqn.nn.a3c.ACTenhouPolicy : 2.2802951207268052E-5, 7
+[2018-09-07 02:29:54 [testSystem-akka.actor.default-dispatcher-2] INFO  TenhouClient0 : ----------------------------> In drop action
+[2018-09-07 02:29:54 [testSystem-akka.actor.default-dispatcher-2] INFO  TenhouClient0 : ------------------------------> Pure drop
+[2018-09-07 02:29:54 [testSystem-akka.actor.default-dispatcher-2] DEBUG ActionParser : drop tiles 31
+[2018-09-07 02:29:54 [testSystem-akka.actor.default-dispatcher-2] INFO  TenhouTcpConnection0 : sent to server <D p="31"/>
+[2018-09-07 02:29:55 [testSystem-akka.actor.default-dispatcher-2] DEBUG TenhouTcpConnection0 : Received data from server <D31/>
+[2018-09-07 02:29:55 [testSystem-akka.actor.default-dispatcher-2] DEBUG TenhouTcpConnection0 : Received data from server <U/>
+[2018-09-07 02:29:55 [testSystem-akka.actor.default-dispatcher-6] INFO  TenhouClient0 : Received message to be processed: <D31/>
+[2018-09-07 02:29:55 [testSystem-akka.actor.default-dispatcher-6] DEBUG MessageParseUtils : ======================================> Dropped 31
+[2018-09-07 02:29:55 [testSystem-akka.actor.default-dispatcher-6] INFO  TenhouClient0 : Received message to be processed: <U/>
+[2018-09-07 02:29:56 [ADSI prefetch thread] DEBUG TenhouLstmIterator : -----------------------------> Load 5585, 4088
+[2018-09-07 02:29:56 [ADSI prefetch thread] DEBUG TenhouLstmIterator : Get all readers loaded 7
+[2018-09-07 02:29:58 [testSystem-akka.actor.default-dispatcher-6] DEBUG TenhouTcpConnection0 : Received data from server <e3 t="1"/>
+[2018-09-07 02:29:58 [testSystem-akka.actor.default-dispatcher-6] INFO  TenhouClient0 : Received message to be processed: <e3 t="1"/>
+[2018-09-07 02:29:58 [testSystem-akka.actor.default-dispatcher-6] DEBUG MessageParseUtils : Get ron action:
+[2018-09-07 02:29:58 [testSystem-akka.actor.default-dispatcher-6] DEBUG MessageParseUtils : Get ron action: e3,t="1"
+[2018-09-07 02:29:58 [testSystem-akka.actor.default-dispatcher-6] DEBUG ActionParser : -------------> Get t = 1
+[2018-09-07 02:29:58 [testSystem-akka.actor.default-dispatcher-6] DEBUG ActionParser : Get tile for action: 3
+[2018-09-07 02:29:58 [Thread-4] INFO  r.d.r.dqn.nn.a3c.ACTenhouPolicy : policy [[0.00,  0.01,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.90,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.05,  0.00,  0.00,  0.00,  0.00,  0.04,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00]]
+[2018-09-07 02:29:58 [Thread-4] INFO  r.d.r.dqn.nn.a3c.ACTenhouPolicy : nextAction [[2.50,  0.00,  1.00,  0.00,  1.00,  1.00,  0.00,  0.00,  1.00,  0.00,  0.00,  0.00,  0.00,  1.00,  0.00,  64.00,  64.00,  64.00,  1.00,  1.00,  0.00,  0.00,  0.00,  0.00,  1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  1.00,  1.00,  1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  1.00,  0.00,  0.00,  0.00,  0.00,  1.00,  1.00,  1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00]]
+[2018-09-07 02:29:58 [Thread-4] DEBUG MessageParseUtils : lastState[[2.50,  0.00,  1.00,  0.00,  1.00,  1.00,  0.00,  0.00,  1.00,  0.00,  0.00,  0.00,  0.00,  1.00,  0.00,  64.00,  64.00,  64.00,  1.00,  1.00,  0.00,  0.00,  0.00,  0.00,  1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  1.00,  1.00,  1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  1.00,  0.00,  0.00,  0.00,  0.00,  1.00,  1.00,  1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00]]
+[2018-09-07 02:29:58 [Thread-4] DEBUG MessageParseUtils : ----------------> Get steal tiles 0
+[2018-09-07 02:29:58 [Thread-4] DEBUG MessageParseUtils : ----------------> Get steal tile and delta 0, 0.5
+[2018-09-07 02:29:58 [Thread-4] DEBUG MessageParseUtils : Available actions:
+[2018-09-07 02:29:58 [Thread-4] INFO  r.d.r.dqn.nn.a3c.ACTenhouPolicy : 7.261114501465625E-17, 35
+[2018-09-07 02:29:58 [testSystem-akka.actor.default-dispatcher-6] DEBUG MsgHelper : deal with steal 35
+[2018-09-07 02:29:58 [testSystem-akka.actor.default-dispatcher-6] DEBUG ActionParser : 2.0, 0.0, 1.0, 0.0, 1.0, 1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 64.0, 64.0, 64.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
+[2018-09-07 02:29:58 [testSystem-akka.actor.default-dispatcher-6] DEBUG ActionParser : 1, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+[2018-09-07 02:29:58 [testSystem-akka.actor.default-dispatcher-6] DEBUG ActionParser : tiles: 0, 2
+[2018-09-07 02:29:58 [testSystem-akka.actor.default-dispatcher-6] INFO  TenhouTcpConnection0 : sent to server <N type="1" hai0="0" hai1="2"/>
+[2018-09-07 02:29:59 [testSystem-akka.actor.default-dispatcher-6] DEBUG TenhouTcpConnection0 : Received data from server <N who="0" m="1065" />
+[2018-09-07 02:29:59 [testSystem-akka.actor.default-dispatcher-6] INFO  TenhouClient0 : Received message to be processed: <N who="0" m="1065" />
+[2018-09-07 02:29:59 [testSystem-akka.actor.default-dispatcher-6] DEBUG MessageParseUtils : ======================================> Accepted 2
+[2018-09-07 02:29:59 [Thread-4] INFO  r.d.r.dqn.nn.a3c.ACTenhouPolicy : policy [[1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00]]
+[2018-09-07 02:29:59 [Thread-4] INFO  r.d.r.dqn.nn.a3c.ACTenhouPolicy : nextAction [[192.00,  0.00,  1.00,  0.00,  1.00,  1.00,  0.00,  0.00,  1.00,  0.00,  0.00,  0.00,  0.00,  1.00,  0.00,  64.00,  64.00,  64.00,  1.00,  1.00,  0.00,  0.00,  0.00,  0.00,  1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  3.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  1.00,  1.00,  1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  1.00,  0.00,  0.00,  0.00,  0.00,  1.00,  1.00,  1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00]]
+[2018-09-07 02:29:59 [Thread-4] DEBUG MessageParseUtils : lastState[[192.00,  0.00,  1.00,  0.00,  1.00,  1.00,  0.00,  0.00,  1.00,  0.00,  0.00,  0.00,  0.00,  1.00,  0.00,  64.00,  64.00,  64.00,  1.00,  1.00,  0.00,  0.00,  0.00,  0.00,  1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  3.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  1.00,  1.00,  1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  1.00,  0.00,  0.00,  0.00,  0.00,  1.00,  1.00,  1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00]]
+[2018-09-07 02:29:59 [Thread-4] DEBUG MessageParseUtils : ----------------------> Drop actions
+[2018-09-07 02:29:59 [Thread-4] DEBUG MessageParseUtils : Available actions:
+[2018-09-07 02:29:59 [Thread-4] INFO  r.d.r.dqn.nn.a3c.ACTenhouPolicy : 2.864067205621268E-8, 18
+[2018-09-07 02:29:59 [testSystem-akka.actor.default-dispatcher-6] INFO  TenhouClient0 : ----------------------------> In drop action
+[2018-09-07 02:29:59 [testSystem-akka.actor.default-dispatcher-6] INFO  TenhouClient0 : ------------------------------> Pure drop
+[2018-09-07 02:29:59 [testSystem-akka.actor.default-dispatcher-6] DEBUG ActionParser : drop tiles 72
+[2018-09-07 02:29:59 [testSystem-akka.actor.default-dispatcher-6] INFO  TenhouTcpConnection0 : sent to server <D p="72"/>
+[2018-09-07 02:29:59 [testSystem-akka.actor.default-dispatcher-6] DEBUG TenhouTcpConnection0 : Received data from server <D72/>
+[2018-09-07 02:29:59 [testSystem-akka.actor.default-dispatcher-6] INFO  TenhouClient0 : Received message to be processed: <D72/>
+[2018-09-07 02:29:59 [testSystem-akka.actor.default-dispatcher-6] DEBUG MessageParseUtils : ======================================> Dropped 72
+[2018-09-07 02:30:02 [testSystem-akka.actor.default-dispatcher-6] DEBUG TenhouTcpConnection0 : Received data from server <U/>
+[2018-09-07 02:30:02 [testSystem-akka.actor.default-dispatcher-6] INFO  TenhouClient0 : Received message to be processed: <U/>
+[2018-09-07 02:30:04 [main] INFO  r.d.r.dqn.nn.a3c.A3CTenhouDense : ---------------------> Wait 60000
+[2018-09-07 02:30:05 [ADSI prefetch thread] DEBUG TenhouLstmIterator : -----------------------------> Load 5585, 4096
+[2018-09-07 02:30:05 [ADSI prefetch thread] DEBUG TenhouLstmIterator : Get all readers loaded 8
+[2018-09-07 02:30:05 [testSystem-akka.actor.default-dispatcher-6] INFO  TenhouTcpConnection0 : sent to server <Z />
+[2018-09-07 02:30:08 [testSystem-akka.actor.default-dispatcher-6] DEBUG TenhouTcpConnection0 : Received data from server <E133/>
+[2018-09-07 02:30:08 [testSystem-akka.actor.default-dispatcher-6] DEBUG TenhouTcpConnection0 : Received data from server <V/>
+[2018-09-07 02:30:08 [testSystem-akka.actor.default-dispatcher-2] INFO  TenhouClient0 : Received message to be processed: <E133/>
+[2018-09-07 02:30:08 [testSystem-akka.actor.default-dispatcher-2] INFO  TenhouClient0 : Received message to be processed: <V/>
+[2018-09-07 02:30:11 [testSystem-akka.actor.default-dispatcher-2] DEBUG TenhouTcpConnection0 : Received data from server <f43/>
+[2018-09-07 02:30:11 [testSystem-akka.actor.default-dispatcher-2] DEBUG TenhouTcpConnection0 : Received data from server <W/>
+[2018-09-07 02:30:11 [testSystem-akka.actor.default-dispatcher-6] INFO  TenhouClient0 : Received message to be processed: <f43/>
+[2018-09-07 02:30:11 [testSystem-akka.actor.default-dispatcher-6] INFO  TenhouClient0 : Received message to be processed: <W/>
+[2018-09-07 02:30:12 [ADSI prefetch thread] DEBUG TenhouLstmIterator : -----------------------------> Load 5585, 4104
+[2018-09-07 02:30:12 [ADSI prefetch thread] DEBUG TenhouLstmIterator : Get all readers loaded 8
+[2018-09-07 02:30:19 [ADSI prefetch thread] DEBUG TenhouLstmIterator : -----------------------------> Load 5585, 4112
+[2018-09-07 02:30:19 [ADSI prefetch thread] DEBUG TenhouLstmIterator : Get all readers loaded 7
+[2018-09-07 02:30:20 [testSystem-akka.actor.default-dispatcher-2] INFO  TenhouTcpConnection0 : sent to server <Z />
+[2018-09-07 02:30:20 [testSystem-akka.actor.default-dispatcher-6] DEBUG TenhouTcpConnection0 : Received data from server <G29/>
+[2018-09-07 02:30:20 [testSystem-akka.actor.default-dispatcher-6] DEBUG TenhouTcpConnection0 : Received data from server <T78/>
+[2018-09-07 02:30:20 [testSystem-akka.actor.default-dispatcher-2] INFO  TenhouClient0 : Received message to be processed: <G29/>
+[2018-09-07 02:30:20 [testSystem-akka.actor.default-dispatcher-2] INFO  TenhouClient0 : Received message to be processed: <T78/>
+[2018-09-07 02:30:20 [testSystem-akka.actor.default-dispatcher-2] DEBUG MessageParseUtils : Get ron action:
+[2018-09-07 02:30:20 [testSystem-akka.actor.default-dispatcher-2] DEBUG MessageParseUtils : Get ron action: T78
+[2018-09-07 02:30:20 [testSystem-akka.actor.default-dispatcher-2] DEBUG MessageParseUtils : ======================================> Accepted 78
+[2018-09-07 02:30:20 [Thread-4] INFO  r.d.r.dqn.nn.a3c.ACTenhouPolicy : policy [[0.95,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.05,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00]]
+[2018-09-07 02:30:20 [Thread-4] INFO  r.d.r.dqn.nn.a3c.ACTenhouPolicy : nextAction [[192.00,  0.00,  1.00,  0.00,  1.00,  1.00,  0.00,  0.00,  1.00,  0.00,  0.00,  0.00,  0.00,  1.00,  0.00,  64.00,  64.00,  64.00,  0.00,  2.00,  0.00,  0.00,  0.00,  0.00,  1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  3.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  1.00,  1.00,  1.00,  1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  1.00,  0.00,  0.00,  0.00,  0.00,  1.00,  1.00,  1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00]]
+[2018-09-07 02:30:20 [Thread-4] DEBUG MessageParseUtils : lastState[[192.00,  0.00,  1.00,  0.00,  1.00,  1.00,  0.00,  0.00,  1.00,  0.00,  0.00,  0.00,  0.00,  1.00,  0.00,  64.00,  64.00,  64.00,  0.00,  2.00,  0.00,  0.00,  0.00,  0.00,  1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  3.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  1.00,  1.00,  1.00,  1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  1.00,  0.00,  0.00,  0.00,  0.00,  1.00,  1.00,  1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00]]
+[2018-09-07 02:30:20 [Thread-4] DEBUG MessageParseUtils : ----------------------> Drop actions
+[2018-09-07 02:30:20 [Thread-4] DEBUG MessageParseUtils : Available actions:
+[2018-09-07 02:30:20 [Thread-4] INFO  r.d.r.dqn.nn.a3c.ACTenhouPolicy : 1.6383722923805043E-14, 8
+[2018-09-07 02:30:20 [testSystem-akka.actor.default-dispatcher-2] INFO  TenhouClient0 : ----------------------------> In drop action
+[2018-09-07 02:30:20 [testSystem-akka.actor.default-dispatcher-2] INFO  TenhouClient0 : ------------------------------> Pure drop
+[2018-09-07 02:30:20 [testSystem-akka.actor.default-dispatcher-2] DEBUG ActionParser : drop tiles 34
+[2018-09-07 02:30:20 [testSystem-akka.actor.default-dispatcher-2] INFO  TenhouTcpConnection0 : sent to server <D p="34"/>
+[2018-09-07 02:30:21 [testSystem-akka.actor.default-dispatcher-2] DEBUG TenhouTcpConnection0 : Received data from server <D34/>
+[2018-09-07 02:30:21 [testSystem-akka.actor.default-dispatcher-3] INFO  TenhouClient0 : Received message to be processed: <D34/>
+[2018-09-07 02:30:21 [testSystem-akka.actor.default-dispatcher-3] DEBUG MessageParseUtils : ======================================> Dropped 34
+[2018-09-07 02:30:23 [testSystem-akka.actor.default-dispatcher-2] DEBUG TenhouTcpConnection0 : Received data from server <U/>
+[2018-09-07 02:30:23 [testSystem-akka.actor.default-dispatcher-3] INFO  TenhouClient0 : Received message to be processed: <U/>
+[2018-09-07 02:30:26 [ADSI prefetch thread] DEBUG TenhouLstmIterator : -----------------------------> Load 5585, 4120
+[2018-09-07 02:30:26 [ADSI prefetch thread] DEBUG TenhouLstmIterator : Get all readers loaded 8
+[2018-09-07 02:30:27 [testSystem-akka.actor.default-dispatcher-2] DEBUG TenhouTcpConnection0 : Received data from server <e76 t="1"/>
+[2018-09-07 02:30:27 [testSystem-akka.actor.default-dispatcher-2] INFO  TenhouClient0 : Received message to be processed: <e76 t="1"/>
+[2018-09-07 02:30:27 [testSystem-akka.actor.default-dispatcher-2] DEBUG MessageParseUtils : Get ron action:
+[2018-09-07 02:30:27 [testSystem-akka.actor.default-dispatcher-2] DEBUG MessageParseUtils : Get ron action: e76,t="1"
+[2018-09-07 02:30:27 [testSystem-akka.actor.default-dispatcher-2] DEBUG ActionParser : -------------> Get t = 1
+[2018-09-07 02:30:27 [testSystem-akka.actor.default-dispatcher-2] DEBUG ActionParser : Get tile for action: 76
+[2018-09-07 02:30:27 [Thread-4] INFO  r.d.r.dqn.nn.a3c.ACTenhouPolicy : policy [[0.80,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.20,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00]]
+[2018-09-07 02:30:27 [Thread-4] INFO  r.d.r.dqn.nn.a3c.ACTenhouPolicy : nextAction [[192.00,  0.00,  1.00,  0.00,  1.00,  1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  1.00,  0.00,  64.00,  64.00,  64.00,  0.00,  2.50,  0.00,  0.00,  0.00,  0.00,  1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  3.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  1.00,  1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  1.00,  1.00,  1.00,  1.00,  1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  1.00,  0.00,  0.00,  0.00,  0.00,  1.00,  1.00,  1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00]]
+[2018-09-07 02:30:27 [Thread-4] DEBUG MessageParseUtils : lastState[[192.00,  0.00,  1.00,  0.00,  1.00,  1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  1.00,  0.00,  64.00,  64.00,  64.00,  0.00,  2.50,  0.00,  0.00,  0.00,  0.00,  1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  3.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  1.00,  1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  1.00,  1.00,  1.00,  1.00,  1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  1.00,  0.00,  0.00,  0.00,  0.00,  1.00,  1.00,  1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00]]
+[2018-09-07 02:30:27 [Thread-4] DEBUG MessageParseUtils : ----------------> Get steal tiles 19
+[2018-09-07 02:30:27 [Thread-4] DEBUG MessageParseUtils : ----------------> Get steal tile and delta 19, 0.5
+[2018-09-07 02:30:27 [Thread-4] DEBUG MessageParseUtils : Available actions:
+[2018-09-07 02:30:27 [Thread-4] INFO  r.d.r.dqn.nn.a3c.ACTenhouPolicy : 3.1205898528252104E-22, 35
+[2018-09-07 02:30:27 [testSystem-akka.actor.default-dispatcher-2] DEBUG MsgHelper : deal with steal 35
+[2018-09-07 02:30:27 [testSystem-akka.actor.default-dispatcher-2] DEBUG ActionParser : 192.0, 0.0, 1.0, 0.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 64.0, 64.0, 64.0, 0.0, 2.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 3.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 1.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
+[2018-09-07 02:30:27 [testSystem-akka.actor.default-dispatcher-2] DEBUG ActionParser : 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+[2018-09-07 02:30:27 [testSystem-akka.actor.default-dispatcher-2] DEBUG ActionParser : tiles: 77, 78
+[2018-09-07 02:30:27 [testSystem-akka.actor.default-dispatcher-3] INFO  TenhouTcpConnection0 : sent to server <N type="1" hai0="77" hai1="78"/>
+[2018-09-07 02:30:27 [testSystem-akka.actor.default-dispatcher-2] DEBUG TenhouTcpConnection0 : Received data from server <N who="0" m="29289" />
+[2018-09-07 02:30:27 [testSystem-akka.actor.default-dispatcher-2] INFO  TenhouClient0 : Received message to be processed: <N who="0" m="29289" />
+[2018-09-07 02:30:27 [testSystem-akka.actor.default-dispatcher-2] DEBUG MessageParseUtils : ======================================> Accepted 76
+[2018-09-07 02:30:27 [Thread-4] INFO  r.d.r.dqn.nn.a3c.ACTenhouPolicy : policy [[0.99,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00]]
+[2018-09-07 02:30:27 [Thread-4] INFO  r.d.r.dqn.nn.a3c.ACTenhouPolicy : nextAction [[192.00,  0.00,  1.00,  0.00,  1.00,  1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  1.00,  0.00,  64.00,  64.00,  64.00,  0.00,  192.00,  0.00,  0.00,  0.00,  0.00,  1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  3.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  1.00,  1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  1.00,  1.00,  1.00,  1.00,  3.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  1.00,  0.00,  0.00,  0.00,  0.00,  1.00,  1.00,  1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00]]
+[2018-09-07 02:30:27 [Thread-4] DEBUG MessageParseUtils : lastState[[192.00,  0.00,  1.00,  0.00,  1.00,  1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  1.00,  0.00,  64.00,  64.00,  64.00,  0.00,  192.00,  0.00,  0.00,  0.00,  0.00,  1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  3.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  1.00,  1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  1.00,  1.00,  1.00,  1.00,  3.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  1.00,  0.00,  0.00,  0.00,  0.00,  1.00,  1.00,  1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00]]
+[2018-09-07 02:30:27 [Thread-4] DEBUG MessageParseUtils : ----------------------> Drop actions
+[2018-09-07 02:30:27 [Thread-4] DEBUG MessageParseUtils : Available actions:
+[2018-09-07 02:30:27 [Thread-4] INFO  r.d.r.dqn.nn.a3c.ACTenhouPolicy : 8.826366287156828E-13, 24
+[2018-09-07 02:30:27 [testSystem-akka.actor.default-dispatcher-2] INFO  TenhouClient0 : ----------------------------> In drop action
+[2018-09-07 02:30:27 [testSystem-akka.actor.default-dispatcher-2] INFO  TenhouClient0 : ------------------------------> Pure drop
+[2018-09-07 02:30:27 [testSystem-akka.actor.default-dispatcher-2] DEBUG ActionParser : drop tiles 98
+[2018-09-07 02:30:27 [testSystem-akka.actor.default-dispatcher-2] INFO  TenhouTcpConnection0 : sent to server <D p="98"/>
+[2018-09-07 02:30:27 [testSystem-akka.actor.default-dispatcher-6] DEBUG TenhouTcpConnection0 : Received data from server <D98/>
+[2018-09-07 02:30:27 [testSystem-akka.actor.default-dispatcher-6] DEBUG TenhouTcpConnection0 : Received data from server <U/>
+[2018-09-07 02:30:27 [testSystem-akka.actor.default-dispatcher-2] INFO  TenhouClient0 : Received message to be processed: <D98/>
+[2018-09-07 02:30:27 [testSystem-akka.actor.default-dispatcher-2] DEBUG MessageParseUtils : ======================================> Dropped 98
+[2018-09-07 02:30:27 [testSystem-akka.actor.default-dispatcher-2] INFO  TenhouClient0 : Received message to be processed: <U/>
+[2018-09-07 02:30:30 [testSystem-akka.actor.default-dispatcher-6] DEBUG TenhouTcpConnection0 : Received data from server <e70/>
+[2018-09-07 02:30:30 [testSystem-akka.actor.default-dispatcher-6] DEBUG TenhouTcpConnection0 : Received data from server <V/>
+[2018-09-07 02:30:30 [testSystem-akka.actor.default-dispatcher-2] INFO  TenhouClient0 : Received message to be processed: <e70/>
+[2018-09-07 02:30:30 [testSystem-akka.actor.default-dispatcher-2] INFO  TenhouClient0 : Received message to be processed: <V/>
+[2018-09-07 02:30:35 [ADSI prefetch thread] DEBUG TenhouLstmIterator : -----------------------------> Load 5585, 4128
+[2018-09-07 02:30:35 [ForkJoinPool-2-worker-3] DEBUG TenhouXmlFileReader : Don't know what to do with UN
+[2018-09-07 02:30:35 [ADSI prefetch thread] DEBUG TenhouLstmIterator : Get all readers loaded 8
+[2018-09-07 02:30:35 [testSystem-akka.actor.default-dispatcher-2] INFO  TenhouTcpConnection0 : sent to server <Z />
+[2018-09-07 02:30:37 [testSystem-akka.actor.default-dispatcher-3] DEBUG TenhouTcpConnection0 : Received data from server <F130/>
+[2018-09-07 02:30:37 [testSystem-akka.actor.default-dispatcher-3] DEBUG TenhouTcpConnection0 : Received data from server <W/>
+[2018-09-07 02:30:37 [testSystem-akka.actor.default-dispatcher-3] INFO  TenhouClient0 : Received message to be processed: <F130/>
+[2018-09-07 02:30:37 [testSystem-akka.actor.default-dispatcher-3] INFO  TenhouClient0 : Received message to be processed: <W/>
+[2018-09-07 02:30:43 [testSystem-akka.actor.default-dispatcher-2] DEBUG TenhouTcpConnection0 : Received data from server <G14 t="4"/>
+[2018-09-07 02:30:43 [testSystem-akka.actor.default-dispatcher-2] INFO  TenhouClient0 : Received message to be processed: <G14 t="4"/>
+[2018-09-07 02:30:43 [testSystem-akka.actor.default-dispatcher-2] DEBUG MessageParseUtils : Get ron action:
+[2018-09-07 02:30:43 [testSystem-akka.actor.default-dispatcher-2] DEBUG MessageParseUtils : Get ron action: G14,t="4"
+[2018-09-07 02:30:43 [testSystem-akka.actor.default-dispatcher-2] DEBUG ActionParser : -------------> Get t = 4
+[2018-09-07 02:30:43 [testSystem-akka.actor.default-dispatcher-2] DEBUG ActionParser : Get tile for action: 14
+[2018-09-07 02:30:43 [Thread-4] INFO  r.d.r.dqn.nn.a3c.ACTenhouPolicy : policy [[1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00]]
+[2018-09-07 02:30:43 [Thread-4] INFO  r.d.r.dqn.nn.a3c.ACTenhouPolicy : nextAction [[192.00,  0.00,  1.00,  0.25,  1.00,  1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  1.00,  0.00,  64.00,  64.00,  64.00,  0.00,  192.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  3.00,  0.00,  0.00,  1.00,  0.00,  0.00,  0.00,  1.00,  1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  1.00,  1.00,  1.00,  1.00,  3.00,  0.00,  0.00,  0.00,  0.00,  1.00,  0.00,  1.00,  0.00,  0.00,  0.00,  0.00,  1.00,  1.00,  1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00]]
+[2018-09-07 02:30:43 [Thread-4] DEBUG MessageParseUtils : lastState[[192.00,  0.00,  1.00,  0.25,  1.00,  1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  1.00,  0.00,  64.00,  64.00,  64.00,  0.00,  192.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  3.00,  0.00,  0.00,  1.00,  0.00,  0.00,  0.00,  1.00,  1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  1.00,  1.00,  1.00,  1.00,  3.00,  0.00,  0.00,  0.00,  0.00,  1.00,  0.00,  1.00,  0.00,  0.00,  0.00,  0.00,  1.00,  1.00,  1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00]]
+[2018-09-07 02:30:43 [Thread-4] DEBUG MessageParseUtils : ----------------> Get steal tiles 3
+[2018-09-07 02:30:43 [Thread-4] DEBUG MessageParseUtils : ----------------> Get steal tile and delta 3, 0.25
+[2018-09-07 02:30:43 [Thread-4] DEBUG MessageParseUtils : Available actions:
+[2018-09-07 02:30:43 [Thread-4] INFO  r.d.r.dqn.nn.a3c.ACTenhouPolicy : 2.631019998254664E-21, 34
+[2018-09-07 02:30:43 [testSystem-akka.actor.default-dispatcher-3] DEBUG MsgHelper : deal with steal 34
+[2018-09-07 02:30:43 [testSystem-akka.actor.default-dispatcher-3] DEBUG ActionParser : -------------------------> Get steal tile 3
+[2018-09-07 02:30:43 [testSystem-akka.actor.default-dispatcher-3] DEBUG ActionParser : 192.0, 0.0, 1.0, 0.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 64.0, 64.0, 64.0, 0.0, 192.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 3.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 1.0, 1.0, 3.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
+[2018-09-07 02:30:43 [testSystem-akka.actor.default-dispatcher-3] DEBUG ActionParser : 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+[2018-09-07 02:30:43 [testSystem-akka.actor.default-dispatcher-3] DEBUG ActionParser : --------------------------> Candidates 2, 3
+[2018-09-07 02:30:43 [testSystem-akka.actor.default-dispatcher-3] DEBUG ActionParser : Get candidate 3
+[2018-09-07 02:30:43 [testSystem-akka.actor.default-dispatcher-3] DEBUG ActionParser : 4,5
+[2018-09-07 02:30:43 [testSystem-akka.actor.default-dispatcher-3] INFO  TenhouTcpConnection0 : sent to server <N type="3" hai0="19" hai1="23"/>
+[2018-09-07 02:30:43 [testSystem-akka.actor.default-dispatcher-6] DEBUG TenhouTcpConnection0 : Received data from server <N who="0" m="9719" />
+[2018-09-07 02:30:43 [testSystem-akka.actor.default-dispatcher-6] INFO  TenhouClient0 : Received message to be processed: <N who="0" m="9719" />
+[2018-09-07 02:30:43 [testSystem-akka.actor.default-dispatcher-6] DEBUG MessageParseUtils : ======================================> Accepted 14
+[2018-09-07 02:30:43 [Thread-4] INFO  r.d.r.dqn.nn.a3c.ACTenhouPolicy : policy [[0.96,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.03,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.01,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00]]
+[2018-09-07 02:30:43 [Thread-4] INFO  r.d.r.dqn.nn.a3c.ACTenhouPolicy : nextAction [[192.00,  0.00,  1.00,  64.00,  64.00,  64.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  1.00,  0.00,  64.00,  64.00,  64.00,  0.00,  192.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  3.00,  0.00,  0.00,  1.00,  1.00,  1.00,  0.00,  1.00,  1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  1.00,  1.00,  1.00,  1.00,  3.00,  0.00,  0.00,  0.00,  0.00,  1.00,  0.00,  1.00,  0.00,  0.00,  0.00,  0.00,  1.00,  1.00,  1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00]]
+[2018-09-07 02:30:43 [Thread-4] DEBUG MessageParseUtils : lastState[[192.00,  0.00,  1.00,  64.00,  64.00,  64.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  1.00,  0.00,  64.00,  64.00,  64.00,  0.00,  192.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  3.00,  0.00,  0.00,  1.00,  1.00,  1.00,  0.00,  1.00,  1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  1.00,  1.00,  1.00,  1.00,  3.00,  0.00,  0.00,  0.00,  0.00,  1.00,  0.00,  1.00,  0.00,  0.00,  0.00,  0.00,  1.00,  1.00,  1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00]]
+[2018-09-07 02:30:43 [Thread-4] DEBUG MessageParseUtils : ----------------------> Drop actions
+[2018-09-07 02:30:43 [Thread-4] DEBUG MessageParseUtils : Available actions:
+[2018-09-07 02:30:43 [Thread-4] INFO  r.d.r.dqn.nn.a3c.ACTenhouPolicy : 1.3905789112320296E-18, 13
+[2018-09-07 02:30:43 [testSystem-akka.actor.default-dispatcher-6] INFO  TenhouClient0 : ----------------------------> In drop action
+[2018-09-07 02:30:43 [testSystem-akka.actor.default-dispatcher-6] INFO  TenhouClient0 : ------------------------------> Pure drop
+[2018-09-07 02:30:43 [testSystem-akka.actor.default-dispatcher-6] DEBUG ActionParser : drop tiles 53
+[2018-09-07 02:30:43 [testSystem-akka.actor.default-dispatcher-6] INFO  TenhouTcpConnection0 : sent to server <D p="53"/>
+[2018-09-07 02:30:43 [testSystem-akka.actor.default-dispatcher-6] DEBUG TenhouTcpConnection0 : Received data from server <D53/>
+[2018-09-07 02:30:43 [testSystem-akka.actor.default-dispatcher-6] INFO  TenhouClient0 : Received message to be processed: <D53/>
+[2018-09-07 02:30:43 [testSystem-akka.actor.default-dispatcher-6] DEBUG MessageParseUtils : ======================================> Dropped 53
+[2018-09-07 02:30:44 [ADSI prefetch thread] DEBUG TenhouLstmIterator : -----------------------------> Load 5585, 4136
+[2018-09-07 02:30:44 [ADSI prefetch thread] DEBUG TenhouLstmIterator : Get all readers loaded 8
+[2018-09-07 02:30:46 [testSystem-akka.actor.default-dispatcher-6] DEBUG TenhouTcpConnection0 : Received data from server <U/>
+[2018-09-07 02:30:46 [testSystem-akka.actor.default-dispatcher-6] INFO  TenhouClient0 : Received message to be processed: <U/>
+[2018-09-07 02:30:48 [testSystem-akka.actor.default-dispatcher-6] DEBUG TenhouTcpConnection0 : Received data from server <e51/>
+[2018-09-07 02:30:48 [testSystem-akka.actor.default-dispatcher-6] DEBUG TenhouTcpConnection0 : Received data from server <V/>
+[2018-09-07 02:30:48 [testSystem-akka.actor.default-dispatcher-3] INFO  TenhouClient0 : Received message to be processed: <e51/>
+[2018-09-07 02:30:48 [testSystem-akka.actor.default-dispatcher-3] INFO  TenhouClient0 : Received message to be processed: <V/>
+[2018-09-07 02:30:50 [testSystem-akka.actor.default-dispatcher-3] INFO  TenhouTcpConnection0 : sent to server <Z />
+[2018-09-07 02:30:52 [ADSI prefetch thread] DEBUG TenhouLstmIterator : -----------------------------> Load 5585, 4144
+[2018-09-07 02:30:52 [ForkJoinPool-2-worker-5] DEBUG TenhouXmlFileReader : Don't know what to do with UN
+[2018-09-07 02:30:52 [ADSI prefetch thread] DEBUG TenhouLstmIterator : Get all readers loaded 8
+[2018-09-07 02:30:52 [testSystem-akka.actor.default-dispatcher-3] DEBUG TenhouTcpConnection0 : Received data from server <f112/>
+[2018-09-07 02:30:52 [testSystem-akka.actor.default-dispatcher-3] INFO  TenhouClient0 : Received message to be processed: <f112/>
+[2018-09-07 02:30:56 [testSystem-akka.actor.default-dispatcher-3] DEBUG TenhouTcpConnection0 : Received data from server <W/>
+[2018-09-07 02:30:56 [testSystem-akka.actor.default-dispatcher-3] INFO  TenhouClient0 : Received message to be processed: <W/>
+[2018-09-07 02:30:58 [ADSI prefetch thread] DEBUG TenhouLstmIterator : -----------------------------> Load 5585, 4152
+[2018-09-07 02:30:58 [ADSI prefetch thread] DEBUG TenhouLstmIterator : Get all readers loaded 7
+[2018-09-07 02:31:04 [main] INFO  r.d.r.dqn.nn.a3c.A3CTenhouDense : ---------------------> Wait 60000
+[2018-09-07 02:31:05 [testSystem-akka.actor.default-dispatcher-2] INFO  TenhouTcpConnection0 : sent to server <Z />
+[2018-09-07 02:31:07 [testSystem-akka.actor.default-dispatcher-2] DEBUG TenhouTcpConnection0 : Received data from server <G123/>
+[2018-09-07 02:31:07 [testSystem-akka.actor.default-dispatcher-2] DEBUG TenhouTcpConnection0 : Received data from server <T94/>
+[2018-09-07 02:31:07 [testSystem-akka.actor.default-dispatcher-3] INFO  TenhouClient0 : Received message to be processed: <G123/>
+[2018-09-07 02:31:07 [testSystem-akka.actor.default-dispatcher-3] INFO  TenhouClient0 : Received message to be processed: <T94/>
+[2018-09-07 02:31:07 [testSystem-akka.actor.default-dispatcher-3] DEBUG MessageParseUtils : Get ron action:
+[2018-09-07 02:31:07 [testSystem-akka.actor.default-dispatcher-3] DEBU
+ MessageParseUtils : Get ron action: T94
+[2018-09-07 02:31:07 [testSystem-akka.actor.default-dispatcher-3] DEBUG MessageParseUtils : ======================================> Accepted 94
+[2018-09-07 02:31:07 [Thread-4] INFO  r.d.r.dqn.nn.a3c.ACTenhouPolicy : policy [[1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00]]
+[2018-09-07 02:31:07 [Thread-4] INFO  r.d.r.dqn.nn.a3c.ACTenhouPolicy : nextAction [[192.00,  0.00,  1.00,  64.00,  64.00,  64.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  64.00,  64.00,  64.00,  0.00,  192.00,  0.00,  0.00,  0.00,  1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  3.00,  0.00,  0.00,  1.00,  1.00,  1.00,  0.00,  1.00,  1.00,  0.00,  0.00,  0.00,  0.00,  1.00,  0.00,  1.00,  1.00,  1.00,  1.00,  3.00,  0.00,  0.00,  0.00,  0.00,  1.00,  0.00,  1.00,  0.00,  0.00,  0.00,  0.00,  1.00,  1.00,  1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00]]
+[2018-09-07 02:31:07 [Thread-4] DEBUG MessageParseUtils : lastState[[192.00,  0.00,  1.00,  64.00,  64.00,  64.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  64.00,  64.00,  64.00,  0.00,  192.00,  0.00,  0.00,  0.00,  1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  3.00,  0.00,  0.00,  1.00,  1.00,  1.00,  0.00,  1.00,  1.00,  0.00,  0.00,  0.00,  0.00,  1.00,  0.00,  1.00,  1.00,  1.00,  1.00,  3.00,  0.00,  0.00,  0.00,  0.00,  1.00,  0.00,  1.00,  0.00,  0.00,  0.00,  0.00,  1.00,  1.00,  1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00]]
+[2018-09-07 02:31:07 [Thread-4] DEBUG MessageParseUtils : ----------------------> Drop actions
+[2018-09-07 02:31:07 [Thread-4] DEBUG MessageParseUtils : Available actions:
+[2018-09-07 02:31:07 [Thread-4] INFO  r.d.r.dqn.nn.a3c.ACTenhouPolicy : 9.745441351691544E-14, 23
+[2018-09-07 02:31:07 [testSystem-akka.actor.default-dispatcher-3] INFO  TenhouClient0 : ----------------------------> In drop action
+[2018-09-07 02:31:07 [testSystem-akka.actor.default-dispatcher-3] INFO  TenhouClient0 : ------------------------------> Pure drop
+[2018-09-07 02:31:07 [testSystem-akka.actor.default-dispatcher-3] DEBUG ActionParser : drop tiles 94
+[2018-09-07 02:31:07 [testSystem-akka.actor.default-dispatcher-3] INFO  TenhouTcpConnection0 : sent to server <D p="94"/>
+[2018-09-07 02:31:07 [testSystem-akka.actor.default-dispatcher-3] DEBUG TenhouTcpConnection0 : Received data from server <D94/>
+[2018-09-07 02:31:07 [testSystem-akka.actor.default-dispatcher-3] INFO  TenhouClient0 : Received message to be processed: <D94/>
+[2018-09-07 02:31:07 [testSystem-akka.actor.default-dispatcher-3] DEBUG MessageParseUtils : ======================================> Dropped 94
+[2018-09-07 02:31:09 [ADSI prefetch thread] DEBUG TenhouLstmIterator : -----------------------------> Load 5585, 4160
+[2018-09-07 02:31:09 [ADSI prefetch thread] DEBUG TenhouLstmIterator : Get all readers loaded 8
+[2018-09-07 02:31:10 [testSystem-akka.actor.default-dispatcher-3] DEBUG TenhouTcpConnection0 : Received data from server <U/>
+[2018-09-07 02:31:10 [testSystem-akka.actor.default-dispatcher-3] INFO  TenhouClient0 : Received message to be processed: <U/>
+[2018-09-07 02:31:13 [testSystem-akka.actor.default-dispatcher-2] DEBUG TenhouTcpConnection0 : Received data from server <e91/>
+[2018-09-07 02:31:13 [testSystem-akka.actor.default-dispatcher-2] INFO  TenhouClient0 : Received message to be processed: <e91/>
+[2018-09-07 02:31:14 [testSystem-akka.actor.default-dispatcher-3] DEBUG TenhouTcpConnection0 : Received data from server <V/>
+[2018-09-07 02:31:14 [testSystem-akka.actor.default-dispatcher-3] INFO  TenhouClient0 : Received message to be processed: <V/>
+[2018-09-07 02:31:15 [ADSI prefetch thread] DEBUG TenhouLstmIterator : -----------------------------> Load 5585, 4168
+[2018-09-07 02:31:16 [ADSI prefetch thread] DEBUG TenhouLstmIterator : Get all readers loaded 8
+[2018-09-07 02:31:17 [testSystem-akka.actor.default-dispatcher-2] DEBUG TenhouTcpConnection0 : Received data from server <f61/>
+[2018-09-07 02:31:17 [testSystem-akka.actor.default-dispatcher-2] DEBUG TenhouTcpConnection0 : Received data from server <W/>
+[2018-09-07 02:31:17 [testSystem-akka.actor.default-dispatcher-2] INFO  TenhouClient0 : Received message to be processed: <f61/>
+[2018-09-07 02:31:17 [testSystem-akka.actor.default-dispatcher-2] INFO  TenhouClient0 : Received message to be processed: <W/>
+[2018-09-07 02:31:19 [testSystem-akka.actor.default-dispatcher-6] DEBUG TenhouTcpConnection0 : Received data from server <G122/>
+[2018-09-07 02:31:19 [testSystem-akka.actor.default-dispatcher-6] DEBUG TenhouTcpConnection0 : Received data from server <T100/>
+[2018-09-07 02:31:19 [testSystem-akka.actor.default-dispatcher-3] INFO  TenhouClient0 : Received message to be processed: <G122/>
+[2018-09-07 02:31:19 [testSystem-akka.actor.default-dispatcher-3] INFO  TenhouClient0 : Received message to be processed: <T100/>
+[2018-09-07 02:31:19 [testSystem-akka.actor.default-dispatcher-3] DEBUG MessageParseUtils : Get ron action:
+[2018-09-07 02:31:19 [testSystem-akka.actor.default-dispatcher-3] DEBUG MessageParseUtils : Get ron action: T100
+[2018-09-07 02:31:19 [testSystem-akka.actor.default-dispatcher-3] DEBUG MessageParseUtils : ======================================> Accepted 100
+[2018-09-07 02:31:19 [Thread-4] INFO  r.d.r.dqn.nn.a3c.ACTenhouPolicy : policy [[1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00]]
+[2018-09-07 02:31:19 [Thread-4] INFO  r.d.r.dqn.nn.a3c.ACTenhouPolicy : nextAction [[192.00,  0.00,  1.00,  64.00,  64.00,  64.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  64.00,  64.00,  64.00,  0.00,  192.00,  0.00,  0.00,  0.00,  0.00,  0.00,  1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  3.00,  0.00,  0.00,  1.00,  1.00,  1.00,  0.00,  1.00,  1.00,  0.00,  0.00,  0.00,  0.00,  1.00,  0.00,  1.00,  1.00,  1.00,  1.00,  3.00,  0.00,  0.00,  0.00,  1.00,  1.00,  0.00,  1.00,  0.00,  0.00,  0.00,  0.00,  1.00,  1.00,  1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00]]
+[2018-09-07 02:31:19 [Thread-4] DEBUG MessageParseUtils : lastState[[192.00,  0.00,  1.00,  64.00,  64.00,  64.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  64.00,  64.00,  64.00,  0.00,  192.00,  0.00,  0.00,  0.00,  0.00,  0.00,  1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  3.00,  0.00,  0.00,  1.00,  1.00,  1.00,  0.00,  1.00,  1.00,  0.00,  0.00,  0.00,  0.00,  1.00,  0.00,  1.00,  1.00,  1.00,  1.00,  3.00,  0.00,  0.00,  0.00,  1.00,  1.00,  0.00,  1.00,  0.00,  0.00,  0.00,  0.00,  1.00,  1.00,  1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00]]
+[2018-09-07 02:31:19 [Thread-4] DEBUG MessageParseUtils : ----------------------> Drop actions
+[2018-09-07 02:31:19 [Thread-4] DEBUG MessageParseUtils : Available actions:
+[2018-09-07 02:31:19 [Thread-4] INFO  r.d.r.dqn.nn.a3c.ACTenhouPolicy : 1.66784395889794E-18, 25
+[2018-09-07 02:31:19 [testSystem-akka.actor.default-dispatcher-3] INFO  TenhouClient0 : ----------------------------> In drop action
+[2018-09-07 02:31:19 [testSystem-akka.actor.default-dispatcher-3] INFO  TenhouClient0 : ------------------------------> Pure drop
+[2018-09-07 02:31:19 [testSystem-akka.actor.default-dispatcher-3] DEBUG ActionParser : drop tiles 100
+[2018-09-07 02:31:19 [testSystem-akka.actor.default-dispatcher-3] INFO  TenhouTcpConnection0 : sent to server <D p="100"/>
+[2018-09-07 02:31:19 [testSystem-akka.actor.default-dispatcher-6] DEBUG TenhouTcpConnection0 : Received data from server <D100/>
+[2018-09-07 02:31:19 [testSystem-akka.actor.default-dispatcher-6] DEBUG TenhouTcpConnection0 : Received data from server <U/>
+[2018-09-07 02:31:19 [testSystem-akka.actor.default-dispatcher-6] INFO  TenhouClient0 : Received message to be processed: <D100/>
+[2018-09-07 02:31:19 [testSystem-akka.actor.default-dispatcher-6] DEBUG MessageParseUtils : ======================================> Dropped 100
+[2018-09-07 02:31:19 [testSystem-akka.actor.default-dispatcher-6] INFO  TenhouClient0 : Received message to be processed: <U/>
+[2018-09-07 02:31:20 [testSystem-akka.actor.default-dispatcher-3] INFO  TenhouTcpConnection0 : sent to server <Z />
+[2018-09-07 02:31:22 [ADSI prefetch thread] DEBUG TenhouLstmIterator : -----------------------------> Load 5585, 4176
+[2018-09-07 02:31:22 [ADSI prefetch thread] DEBUG TenhouLstmIterator : Get all readers loaded 7
+[2018-09-07 02:31:23 [testSystem-akka.actor.default-dispatcher-6] DEBUG TenhouTcpConnection0 : Received data from server <e45/>
+[2018-09-07 02:31:23 [testSystem-akka.actor.default-dispatcher-6] INFO  TenhouClient0 : Received message to be processed: <e45/>
+[2018-09-07 02:31:25 [testSystem-akka.actor.default-dispatcher-3] DEBUG TenhouTcpConnection0 : Received data from server <V/>
+[2018-09-07 02:31:25 [testSystem-akka.actor.default-dispatcher-3] INFO  TenhouClient0 : Received message to be processed: <V/>
+[2018-09-07 02:31:26 [testSystem-akka.actor.default-dispatcher-3] DEBUG TenhouTcpConnection0 : Received data from server <f67/>
+[2018-09-07 02:31:26 [testSystem-akka.actor.default-dispatcher-3] DEBUG TenhouTcpConnection0 : Received data from server <W/>
+[2018-09-07 02:31:26 [testSystem-akka.actor.default-dispatcher-6] INFO  TenhouClient0 : Received message to be processed: <f67/>
+[2018-09-07 02:31:26 [testSystem-akka.actor.default-dispatcher-6] INFO  TenhouClient0 : Received message to be processed: <W/>
+[2018-09-07 02:31:30 [ADSI prefetch thread] DEBUG TenhouLstmIterator : -----------------------------> Load 5585, 4184
+[2018-09-07 02:31:30 [ADSI prefetch thread] DEBUG TenhouLstmIterator : Get all readers loaded 8
+[2018-09-07 02:31:35 [testSystem-akka.actor.default-dispatcher-6] INFO  TenhouTcpConnection0 : sent to server <Z />
+[2018-09-07 02:31:36 [testSystem-akka.actor.default-dispatcher-6] DEBUG TenhouTcpConnection0 : Received data from server <G6/>
+[2018-09-07 02:31:36 [testSystem-akka.actor.default-dispatcher-6] DEBUG TenhouTcpConnection0 : Received data from server <T120/>
+[2018-09-07 02:31:36 [testSystem-akka.actor.default-dispatcher-6] INFO  TenhouClient0 : Received message to be processed: <G6/>
+[2018-09-07 02:31:36 [testSystem-akka.actor.default-dispatcher-6] INFO  TenhouClient0 : Received message to be processed: <T120/>
+[2018-09-07 02:31:36 [testSystem-akka.actor.default-dispatcher-6] DEBUG MessageParseUtils : Get ron action:
+[2018-09-07 02:31:36 [testSystem-akka.actor.default-dispatcher-6] DEBUG MessageParseUtils : Get ron action: T120
+[2018-09-07 02:31:36 [testSystem-akka.actor.default-dispatcher-6] DEBUG MessageParseUtils : ======================================> Accepted 120
+[2018-09-07 02:31:36 [Thread-4] INFO  r.d.r.dqn.nn.a3c.ACTenhouPolicy : policy [[1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00]]
+[2018-09-07 02:31:36 [Thread-4] INFO  r.d.r.dqn.nn.a3c.ACTenhouPolicy : nextAction [[192.00,  0.00,  1.00,  64.00,  64.00,  64.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  64.00,  64.00,  64.00,  0.00,  192.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  1.00,  0.00,  0.00,  0.00,  3.00,  0.00,  0.00,  1.00,  1.00,  1.00,  0.00,  1.00,  1.00,  0.00,  0.00,  0.00,  0.00,  1.00,  0.00,  1.00,  1.00,  1.00,  1.00,  3.00,  0.00,  0.00,  0.00,  1.00,  1.00,  1.00,  1.00,  0.00,  0.00,  0.00,  0.00,  1.00,  1.00,  1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00]]
+[2018-09-07 02:31:36 [Thread-4] DEBUG MessageParseUtils : lastState[[192.00,  0.00,  1.00,  64.00,  64.00,  64.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  64.00,  64.00,  64.00,  0.00,  192.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  1.00,  0.00,  0.00,  0.00,  3.00,  0.00,  0.00,  1.00,  1.00,  1.00,  0.00,  1.00,  1.00,  0.00,  0.00,  0.00,  0.00,  1.00,  0.00,  1.00,  1.00,  1.00,  1.00,  3.00,  0.00,  0.00,  0.00,  1.00,  1.00,  1.00,  1.00,  0.00,  0.00,  0.00,  0.00,  1.00,  1.00,  1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00]]
+[2018-09-07 02:31:36 [Thread-4] DEBUG MessageParseUtils : ----------------------> Drop actions
+[2018-09-07 02:31:36 [Thread-4] DEBUG MessageParseUtils : Available actions:
+[2018-09-07 02:31:36 [Thread-4] INFO  r.d.r.dqn.nn.a3c.ACTenhouPolicy : 5.5516964428983346E-27, 30
+[2018-09-07 02:31:36 [testSystem-akka.actor.default-dispatcher-6] INFO  TenhouClient0 : ----------------------------> In drop action
+[2018-09-07 02:31:36 [testSystem-akka.actor.default-dispatcher-6] INFO  TenhouClient0 : ------------------------------> Pure drop
+[2018-09-07 02:31:36 [testSystem-akka.actor.default-dispatcher-6] DEBUG ActionParser : drop tiles 120
+[2018-09-07 02:31:36 [testSystem-akka.actor.default-dispatcher-6] INFO  TenhouTcpConnection0 : sent to server <D p="120"/>
+[2018-09-07 02:31:36 [testSystem-akka.actor.default-dispatcher-3] DEBUG TenhouTcpConnection0 : Received data from server <D120/>
+[2018-09-07 02:31:36 [testSystem-akka.actor.default-dispatcher-3] DEBUG TenhouTcpConnection0 : Received data from server <U/>
+[2018-09-07 02:31:36 [testSystem-akka.actor.default-dispatcher-6] INFO  TenhouClient0 : Received message to be processed: <D120/>
+[2018-09-07 02:31:36 [testSystem-akka.actor.default-dispatcher-6] DEBUG MessageParseUtils : ======================================> Dropped 120
+[2018-09-07 02:31:36 [testSystem-akka.actor.default-dispatcher-6] INFO  TenhouClient0 : Received message to be processed: <U/>
+[2018-09-07 02:31:38 [ADSI prefetch thread] DEBUG TenhouLstmIterator : -----------------------------> Load 5585, 4192
+[2018-09-07 02:31:38 [ADSI prefetch thread] DEBUG TenhouLstmIterator : Get all readers loaded 7
+[2018-09-07 02:31:40 [testSystem-akka.actor.default-dispatcher-6] DEBUG TenhouTcpConnection0 : Received data from server <e37/>
+[2018-09-07 02:31:40 [testSystem-akka.actor.default-dispatcher-6] DEBUG TenhouTcpConnection0 : Received data from server <V/>
+[2018-09-07 02:31:40 [testSystem-akka.actor.default-dispatcher-6] INFO  TenhouClient0 : Received message to be processed: <e37/>
+[2018-09-07 02:31:40 [testSystem-akka.actor.default-dispatcher-6] INFO  TenhouClient0 : Received message to be processed: <V/>
+[2018-09-07 02:31:43 [testSystem-akka.actor.default-dispatcher-2] DEBUG TenhouTcpConnection0 : Received data from server <F102/>
+[2018-09-07 02:31:43 [testSystem-akka.actor.default-dispatcher-2] DEBUG TenhouTcpConnection0 : Received data from server <W/>
+[2018-09-07 02:31:43 [testSystem-akka.actor.default-dispatcher-2] INFO  TenhouClient0 : Received message to be processed: <F102/>
+[2018-09-07 02:31:43 [testSystem-akka.actor.default-dispatcher-2] INFO  TenhouClient0 : Received message to be processed: <W/>
+[2018-09-07 02:31:45 [ADSI prefetch thread] DEBUG TenhouLstmIterator : -----------------------------> Load 5585, 4200
+[2018-09-07 02:31:45 [ADSI prefetch thread] DEBUG TenhouLstmIterator : Get all readers loaded 8
+[2018-09-07 02:31:47 [testSystem-akka.actor.default-dispatcher-6] DEBUG TenhouTcpConnection0 : Received data from server <g116/>
+[2018-09-07 02:31:47 [testSystem-akka.actor.default-dispatcher-6] DEBUG TenhouTcpConnection0 : Received data from server <T101/>
+[2018-09-07 02:31:47 [testSystem-akka.actor.default-dispatcher-6] INFO  TenhouClient0 : Received message to be processed: <g116/>
+[2018-09-07 02:31:47 [testSystem-akka.actor.default-dispatcher-6] INFO  TenhouClient0 : Received message to be processed: <T101/>
+[2018-09-07 02:31:47 [testSystem-akka.actor.default-dispatcher-6] DEBUG MessageParseUtils : Get ron action:
+[2018-09-07 02:31:47 [testSystem-akka.actor.default-dispatcher-6] DEBUG MessageParseUtils : Get ron action: T101
+[2018-09-07 02:31:47 [testSystem-akka.actor.default-dispatcher-6] DEBUG MessageParseUtils : ======================================> Accepted 101
+[2018-09-07 02:31:47 [Thread-4] INFO  r.d.r.dqn.nn.a3c.ACTenhouPolicy : policy [[1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00]]
+[2018-09-07 02:31:47 [Thread-4] INFO  r.d.r.dqn.nn.a3c.ACTenhouPolicy : nextAction [[192.00,  0.00,  1.00,  64.00,  64.00,  64.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  64.00,  64.00,  64.00,  0.00,  192.00,  0.00,  0.00,  0.00,  0.00,  0.00,  1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  3.00,  0.00,  0.00,  1.00,  1.00,  1.00,  0.00,  1.00,  1.00,  0.00,  0.00,  0.00,  0.00,  1.00,  0.00,  1.00,  1.00,  1.00,  1.00,  3.00,  0.00,  0.00,  0.00,  1.00,  1.00,  1.00,  1.00,  0.00,  0.00,  0.00,  1.00,  1.00,  1.00,  1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00]]
+[2018-09-07 02:31:47 [Thread-4] DEBUG MessageParseUtils : lastState[[192.00,  0.00,  1.00,  64.00,  64.00,  64.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  64.00,  64.00,  64.00,  0.00,  192.00,  0.00,  0.00,  0.00,  0.00,  0.00,  1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  3.00,  0.00,  0.00,  1.00,  1.00,  1.00,  0.00,  1.00,  1.00,  0.00,  0.00,  0.00,  0.00,  1.00,  0.00,  1.00,  1.00,  1.00,  1.00,  3.00,  0.00,  0.00,  0.00,  1.00,  1.00,  1.00,  1.00,  0.00,  0.00,  0.00,  1.00,  1.00,  1.00,  1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00]]
+[2018-09-07 02:31:47 [Thread-4] DEBUG MessageParseUtils : ----------------------> Drop actions
+[2018-09-07 02:31:47 [Thread-4] DEBUG MessageParseUtils : Available actions:
+[2018-09-07 02:31:47 [Thread-4] INFO  r.d.r.dqn.nn.a3c.ACTenhouPolicy : 4.410740542128359E-19, 25
+[2018-09-07 02:31:47 [testSystem-akka.actor.default-dispatcher-2] INFO  TenhouClient0 : ----------------------------> In drop action
+[2018-09-07 02:31:47 [testSystem-akka.actor.default-dispatcher-2] INFO  TenhouClient0 : ------------------------------> Pure drop
+[2018-09-07 02:31:47 [testSystem-akka.actor.default-dispatcher-2] DEBUG ActionParser : drop tiles 101
+[2018-09-07 02:31:47 [testSystem-akka.actor.default-dispatcher-2] INFO  TenhouTcpConnection0 : sent to server <D p="101"/>
+[2018-09-07 02:31:47 [testSystem-akka.actor.default-dispatcher-2] DEBUG TenhouTcpConnection0 : Received data from server <D101/>
+[2018-09-07 02:31:47 [testSystem-akka.actor.default-dispatcher-2] DEBUG TenhouTcpConnection0 : Received data from server <U/>
+[2018-09-07 02:31:47 [testSystem-akka.actor.default-dispatcher-3] INFO  TenhouClient0 : Received message to be processed: <D101/>
+[2018-09-07 02:31:47 [testSystem-akka.actor.default-dispatcher-3] DEBUG MessageParseUtils : ======================================> Dropped 101
+[2018-09-07 02:31:47 [testSystem-akka.actor.default-dispatcher-3] INFO  TenhouClient0 : Received message to be processed: <U/>
+[2018-09-07 02:31:50 [testSystem-akka.actor.default-dispatcher-3] INFO  TenhouTcpConnection0 : sent to server <Z />
+[2018-09-07 02:31:52 [ADSI prefetch thread] DEBUG TenhouLstmIterator : -----------------------------> Load 5585, 4208
+[2018-09-07 02:31:52 [ADSI prefetch thread] DEBUG TenhouLstmIterator : Get all readers loaded 8
+[2018-09-07 02:31:53 [testSystem-akka.actor.default-dispatcher-3] DEBUG TenhouTcpConnection0 : Received data from server <E121/>
+[2018-09-07 02:31:53 [testSystem-akka.actor.default-dispatcher-3] DEBUG TenhouTcpConnection0 : Received data from server <V/>
+[2018-09-07 02:31:53 [testSystem-akka.actor.default-dispatcher-3] INFO  TenhouClient0 : Received message to be processed: <E121/>
+[2018-09-07 02:31:53 [testSystem-akka.actor.default-dispatcher-3] INFO  TenhouClient0 : Received message to be processed: <V/>
+[2018-09-07 02:31:55 [testSystem-akka.actor.default-dispatcher-2] DEBUG TenhouTcpConnection0 : Received data from server <f39/>
+[2018-09-07 02:31:55 [testSystem-akka.actor.default-dispatcher-2] DEBUG TenhouTcpConnection0 : Received data from server <W/>
+[2018-09-07 02:31:55 [testSystem-akka.actor.default-dispatcher-6] INFO  TenhouClient0 : Received message to be processed: <f39/>
+[2018-09-07 02:31:55 [testSystem-akka.actor.default-dispatcher-6] INFO  TenhouClient0 : Received message to be processed: <W/>
+[2018-09-07 02:31:59 [ADSI prefetch thread] DEBUG TenhouLstmIterator : -----------------------------> Load 5585, 4216
+[2018-09-07 02:31:59 [ADSI prefetch thread] DEBUG TenhouLstmIterator : Get all readers loaded 7
+[2018-09-07 02:32:01 [testSystem-akka.actor.default-dispatcher-2] DEBUG TenhouTcpConnection0 : Received data from server <G63/>
+[2018-09-07 02:32:01 [testSystem-akka.actor.default-dispatcher-2] DEBUG TenhouTcpConnection0 : Received data from server <T125/>
+[2018-09-07 02:32:01 [testSystem-akka.actor.default-dispatcher-6] INFO  TenhouClient0 : Received message to be processed: <G63/>
+[2018-09-07 02:32:01 [testSystem-akka.actor.default-dispatcher-6] INFO  TenhouClient0 : Received message to be processed: <T125/>
+[2018-09-07 02:32:01 [testSystem-akka.actor.default-dispatcher-6] DEBUG MessageParseUtils : Get ron action:
+[2018-09-07 02:32:01 [testSystem-akka.actor.default-dispatcher-6] DEBUG MessageParseUtils : Get ron action: T125
+[2018-09-07 02:32:01 [testSystem-akka.actor.default-dispatcher-6] DEBUG MessageParseUtils : ======================================> Accepted 125
+[2018-09-07 02:32:01 [Thread-4] INFO  r.d.r.dqn.nn.a3c.ACTenhouPolicy : policy [[1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00]]
+[2018-09-07 02:32:01 [Thread-4] INFO  r.d.r.dqn.nn.a3c.ACTenhouPolicy : nextAction [[192.00,  0.00,  1.00,  64.00,  64.00,  64.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  64.00,  64.00,  64.00,  0.00,  192.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  1.00,  0.00,  0.00,  3.00,  0.00,  0.00,  1.00,  1.00,  1.00,  0.00,  1.00,  1.00,  0.00,  0.00,  0.00,  0.00,  1.00,  0.00,  1.00,  1.00,  1.00,  1.00,  3.00,  0.00,  0.00,  0.00,  1.00,  1.00,  2.00,  1.00,  0.00,  0.00,  0.00,  1.00,  1.00,  1.00,  1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00]]
+[2018-09-07 02:32:01 [Thread-4] DEBUG MessageParseUtils : lastState[[192.00,  0.00,  1.00,  64.00,  64.00,  64.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  64.00,  64.00,  64.00,  0.00,  192.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  1.00,  0.00,  0.00,  3.00,  0.00,  0.00,  1.00,  1.00,  1.00,  0.00,  1.00,  1.00,  0.00,  0.00,  0.00,  0.00,  1.00,  0.00,  1.00,  1.00,  1.00,  1.00,  3.00,  0.00,  0.00,  0.00,  1.00,  1.00,  2.00,  1.00,  0.00,  0.00,  0.00,  1.00,  1.00,  1.00,  1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00]]
+[2018-09-07 02:32:01 [Thread-4] DEBUG MessageParseUtils : ----------------------> Drop actions
+[2018-09-07 02:32:01 [Thread-4] DEBUG MessageParseUtils : Available actions:
+[2018-09-07 02:32:01 [Thread-4] INFO  r.d.r.dqn.nn.a3c.ACTenhouPolicy : 1.1999288229702643E-9, 31
+[2018-09-07 02:32:01 [testSystem-akka.actor.default-dispatcher-6] INFO  TenhouClient0 : ----------------------------> In drop action
+[2018-09-07 02:32:01 [testSystem-akka.actor.default-dispatcher-6] INFO  TenhouClient0 : ------------------------------> Pure drop
+[2018-09-07 02:32:01 [testSystem-akka.actor.default-dispatcher-6] DEBUG ActionParser : drop tiles 125
+[2018-09-07 02:32:01 [testSystem-akka.actor.default-dispatcher-6] INFO  TenhouTcpConnection0 : sent to server <D p="125"/>
+[2018-09-07 02:32:02 [testSystem-akka.actor.default-dispatcher-6] DEBUG TenhouTcpConnection0 : Received data from server <D125/>
+[2018-09-07 02:32:02 [testSystem-akka.actor.default-dispatcher-6] DEBUG TenhouTcpConnection0 : Received data from server <U/>
+[2018-09-07 02:32:02 [testSystem-akka.actor.default-dispatcher-6] INFO  TenhouClient0 : Received message to be processed: <D125/>
+[2018-09-07 02:32:02 [testSystem-akka.actor.default-dispatcher-6] DEBUG MessageParseUtils : ======================================> Dropped 125
+[2018-09-07 02:32:02 [testSystem-akka.actor.default-dispatcher-6] INFO  TenhouClient0 : Received message to be processed: <U/>
+[2018-09-07 02:32:04 [main] INFO  r.d.r.dqn.nn.a3c.A3CTenhouDense : ---------------------> Wait 60000
+[2018-09-07 02:32:05 [testSystem-akka.actor.default-dispatcher-3] INFO  TenhouTcpConnection0 : sent to server <Z />
+[2018-09-07 02:32:08 [testSystem-akka.actor.default-dispatcher-6] DEBUG TenhouTcpConnection0 : Received data from server <e80/>
+[2018-09-07 02:32:08 [testSystem-akka.actor.default-dispatcher-6] INFO  TenhouClient0 : Received message to be processed: <e80/>
+[2018-09-07 02:32:10 [testSystem-akka.actor.default-dispatcher-6] DEBUG TenhouTcpConnection0 : Received data from server <V/>
+[2018-09-07 02:32:10 [testSystem-akka.actor.default-dispatcher-6] INFO  TenhouClient0 : Received message to be processed: <V/>
+[2018-09-07 02:32:11 [testSystem-akka.actor.default-dispatcher-6] DEBUG TenhouTcpConnection0 : Received data from server <f7/>
+[2018-09-07 02:32:11 [testSystem-akka.actor.default-dispatcher-6] DEBUG TenhouTcpConnection0 : Received data from server <W/>
+[2018-09-07 02:32:11 [testSystem-akka.actor.default-dispatcher-2] INFO  TenhouClient0 : Received message to be processed: <f7/>
+[2018-09-07 02:32:11 [testSystem-akka.actor.default-dispatcher-2] INFO  TenhouClient0 : Received message to be processed: <W/>
+[2018-09-07 02:32:14 [ADSI prefetch thread] DEBUG TenhouLstmIterator : -----------------------------> Load 5585, 4224
+[2018-09-07 02:32:14 [ADSI prefetch thread] DEBUG TenhouLstmIterator : Get all readers loaded 7
+[2018-09-07 02:32:16 [testSystem-akka.actor.default-dispatcher-2] DEBUG TenhouTcpConnection0 : Received data from server <G54/>
+[2018-09-07 02:32:16 [testSystem-akka.actor.default-dispatcher-3] INFO  TenhouClient0 : Received message to be processed: <G54/>
+[2018-09-07 02:32:18 [testSystem-akka.actor.default-dispatcher-6] DEBUG TenhouTcpConnection0 : Received data from server <T21/>
+[2018-09-07 02:32:18 [testSystem-akka.actor.default-dispatcher-3] INFO  TenhouClient0 : Received message to be processed: <T21/>
+[2018-09-07 02:32:18 [testSystem-akka.actor.default-dispatcher-3] DEBUG MessageParseUtils : Get ron action:
+[2018-09-07 02:32:18 [testSystem-akka.actor.default-dispatcher-3] DEBUG MessageParseUtils : Get ron action: T21
+[2018-09-07 02:32:18 [testSystem-akka.actor.default-dispatcher-3] DEBUG MessageParseUtils : ======================================> Accepted 21
+[2018-09-07 02:32:18 [Thread-4] INFO  r.d.r.dqn.nn.a3c.ACTenhouPolicy : policy [[1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00]]
+[2018-09-07 02:32:18 [Thread-4] INFO  r.d.r.dqn.nn.a3c.ACTenhouPolicy : nextAction [[192.00,  0.00,  1.00,  64.00,  64.00,  65.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  64.00,  64.00,  64.00,  0.00,  192.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  3.00,  0.00,  0.00,  1.00,  1.00,  1.00,  0.00,  1.00,  1.00,  0.00,  0.00,  0.00,  0.00,  1.00,  0.00,  1.00,  1.00,  1.00,  1.00,  3.00,  0.00,  0.00,  0.00,  1.00,  1.00,  2.00,  1.00,  0.00,  0.00,  0.00,  1.00,  2.00,  1.00,  1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00]]
+[2018-09-07 02:32:18 [Thread-4] DEBUG MessageParseUtils : lastState[[192.00,  0.00,  1.00,  64.00,  64.00,  65.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  64.00,  64.00,  64.00,  0.00,  192.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  3.00,  0.00,  0.00,  1.00,  1.00,  1.00,  0.00,  1.00,  1.00,  0.00,  0.00,  0.00,  0.00,  1.00,  0.00,  1.00,  1.00,  1.00,  1.00,  3.00,  0.00,  0.00,  0.00,  1.00,  1.00,  2.00,  1.00,  0.00,  0.00,  0.00,  1.00,  2.00,  1.00,  1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00]]
+[2018-09-07 02:32:18 [Thread-4] DEBUG MessageParseUtils : ----------------------> Drop actions
+[2018-09-07 02:32:18 [Thread-4] DEBUG MessageParseUtils : Available actions:
+[2018-09-07 02:32:18 [Thread-4] INFO  r.d.r.dqn.nn.a3c.ACTenhouPolicy : 1.9763110680261907E-28, 5
+[2018-09-07 02:32:18 [testSystem-akka.actor.default-dispatcher-3] INFO  TenhouClient0 : ----------------------------> In drop action
+[2018-09-07 02:32:18 [testSystem-akka.actor.default-dispatcher-3] INFO  TenhouClient0 : ------------------------------> Pure drop
+[2018-09-07 02:32:18 [testSystem-akka.actor.default-dispatcher-3] DEBUG ActionParser : drop tiles 21
+[2018-09-07 02:32:18 [testSystem-akka.actor.default-dispatcher-3] INFO  TenhouTcpConnection0 : sent to server <D p="21"/>
+[2018-09-07 02:32:18 [testSystem-akka.actor.default-dispatcher-6] DEBUG TenhouTcpConnection0 : Received data from server <D21/>
+[2018-09-07 02:32:18 [testSystem-akka.actor.default-dispatcher-6] DEBUG TenhouTcpConnection0 : Received data from server <U/>
+[2018-09-07 02:32:18 [testSystem-akka.actor.default-dispatcher-6] INFO  TenhouClient0 : Received message to be processed: <D21/>
+[2018-09-07 02:32:18 [testSystem-akka.actor.default-dispatcher-6] DEBUG MessageParseUtils : ======================================> Dropped 21
+[2018-09-07 02:32:18 [testSystem-akka.actor.default-dispatcher-6] INFO  TenhouClient0 : Received message to be processed: <U/>
+[2018-09-07 02:32:20 [testSystem-akka.actor.default-dispatcher-2] INFO  TenhouTcpConnection0 : sent to server <Z />
+[2018-09-07 02:32:22 [testSystem-akka.actor.default-dispatcher-6] DEBUG TenhouTcpConnection0 : Received data from server <e132/>
+[2018-09-07 02:32:22 [testSystem-akka.actor.default-dispatcher-6] DEBUG TenhouTcpConnection0 : Received data from server <V/>
+[2018-09-07 02:32:22 [testSystem-akka.actor.default-dispatcher-2] INFO  TenhouClient0 : Received message to be processed: <e132/>
+[2018-09-07 02:32:22 [testSystem-akka.actor.default-dispatcher-2] INFO  TenhouClient0 : Received message to be processed: <V/>
+[2018-09-07 02:32:22 [ADSI prefetch thread] DEBUG TenhouLstmIterator : -----------------------------> Load 5585, 4232
+[2018-09-07 02:32:22 [ADSI prefetch thread] DEBUG TenhouLstmIterator : Get all readers loaded 7
+[2018-09-07 02:32:25 [testSystem-akka.actor.default-dispatcher-6] DEBUG TenhouTcpConnection0 : Received data from server <f13/>
+[2018-09-07 02:32:25 [testSystem-akka.actor.default-dispatcher-6] DEBUG TenhouTcpConnection0 : Received data from server <W/>
+[2018-09-07 02:32:25 [testSystem-akka.actor.default-dispatcher-6] INFO  TenhouClient0 : Received message to be processed: <f13/>
+[2018-09-07 02:32:25 [testSystem-akka.actor.default-dispatcher-6] INFO  TenhouClient0 : Received message to be processed: <W/>
+[2018-09-07 02:32:32 [ADSI prefetch thread] DEBUG TenhouLstmIterator : -----------------------------> Load 5585, 4240
+[2018-09-07 02:32:32 [ADSI prefetch thread] DEBUG TenhouLstmIterator : Get all readers loaded 7
+[2018-09-07 02:32:32 [testSystem-akka.actor.default-dispatcher-6] DEBUG TenhouTcpConnection0 : Received data from server <G47/>
+[2018-09-07 02:32:32 [testSystem-akka.actor.default-dispatcher-6] DEBUG TenhouTcpConnection0 : Received data from server <T129/>
+[2018-09-07 02:32:32 [testSystem-akka.actor.default-dispatcher-2] INFO  TenhouClient0 : Received message to be processed: <G47/>
+[2018-09-07 02:32:32 [testSystem-akka.actor.default-dispatcher-2] INFO  TenhouClient0 : Received message to be processed: <T129/>
+[2018-09-07 02:32:32 [testSystem-akka.actor.default-dispatcher-2] DEBUG MessageParseUtils : Get ron action:
+[2018-09-07 02:32:32 [testSystem-akka.actor.default-dispatcher-2] DEBUG MessageParseUtils : Get ron action: T129
+[2018-09-07 02:32:32 [testSystem-akka.actor.default-dispatcher-2] DEBUG MessageParseUtils : ======================================> Accepted 129
+[2018-09-07 02:32:32 [Thread-4] INFO  r.d.r.dqn.nn.a3c.ACTenhouPolicy : policy [[1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00]]
+[2018-09-07 02:32:32 [Thread-4] INFO  r.d.r.dqn.nn.a3c.ACTenhouPolicy : nextAction [[192.00,  0.00,  1.00,  64.00,  64.00,  64.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  64.00,  64.00,  64.00,  0.00,  192.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  1.00,  0.00,  3.00,  0.00,  0.00,  1.00,  1.00,  2.00,  0.00,  1.00,  1.00,  0.00,  0.00,  0.00,  0.00,  1.00,  0.00,  1.00,  1.00,  1.00,  1.00,  3.00,  0.00,  0.00,  0.00,  1.00,  1.00,  2.00,  1.00,  0.00,  0.00,  0.00,  1.00,  2.00,  1.00,  1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00]]
+[2018-09-07 02:32:32 [Thread-4] DEBUG MessageParseUtils : lastState[[192.00,  0.00,  1.00,  64.00,  64.00,  64.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  64.00,  64.00,  64.00,  0.00,  192.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  1.00,  0.00,  3.00,  0.00,  0.00,  1.00,  1.00,  2.00,  0.00,  1.00,  1.00,  0.00,  0.00,  0.00,  0.00,  1.00,  0.00,  1.00,  1.00,  1.00,  1.00,  3.00,  0.00,  0.00,  0.00,  1.00,  1.00,  2.00,  1.00,  0.00,  0.00,  0.00,  1.00,  2.00,  1.00,  1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00]]
+[2018-09-07 02:32:32 [Thread-4] DEBUG MessageParseUtils : ----------------------> Drop actions
+[2018-09-07 02:32:32 [Thread-4] DEBUG MessageParseUtils : Available actions:
+[2018-09-07 02:32:32 [Thread-4] INFO  r.d.r.dqn.nn.a3c.ACTenhouPolicy : 5.006606078092296E-22, 32
+[2018-09-07 02:32:32 [testSystem-akka.actor.default-dispatcher-2] INFO  TenhouClient0 : ----------------------------> In drop action
+[2018-09-07 02:32:32 [testSystem-akka.actor.default-dispatcher-2] INFO  TenhouClient0 : ------------------------------> Pure drop
+[2018-09-07 02:32:32 [testSystem-akka.actor.default-dispatcher-2] DEBUG ActionParser : drop tiles 129
+[2018-09-07 02:32:32 [testSystem-akka.actor.default-dispatcher-2] INFO  TenhouTcpConnection0 : sent to server <D p="129"/>
+[2018-09-07 02:32:33 [testSystem-akka.actor.default-dispatcher-2] DEBUG TenhouTcpConnection0 : Received data from server <D129/>
+[2018-09-07 02:32:33 [testSystem-akka.actor.default-dispatcher-2] DEBUG TenhouTcpConnection0 : Received data from server <U/>
+[2018-09-07 02:32:33 [testSystem-akka.actor.default-dispatcher-6] INFO  TenhouClient0 : Received message to be processed: <D129/>
+[2018-09-07 02:32:33 [testSystem-akka.actor.default-dispatcher-6] DEBUG MessageParseUtils : ======================================> Dropped 129
+[2018-09-07 02:32:33 [testSystem-akka.actor.default-dispatcher-6] INFO  TenhouClient0 : Received message to be processed: <U/>
+[2018-09-07 02:32:35 [testSystem-akka.actor.default-dispatcher-6] INFO  TenhouTcpConnection0 : sent to server <Z />
+[2018-09-07 02:32:38 [testSystem-akka.actor.default-dispatcher-6] DEBUG TenhouTcpConnection0 : Received data from server <E40/>
+[2018-09-07 02:32:38 [testSystem-akka.actor.default-dispatcher-6] DEBUG TenhouTcpConnection0 : Received data from server <V/>
+[2018-09-07 02:32:38 [testSystem-akka.actor.default-dispatcher-3] INFO  TenhouClient0 : Received message to be processed: <E40/>
+[2018-09-07 02:32:38 [testSystem-akka.actor.default-dispatcher-3] INFO  TenhouClient0 : Received message to be processed: <V/>
+[2018-09-07 02:32:38 [ADSI prefetch thread] DEBUG TenhouLstmIterator : -----------------------------> Load 5585, 4248
+[2018-09-07 02:32:38 [ADSI prefetch thread] DEBUG TenhouLstmIterator : Get all readers loaded 8
+[2018-09-07 02:32:40 [testSystem-akka.actor.default-dispatcher-3] DEBUG TenhouTcpConnection0 : Received data from server <FURITEN show="1" />
+[2018-09-07 02:32:40 [testSystem-akka.actor.default-dispatcher-3] ERROR TenhouTcpConnection0 : Received unrecoganizable message <FURITEN show="1" />
+[2018-09-07 02:32:40 [testSystem-akka.actor.default-dispatcher-3] DEBUG TenhouTcpConnection0 : Received data from server <f11/>
+[2018-09-07 02:32:40 [testSystem-akka.actor.default-dispatcher-3] DEBUG TenhouTcpConnection0 : Received data from server <W/>
+[2018-09-07 02:32:40 [testSystem-akka.actor.default-dispatcher-6] INFO  TenhouClient0 : Received message to be processed: <f11/>
+[2018-09-07 02:32:40 [testSystem-akka.actor.default-dispatcher-6] INFO  TenhouClient0 : Received message to be processed: <W/>
+[2018-09-07 02:32:45 [testSystem-akka.actor.default-dispatcher-6] DEBUG TenhouTcpConnection0 : Received data from server <g1/>
+[2018-09-07 02:32:45 [testSystem-akka.actor.default-dispatcher-6] DEBUG TenhouTcpConnection0 : Received data from server <T20/>
+[2018-09-07 02:32:45 [testSystem-akka.actor.default-dispatcher-3] INFO  TenhouClient0 : Received message to be processed: <g1/>
+[2018-09-07 02:32:45 [testSystem-akka.actor.default-dispatcher-3] INFO  TenhouClient0 : Received message to be processed: <T20/>
+[2018-09-07 02:32:45 [testSystem-akka.actor.default-dispatcher-3] DEBUG MessageParseUtils : Get ron action:
+[2018-09-07 02:32:45 [testSystem-akka.actor.default-dispatcher-3] DEBUG MessageParseUtils : Get ron action: T20
+[2018-09-07 02:32:45 [testSystem-akka.actor.default-dispatcher-3] DEBUG MessageParseUtils : ======================================> Accepted 20
+[2018-09-07 02:32:45 [Thread-4] INFO  r.d.r.dqn.nn.a3c.ACTenhouPolicy : policy [[1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00]]
+[2018-09-07 02:32:45 [Thread-4] INFO  r.d.r.dqn.nn.a3c.ACTenhouPolicy : nextAction [[192.00,  0.00,  1.00,  64.00,  64.00,  65.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  64.00,  64.00,  64.00,  0.00,  192.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  3.00,  0.00,  0.00,  1.00,  1.00,  2.00,  0.00,  1.00,  1.00,  0.00,  0.00,  0.00,  0.00,  1.00,  0.00,  1.00,  1.00,  1.00,  1.00,  3.00,  0.00,  0.00,  0.00,  1.00,  1.00,  2.00,  1.00,  0.00,  0.00,  0.00,  1.00,  2.00,  2.00,  1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00]]
+[2018-09-07 02:32:45 [Thread-4] DEBUG MessageParseUtils : lastState[[192.00,  0.00,  1.00,  64.00,  64.00,  65.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  64.00,  64.00,  64.00,  0.00,  192.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  3.00,  0.00,  0.00,  1.00,  1.00,  2.00,  0.00,  1.00,  1.00,  0.00,  0.00,  0.00,  0.00,  1.00,  0.00,  1.00,  1.00,  1.00,  1.00,  3.00,  0.00,  0.00,  0.00,  1.00,  1.00,  2.00,  1.00,  0.00,  0.00,  0.00,  1.00,  2.00,  2.00,  1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00]]
+[2018-09-07 02:32:45 [Thread-4] DEBUG MessageParseUtils : ----------------------> Drop actions
+[2018-09-07 02:32:45 [Thread-4] DEBUG MessageParseUtils : Available actions:
+[2018-09-07 02:32:45 [Thread-4] INFO  r.d.r.dqn.nn.a3c.ACTenhouPolicy : 1.9278671891700464E-28, 5
+[2018-09-07 02:32:45 [testSystem-akka.actor.default-dispatcher-3] INFO  TenhouClient0 : ----------------------------> In drop action
+[2018-09-07 02:32:45 [testSystem-akka.actor.default-dispatcher-3] INFO  TenhouClient0 : ------------------------------> Pure drop
+[2018-09-07 02:32:45 [testSystem-akka.actor.default-dispatcher-3] DEBUG ActionParser : drop tiles 20
+[2018-09-07 02:32:45 [testSystem-akka.actor.default-dispatcher-3] INFO  TenhouTcpConnection0 : sent to server <D p="20"/>
+[2018-09-07 02:32:46 [ADSI prefetch thread] DEBUG TenhouLstmIterator : -----------------------------> Load 5585, 4256
+[2018-09-07 02:32:46 [ADSI prefetch thread] DEBUG TenhouLstmIterator : Get all readers loaded 7
+[2018-09-07 02:32:48 [testSystem-akka.actor.default-dispatcher-3] DEBUG TenhouTcpConnection0 : Received data from server <FURITEN show="0" />
+[2018-09-07 02:32:48 [testSystem-akka.actor.default-dispatcher-3] ERROR TenhouTcpConnection0 : Received unrecoganizable message <FURITEN show="0" />
+[2018-09-07 02:32:48 [testSystem-akka.actor.default-dispatcher-3] DEBUG TenhouTcpConnection0 : Received data from server <D20/>
+[2018-09-07 02:32:48 [testSystem-akka.actor.default-dispatcher-3] DEBUG TenhouTcpConnection0 : Received data from server <U/>
+[2018-09-07 02:32:48 [testSystem-akka.actor.default-dispatcher-2] INFO  TenhouClient0 : Received message to be processed: <D20/>
+[2018-09-07 02:32:48 [testSystem-akka.actor.default-dispatcher-2] DEBUG MessageParseUtils : ======================================> Dropped 20
+[2018-09-07 02:32:48 [testSystem-akka.actor.default-dispatcher-2] INFO  TenhouClient0 : Received message to be processed: <U/>
+[2018-09-07 02:32:50 [testSystem-akka.actor.default-dispatcher-2] INFO  TenhouTcpConnection0 : sent to server <Z />
+[2018-09-07 02:32:54 [ADSI prefetch thread] DEBUG TenhouLstmIterator : -----------------------------> Load 5585, 4264
+[2018-09-07 02:32:54 [ADSI prefetch thread] DEBUG TenhouLstmIterator : Get all readers loaded 8
+[2018-09-07 02:32:56 [testSystem-akka.actor.default-dispatcher-2] DEBUG TenhouTcpConnection0 : Received data from server <E131/>
+[2018-09-07 02:32:56 [testSystem-akka.actor.default-dispatcher-2] DEBUG TenhouTcpConnection0 : Received data from server <V/>
+[2018-09-07 02:32:56 [testSystem-akka.actor.default-dispatcher-2] INFO  TenhouClient0 : Received message to be processed: <E131/>
+[2018-09-07 02:32:56 [testSystem-akka.actor.default-dispatcher-2] INFO  TenhouClient0 : Received message to be processed: <V/>
+[2018-09-07 02:32:58 [testSystem-akka.actor.default-dispatcher-3] DEBUG TenhouTcpConnection0 : Received data from server <f119/>
+[2018-09-07 02:32:58 [testSystem-akka.actor.default-dispatcher-3] DEBUG TenhouTcpConnection0 : Received data from server <W/>
+[2018-09-07 02:32:58 [testSystem-akka.actor.default-dispatcher-3] INFO  TenhouClient0 : Received message to be processed: <f119/>
+[2018-09-07 02:32:58 [testSystem-akka.actor.default-dispatcher-3] INFO  TenhouClient0 : Received message to be processed: <W/>
+[2018-09-07 02:33:02 [ADSI prefetch thread] DEBUG TenhouLstmIterator : -----------------------------> Load 5585, 4272
+[2018-09-07 02:33:02 [ADSI prefetch thread] DEBUG TenhouLstmIterator : Get all readers loaded 7
+[2018-09-07 02:33:04 [main] INFO  r.d.r.dqn.nn.a3c.A3CTenhouDense : ---------------------> Wait 60000
+[2018-09-07 02:33:05 [testSystem-akka.actor.default-dispatcher-2] INFO  TenhouTcpConnection0 : sent to server <Z />
+[2018-09-07 02:33:05 [testSystem-akka.actor.default-dispatcher-2] DEBUG TenhouTcpConnection0 : Received data from server <G46/>
+[2018-09-07 02:33:05 [testSystem-akka.actor.default-dispatcher-2] DEBUG TenhouTcpConnection0 : Received data from server <T111/>
+[2018-09-07 02:33:05 [testSystem-akka.actor.default-dispatcher-2] INFO  TenhouClient0 : Received message to be processed: <G46/>
+[2018-09-07 02:33:05 [testSystem-akka.actor.default-dispatcher-2] INFO  TenhouClient0 : Received message to be processed: <T111/>
+[2018-09-07 02:33:05 [testSystem-akka.actor.default-dispatcher-2] DEBUG MessageParseUtils : Get ron action:
+[2018-09-07 02:33:05 [testSystem-akka.actor.default-dispatcher-2] DEBUG MessageParseUtils : Get ron action: T111
+[2018-09-07 02:33:05 [testSystem-akka.actor.default-dispatcher-2] DEBUG MessageParseUtils : ======================================> Accepted 111
+[2018-09-07 02:33:05 [Thread-4] INFO  r.d.r.dqn.nn.a3c.ACTenhouPolicy : policy [[1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00]]
+[2018-09-07 02:33:05 [Thread-4] INFO  r.d.r.dqn.nn.a3c.ACTenhouPolicy : nextAction [[192.00,  0.00,  1.00,  64.00,  64.00,  64.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  64.00,  64.00,  64.00,  0.00,  192.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  3.00,  0.00,  0.00,  1.00,  1.00,  3.00,  0.00,  1.00,  1.00,  0.00,  0.00,  0.00,  0.00,  1.00,  0.00,  1.00,  1.00,  1.00,  1.00,  3.00,  0.00,  0.00,  0.00,  1.00,  1.00,  2.00,  1.00,  0.00,  0.00,  0.00,  1.00,  2.00,  2.00,  1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00]]
+[2018-09-07 02:33:05 [Thread-4] DEBUG MessageParseUtils : lastState[[192.00,  0.00,  1.00,  64.00,  64.00,  64.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  64.00,  64.00,  64.00,  0.00,  192.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  3.00,  0.00,  0.00,  1.00,  1.00,  3.00,  0.00,  1.00,  1.00,  0.00,  0.00,  0.00,  0.00,  1.00,  0.00,  1.00,  1.00,  1.00,  1.00,  3.00,  0.00,  0.00,  0.00,  1.00,  1.00,  2.00,  1.00,  0.00,  0.00,  0.00,  1.00,  2.00,  2.00,  1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00]]
+[2018-09-07 02:33:05 [Thread-4] DEBUG MessageParseUtils : ----------------------> Drop actions
+[2018-09-07 02:33:05 [Thread-4] DEBUG MessageParseUtils : Available actions:
+[2018-09-07 02:33:05 [Thread-4] INFO  r.d.r.dqn.nn.a3c.ACTenhouPolicy : 7.812177896825065E-23, 27
+[2018-09-07 02:33:05 [testSystem-akka.actor.default-dispatcher-6] INFO  TenhouClient0 : ----------------------------> In drop action
+[2018-09-07 02:33:05 [testSystem-akka.actor.default-dispatcher-6] INFO  TenhouClient0 : ------------------------------> Pure drop
+[2018-09-07 02:33:05 [testSystem-akka.actor.default-dispatcher-6] DEBUG ActionParser : drop tiles 111
+[2018-09-07 02:33:05 [testSystem-akka.actor.default-dispatcher-6] INFO  TenhouTcpConnection0 : sent to server <D p="111"/>
+[2018-09-07 02:33:07 [testSystem-akka.actor.default-dispatcher-6] DEBUG TenhouTcpConnection0 : Received data from server <D111/>
+[2018-09-07 02:33:07 [testSystem-akka.actor.default-dispatcher-6] INFO  TenhouClient0 : Received message to be processed: <D111/>
+[2018-09-07 02:33:07 [testSystem-akka.actor.default-dispatcher-6] DEBUG MessageParseUtils : ======================================> Dropped 111
+[2018-09-07 02:33:11 [testSystem-akka.actor.default-dispatcher-3] DEBUG TenhouTcpConnection0 : Received data from server <U/>
+[2018-09-07 02:33:11 [testSystem-akka.actor.default-dispatcher-3] INFO  TenhouClient0 : Received message to be processed: <U/>
+[2018-09-07 02:33:11 [ADSI prefetch thread] DEBUG TenhouLstmIterator : -----------------------------> Load 5585, 4280
+[2018-09-07 02:33:11 [ADSI prefetch thread] DEBUG TenhouLstmIterator : Get all readers loaded 8
+[2018-09-07 02:33:15 [testSystem-akka.actor.default-dispatcher-6] DEBUG TenhouTcpConnection0 : Received data from server <E22/>
+[2018-09-07 02:33:15 [testSystem-akka.actor.default-dispatcher-6] INFO  TenhouClient0 : Received message to be processed: <E22/>
+[2018-09-07 02:33:20 [ADSI prefetch thread] DEBUG TenhouLstmIterator : -----------------------------> Load 5585, 4288
+[2018-09-07 02:33:20 [ADSI prefetch thread] DEBUG TenhouLstmIterator : Get all readers loaded 8
+[2018-09-07 02:33:20 [testSystem-akka.actor.default-dispatcher-3] INFO  TenhouTcpConnection0 : sent to server <Z />
+[2018-09-07 02:33:22 [testSystem-akka.actor.default-dispatcher-3] DEBUG TenhouTcpConnection0 : Received data from server <V/>
+[2018-09-07 02:33:22 [testSystem-akka.actor.default-dispatcher-3] INFO  TenhouClient0 : Received message to be processed: <V/>
+[2018-09-07 02:33:25 [testSystem-akka.actor.default-dispatcher-2] DEBUG TenhouTcpConnection0 : Received data from server <REACH who="2" step="1"/>
+[2018-09-07 02:33:25 [testSystem-akka.actor.default-dispatcher-2] INFO  TenhouClient0 : Received message to be processed: <REACH who="2" step="1"/>
+[2018-09-07 02:33:25 [testSystem-akka.actor.default-dispatcher-2] DEBUG MessageParser : Processed reach message <REACH who="2" step="1"/>
+[2018-09-07 02:33:26 [testSystem-akka.actor.default-dispatcher-3] DEBUG TenhouTcpConnection0 : Received data from server <F81/>
+[2018-09-07 02:33:26 [testSystem-akka.actor.default-dispatcher-3] INFO  TenhouClient0 : Received message to be processed: <F81/>
+[2018-09-07 02:33:27 [ADSI prefetch thread] DEBUG TenhouLstmIterator : -----------------------------> Load 5585, 4296
+[2018-09-07 02:33:27 [ADSI prefetch thread] DEBUG TenhouLstmIterator : Get all readers loaded 8
+[2018-09-07 02:33:32 [testSystem-akka.actor.default-dispatcher-6] DEBUG TenhouTcpConnection0 : Received data from server <REACH who="2" ten="250,250,240,250" step="2"/>
+[2018-09-07 02:33:32 [testSystem-akka.actor.default-dispatcher-6] DEBUG TenhouTcpConnection0 : Received data from server <W/>
+[2018-09-07 02:33:32 [testSystem-akka.actor.default-dispatcher-2] INFO  TenhouClient0 : Received message to be processed: <REACH who="2" ten="250,250,240,250" step="2"/>
+[2018-09-07 02:33:32 [testSystem-akka.actor.default-dispatcher-2] DEBUG MessageParser : Processed reach message <REACH who="2" ten="250,250,240,250" step="2"/>
+[2018-09-07 02:33:32 [testSystem-akka.actor.default-dispatcher-2] INFO  TenhouClient0 : Received message to be processed: <W/>
+[2018-09-07 02:33:33 [testSystem-akka.actor.default-dispatcher-2] DEBUG TenhouTcpConnection0 : Received data from server <G48/>
+[2018-09-07 02:33:33 [testSystem-akka.actor.default-dispatcher-2] DEBUG TenhouTcpConnection0 : Received data from server <T50/>
+[2018-09-07 02:33:33 [testSystem-akka.actor.default-dispatcher-3] INFO  TenhouClient0 : Received message to be processed: <G48/>
+[2018-09-07 02:33:33 [testSystem-akka.actor.default-dispatcher-3] INFO  TenhouClient0 : Received message to be processed: <T50/>
+[2018-09-07 02:33:33 [testSystem-akka.actor.default-dispatcher-3] DEBUG MessageParseUtils : Get ron action:
+[2018-09-07 02:33:33 [testSystem-akka.actor.default-dispatcher-3] DEBUG MessageParseUtils : Get ron action: T50
+[2018-09-07 02:33:33 [testSystem-akka.actor.default-dispatcher-3] DEBUG MessageParseUtils : ======================================> Accepted 50
+[2018-09-07 02:33:33 [Thread-4] INFO  r.d.r.dqn.nn.a3c.ACTenhouPolicy : policy [[1.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00]]
+[2018-09-07 02:33:33 [Thread-4] INFO  r.d.r.dqn.nn.a3c.ACTenhouPolicy : nextAction [[192.00,  0.00,  1.00,  64.00,  64.00,  64.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  1.00,  0.00,  0.00,  64.00,  64.00,  64.00,  0.00,  192.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  3.00,  0.00,  0.00,  1.00,  1.00,  3.00,  0.00,  1.00,  1.00,  0.00,  0.00,  0.00,  0.00,  1.00,  0.00,  1.00,  1.00,  1.00,  1.00,  3.00,  0.00,  0.00,  0.00,  1.00,  1.00,  2.00,  1.00,  1.00,  0.00,  0.00,  1.00,  2.00,  2.00,  1.00,  0.00,  0.00,  2.00,  0.00,  0.00,  0.00]]
+[2018-09-07 02:33:33 [Thread-4] DEBUG MessageParseUtils : lastState[[192.00,  0.00,  1.00,  64.00,  64.00,  64.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  1.00,  0.00,  0.00,  64.00,  64.00,  64.00,  0.00,  192.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00,  3.00,  0.00,  0.00,  1.00,  1.00,  3.00,  0.00,  1.00,  1.00,  0.00,  0.00,  0.00,  0.00,  1.00,  0.00,  1.00,  1.00,  1.00,  1.00,  3.00,  0.00,  0.00,  0.00,  1.00,  1.00,  2.00,  1.00,  1.00,  0.00,  0.00,  1.00,  2.00,  2.00,  1.00,  0.00,  0.00,  2.00,  0.00,  0.00,  0.00]]
+[2018-09-07 02:33:33 [Thread-4] DEBUG MessageParseUtils : ----------------------> Drop actions
+[2018-09-07 02:33:33 [Thread-4] DEBUG MessageParseUtils : Available actions:
+[2018-09-07 02:33:33 [Thread-4] INFO  r.d.r.dqn.nn.a3c.ACTenhouPolicy : 4.793630140597064E-25, 12
+[2018-09-07 02:33:33 [testSystem-akka.actor.default-dispatcher-6] INFO  TenhouClient0 : ----------------------------> In drop action
+[2018-09-07 02:33:33 [testSystem-akka.actor.default-dispatcher-6] INFO  TenhouClient0 : ------------------------------> Pure drop
+[2018-09-07 02:33:33 [testSystem-akka.actor.default-dispatcher-6] DEBUG ActionParser : drop tiles 50
+[2018-09-07 02:33:33 [testSystem-akka.actor.default-dispatcher-6] INFO  TenhouTcpConnection0 : sent to server <D p="50"/>
+[2018-09-07 02:33:34 [testSystem-akka.actor.default-dispatcher-3] DEBUG TenhouTcpConnection0 : Received data from server <D50/>
+[2018-09-07 02:33:34 [testSystem-akka.actor.default-dispatcher-3] DEBUG TenhouTcpConnection0 : Received data from server <U/>
+[2018-09-07 02:33:34 [testSystem-akka.actor.default-dispatcher-3] INFO  TenhouClient0 : Received message to be processed: <D50/>
+[2018-09-07 02:33:34 [testSystem-akka.actor.default-dispatcher-3] DEBUG MessageParseUtils : ======================================> Dropped 50
+[2018-09-07 02:33:34 [testSystem-akka.actor.default-dispatcher-3] INFO  TenhouClient0 : Received message to be processed: <U/>
+[2018-09-07 02:33:34 [ADSI prefetch thread] DEBUG TenhouLstmIterator : -----------------------------> Load 5585, 4304
+[2018-09-07 02:33:34 [ADSI prefetch thread] DEBUG TenhouLstmIterator : Get all readers loaded 7
+[2018-09-07 02:33:35 [testSystem-akka.actor.default-dispatcher-2] INFO  TenhouTcpConnection0 : sent to server <Z />
+[2018-09-07 02:33:38 [testSystem-akka.actor.default-dispatcher-3] DEBUG TenhouTcpConnection0 : Received data from server <E110/>
+[2018-09-07 02:33:38 [testSystem-akka.actor.default-dispatcher-3] DEBUG TenhouTcpConnection0 : Received data from server <V/>
+[2018-09-07 02:33:38 [testSystem-akka.actor.default-dispatcher-2] INFO  TenhouClient0 : Received message to be processed: <E110/>
+[2018-09-07 02:33:38 [testSystem-akka.actor.default-dispatcher-3] DEBUG TenhouTcpConnection0 : Received data from server <f64/>
+[2018-09-07 02:33:38 [testSystem-akka.actor.default-dispatcher-3] DEBUG TenhouTcpConnection0 : Received data from server <W/>
+[2018-09-07 02:33:38 [testSystem-akka.actor.default-dispatcher-2] INFO  TenhouClient0 : Received message to be processed: <V/>
+[2018-09-07 02:33:38 [testSystem-akka.actor.default-dispatcher-2] INFO  TenhouClient0 : Received message to be processed: <f64/>
+[2018-09-07 02:33:38 [testSystem-akka.actor.default-dispatcher-2] INFO  TenhouClient0 : Received message to be processed: <W/>
+[2018-09-07 02:33:41 [ADSI prefetch thread] DEBUG TenhouLstmIterator : -----------------------------> Load 5585, 4312
+[2018-09-07 02:33:41 [ADSI prefetch thread] DEBUG TenhouLstmIterator : Get all readers loaded 8
+[2018-09-07 02:33:45 [testSystem-akka.actor.default-dispatcher-3] DEBUG TenhouTcpConnection0 : Received data from server <g66/>
+[2018-09-07 02:33:45 [testSystem-akka.actor.default-dispatcher-3] DEBUG TenhouTcpConnection0 : Received data from server <RYUUKYOKU ba="0,1" sc="250,15,250,-15,240,15,250,-15" hai2="26,28,33,42,49,52,55,83,85,88,92,93,95" />
+[2018-09-07 02:33:45 [testSystem-akka.actor.default-dispatcher-2] INFO  TenhouClient0 : Received message to be processed: <g66/>
+[2018-09-07 02:33:45 [testSystem-akka.actor.default-dispatcher-2] INFO  TenhouClient0 : Received message to be processed: <RYUUKYOKU ba="0,1" sc="250,15,250,-15,240,15,250,-15" hai2="26,28,33,42,49,52,55,83,85,88,92,93,95" />
+[2018-09-07 02:33:48 [testSystem-akka.actor.default-dispatcher-2] INFO  TenhouClient0 : To send game end reply to mdp
+[2018-09-07 02:33:48 [ADSI prefetch thread] DEBUG TenhouLstmIterator : -----------------------------> Load 5585, 4320
+[2018-09-07 02:33:48 [ADSI prefetch thread] DEBUG TenhouLstmIterator : Get all readers loaded 8
+[2018-09-07 02:33:48 [Thread-4] INFO  o.d.rl4j.learning.async.AsyncThread : ThreadNum-0 Epoch: 0, reward: 15.0
+[2018-09-07 02:33:48 [Thread-4] INFO  TenhouEncodableMdp : in reset
+[2018-09-07 02:33:48 [testSystem-akka.actor.default-dispatcher-3] INFO  TenhouTcpConnection0 : sent to server <NEXTREADY/>
+[2018-09-07 02:33:48 [Thread-3] INFO  o.d.o.l.ScoreIterationListener : Score at iteration 0 is 0.0
+[2018-09-07 02:33:49 [testSystem-akka.actor.default-dispatcher-3] DEBUG TenhouTcpConnection0 : Received data from server <INIT seed="0,1,1,3,4,29" ten="265,235,255,235" oya="2" hai="113,28,129,130,24,82,77,92,93,90,63,36,1"/>
+[2018-09-07 02:33:49 [testSystem-akka.actor.default-dispatcher-3] DEBUG TenhouTcpConnection0 : Received data from server <V/>
+[2018-09-07 02:33:49 [testSystem-akka.actor.default-dispatcher-2] INFO  TenhouClient0 : Received message to be processed: <INIT seed="0,1,1,3,4,29" ten="265,235,255,235" oya="2" hai="113,28,129,130,24,82,77,92,93,90,63,36,1"/>
+[2018-09-07 02:33:49 [testSystem-akka.actor.default-dispatcher-2] DEBUG MessageParseUtils : ======================================> Accepted 113
+[2018-09-07 02:33:49 [testSystem-akka.actor.default-dispatcher-2] DEBUG MessageParseUtils : ======================================> Accepted 28
+[2018-09-07 02:33:49 [testSystem-akka.actor.default-dispatcher-2] DEBUG MessageParseUtils : ======================================> Accepted 129
+[2018-09-07 02:33:49 [testSystem-akka.actor.default-dispatcher-2] DEBUG MessageParseUtils : ======================================> Accepted 130
+[2018-09-07 02:33:49 [testSystem-akka.actor.default-dispatcher-2] DEBUG MessageParseUtils : ======================================> Accepted 24
+[2018-09-07 02:33:49 [testSystem-akka.actor.default-dispatcher-2] DEBUG MessageParseUtils : ======================================> Accepted 82
+[2018-09-07 02:33:49 [testSystem-akka.actor.default-dispatcher-2] DEBUG MessageParseUtils : ======================================> Accepted 77
+[2018-09-07 02:33:49 [testSystem-akka.actor.default-dispatcher-2] DEBUG MessageParseUtils : ======================================> Accepted 92
+[2018-09-07 02:33:49 [testSystem-akka.actor.default-dispatcher-2] DEBUG MessageParseUtils : ======================================> Accepted 93
+[2018-09-07 02:33:49 [testSystem-akka.actor.default-dispatcher-2] DEBUG MessageParseUtils : ======================================> Accepted 90
+[2018-09-07 02:33:49 [testSystem-akka.actor.default-dispatcher-2] DEBUG MessageParseUtils : ======================================> Accepted 63
+[2018-09-07 02:33:49 [testSystem-akka.actor.default-dispatcher-2] DEBUG MessageParseUtils : ======================================> Accepted 36
+[2018-09-07 02:33:49 [testSystem-akka.actor.default-dispatcher-2] DEBUG MessageParseUtils : ======================================> Accepted 1
+[2018-09-07 02:33:49 [testSystem-akka.actor.default-dispatcher-2] INFO  TenhouClient0 : Received message to be processed: <V/>

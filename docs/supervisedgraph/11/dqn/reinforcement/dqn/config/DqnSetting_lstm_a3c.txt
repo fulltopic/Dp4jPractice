@@ -1,0 +1,32 @@
+ReplayBufferSize = 50
+
+GameEndWaitTime = 3
+KALimit = 5
+LNLimit = 10
+
+A3CServerIP = localhost
+A3CServerPort = 52222
+A3CThreadNum = 4
+
+ServerIP = 133.242.10.78
+Port = 10080
+UserNames = ID612E00B1-8eVaBXdR,ID78A24927-c5bhBcQb,ID48547DBC-bBYmSGLD,ID14BA4AD0-38gaDVBG
+
+StartEpsilon = 0.30f
+MinEpsilon = 0.0f
+EpsilonScaleRate  = 0.02f
+AggressiveStealue  = 0.0f
+UpdateTillSave = 60
+
+RewardFileName = /home/zf/workspaces/workspace_java/tenhoulogs/testdqnmodels/rewards/reward
+ModelFileName = /home/zf/workspaces/workspace_java/tenhoulogs/testdqnmodels/models/modela3clstm
+ModelLstmFileName = /home/zf/workspaces/workspace_java/tenhoulogs/testdqnmodels/models/modellstm
+#LoadModelFileName = /home/zf/workspaces/workspace_java/tenhoulogs/testdqnmodels/models/modeldoublenn1533275968282.xml
+#LoadModelBiLstmFileName = /home/zf/workspaces/workspace_java/tenhoulogs/logs/xmlfiles/supervised/models/bilstmmodel_bestsofar.txt
+#LoadModelLstmFileName = /home/zf/workspaces/workspace_java/tenhoulogs/testdqnmodels/models/modellstm1534022084577.xml
+#LoadNNModelFileName = /home/zf/workspaces/workspace_java/tenhoulogs/testdqnmodels/models/modela3clstm1535530295335
+#LoadNNModelFileName = /home/zf/workspaces/workspace_java/tenhoulogs/logs/xmlfiles/supervised/models/conv_conv_dense_lstm_bestsofar.xml
+#LoadNNModelFileName = /home/zf/workspaces/workspace_java/mjpratice/docs/supervisedgraph/9/modela3clstm1536721160184
+#LoadNNModelFileName = /home/zf/workspaces/workspace_java/mjpratice/docs/supervisedgraph/9/nnmodel_1536430104600.xml
+#LoadNNModelFileName = /home/zf/workspaces/workspace_java/tenhoulogs/testdqnmodels/models/modela3clstm1536649244768
+LoadNNModelFileName = /home/zf/workspaces/workspace_java/tenhoulogs/testdqnmodels/models/modela3clstm1536815437133

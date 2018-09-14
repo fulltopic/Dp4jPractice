@@ -1,0 +1,28 @@
+ReplayBufferSize = 50
+
+GameEndWaitTime = 3
+KALimit = 5
+LNLimit = 10
+
+A3CServerIP = localhost
+A3CServerPort = 52222
+A3CThreadNum = 1
+
+ServerIP = 133.242.10.78
+Port = 10080
+UserNameId = 0
+
+StartEpsilon = 0.30f
+MinEpsilon = 0.1f
+EpsilonScaleRate  = 0.02f
+AggressiveStealue  = 0.0f
+UpdateTillSave = 60
+
+RewardFileName = /home/zf/workspaces/workspace_java/tenhoulogs/testdqnmodels/rewards/reward
+ModelFileName = /home/zf/workspaces/workspace_java/tenhoulogs/testdqnmodels/models/modeldoublenn
+ModelLstmFileName = /home/zf/workspaces/workspace_java/tenhoulogs/testdqnmodels/models/modellstm
+LoadModelFileName = /home/zf/workspaces/workspace_java/tenhoulogs/testdqnmodels/models/modeldoublenn1533275968282.xml
+LoadModelBiLstmFileName = /home/zf/workspaces/workspace_java/tenhoulogs/logs/xmlfiles/supervised/models/bilstmmodel_bestsofar.txt
+LoadModelLstmFileName = /home/zf/workspaces/workspace_java/tenhoulogs/testdqnmodels/models/modellstm1534022084577.xml
+LoadNNModelFileName = /home/zf/workspaces/workspace_java/tenhoulogs/logs/xmlfiles/supervised/models/modellstm1534071036239.xml
+LoadNNModelFileName = /home/zf/workspaces/workspace_java/tenhoulogs/logs/xmlfiles/supervised/models/conv_conv_dense_lstm_bestsofar.xml

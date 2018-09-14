@@ -1,0 +1,73 @@
+package rl.dqn.reinforcement.dqn.config
+
+import rl.dqn.reinforcement.dqn.{TenhouServerIp, TenhouUserName}
+
+object DqnSettings {
+  /*
+  For All
+   */
+  val TestName0 = "ID10632D03-BZRFdSab" //fullrand
+  val TestName1 = "ID59DC5036-YQSVMgX6" //deprecated
+  val TestName2 = "ID2E336B42-BfAf8H9F" //fullcnn
+  val TestName3 = "ID5F0B11CB-PU9nHfDM" //fullnn
+  val TestName4 = "ID48547DBC-bBYmSGLD" //fulllstm
+
+  val TestNames = Array[String] (TestName0, TestName1, TestName2, TestName3, TestName4)
+
+  val ReplayBufferSize: Int = 100
+  val LstmSeqCap: Int = 50
+
+  val Local2LayerLstmModelFile = "/home/zf/workspaces/workspace_java/tenhoulogs/logs/xmlfiles/supervised/models/model_lstm_2layer.xml/"
+
+  /*
+    For cloud
+   */
+
+//  val GameEndWaitTime: Int = 3 //second
+//  val KALimit: Int = 5
+//  val LNLimit: Int = 10
+//
+//  val ServerIP = TenhouServerIp
+//  val Port = 10080
+//  val UserName = TestName4
+//
+//  val StartEpsilon: Float = 0.05f
+//  val MinEpsilon: Float = 0.05f
+//  val EpsilonScaleRate: Float = 0.02f
+//  val AggressiveStealValue: Float = 0.0f
+//  val UpdateTillSave: Int = 50
+//  val RewardFileName = "/home/ec2-user/tenhoulogs/dqntest/rewards/doublennreward"
+//  val ModelFileName = "/home/ec2-user/tenhoulogs/dqntest/models/doublennmodel"
+//  val ModelLstmFileName = "/home/ec2-user/tenhoulogs/dqntest/models/lstmmodel"
+//  val LoadModelFileName = "/home/ec2-user/tenhoulogs/dqntest/models/doublennmodel1533786457368.xml"
+//  val LoadModelLstmFileName = "/home/ec2-user/tenhoulogs/dqntest/models/modellstm1534158097308.xml"
+////  val LoadNNModelFileName = "/home/ec2-user/tenhoulogs/xmlfiles/models/doublennmodel1533451386656.xml"
+//  val LoadNNModelFileName = "/home/ec2-user/tenhoulogs/dqntest/models/doublennmodel1534020637655.xml"
+
+
+  /*
+    For local
+   */
+  val GameEndWaitTime: Int = 3 //second
+  val KALimit: Int = 5
+  val LNLimit: Int = 10
+
+  val ServerIP = TenhouServerIp
+  val Port = 10080
+  val UserName = TestName2
+
+  val StartEpsilon: Float = 0.30f
+  val MinEpsilon: Float = 0.1f
+  val EpsilonScaleRate: Float = 0.02f
+  val AggressiveStealValue: Float = 0.0f
+  val UpdateTillSave: Int = 50
+
+
+  val RewardFileName = "/home/zf/workspaces/workspace_java/tenhoulogs/testdqnmodels/rewards/reward"
+  val ModelFileName = "/home/zf/workspaces/workspace_java/tenhoulogs/testdqnmodels/models/modeldoublenn"
+  val ModelLstmFileName = "/home/zf/workspaces/workspace_java/tenhoulogs/testdqnmodels/models/modellstm"
+  val LoadModelFileName = "/home/zf/workspaces/workspace_java/tenhoulogs/testdqnmodels/models/modeldoublenn1533275968282.xml" //TODO: To modify
+  val LoadModelBiLstmFileName = "/home/zf/workspaces/workspace_java/tenhoulogs/logs/xmlfiles/supervised/models/bilstmmodel_bestsofar.txt"
+  val LoadModelLstmFileName = "/home/zf/workspaces/workspace_java/tenhoulogs/testdqnmodels/models/modellstm1534022084577.xml"
+  val LoadNNModelFileName = "/home/zf/workspaces/workspace_java/tenhoulogs/logs/xmlfiles/supervised/models/modellstm1534071036239.xml"
+}

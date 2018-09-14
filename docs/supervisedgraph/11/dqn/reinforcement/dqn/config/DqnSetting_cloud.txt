@@ -1,0 +1,28 @@
+ReplayBufferSize = 50
+
+GameEndWaitTime = 3
+KALimit = 5
+LNLimit = 10
+
+A3CServerIP = localhost
+A3CServerPort = 52222
+A3CThreadNum = 3
+
+ServerIP = 133.242.10.78
+Port = 10080
+UserNameId = 0
+
+StartEpsilon = 0.30f
+MinEpsilon = 0.1f
+EpsilonScaleRate  = 0.02f
+AggressiveStealue  = 0.0f
+UpdateTillSave = 60
+
+RewardFileName = /home/ec2-user/tenhoulogs/dqntest/rewards/a3creward
+ModelFileName = /home/ec2-user/tenhoulogs/dqntest/models/a3cmodel
+LoadNNModelFileName = /home/ec2-user/tenhoulogs/dqntest/models/conv_conv_dense_lstm_bestsofar.xml
+
+ModelLstmFileName = /home/zf/workspaces/workspace_java/tenhoulogs/testdqnmodels/models/modellstm
+LoadModelFileName = /home/ec2-user/tenhoulogs/dqntest/models/modeldoublenn1533275968282.xml
+LoadModelBiLstmFileName = /home/zf/workspaces/workspace_java/tenhoulogs/logs/xmlfiles/supervised/models/bilstmmodel_bestsofar.txt
+LoadModelLstmFileName = /home/zf/workspaces/workspace_java/tenhoulogs/testdqnmodels/models/modellstm1534022084577.xml
