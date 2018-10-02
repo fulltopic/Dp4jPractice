@@ -1,0 +1,3 @@
+penalty = -0.4
+trained in public lobbies
+only win game trained

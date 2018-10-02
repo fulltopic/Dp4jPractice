@@ -1,0 +1,3 @@
+Only train positive games
+Make negative games as zero reward
+No invalid action penalty
