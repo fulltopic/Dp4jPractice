@@ -1,0 +1,2 @@
+*4 for positive reward
+-0.1 for tie
