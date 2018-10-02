@@ -1,0 +1,3 @@
+special delta for steal added into nninput
+-0.01 for invalid action
+only gain game trained
