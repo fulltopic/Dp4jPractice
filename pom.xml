@@ -113,7 +113,7 @@
         </dependency>
         <dependency>
             <groupId>com.typesafe.scala-logging</groupId>
-            <artifactId>scala-logging</artifactId>
+            <artifactId>scala-logging_2.12</artifactId>
             <version>3.9.0</version>
         </dependency>
         <dependency>
