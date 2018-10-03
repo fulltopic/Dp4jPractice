@@ -14,7 +14,8 @@ import org.nd4j.linalg.factory.Nd4j
 import scala.concurrent.duration.Duration
 import scala.concurrent.{Await, Future}
 import scala.util.{Failure, Random, Success}
-import dp4jpractice.org.mjsupervised.utils.ImplConsts._
+import tenhouclient.impl.ImplConsts._
+//import dp4jpractice.org.mjsupervised.utils.ImplConsts._
 
 class TenhouLstmIterator(xmlParentDir: String, batchSize: Int, winner: Boolean = false, val model: MultiLayerNetwork = null) extends  DataSetIterator{
   val logger = Logger("TenhouLstmIterator")

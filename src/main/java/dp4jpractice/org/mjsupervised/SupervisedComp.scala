@@ -25,7 +25,8 @@ import org.nd4j.linalg.activations.Activation
 import org.nd4j.linalg.factory.Nd4j
 import org.nd4j.linalg.learning.config.Adam
 import org.nd4j.linalg.lossfunctions.LossFunctions
-import dp4jpractice.org.mjsupervised.utils.ImplConsts._
+import tenhouclient.impl.ImplConsts._
+//import dp4jpractice.org.mjsupervised.utils.ImplConsts._
 
 object SupervisedComp extends App{
   def CreateActorCritic(netConf: ActorCriticFactoryCompGraphStdDense.Configuration, numInputs: Int, numOutputs: Int, supervised: Boolean): ComputationGraph = {

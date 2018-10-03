@@ -1,8 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3c5fff74-fee0-47ce-a9c3-25a6ec565306" name="Default Changelist" comment="">
+    <list default="true" id="55aa2842-5703-488d-bb22-09534e4d0b1d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/hydra.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/markdown-exported-files.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/markdown-navigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/markdown-navigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dp4jpractice/org/Tuning.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjclassifier/Tuning.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjsupervised/SupervisedComp.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjsupervised/SupervisedComp.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjsupervised/dataprocess/iterator/TenhouCompCnnLstmIterator.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjsupervised/dataprocess/iterator/TenhouCompCnnLstmIterator.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjsupervised/dataprocess/iterator/TenhouCompMaskCnnLstmIterator.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjsupervised/dataprocess/iterator/TenhouCompMaskCnnLstmIterator.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjsupervised/dataprocess/iterator/TenhouLstmIterator.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjsupervised/dataprocess/iterator/TenhouLstmIterator.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjsupervised/dataprocess/iterator/TenhouLstmReaderWinner.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjsupervised/dataprocess/iterator/TenhouLstmReaderWinner.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjsupervised/dataprocess/iterator/TenhouXmlFileReader.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjsupervised/dataprocess/iterator/TenhouXmlFileReader.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -12,108 +23,161 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FUSProjectUsageTrigger">
-    <session id="1702785307">
+    <session id="751981467">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="14" />
-          <entry key="project.open.time.1" value="2" />
-          <entry key="project.open.time.2" value="1" />
-          <entry key="project.open.time.3" value="4" />
-          <entry key="project.open.time.33" value="1" />
-          <entry key="project.open.time.4" value="1" />
-          <entry key="project.open.time.5" value="1" />
-          <entry key="project.open.time.57" value="1" />
-          <entry key="project.open.time.6" value="2" />
-          <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="14" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="java" value="33" />
-          <entry key="log" value="1" />
-          <entry key="md" value="5" />
-          <entry key="png" value="23" />
-          <entry key="scala" value="17" />
-          <entry key="txt" value="23" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="Image" value="23" />
-          <entry key="JAVA" value="33" />
-          <entry key="Markdown" value="5" />
-          <entry key="PLAIN_TEXT" value="24" />
-          <entry key="Scala" value="17" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="2" />
-          <entry key="md" value="2081" />
-          <entry key="txt" value="382" />
+          <entry key="scala" value="131" />
+          <entry key="xml" value="41" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages" />
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="8" />
+          <entry key="md" value="1" />
+          <entry key="scala" value="7" />
+          <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2" />
-          <entry key="Markdown" value="2081" />
-          <entry key="PLAIN_TEXT" value="382" />
+          <entry key="Scala" value="131" />
+          <entry key="XML" value="41" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="8" />
+          <entry key="Markdown" value="1" />
+          <entry key="Scala" value="7" />
+          <entry key="XML" value="1" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/supervisedgraph/9/scores.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/supervisedgraph/9/evaluation.txt">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjsupervised/dataprocess/iterator/TenhouLstmReaderWinner.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="26">
-              <caret line="8062" column="46" selection-start-line="8062" selection-start-column="46" selection-end-line="8062" selection-end-column="46" />
+            <state relative-caret-position="126">
+              <caret line="7" column="51" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/a3c/3/average.png">
-          <provider selected="true" editor-type-id="images" />
+        <entry file="file://$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjsupervised/dataprocess/iterator/TenhouXmlFileReader.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjsupervised/dataprocess/preprocessor/TenhouFF2CnnPreProcessor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjsupervised/dataprocess/preprocessor/TenhouInputPreProcessor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjsupervised/dataprocess/preprocessor/TenhouRnnToCnnPreProcessor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjsupervised/nn/A3CTenhouModelFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="594">
+              <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjsupervised/nn/TenhouActorCriticCompGraph.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjsupervised/nn/TenhouActorCriticLoss.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjsupervised/nn/TenhouComputationGraph.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/docs/a3c/4/reward2.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/a3c/4/average1.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/a3c/3/reward1.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/a3c/4/reward1.png">
-          <provider selected="true" editor-type-id="images" />
+        <entry file="file://$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjsupervised/SupervisedComp.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="486">
+              <caret line="27" column="37" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
+              <folding>
+                <element signature="e#39#91#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>ref</find>
-      <find>Examples labeled as 34 classified by model as 31</find>
-      <find>accuracy</find>
-      <find>Accuracy</find>
-      <find>RYUUKYOKU</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -121,32 +185,20 @@
   <component name="GradleLocalSettings">
     <option name="projectSyncType">
       <map>
-        <entry key="$PROJECT_DIR$/../tenso/tenso" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../tenso/tenso" value="PREVIEW" />
       </map>
     </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/docs/a3c.md" />
-        <option value="$PROJECT_DIR$/docs/supervisedgraph/1/evaluation.txt" />
-        <option value="$PROJECT_DIR$/docs/supervisedgraph/2/evaluation.txt" />
-        <option value="$PROJECT_DIR$/docs/supervisedgraph/3/evaluation.txt" />
-        <option value="$PROJECT_DIR$/docs/supervisedgraph/4/evaluation.txt" />
-        <option value="$PROJECT_DIR$/docs/supervisedgraph/3/testeval.txt" />
-        <option value="$PROJECT_DIR$/docs/supervisedgraph/2/testeval.txt" />
-        <option value="$PROJECT_DIR$/docs/supervisedgraph/1/testeval.txt" />
-        <option value="$PROJECT_DIR$/docs/supervisedgraph/5/evaluation.txt" />
-        <option value="$PROJECT_DIR$/docs/supervisedgraph/7/evaluation.txt" />
-        <option value="$PROJECT_DIR$/docs/supervisedgraph/6/evaluation.txt" />
-        <option value="$PROJECT_DIR$/docs/supervisedgraph/8/evaluation.txt" />
-        <option value="$PROJECT_DIR$/docs/supervisedgraph/9/evaluation.txt" />
-        <option value="$PROJECT_DIR$/docs/supervisedgraph/9/testeval.txt" />
-        <option value="$PROJECT_DIR$/docs/supervisedgraph/8/logs.txt" />
-        <option value="$PROJECT_DIR$/docs/a3c/1/a3c/ACTenhouPolicy.java" />
-        <option value="$PROJECT_DIR$/docs/a3c/3/convergence.txt" />
-        <option value="$PROJECT_DIR$/docs/a3c/3/logs.txt" />
-        <option value="$PROJECT_DIR$/docs/a3c/3/notes.txt" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjsupervised/dataprocess/iterator/TenhouCompCnnLstmIterator.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjsupervised/dataprocess/iterator/TenhouCompMaskCnnLstmIterator.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjsupervised/dataprocess/iterator/TenhouLstmIterator.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjsupervised/dataprocess/iterator/TenhouLstmReaderWinner.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjsupervised/dataprocess/iterator/TenhouXmlFileReader.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjsupervised/SupervisedComp.scala" />
       </list>
     </option>
   </component>
@@ -158,11 +210,10 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="x" value="1920" />
-    <option name="y" value="-37" />
-    <option name="width" value="1280" />
-    <option name="height" value="1061" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="114" />
+    <option name="width" value="1910" />
+    <option name="height" value="789" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -170,59 +221,41 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="mjpratice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mjpratice" type="462c0819:PsiDirectoryNode" />
+              <item name="Dp4jPractice" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mjpratice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mjpratice" type="462c0819:PsiDirectoryNode" />
+              <item name="Dp4jPractice" type="462c0819:PsiDirectoryNode" />
               <item name="docs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mjpratice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mjpratice" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
-              <item name="a3c" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mjpratice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mjpratice" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
-              <item name="a3c" type="462c0819:PsiDirectoryNode" />
-              <item name="3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mjpratice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mjpratice" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
-              <item name="a3c" type="462c0819:PsiDirectoryNode" />
-              <item name="4" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mjpratice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mjpratice" type="462c0819:PsiDirectoryNode" />
+              <item name="Dp4jPractice" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mjpratice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mjpratice" type="462c0819:PsiDirectoryNode" />
+              <item name="Dp4jPractice" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mjpratice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mjpratice" type="462c0819:PsiDirectoryNode" />
+              <item name="Dp4jPractice" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mjpratice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mjpratice" type="462c0819:PsiDirectoryNode" />
+              <item name="Dp4jPractice" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -230,7 +263,7 @@
             </path>
             <path>
               <item name="mjpratice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mjpratice" type="462c0819:PsiDirectoryNode" />
+              <item name="Dp4jPractice" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -239,7 +272,68 @@
             </path>
             <path>
               <item name="mjpratice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mjpratice" type="462c0819:PsiDirectoryNode" />
+              <item name="Dp4jPractice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="mjsupervised" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mjpratice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dp4jPractice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="mjsupervised" type="462c0819:PsiDirectoryNode" />
+              <item name="dataprocess" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mjpratice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dp4jPractice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="mjsupervised" type="462c0819:PsiDirectoryNode" />
+              <item name="dataprocess" type="462c0819:PsiDirectoryNode" />
+              <item name="iterator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mjpratice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dp4jPractice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="mjsupervised" type="462c0819:PsiDirectoryNode" />
+              <item name="dataprocess" type="462c0819:PsiDirectoryNode" />
+              <item name="preprocessor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mjpratice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dp4jPractice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="mjsupervised" type="462c0819:PsiDirectoryNode" />
+              <item name="nn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mjpratice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dp4jPractice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="mjsupervised" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mjpratice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dp4jPractice" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -250,21 +344,14 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536901664958" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538528089662" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/docs/a3c/3/a3c" />
-      <recent name="$PROJECT_DIR$/docs/a3c/2/a3c" />
-      <recent name="$PROJECT_DIR$/docs/a3c/2" />
-      <recent name="$PROJECT_DIR$/docs/a3c/1/a3c" />
-      <recent name="$PROJECT_DIR$/docs/a3c/1/after" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjclassifier" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -281,9 +368,7 @@
   </component>
   <component name="RunManager">
     <configuration default="true" type="Applet" factoryName="Applet">
-      <option name="HEIGHT" value="0" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="WIDTH" value="0" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -295,14 +380,12 @@
       </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="VM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
-      <option name="VM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <properties />
       <listeners />
@@ -310,69 +393,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="tests" factoryName="Nosetests">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="" />
-      <option name="_new_regexPattern" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Twisted Trial">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Unittests">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="py.test">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
   </component>
   <component name="SbtLocalSettings">
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$/../../workspace_scala/barneshut" value="1489235322335" />
+        <entry key="$PROJECT_DIR$/../../../workspace_scala/barneshut" value="1489235322335" />
       </map>
     </option>
   </component>
@@ -381,33 +406,30 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="3c5fff74-fee0-47ce-a9c3-25a6ec565306" name="Default Changelist" comment="" />
-      <created>1534143321931</created>
+      <changelist id="55aa2842-5703-488d-bb22-09534e4d0b1d" name="Default Changelist" comment="" />
+      <created>1538524073269</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1534143321931</updated>
+      <updated>1538524073269</updated>
     </task>
-    <task id="LOCAL-00001" summary="Content of file">
-      <created>1534182115986</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1534182115986</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1920" y="-37" width="1280" height="1061" extended-state="6" />
+    <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4961915" visible="true" weight="0.27597404" />
-      <window_info id="Structure" order="1" sideWeight="0.5038085" side_tool="true" visible="true" weight="0.27597404" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="SBT Execute" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="SBT Console" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -415,297 +437,184 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="SBT Execute" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="SBT Console" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="11" />
-      <window_info anchor="bottom" id="Bucklescript" order="12" />
-      <window_info anchor="bottom" id="Messages" order="13" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Maven Projects" order="7" />
     </layout>
-  </component>
-  <component name="UnknownFeatures">
-    <option featureType="com.intellij.fileTypeFactory" implementationName="*.log" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Content of file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Content of file" />
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/docs/supervisedgraph/8/A3CTenhouModelFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjclassifier/Tuning.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjclassifier/MahjongClassifier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2196">
+          <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="121" column="24" selection-start-line="121" selection-start-column="24" selection-end-line="121" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjsupervised/dataprocess/iterator/TenhouCompCnnLstmIterator.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+          <folding>
+            <element signature="e#60#117#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjsupervised/dataprocess/iterator/TenhouCompMaskCnnLstmIterator.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+          <folding>
+            <element signature="e#60#117#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjsupervised/dataprocess/iterator/TenhouLstmIterator.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
-          <caret line="44" column="59" selection-start-line="44" selection-start-column="59" selection-end-line="44" selection-end-column="59" />
+          <caret line="19" column="54" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
+          <folding>
+            <element signature="e#60#79#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/supervisedgraph/3/testeval.txt">
+    <entry file="file://$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjsupervised/dataprocess/iterator/TenhouLstmReader.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="498">
-          <caret line="1518" column="32" selection-start-line="1518" selection-start-column="32" selection-end-line="1518" selection-end-column="32" />
+        <state relative-caret-position="162">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+          <folding>
+            <element signature="e#60#90#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/supervisedgraph/8/TenhouRnnToCnnPreProcessor.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjsupervised/dataprocess/iterator/TenhouLstmReaderWinner.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="35" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
+        <state relative-caret-position="126">
+          <caret line="7" column="51" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/supervisedgraph/8/evaluation.txt">
+    <entry file="file://$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjsupervised/dataprocess/iterator/TenhouXmlFileReader.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48582">
-          <caret line="2699" column="17" selection-start-line="2699" selection-start-column="17" selection-end-line="2699" selection-end-column="17" />
+        <state relative-caret-position="126">
+          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/supervisedgraph/10/A3CTenhouThreadDiscrete.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjsupervised/dataprocess/preprocessor/TenhouFF2CnnPreProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="738">
-          <caret line="64" column="56" selection-start-line="64" selection-start-column="56" selection-end-line="64" selection-end-column="56" />
+        <state relative-caret-position="198">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/supervisedgraph/9/SupervisedComp.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjsupervised/dataprocess/preprocessor/TenhouInputPreProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="54" selection-start-line="54" selection-end-line="54" />
+        <state relative-caret-position="234">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/supervisedgraph/9/TenhouCompMaskCnnLstmIterator.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjsupervised/dataprocess/preprocessor/TenhouRnnToCnnPreProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="6" column="58" selection-start-line="6" selection-start-column="58" selection-end-line="6" selection-end-column="58" />
+        <state relative-caret-position="162">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/supervisedgraph/9/A3CTenhouModelFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjsupervised/nn/A3CTenhouModelFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="594">
+          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/supervisedgraph/9/TenhouRnnToCnnPreProcessor.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/supervisedgraph/9/testeval.txt">
+    <entry file="file://$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjsupervised/nn/TenhouActorCriticCompGraph.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132300">
-          <caret line="7350" selection-start-line="7350" selection-end-line="7350" />
+        <state relative-caret-position="108">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/a3c/1/TestLstmA3C.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjsupervised/nn/TenhouActorCriticLoss.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="180">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/a3c/1/ACTenhouPolicy.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjsupervised/nn/TenhouComputationGraph.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="42" column="30" lean-forward="true" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
+        <state relative-caret-position="180">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/a3c/1/A3CTenhouModelFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjsupervised/SupervisedComp.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="40" column="67" lean-forward="true" selection-start-line="40" selection-start-column="67" selection-end-line="40" selection-end-column="67" />
+        <state relative-caret-position="486">
+          <caret line="27" column="37" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
+          <folding>
+            <element signature="e#39#91#0" expanded="true" />
+          </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/a3c/1/A3CTenhouThreadDiscrete.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="47" column="29" lean-forward="true" selection-start-line="47" selection-start-column="29" selection-end-line="47" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/supervisedgraph/8/scores.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/a3c/1/a3c/TestLstmA3C.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/a3c/1/a3c/ACTenhouPolicy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="48" selection-start-line="48" selection-end-line="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/supervisedgraph/9/rawlog1.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/supervisedgraph/8/logs.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="68" selection-start-line="5" selection-start-column="68" selection-end-line="5" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/a3c/2/before/fulllstm.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/a3c/1/a3c/DqnSettings.scala">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/a3c/1/a3c/DqnSetting_lstm_a3c.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/a3c/2/a3c/TestLstmA3C.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/a3c/2/a3c/DqnSettings.scala">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/a3c/2/before/fullacd.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/a3c/2/before/fulllsta.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/a3c/3/a3c/MessageParseUtils.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="31" column="38" lean-forward="true" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/a3c/3/a3c/A3CTenhouThreadDiscrete.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/a3c/3/a3c/DqnSettings.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/a3c/3/a3c/DqnSetting_lstm_a3c.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/a3c/3/convergence.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="24" column="46" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/a3c/2/a3c/A3CTenhouThreadDiscrete.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="827">
-          <caret line="291" column="49" selection-start-line="291" selection-start-column="49" selection-end-line="291" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/a3c/2/after/fullacc.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/a3c/2/after/fullacd.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/a3c/2/after/fulllstm.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/a3c/2/after/fulllsta.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/a3c/3/logs.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="61" selection-start-column="61" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/a3c/3/notes.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/a3c/3/images/1/fullaca.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/a3c/3/images/1/fullacc.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/a3c/3/images/1/fullacd.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/a3c/3/images/1/fulllsta.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/a3c/3/images/1/fulllstm.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/supervisedgraph/9/scores.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/a3c/3/debug1.log">
-      <provider selected="true" editor-type-id="LargeFileEditor">
-        <state relative-caret-position="316">
-          <caret line="348" column="123" lean-forward="true" selection-start-line="348" selection-start-column="123" selection-end-line="348" selection-end-column="123" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/supervisedgraph/9/evaluation.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="8062" column="46" selection-start-line="8062" selection-start-column="46" selection-end-line="8062" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/a3c/4/reward1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/a3c/3/reward1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/a3c/4/average1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/a3c/3/average.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/a3c/4/reward2.png">
-      <provider selected="true" editor-type-id="images" />
     </entry>
   </component>
   <component name="masterDetails">
     <states>
       <state key="ProjectJDKs.UI">
         <settings>
-          <last-edited>1.8</last-edited>
+          <last-edited>Python 2.7.13 (/usr/bin/python2.7)</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

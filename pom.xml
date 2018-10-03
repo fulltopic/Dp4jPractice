@@ -116,6 +116,11 @@
             <artifactId>scala-logging</artifactId>
             <version>3.9.0</version>
         </dependency>
+        <dependency>
+            <groupId>tenhouclient-dp4j</groupId>
+            <artifactId>tenhouclient</artifactId>
+            <version>1.0</version>
+        </dependency>
     </dependencies>
 
   <build>
