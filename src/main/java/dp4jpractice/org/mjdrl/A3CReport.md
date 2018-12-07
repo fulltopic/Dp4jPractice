@@ -23,7 +23,7 @@ The reward is based on the ten won/lost in the game and distributed by decay thr
 * In mahjong game, Revolution layer seemed natural
 * Initialized by parameters trained in supervised learning
 ## Reward Function
-This game is in fact a half-observable RL problem,
+This game is in fact a partially observed RL problem,
 and there are still a lots to be tried on network architecture and learning process.
 While one thing important of RL observed in this course. That is reward function.
 
@@ -261,8 +261,8 @@ The number of tiles could be dropped:
 
 
 ## Conclusion
-It is a part-observable game. This type of game has had just several cases resolved.
+It is a partially observed game. This type of game has had just several cases resolved.
 It seemed that it may not be problem that could be solved by a single NN, not to mention such a simple NN like this one.
 
 I will continue this project to see whether more training could gain some improvement.
-While I have to read more books and papers to understand what is really going on.
+While I have to read more books and papers to understand what happened.
