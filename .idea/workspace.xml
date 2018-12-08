@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="55aa2842-5703-488d-bb22-09534e4d0b1d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjdrl/A3CReport.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjdrl/A3CReport.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,7 +16,7 @@
     <session id="751981467">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="8" />
+          <entry key="project.closed" value="9" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.24" value="1" />
@@ -25,13 +25,14 @@
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.63" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="9" />
+          <entry key="project.open.time.97" value="1" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="java" value="379" />
-          <entry key="md" value="11077" />
+          <entry key="md" value="11095" />
           <entry key="scala" value="323" />
           <entry key="txt" value="13" />
           <entry key="xml" value="46" />
@@ -45,7 +46,7 @@
           <entry key="java" value="102" />
           <entry key="jpg" value="2" />
           <entry key="log" value="26" />
-          <entry key="md" value="23" />
+          <entry key="md" value="24" />
           <entry key="mjlog" value="1" />
           <entry key="modela3clstm1537684696438" value="1" />
           <entry key="png" value="74" />
@@ -57,7 +58,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="379" />
-          <entry key="Markdown" value="11077" />
+          <entry key="Markdown" value="11095" />
           <entry key="PLAIN_TEXT" value="13" />
           <entry key="Scala" value="323" />
           <entry key="XML" value="46" />
@@ -68,7 +69,7 @@
           <entry key="CLASS" value="1" />
           <entry key="Image" value="76" />
           <entry key="JAVA" value="102" />
-          <entry key="Markdown" value="23" />
+          <entry key="Markdown" value="24" />
           <entry key="PLAIN_TEXT" value="103" />
           <entry key="Scala" value="72" />
           <entry key="XML" value="5" />
@@ -78,12 +79,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjdrl/A3CReport.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="417">
-                <caret line="251" lean-forward="true" selection-start-line="251" selection-end-line="251" />
+              <first_editor relative-caret-position="289">
+                <caret line="242" selection-start-line="242" selection-end-line="242" />
+              </first_editor>
+              <second_editor>
+                <markdownNavigatorState />
+              </second_editor>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="432">
+                <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
               </first_editor>
               <second_editor>
                 <markdownNavigatorState />
@@ -188,7 +203,6 @@
         <option value="$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjdrl/nn/dqn/nn/lstm/TenhouLstmQLDiscrete.java" />
         <option value="$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjdrl/nn/dqn/nn/lstm/TenhouLstmEpsGreedy.scala" />
         <option value="$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjdrl/nn/dqn/nn/TenhouEpsGreedy.scala" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjclassifier/Tuning.md" />
         <option value="$PROJECT_DIR$/datasets/mjsupervised/rawfiles/scriptFile.scala" />
         <option value="$PROJECT_DIR$/docs/supervisedgraph/3/A3CTenhouModelFactory.java" />
@@ -197,6 +211,7 @@
         <option value="$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjsupervised/Report.md" />
         <option value="$PROJECT_DIR$/docs/a3c/lobby/4/note.txt" />
         <option value="$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjdrl/A3CReport.md" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -220,6 +235,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -374,7 +390,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -459,8 +474,8 @@
     <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.71569705" visible="true" weight="0.17200854" />
-      <window_info id="Structure" order="1" sideWeight="0.28430295" side_tool="true" visible="true" weight="0.17200854" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7145994" visible="true" weight="0.1741453" />
+      <window_info id="Structure" order="1" sideWeight="0.28540066" side_tool="true" visible="true" weight="0.1741453" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -493,13 +508,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/docs/a3c/2/a3c/TestLstmA3C.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="34" column="62" selection-start-line="34" selection-start-column="62" selection-end-line="34" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docs/a3c/2/after/fullacc.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -714,8 +722,8 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjdrl/A3CReport.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="417">
-            <caret line="251" lean-forward="true" selection-start-line="251" selection-end-line="251" />
+          <first_editor relative-caret-position="289">
+            <caret line="242" selection-start-line="242" selection-end-line="242" />
           </first_editor>
           <second_editor>
             <markdownNavigatorState />
@@ -742,6 +750,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/docs/a3c/lobby/10/note.txt">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="432">
+            <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+          </first_editor>
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">

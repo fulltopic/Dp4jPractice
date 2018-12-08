@@ -22,7 +22,7 @@ Refer to [Report](src/main/java/dp4jpractice/org/mjsupervised/Report.md)
 Reinforcement learning through Tenhou
 
 ### nn/dqn
-Dqn learning, refer to [Report](src/main/java/dp4jpractice/org/mjdrl/DqnReport.md)
+Dqn learning. Deprecated.
 
 ### nn/a3c
 A3C learning, refer to [Report](src/main/java/dp4jpractice/org/mjdrl/A3CReport.md)
