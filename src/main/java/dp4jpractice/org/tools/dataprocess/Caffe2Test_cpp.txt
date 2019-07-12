@@ -1,0 +1,94 @@
+#include <caffe2/core/db.h>
+#include <caffe2/core/init.h>
+#include <caffe2/proto/caffe2_pb.h>
+#include <caffe2/proto/caffe2_legacy.pb.h>
+#include <caffe2/core/logging.h>
+#include <caffe2/core/blob_serialization.h>
+
+#include <c10/util/Registry.h>
+
+#include "util/modelutil.h"
+
+#include <iostream>
+#include <string>
+#include <math.h>
+
+#include "caffe2/utils/proto_utils.h"
+
+using caffe2::db::Cursor;
+using caffe2::db::DB;
+using caffe2::db::Transaction;
+using caffe2::CaffeDatum;
+using caffe2::TensorProto;
+using caffe2::TensorProtos;
+
+using std::string;
+using std::cout;
+using std::endl;
+
+using ::google::protobuf::Message;
+
+const std::string dbType("lmdb");
+const std::string cppDbPath("/home/zf/workspaces/workspace_java/mjpratice_git/Dp4jPractice/lmdbtest/");
+
+
+void readValue(const string dbPath) {
+	std::unique_ptr<DB> testDb(caffe2::db::CreateDB(
+			dbType, dbPath, caffe2::db::READ));
+	std::unique_ptr<Cursor> cursor(testDb->NewCursor());
+
+	while (cursor->Valid()) {
+//		cursor->Next();
+		std::cout << "Cursor Key " << cursor->key() << std::endl;
+
+		caffe2::TensorProtos protos;
+		protos.ParseFromString(cursor->value());
+		cout << "Protos " << protos.protos_size() << endl;
+		auto dataProto = protos.protos(0);
+		cout << "Data dim " << endl;
+		for (int i = 0; i < dataProto.dims_size(); i ++) {
+			cout << "" << dataProto.dims(i) << ", ";
+		}
+		cout << endl;
+
+		cout << "Data: " << endl;
+		auto data = dataProto.int32_data();
+		for (int i = 0; i < data.size(); i ++) {
+			cout << data[i] << ", ";
+			if ((i + 1) % 8 == 0) {
+				cout << "  ";
+			}
+			if ((i + 1) % 32 == 0 || (i + 1) % 71 == 0){
+				cout << endl;
+			}
+		}
+		cout << endl;
+
+//		cout << "Data proto " << dataProto.DebugString() << endl;
+		auto labelProto = protos.protos(1);
+		cout << "Label proto " << labelProto.DebugString() << endl;
+//		ParseFromString(cursor->value(), &protos);
+
+		cursor->Next();
+	}
+
+}
+
+void checkDB(const string dbPath) {
+	caffe2::db::DBReader reader("lmdb", dbPath);
+	std::cout << "DBReader created " << std::endl;
+
+	std::string key;
+	std::string value;
+
+	reader.Read(&key, &value);
+	std::cout << key << std::endl;
+}
+
+const std::string javaDbPath = "/home/zf/workspaces/workspace_java/mjpratice_git/Dp4jPractice/lmdbcpptest/";
+
+
+
+int main(int argc, char** argv) {
+	readValue(cppDbPath);
+}

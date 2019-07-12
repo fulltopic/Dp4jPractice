@@ -6,9 +6,8 @@ import org.nd4j.linalg.api.ndarray.INDArray
 import org.nd4j.linalg.factory.Nd4j
 //import dp4jpractice.org.mjsupervised.utils.TenhouConsts._
 //import dp4jpractice.org.mjsupervised.utils.ImplConsts._
-import dp4jpractice.org.mjsupervised.utils.MessageParseUtils
-import tenhouclient.utils.TenhouConsts._
 import tenhouclient.impl.ImplConsts._
+import tenhouclient.utils.TenhouConsts._
 
 import scala.xml.{Node, Text, XML}
 

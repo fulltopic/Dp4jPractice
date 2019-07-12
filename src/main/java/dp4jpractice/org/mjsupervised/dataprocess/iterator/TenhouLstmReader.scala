@@ -1,11 +1,10 @@
 package dp4jpractice.org.mjsupervised.dataprocess.iterator
 
 import akka.event.slf4j.Logger
+import dp4jpractice.org.mjsupervised.utils.TenhouConsts._
 import org.nd4j.linalg.api.ndarray.INDArray
-import dp4jpractice.org.mjsupervised.utils.ImplConsts._
 
 import scala.xml.Node
-import dp4jpractice.org.mjsupervised.utils.TenhouConsts._
 
 class TenhouLstmReader(pathName: String, winner: Boolean = false) extends TenhouXmlFileReader(pathName) {
   private val logger = Logger("TenhouLstmReader")

@@ -10,11 +10,11 @@ import org.nd4j.linalg.dataset.DataSet
 import org.nd4j.linalg.dataset.api.DataSetPreProcessor
 import org.nd4j.linalg.dataset.api.iterator.DataSetIterator
 import org.nd4j.linalg.factory.Nd4j
+import tenhouclient.impl.ImplConsts._
 
 import scala.concurrent.duration.Duration
 import scala.concurrent.{Await, Future}
 import scala.util.{Failure, Random, Success}
-import tenhouclient.impl.ImplConsts._
 //import dp4jpractice.org.mjsupervised.utils.ImplConsts._
 
 class TenhouLstmIterator(xmlParentDir: String, batchSize: Int, winner: Boolean = false, val model: MultiLayerNetwork = null) extends  DataSetIterator{

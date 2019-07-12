@@ -6,6 +6,7 @@ import org.datavec.image.loader.NativeImageLoader;
 import org.datavec.image.recordreader.ImageRecordReader;
 import org.datavec.image.transform.FlipImageTransform;
 import org.datavec.image.transform.ImageTransform;
+import org.deeplearning4j.api.storage.StatsStorage;
 import org.deeplearning4j.datasets.datavec.RecordReaderDataSetIterator;
 import org.deeplearning4j.datasets.iterator.MultipleEpochsIterator;
 import org.deeplearning4j.eval.Evaluation;
@@ -24,6 +25,9 @@ import org.deeplearning4j.nn.multilayer.MultiLayerNetwork;
 import org.deeplearning4j.nn.transferlearning.FineTuneConfiguration;
 import org.deeplearning4j.nn.transferlearning.TransferLearning;
 import org.deeplearning4j.nn.weights.WeightInit;
+import org.deeplearning4j.ui.api.UIServer;
+import org.deeplearning4j.ui.stats.StatsListener;
+import org.deeplearning4j.ui.storage.InMemoryStatsStorage;
 import org.deeplearning4j.util.ModelSerializer;
 import org.nd4j.linalg.activations.Activation;
 import org.nd4j.linalg.dataset.api.iterator.DataSetIterator;
@@ -254,18 +258,22 @@ public class MahjongClassifier {
         report("");
     }
 
-    private void runScratchModel(int batchSize, int epochNum, double l2NormBeta, double learningRate, int l1KernelSize) throws Exception {
+    public void runScratchModel(int batchSize, int epochNum, double l2NormBeta, double learningRate, int l1KernelSize) throws Exception {
         log.info("******************************* Get params " + l2NormBeta + ", " + learningRate + ", " + l1KernelSize);
         reportParams(batchSize, epochNum, l2NormBeta, learningRate, l1KernelSize);
 
         MultiLayerNetwork network = createScratchModel(l2NormBeta, learningRate, l1KernelSize);
         NetworkModel model = new NetworkModel(network);
+        UIServer uiServer = UIServer.getInstance();
+        StatsStorage statsStorage = new InMemoryStatsStorage();
+        uiServer.attach(statsStorage);
+        network.setListeners(new StatsListener(statsStorage));
 
         runModel(model, batchSize, epochNum, ScratchHeight, ScratchWidth);
     }
 
 
-    private void runTransferModel(int epochNum, double learningRate) throws Exception {
+    public void runTransferModel(int epochNum, double learningRate) throws Exception {
         double l2NormBeta = 0.0005;
         int l1KernelSize = 5;
         int batchSize = TransferBatchSize;
@@ -324,10 +332,12 @@ public class MahjongClassifier {
 
         Evaluation eval = model.evaluate(testEpochIte);
         log.info("-------------> " + eval.stats());
+        System.out.println("-----------------> " + eval.stats());
 
         reportWriter.write(eval.stats());
         reportWriter.flush();
 
+        System.out.println("End of tests");
         log.info("End of test");
 
     }
@@ -480,8 +490,9 @@ public class MahjongClassifier {
         try {
             MahjongClassifier classifier = new MahjongClassifier();
 //            classifier.runScratchModels();
-//            classifier.runScratchModel(16, 20, 0.0005, 0.01, 2);
-            classifier.runTransferModels();
+            classifier.runScratchModel(16, 80, 0.0005, 0.01, 3);
+//            classifier.runTransferModel(32, 0.02);
+//            classifier.runTransferModels();
 //            classifier.runRamdomSearchScratchModels(1);
 
             classifier.close();
