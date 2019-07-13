@@ -6,7 +6,8 @@ object DbConsts {
   val ReachPos: Int = DbTenhouConsts.TileNum * 2
   val OyaPos: Int = ReachPos + 1
   val WinPos: Int = OyaPos + 1
-  val StateLen: Int = WinPos + 1
+  val DummyPos: Int = WinPos + 1
+  val StateLen: Int = DummyPos + 1
 
   val ChowAction: Int = DbTenhouConsts.TileNum
   val PongAction: Int = ChowAction + 1

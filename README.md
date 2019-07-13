@@ -1,12 +1,7 @@
 # Dp4jPractice
 Newbie practicing dp4j.
 
-## docs/
-Some figures to parse the implementation of CNN and RNN by dp4j
-* docs/cnn.md: For basic CNN implementation
-* docs/rnn.md: For LSTM RNN implementation
-* docs/dqn.md: For basic DQN implementation
-* docs/a3c.md: For basic A3C implementation
+Documents: [my gitio](https://fulltopic.github.io/)
 
 ## src/mjclassifier
 A simple CNN practice to classify mahjong into categories of circle, bamboo and character.
@@ -26,3 +21,9 @@ Dqn learning. Deprecated.
 
 ### nn/a3c
 A3C learning, refer to [Report](src/main/java/dp4jpractice/org/mjdrl/A3CReport.md)
+
+## Tools
+
+### tools/dataprocess/dbprocess
+Convert zip files downloaded from [Tenhou](http://tenhou.net/ranking.html) into Caffe2 readable lmdb files. 
+Refer to [README](./src/main/java/dp4jpractice/org/tools/dataprocess/dbprocess/README.md) for details
