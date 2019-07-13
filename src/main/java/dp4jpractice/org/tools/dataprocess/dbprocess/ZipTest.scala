@@ -33,7 +33,7 @@ object ZipTest extends App {
     val content = Source.fromFile(fileName).mkString
 
     println("------------------------> Content file " + content.length)
-    val reader = new TenhouXmlStringReader(content)
+    val reader = new TenhouXmlStringReader(fileName, content)
     val scenes = reader.readFile()
     println(scenes.length)
 
@@ -45,7 +45,7 @@ object ZipTest extends App {
     val files = ExtractFiles.unzip(zipFilePath)
     println("Read file of " + files.head._1)
 
-    val reader = new TenhouXmlStringReader(files.head._2)
+    val reader = new TenhouXmlStringReader(files.head._1, files.head._2)
     val scenes = reader.readFile()
 
 //    println(scenes.head)
@@ -56,7 +56,7 @@ object ZipTest extends App {
 
     for ((k, v) <- files) {
       println("Read file " + k)
-      val reader = new TenhouXmlStringReader(v)
+      val reader = new TenhouXmlStringReader(k, v)
       val scenes = reader.readFile()
       println("End of file " + k + " get scenes " + scenes.length)
     }
@@ -66,14 +66,14 @@ object ZipTest extends App {
     val files = ExtractFiles.unzip(zipFilePath)
     println("Read file of " + files.head._1)
 
-    val reader = new TenhouXmlStringReader(files.head._2)
+    val reader = new TenhouXmlStringReader(files.head._1, files.head._2)
     val scenes = reader.readFile()
 
-    val TensorDbFilePath = "/home/zf/workspaces/workspace_java/mjpratice_git/Dp4jPractice/lmdbtest/"
+    val TensorDbFilePath = "/home/zf/workspaces/workspace_java/mjpratice_git/Dp4jPractice/lmdbscenetest/"
 //    val DbName = "TensorDb"
     val DbName: String = null
     val dbOp = new LmdbOperator(TensorDbFilePath, DbName, ByteOrder.BIG_ENDIAN)
-    dbOp.saveTensor(files.head._1 + "_0", scenes.head)
+    dbOp.saveTensor(scenes.head)
     dbOp.close()
   }
 

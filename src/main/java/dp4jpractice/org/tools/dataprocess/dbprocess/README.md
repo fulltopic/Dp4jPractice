@@ -17,3 +17,6 @@
     | Player2 | Dropped tiles| Stolen tiles | Reach | Oya | Winner | Dummy |
     | Player3 | Dropped tiles| Stolen tiles | Reach | Oya | Winner | Dummy |
      
+* DB Record
+
+![Record](./dbrecord.jpg)

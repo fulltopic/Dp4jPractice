@@ -33,6 +33,20 @@ class LmdbOperator(parentPath: String, dbName: String, order: ByteOrder) {
     tensorProtosBuilder.build()
   }
 
+  def buildTensor(tensorProtosBuilder: TensorProtos.Builder, tran: Transaction): Unit = {
+    val dataProtoBuilder = tensorProtosBuilder.addProtosBuilder()
+    dataProtoBuilder.addAllDims(javaDims)
+    //    dataProtoBuilder.addDims(1).addDims(DbConsts.StatePlayerNum).addDims(DbConsts.StateLen)
+    dataProtoBuilder.setDataType(TensorProto.DataType.INT32)
+    val scalaData = tran.states.flatMap(_.state).toList.map(d => new Integer(d))
+    val javaData: java.util.List[Integer] = scalaData.asJava
+    dataProtoBuilder.addAllInt32Data(javaData)
+
+    val labelProtoBuilder = tensorProtosBuilder.addProtosBuilder()
+    labelProtoBuilder.addDims(1).setDataType(TensorProto.DataType.INT32).addInt32Data(tran.action)
+    println("Put label " + tran.action)
+  }
+
   def saveTensor(dbKey: String, scene: SceneRecord): Unit = {
     var step: Int = 0
     val key = ByteBuffer.allocateDirect(env.getMaxKeySize).order(order)
@@ -52,6 +66,24 @@ class LmdbOperator(parentPath: String, dbName: String, order: ByteOrder) {
       println("Put tran for step " + step)
       step += 1
     }
+  }
+
+  def saveTensor(scene: SceneRecord): Unit = {
+    val tensorProtosBuilder = TensorProtos.newBuilder()
+    val trans = scene.getTrans()
+    for (tran <- trans) {
+      buildTensor(tensorProtosBuilder, tran)
+    }
+    val tensor = tensorProtosBuilder.build()
+
+    val key = ByteBuffer.allocateDirect(env.getMaxKeySize).order(order)
+    val value = ByteBuffer.allocateDirect(4 * 40 * DbConsts.StatePlayerNum * DbConsts.StateLen * 4)
+
+    key.put(scene.getKey().getBytes(StandardCharsets.UTF_8)).flip()
+    value.put(tensor.toByteString.asReadOnlyByteBuffer()).flip()
+
+    db.put(key, value)
+    println("Save tensor for " + scene.getKey())
   }
 
   def readFirstOne(): Unit = {

@@ -5,25 +5,26 @@ import akka.event.slf4j.Logger
 import scala.xml.{Node, Text, XML}
 import dp4jpractice.org.tools.dataprocess.dbprocess.data._
 
-class TenhouXmlStringReader(rawBuffer: String) {
+class TenhouXmlStringReader(fileName: String, rawBuffer: String) {
   val logger = Logger("TenhouXmlStringReader")
 
   val currState = new Array[MjPlayerState](DbConsts.StatePlayerNum)
   for (i <- currState.indices) {
     currState(i) = new MjPlayerState()
   }
-  var currScene = new SceneRecord()
-  var scenes = List.empty[SceneRecord]
 
   var viewer: Int = 0
   var gameCount: Int = 0
+
+  var currScene = new SceneRecord(fileName, gameCount, viewer)
+  var scenes = List.empty[SceneRecord]
 //  val doraValue = Array.fill[Int](PeerStateLen)(0)
 
 
 
   def initCurrScene(): Unit = {
     //TODO: Make sure currenScene is a new object
-    currScene = new SceneRecord()
+    currScene = new SceneRecord(fileName, gameCount, viewer)
   }
 
   def raw2Tile(tileNum: Int): Int = tileNum / DbTenhouConsts.NumPerTile
@@ -31,11 +32,11 @@ class TenhouXmlStringReader(rawBuffer: String) {
 
   def readFile(): List[SceneRecord] = {
     for (player <- 0 until DbTenhouConsts.PlayerNum) {
+      gameCount = 0
       viewer = player
       logger.debug("-------------------------> To read file as player " + viewer)
 
       val root = XML.loadString(rawBuffer)
-//      val root = XML.loadFile("/home/zf/workspaces/workspace_java/mjpratice_git/Dp4jPractice/datasets/mjsupervised/xmlfiles/smalltest/")
 //      val root = XML.loadFile("/home/zf/workspaces/workspace_java/mjpratice_git/Dp4jPractice/datasets/mjsupervised/xmlfiles/smalltest/mj/test.xml")
       val a = root \ "Scene"
 //      logger.debug("" + root)
@@ -52,22 +53,23 @@ class TenhouXmlStringReader(rawBuffer: String) {
 
 
   def readScene(sceneNode: Node): Unit = {
-    gameCount += 1
+    logger.debug("Read game " + gameCount + " as plyer " + viewer)
 
-      logger.debug("Read game " + gameCount + " as plyer " + viewer)
+    initCurrScene()
 
-      val byeNode = sceneNode \ "BYE"
-      if (byeNode.length > 0) {
-        //      logger.debug("--------------------------> Interrupted game, give up")
-      } else {
-        sceneNode.child.foreach { child => {
-          child match {
-            case _: Text => //logger.debug(child.head.label)
-            case _: Node => readNodeInSeq(child)
-          }
-        }
+    val byeNode = sceneNode \ "BYE"
+    if (byeNode.length > 0) {
+      //      logger.debug("--------------------------> Interrupted game, give up")
+    } else {
+      sceneNode.child.foreach { child => {
+        child match {
+          case _: Text => //logger.debug(child.head.label)
+          case _: Node => readNodeInSeq(child)
         }
       }
+      }
+    }
+    gameCount += 1
   }
 
   def readNodeInSeq(node: Node): Unit = {
@@ -338,7 +340,6 @@ class TenhouXmlStringReader(rawBuffer: String) {
       createTransaction(DbConsts.NoopAction)
     }
     scenes = scenes :+ currScene
-    initCurrScene()
 
 //    for (i <- rewards.indices) {
 //      if (i == who) {
