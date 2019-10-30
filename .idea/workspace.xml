@@ -2,56 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa0fa9a1-06ba-4bef-827a-db61e5239291" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/reports/scratchreport1526318160396.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/reports/scratchreport1526318160396.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/reports/scratchreport1526318160396.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/reports/scratchreport1526439038958.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/reports/scratchreport1526439038958.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/reports/scratchreport1526465021815.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/reports/scratchreport1526465021815.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/reports/scratchreport1526468553868.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/reports/scratchreport1526468553868.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/reports/scratchreport1526468553868.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/reports/scratchreport1526478733608.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/reports/scratchreport1526478733608.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/reports/scratchreport1526526489358.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/reports/scratchreport1526541748551.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/reports/scratchreport1526541748551.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/reports/scratchreport1572272358251.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/reports/scratchreport1572275257634.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/reports/scratchreport1572275800647.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/reports/scratchreport1572276805759.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/reports/scratchreport1572276993412.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/reports/scratchreport1572332005404.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/reports/scratchreport1572346082299.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/reports/scratchreport1572350863962.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/reports/scratchreport1572352673809.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/reports/scratchreport1572355775995.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/reports/scratchreport1572355927722.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/reports/scratchreport1572356223585.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/reports/scratchreport1572359067503.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/reports/scratchreport1572360876216.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/reports/scratchreport1572361321774.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/reports/scratchreport1572361430657.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/reports/scratchreport1572363990668.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/reports/scratchreport1572364212013.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/reports/scratchreport1572365424163.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/reports/scratchreport1572404191119.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/reports/scratchreport1572404326151.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/reports/scratchreport1572425322213.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/reports/scratchreport1572426754684.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/reports/scratchreport1572426969652.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/reports/scratchreport1572433031224.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/reports/scratchreport1572436686489.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/reports/scratchreport1572437052240.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/reports/scratchreport1572440736302.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/reports/scratchreport1572440830440.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/reports/scratchreport1572440898792.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/reports/scratchreport1572441128469.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/reports/scratchreport1572441307305.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/reports/scratchreport1572441419049.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/reports/scratchreport1572442773038.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

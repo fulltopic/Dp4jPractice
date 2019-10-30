@@ -34,7 +34,6 @@
         <exec-maven-plugin.version>1.4.0</exec-maven-plugin.version>
         <maven.minimum.version>3.3.1</maven.minimum.version>
         <aws.sdk.version>1.11.109</aws.sdk.version>
-        <jackson.version>2.5.1</jackson.version>
         <scala.plugin.version>3.2.2</scala.plugin.version>
         <scala.binary.version>2.11</scala.binary.version>
     </properties>
@@ -118,12 +117,6 @@
             <artifactId>rl4j-gym</artifactId>
             <version>${rl4j.version}</version>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind -->
-        <dependency>
-            <groupId>com.fasterxml.jackson.core</groupId>
-            <artifactId>jackson-databind</artifactId>
-            <version>${jackson.version}</version>
-        </dependency>
         <dependency>
             <groupId>jfree</groupId>
             <artifactId>jfreechart</artifactId>
@@ -168,11 +161,11 @@
         </dependency>
 
         <!-- Used for downloading data in some of the examples -->
-        <dependency>
-            <groupId>org.apache.httpcomponents</groupId>
-            <artifactId>httpclient</artifactId>
-            <version>4.3.5</version>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>org.apache.httpcomponents</groupId>-->
+<!--            <artifactId>httpclient</artifactId>-->
+<!--            <version>4.3.5</version>-->
+<!--        </dependency>-->
     </dependencies>
 
     <build>
