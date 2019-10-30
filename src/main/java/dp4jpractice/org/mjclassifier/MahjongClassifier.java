@@ -33,6 +33,7 @@ import org.nd4j.linalg.activations.Activation;
 import org.nd4j.linalg.dataset.api.iterator.DataSetIterator;
 import org.nd4j.linalg.dataset.api.preprocessor.DataNormalization;
 import org.nd4j.linalg.dataset.api.preprocessor.ImagePreProcessingScaler;
+import org.nd4j.linalg.learning.config.AdaGrad;
 import org.nd4j.linalg.lossfunctions.LossFunctions;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -157,12 +158,14 @@ public class MahjongClassifier {
 
         MultiLayerConfiguration config = new NeuralNetConfiguration.Builder()
                 .seed(Seed)
-                .learningRate(learningRate)
-                .iterations(IterationNum)
-                .regularization(true).l2(l2NormBeta)
+                .updater(new AdaGrad(learningRate))
+//                .learningRate(learningRate)
+//                .iterations(IterationNum)
+//                .regularization(true)
+                .l2(l2NormBeta)
                 .weightInit(WeightInit.XAVIER)
                 .optimizationAlgo(OptimizationAlgorithm.STOCHASTIC_GRADIENT_DESCENT)
-                .updater(Updater.ADAGRAD)
+//                .updater(Updater.ADAGRAD)
                 .list()
                 //Layers
                 .layer(0, new ConvolutionLayer.Builder(l1KernelSize, l1KernelSize)
@@ -193,8 +196,8 @@ public class MahjongClassifier {
                         .build())
                 //Input
                 .setInputType(InputType.convolutionalFlat(ScratchHeight, ScratchWidth, ChannelNum))
-                .backprop(true)
-                .pretrain(false)
+//                .backprop(true)
+//                .pretrain(false)
                 .build();
         config.setTrainingWorkspaceMode(WorkspaceMode.SEPARATE);
 
@@ -223,11 +226,11 @@ public class MahjongClassifier {
 
         FineTuneConfiguration fineTuneConf = new FineTuneConfiguration.Builder()
                 .optimizationAlgo(OptimizationAlgorithm.STOCHASTIC_GRADIENT_DESCENT)
-                .updater(Updater.ADAGRAD)
+                .updater(new AdaGrad(learningRate))
                 .seed(Seed)
 //                                                .learningRatePolicy(LearningRatePolicy.Schedule)
 //                                                .learningRateSchedule(lrSchedule)
-                .learningRate(learningRate)
+//                .learningRate(learningRate)
                 .build();
 
         ComputationGraph lenetTransfer = new TransferLearning.GraphBuilder(pretrainedNet)

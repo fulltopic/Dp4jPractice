@@ -16,6 +16,7 @@ import org.deeplearning4j.rl4j.util.DataManager
 import org.deeplearning4j.util.ModelSerializer
 import org.nd4j.linalg.activations.Activation
 import org.nd4j.linalg.factory.Nd4j
+import org.nd4j.linalg.learning.config.AdaGrad
 import org.nd4j.linalg.lossfunctions.LossFunctions
 import tenhouclient.impl.ImplConsts._
 import tenhouclient.impl.mdp.TenhouEncodableMdp
@@ -56,13 +57,14 @@ object TestDqn {
     lrShedule.put(200000, startLr / 4)
 
     val listBuilder = new NeuralNetConfiguration.Builder()
-      .learningRate(10)
-      .iterations(1)
+//      .learningRate(10)
+//      .iterations(1)
       .seed(47)
       .optimizationAlgo(OptimizationAlgorithm.STOCHASTIC_GRADIENT_DESCENT)
-      .updater(Updater.ADAGRAD)
+//      .updater(Updater.ADAGRAD)
+      .updater(new AdaGrad(10))
       .weightInit(WeightInit.XAVIER)
-      .regularization(true)
+//      .regularization(true)
       .l2(0.0005)
       .list()
 
@@ -92,8 +94,10 @@ object TestDqn {
                       .nOut(ActionLenWoAccept).build())
 
 
-    val mlnConf = listBuilder.pretrain(false).backprop(true).build
-    mlnConf.setTrainingWorkspaceMode(WorkspaceMode.SEPARATE)
+    val mlnConf = listBuilder
+//      .pretrain(false).backprop(true)
+      .build
+    mlnConf.setTrainingWorkspaceMode(WorkspaceMode.ENABLED)
     val model = new MultiLayerNetwork(mlnConf)
     model.init()
 
@@ -152,8 +156,8 @@ object TestDqn {
 
   def main(args: Array[String]): Unit = {
     //  Thread.sleep(3000)
-    val test = Nd4j.zeros(2, 2)
-    logger.info(test.toString)
+    val test = Nd4j.zeros(2.toLong, 2)
+    logger.info(test.toStringFull)
     val dqn = createDqn()
     dqn.train()
   }

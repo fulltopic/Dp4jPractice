@@ -6,16 +6,17 @@ import java.nio.charset.StandardCharsets
 import java.util.zip.{GZIPInputStream, ZipEntry, ZipFile, ZipInputStream, ZipOutputStream}
 
 import dp4jpractice.org.tools.dataprocess.dbprocess.lmdbprocess.LmdbOperator
-import sun.misc.IOUtils
+//import sun.misc.IOUtils
 
 import scala.io.Source
 
 object ZipTest extends App {
-  val zipFilePath: String = "/home/zf/workspaces/workspace_cpp/testcaffe2/res/mjdb/zips/mjlog_pf4-20_n1.zip"
+  val ZipFilePath: String = "/home/zf/workspaces/res/mjzips/zips/mjlog_pf4-20_n1.zip"
+  val TensorDbFilePath = "/home/zf/workspaces/workspace_java/lmdbscenetest/"
 
 
   def testExtract(): Unit = {
-    val files = ExtractFiles.unzip(zipFilePath)
+    val files = ExtractFiles.unzip(ZipFilePath)
     //  files.map(entry => {
     //    println(entry._1)
     //    println(entry._2.length)
@@ -42,7 +43,7 @@ object ZipTest extends App {
   }
 
   def testReadZipFile(): Unit = {
-    val files = ExtractFiles.unzip(zipFilePath)
+    val files = ExtractFiles.unzip(ZipFilePath)
     println("Read file of " + files.head._1)
 
     val reader = new TenhouXmlStringReader(files.head._1, files.head._2)
@@ -52,7 +53,7 @@ object ZipTest extends App {
   }
 
   def testReadZipFiles(): Unit = {
-    val files = ExtractFiles.unzip(zipFilePath)
+    val files = ExtractFiles.unzip(ZipFilePath)
 
     for ((k, v) <- files) {
       println("Read file " + k)
@@ -63,13 +64,12 @@ object ZipTest extends App {
   }
 
   def testSaveDb(): Unit = {
-    val files = ExtractFiles.unzip(zipFilePath)
+    val files = ExtractFiles.unzip(ZipFilePath)
     println("Read file of " + files.head._1)
 
     val reader = new TenhouXmlStringReader(files.head._1, files.head._2)
     val scenes = reader.readFile()
 
-    val TensorDbFilePath = "/home/zf/workspaces/workspace_java/mjpratice_git/Dp4jPractice/lmdbscenetest/"
 //    val DbName = "TensorDb"
     val DbName: String = null
     val dbOp = new LmdbOperator(TensorDbFilePath, DbName, ByteOrder.BIG_ENDIAN)
@@ -78,7 +78,7 @@ object ZipTest extends App {
   }
 
   def testReadDb(): Unit = {
-     val TensorDbFilePath = "/home/zf/workspaces/workspace_java/mjpratice_git/Dp4jPractice"
+//     val TensorDbFilePath = "/home/zf/workspaces/workspace_java/mjpratice_git/Dp4jPractice"
     val DbName = "TensorDb"
     val dbOp = new LmdbOperator(TensorDbFilePath, DbName, ByteOrder.LITTLE_ENDIAN)
     dbOp.readFirstOne()
@@ -88,6 +88,7 @@ object ZipTest extends App {
 //  testExtract()
 //  testReadFile()
 //  testReadZipFiles()
-  testSaveDb()
-//  testReadDb()
+//  println(scala.runtime.toString)
+//  testSaveDb()
+  testReadDb()
 }

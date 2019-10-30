@@ -89,12 +89,12 @@ class TenhouCompCnnLstmIterator(xmlParentDir: String, batchSize: Int, winner: Bo
 //      val actualLen = data.length
 //      println(actualLen)
 
-      input = Nd4j.zeros(seqLen, PeerStateLen)
-      labels = Nd4j.zeros(seqLen, ActionLenWoAccept)
+      input = Nd4j.zeros(seqLen.toLong, PeerStateLen)
+      labels = Nd4j.zeros(seqLen.toLong, ActionLenWoAccept)
 
       for (i <- 0 until actualLen) {
         for (j <- 0 until PeerStateLen) {
-          input.putScalar(i, j, data(i)._1.getDouble(j))
+          input.putScalar(i, j, data(i)._1.getDouble(j.toLong))
         }
 //        if (i == 0) {
 //          for (j <- 0 until PeerStateLen) {

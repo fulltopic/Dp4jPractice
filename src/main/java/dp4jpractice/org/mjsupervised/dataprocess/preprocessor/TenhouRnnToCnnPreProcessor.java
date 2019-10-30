@@ -1,6 +1,7 @@
 package dp4jpractice.org.mjsupervised.dataprocess.preprocessor;
 
 import org.deeplearning4j.nn.conf.preprocessor.RnnToCnnPreProcessor;
+import org.deeplearning4j.nn.workspace.LayerWorkspaceMgr;
 import org.nd4j.linalg.api.ndarray.INDArray;
 import org.nd4j.shade.jackson.annotation.JsonProperty;
 import org.slf4j.Logger;
@@ -17,7 +18,7 @@ public class TenhouRnnToCnnPreProcessor extends RnnToCnnPreProcessor {
         logger.debug("----------------------------------------------> TenhouRnnToCnnPreProcessor constructor");
     }
 
-    public INDArray preProcess(INDArray input, int miniBatchSize) {
+    public INDArray preProcess(INDArray input, int miniBatchSize, LayerWorkspaceMgr mgr) {
 //        System.out.println("----------------------------------------------> rnntocnn preprocess");
 //        logger.debug("----------------------------------------------> rnntocnn preprocess " + input.shape().length + ": " + input.shape()[0] + " " + input.shape()[1]);
 //        logger.debug("Input " + input);
@@ -32,7 +33,7 @@ public class TenhouRnnToCnnPreProcessor extends RnnToCnnPreProcessor {
 //        logger.debug("----------------------------------------------> rnntocnn after preprocess " + input2.shape().length + ": " + input2.shape()[0] + " " + input2.shape()[1] + " " + input2.shape()[2]);
 
 
-        INDArray output = super.preProcess(input2, miniBatchSize);
+        INDArray output = super.preProcess(input2, miniBatchSize, mgr);
         output.fmodi(7).divi(4);
 //        logger.debug("----------------------> rnnt2cnn output " + output);
 //        logger.debug("----------------------------------------------> rnntocnn output " + output.shape().length + ": " + output.shape()[0] + " " + output.shape()[1] + " " + output.shape()[2] + " " + output.shape()[3]);

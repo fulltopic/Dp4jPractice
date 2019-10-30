@@ -119,12 +119,12 @@ public class TenhouLstmQLDiscrete extends TenhouSimpleDenseQLDiscrete {
         rawHistoryInput = rawNInput;
         accuReward = 0;
 
-        return new QLStepReturn<>(maxQ, getCurrentDQN().getLatestScore(), stepReply);
+        return new QLStepReturn<TenhouArray>(maxQ, getCurrentDQN().getLatestScore(), stepReply);
     }
 
     protected void printShape(INDArray data, String comment) {
         logger.debug(comment);
-        int[] shape = data.shape();
+        long[] shape = data.shape();
         logger.debug("------------------>" + shape.length);
         for (int i = 0; i < shape.length; i ++) {
             logger.debug(shape[i] + ",");

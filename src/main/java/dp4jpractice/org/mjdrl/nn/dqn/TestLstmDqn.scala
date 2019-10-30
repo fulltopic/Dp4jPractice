@@ -15,6 +15,7 @@ import org.deeplearning4j.rl4j.util.DataManager
 import org.deeplearning4j.util.ModelSerializer
 import org.nd4j.linalg.activations.Activation
 import org.nd4j.linalg.factory.Nd4j
+import org.nd4j.linalg.learning.config.RmsProp
 import org.nd4j.linalg.lossfunctions.LossFunctions.LossFunction
 import tenhouclient.impl.ImplConsts._
 import tenhouclient.impl.mdp.TenhouEncodableMdp
@@ -41,19 +42,22 @@ object TestLstmDqn {
 
     val conf = new NeuralNetConfiguration.Builder().
       optimizationAlgo(OptimizationAlgorithm.STOCHASTIC_GRADIENT_DESCENT)
-      .iterations(1).learningRate(0.05)
-      .seed(12345).regularization(true)
+//      .iterations(1).learningRate(0.05)
+      .seed(12345)
+//        .regularization(true)
       .l2(0.001)
       .dropOut(0.5)
       .weightInit(WeightInit.DISTRIBUTION)
-      .updater(Updater.RMSPROP)
+//      .updater(Updater.RMSPROP)
+      .updater(new RmsProp(0.05))
       .list
       .layer(0, new GravesLSTM.Builder().nIn(PeerStateLen).nOut(lstmLayerSize).activation(Activation.TANH).build)
       .layer(1, new GravesLSTM.Builder().nOut(lstmLayerSize).activation(Activation.TANH).build())
       .layer(2, new RnnOutputLayer.Builder(LossFunction.MSE).activation(Activation.IDENTITY)        //MCXENT + softmax for classification
       .nIn(lstmLayerSize).nOut(ActionLenWoAccept).build())
-      .pretrain(false)
-      .backprop(true).build
+//      .pretrain(false)
+//      .backprop(true)
+      .build
 
     val model = new MultiLayerNetwork(conf)
     model.init()
@@ -118,8 +122,8 @@ object TestLstmDqn {
 
   def main(args: Array[String]): Unit = {
     //  Thread.sleep(3000)
-    val test = Nd4j.zeros(2, 2)
-    logger.info(test.toString)
+    val test = Nd4j.zeros(2.toLong, 2)
+    logger.info(test.toStringFull)
     val dqn = createDqn()
     dqn.train()
   }

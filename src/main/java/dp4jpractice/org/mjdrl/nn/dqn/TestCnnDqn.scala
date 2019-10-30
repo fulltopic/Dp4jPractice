@@ -5,7 +5,7 @@ import java.io.{File, FileInputStream}
 import org.deeplearning4j.nn.api.OptimizationAlgorithm
 import org.deeplearning4j.nn.conf.inputs.InputType
 import org.deeplearning4j.nn.conf.layers._
-import org.deeplearning4j.nn.conf.{LearningRatePolicy, NeuralNetConfiguration, Updater, WorkspaceMode}
+import org.deeplearning4j.nn.conf.{ NeuralNetConfiguration, Updater, WorkspaceMode}
 import org.deeplearning4j.nn.multilayer.MultiLayerNetwork
 import org.deeplearning4j.nn.weights.WeightInit
 import org.deeplearning4j.rl4j.learning.sync.qlearning.QLearning
@@ -19,7 +19,8 @@ import tenhouclient.impl.ImplConsts._
 import tenhouclient.impl.mdp.TenhouEncodableMdp
 import dp4jpractice.org.mjdrl.config.DqnSettings
 import dp4jpractice.org.mjdrl.nn.dqn.nn.TenhouSimpleDenseQLDiscrete
-
+import org.nd4j.linalg.learning.config.AdaGrad
+import org.nd4j.linalg.schedule.{MapSchedule, ScheduleType}
 
 import scala.util.Random
 
@@ -56,15 +57,16 @@ object TestCnnDqn {
     lrShedule.put(10000, startLr / 4)
 
     val listBuilder = new NeuralNetConfiguration.Builder()
-      .learningRateDecayPolicy(LearningRatePolicy.Schedule)
-      .learningRateSchedule(lrShedule)
+      .updater(new AdaGrad(new MapSchedule(ScheduleType.ITERATION, lrShedule)))
+//      .learningRateDecayPolicy(LearningRatePolicy.Schedule)
+//      .learningRateSchedule(lrShedule)
       //      .learningRate(0.05)
-      .iterations(1)
+//      .iterations(1)
       .seed(47)
       .optimizationAlgo(OptimizationAlgorithm.STOCHASTIC_GRADIENT_DESCENT)
-      .updater(Updater.ADAGRAD)
+//      .updater(Updater.ADAGRAD)
       .weightInit(WeightInit.XAVIER)
-      .regularization(true)
+//      .regularization(true)
       .l2(0.0005)
       .list()
 
@@ -91,8 +93,9 @@ object TestCnnDqn {
       new OutputLayer.Builder(LossFunctions.LossFunction.MSE).nIn(hiddenNode).nOut(ActionLenWoAccept).activation(Activation.IDENTITY).build())
 
     val mlnConf = listBuilder.setInputType(InputType.convolutionalFlat(1, PeerStateLen, 1))
-      .pretrain(false).backprop(true).build
-    mlnConf.setTrainingWorkspaceMode(WorkspaceMode.SEPARATE)
+//      .pretrain(false).backprop(true)
+      .build
+    mlnConf.setTrainingWorkspaceMode(WorkspaceMode.ENABLED)
     val model = new MultiLayerNetwork(mlnConf)
     model.init()
 
@@ -151,7 +154,7 @@ object TestCnnDqn {
 
   def main(args: Array[String]): Unit = {
     //  Thread.sleep(3000)
-    val test = Nd4j.zeros(2, 2)
+    val test = Nd4j.zeros(2.toLong, 2)
     println(test)
 
     //    val rewardFileName = "/home/ec2-user/tenhoulogs/dqntest/rewards/reward"

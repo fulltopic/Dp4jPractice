@@ -16,6 +16,7 @@ import org.deeplearning4j.rl4j.network.dqn.DQN
 import org.deeplearning4j.rl4j.util.DataManager
 import org.deeplearning4j.util.ModelSerializer
 import org.nd4j.linalg.activations.Activation
+import org.nd4j.linalg.learning.config.RmsProp
 import org.nd4j.linalg.lossfunctions.LossFunctions
 import tenhouclient.impl.ImplConsts._
 import tenhouclient.impl.mdp.TenhouEncodableMdp
@@ -41,13 +42,14 @@ object TestNNDqn {
     val listBuilder = new NeuralNetConfiguration.Builder()
 //      .learningRateDecayPolicy(LearningRatePolicy.Schedule)
 //      .learningRateSchedule(lrShedule)
-      .learningRate(startLr)
-      .iterations(1)
+//      .learningRate(startLr)
+//      .iterations(1)
       .seed(47)
       .optimizationAlgo(OptimizationAlgorithm.STOCHASTIC_GRADIENT_DESCENT)
-      .updater(Updater.RMSPROP)
+//      .updater(Updater.RMSPROP)
+      .updater(new RmsProp(startLr))
       .weightInit(WeightInit.XAVIER)
-      .regularization(true)
+//      .regularization(true)
       .l2(0.0005)
       .list()
 
@@ -58,8 +60,10 @@ object TestNNDqn {
 //    val testLayer = new DenseLayer.Builder().nIn(PeerStateLen).nOut(hiddenNode).activation(Activation.RELU).build()
 
 
-    val mlnConf = listBuilder.pretrain(false).backprop(true).build
-    mlnConf.setTrainingWorkspaceMode(WorkspaceMode.SEPARATE)
+    val mlnConf = listBuilder
+//      .pretrain(false).backprop(true)
+      .build
+    mlnConf.setTrainingWorkspaceMode(WorkspaceMode.ENABLED)
 //    mlnConf.setInputPreProcessors(
 //
 //    )

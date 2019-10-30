@@ -163,7 +163,7 @@ public class TenhouSimpleDenseQLDiscrete extends QLearning<TenhouArray, Integer,
         logger.debug("action " + action);
 
         if (maxAction != action) {
-            Transition<Integer> paneltyTrans = new Transition<>(rawHistory, maxAction, -1, false, rawInput);
+            Transition<Integer> paneltyTrans = new Transition<Integer>(rawHistory, maxAction, -1, false, rawInput);
             getExpReplay().store(paneltyTrans);
             transSize ++;
         }
@@ -180,7 +180,7 @@ public class TenhouSimpleDenseQLDiscrete extends QLearning<TenhouArray, Integer,
         INDArray nInput = DqnUtils.getNNInput(rawNInput);
         INDArray[] rawNHistory = new INDArray[] {rawNInput};
 
-        Transition<Integer> trans = new Transition<>(rawHistory, action, accuReward, stepReply.isDone(), rawNInput);
+        Transition<Integer> trans = new Transition<Integer>(rawHistory, action, accuReward, stepReply.isDone(), rawNInput);
         getExpReplay().store(trans);
         transSize ++;
 
@@ -214,12 +214,12 @@ public class TenhouSimpleDenseQLDiscrete extends QLearning<TenhouArray, Integer,
         accuReward = 0;
         rawHistory = rawNHistory;
 
-        return new QLStepReturn<>(maxQ, getCurrentDQN().getLatestScore(), stepReply);
+        return new QLStepReturn<TenhouArray>(maxQ, getCurrentDQN().getLatestScore(), stepReply);
     }
 
     protected void printShape(INDArray data, String comment) {
         logger.debug(comment);
-        int[] shape = data.shape();
+        long[] shape = data.shape();
         logger.debug("------------------>" + shape.length);
         for (int i = 0; i < shape.length; i ++) {
             logger.debug(shape[i] + ", ");
@@ -307,7 +307,7 @@ public class TenhouSimpleDenseQLDiscrete extends QLearning<TenhouArray, Integer,
         printShape(dqnOutputAr, "dqnOutputAr");
 
 
-        return new Pair<>(obs, dqnOutputAr);
+        return new Pair<INDArray, INDArray>(obs, dqnOutputAr);
     }
 
 

@@ -7,7 +7,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="mjpratice" />
+        <module name="maven-archiver" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="tenhouclient" target="1.0" />
+    </bytecodeTargetLevel>
   </component>
 </project>

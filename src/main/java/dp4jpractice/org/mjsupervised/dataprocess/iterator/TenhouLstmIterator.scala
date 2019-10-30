@@ -46,10 +46,10 @@ class TenhouLstmIterator(xmlParentDir: String, batchSize: Int, winner: Boolean =
     this.next(batchSize)
   }
 
-  override def totalExamples(): Int = {
-    logger.debug("----------------------------> Called totalExamples: ")
-    0
-  }
+//  override def totalExamples(): Int = {
+//    logger.debug("----------------------------> Called totalExamples: ")
+//    0
+//  }
 
   override def inputColumns(): Int = {
     PeerStateLen
@@ -69,10 +69,10 @@ class TenhouLstmIterator(xmlParentDir: String, batchSize: Int, winner: Boolean =
 
   override def batch(): Int = batchSize
 
-  override def numExamples(): Int = {
-    logger.debug("-------------------------> Total num examples ")
-    0
-  }
+//  override def numExamples(): Int = {
+//    logger.debug("-------------------------> Total num examples ")
+//    0
+//  }
 
   override def setPreProcessor(preProcessor: DataSetPreProcessor): Unit = {
     //do nothing
@@ -85,10 +85,10 @@ class TenhouLstmIterator(xmlParentDir: String, batchSize: Int, winner: Boolean =
     null
   }
 
-  override def cursor(): Int = {
-    logger.debug("-------------------------> Cursor ")
-    0
-  }
+//  override def cursor(): Int = {
+//    logger.debug("-------------------------> Cursor ")
+//    0
+//  }
 
   override def hasNext: Boolean = {
     fileIndex < files.length
@@ -175,7 +175,7 @@ class TenhouLstmIterator(xmlParentDir: String, batchSize: Int, winner: Boolean =
 
           for (k <- 0 until inputColumns()) {
 //            input.putScalar(Array[Int](i, k, j), data(j)._1.getDouble(k))
-            input.putScalar(Array[Int](i, k, j), delta.getDouble(k))
+            input.putScalar(Array[Int](i, k, j), delta.getDouble(k.toLong))
           }
           labels.putScalar(Array[Int](i, data(j)._2, j), 1.0)
         }

@@ -18,7 +18,9 @@ import org.deeplearning4j.ui.stats.StatsListener
 import org.deeplearning4j.ui.storage.InMemoryStatsStorage
 import org.deeplearning4j.util.ModelSerializer
 import org.nd4j.linalg.activations.Activation
+import org.nd4j.linalg.api.ndarray.INDArray
 import org.nd4j.linalg.factory.Nd4j
+import org.nd4j.linalg.learning.config.RmsProp
 import org.nd4j.linalg.lossfunctions.LossFunctions
 import tenhouclient.impl.ImplConsts.{ActionLenWoAccept, PeerStateLen}
 import tenhouclient.impl.mdp.TenhouEncodableMdp
@@ -43,13 +45,14 @@ object TestDoubleNNDqn {
     val listBuilder = new NeuralNetConfiguration.Builder()
       //      .learningRateDecayPolicy(LearningRatePolicy.Schedule)
       //      .learningRateSchedule(lrShedule)
-      .learningRate(startLr)
-      .iterations(1)
+//      .learningRate(startLr)
+//      .iterations(1)
       .seed(47)
       .optimizationAlgo(OptimizationAlgorithm.STOCHASTIC_GRADIENT_DESCENT)
-      .updater(Updater.RMSPROP)
+//      .updater(Updater.RMSPROP)
+      .updater(new RmsProp(startLr))
       .weightInit(WeightInit.XAVIER)
-      .regularization(true)
+//      .regularization(true)
       .l2(0.0005)
       .list()
 
@@ -58,8 +61,10 @@ object TestDoubleNNDqn {
     listBuilder.layer(2, new OutputLayer.Builder(LossFunctions.LossFunction.MSE).nOut(ActionLenWoAccept).activation(Activation.IDENTITY).build())
 
 
-    val mlnConf = listBuilder.pretrain(false).backprop(true).build
-    mlnConf.setTrainingWorkspaceMode(WorkspaceMode.SEPARATE)
+    val mlnConf = listBuilder
+//      .pretrain(false).backprop(true)
+      .build
+    mlnConf.setTrainingWorkspaceMode(WorkspaceMode.ENABLED)
     val model = new MultiLayerNetwork(mlnConf)
     model.init()
 
@@ -124,8 +129,8 @@ object TestDoubleNNDqn {
 
   def main(args: Array[String]): Unit = {
     //  Thread.sleep(3000)
-    val test = Nd4j.zeros(2, 2)
-    logger.info(test.toString)
+    val test = Nd4j.zeros(2.toLong, 2)
+    logger.info(test.toStringFull)
     val dqn = createDqn()
     dqn.train()
   }

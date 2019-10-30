@@ -13,6 +13,7 @@ import org.deeplearning4j.rl4j.network.ac.IActorCritic;
 import org.deeplearning4j.rl4j.policy.Policy;
 import org.deeplearning4j.rl4j.space.DiscreteSpace;
 import org.deeplearning4j.rl4j.util.DataManager;
+import org.deeplearning4j.rl4j.util.IDataManager;
 import org.nd4j.linalg.api.ndarray.INDArray;
 import org.nd4j.linalg.factory.Nd4j;
 import org.nd4j.linalg.indexing.NDArrayIndex;
@@ -31,8 +32,9 @@ public class A3CTenhouThreadDiscrete extends A3CThreadDiscrete<TenhouArray> {
     Logger logger = LoggerFactory.getLogger(A3CTenhouThreadDiscrete.class);
 
     public A3CTenhouThreadDiscrete(MDP<TenhouArray, Integer, DiscreteSpace> mdp, AsyncGlobal<IActorCritic> asyncGlobal,
-                                   A3CDiscrete.A3CConfiguration a3cc, int threadNumber, DataManager dataManager) {
-        super(mdp, asyncGlobal, a3cc, threadNumber, dataManager);
+                                   A3CDiscrete.A3CConfiguration a3cc, int threadNumber, IDataManager dataManager) {
+        //TODO: deviceNum = 0 or 1?
+        super(mdp, asyncGlobal, a3cc, threadNumber, dataManager, 0);
     }
 
     protected Policy<TenhouArray, Integer> getPolicy(IActorCritic net) {
@@ -48,7 +50,7 @@ public class A3CTenhouThreadDiscrete extends A3CThreadDiscrete<TenhouArray> {
         //Ensure states cleared
         getCurrent().reset();
 
-        Stack<MiniTrans<Integer>> rewards = new Stack<>();
+        Stack<MiniTrans<Integer>> rewards = new Stack<MiniTrans<Integer>>();
 
         TenhouArray obs = sObs;
         Policy<TenhouArray, Integer> policy = getPolicy(getCurrent());
@@ -115,7 +117,7 @@ public class A3CTenhouThreadDiscrete extends A3CThreadDiscrete<TenhouArray> {
 
             logger.debug(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> " + output[0]);
             logger.debug(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> " + qReward);
-            rewards.add(new MiniTrans<>(hstack, action, output, qReward));
+            rewards.add(new MiniTrans<Integer>(hstack, action, output, qReward));
 
 //            reward += stepReply.getReward();
 
@@ -139,7 +141,7 @@ public class A3CTenhouThreadDiscrete extends A3CThreadDiscrete<TenhouArray> {
 //            logger.debug("Gradient " + gradients[j]);
 //        }
 
-        return new SubEpochReturn<>(i, obs, accuReward, getCurrent().getLatestScore());
+        return new SubEpochReturn<TenhouArray>(i, obs, accuReward, getCurrent().getLatestScore());
     }
 
     protected SubEpochReturn<TenhouArray> trainDenseSubEpoch(TenhouArray sObs, int nstep) {
@@ -147,7 +149,7 @@ public class A3CTenhouThreadDiscrete extends A3CThreadDiscrete<TenhouArray> {
         synchronized (getAsyncGlobal()) {
             getCurrent().copy(getAsyncGlobal().getCurrent());
         }
-        Stack<MiniTrans<Integer>> rewards = new Stack<>();
+        Stack<MiniTrans<Integer>> rewards = new Stack<MiniTrans<Integer>>();
 
         TenhouArray obs = sObs;
         Policy<TenhouArray, Integer> policy = getPolicy(getCurrent());
@@ -180,7 +182,7 @@ public class A3CTenhouThreadDiscrete extends A3CThreadDiscrete<TenhouArray> {
 
             logger.debug(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> output" + output);
             logger.debug(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> accuReward" + accuReward);
-            rewards.add(new MiniTrans<>(hstack, action, output, accuReward));
+            rewards.add(new MiniTrans<Integer>(hstack, action, output, accuReward));
             accuReward = 0;
 
             //if it's not a skipped frame, you can do a step of training
@@ -210,7 +212,7 @@ public class A3CTenhouThreadDiscrete extends A3CThreadDiscrete<TenhouArray> {
             logger.error("Invalid history size, not to compute");
         }
 
-        return new SubEpochReturn<>(i, obs, reward, getCurrent().getLatestScore());
+        return new SubEpochReturn<TenhouArray>(i, obs, reward, getCurrent().getLatestScore());
     }
 
     public SubEpochReturn<TenhouArray> trainSubEpoch(TenhouArray sObs, int nstep) {

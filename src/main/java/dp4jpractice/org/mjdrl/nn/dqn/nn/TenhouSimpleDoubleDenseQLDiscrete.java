@@ -111,7 +111,7 @@ public class TenhouSimpleDoubleDenseQLDiscrete extends TenhouSimpleDenseQLDiscre
 
 
 
-        return new Pair<>(obs, dqnOutputAr);
+        return new Pair<INDArray, INDArray>(obs, dqnOutputAr);
     }
 
 }

@@ -28,7 +28,7 @@ public class DqnUtils {
     }
 
     public static INDArray getNNFInput(INDArray input)  {
-        INDArray nnInput = Nd4j.create(new int[]{input.shape()[1], input.shape()[0]}, 'f');
+        INDArray nnInput = Nd4j.create(new long[]{input.shape()[1], input.shape()[0]}, 'f');
 
         for (int i = 0; i < nnInput.shape()[1]; i ++) {
             double v = nnInput.getDouble(0, i);

@@ -11,6 +11,7 @@ import org.deeplearning4j.util.ModelSerializer;
 import org.nd4j.linalg.api.ndarray.INDArray;
 
 import dp4jpractice.org.mjdrl.config.DqnSettings;
+import org.nd4j.linalg.learning.config.Adam;
 import tenhouclient.impl.mdp.TenhouEncodableMdp;
 import dp4jpractice.org.mjsupervised.dataprocess.iterator.TenhouCompCnnLstmIterator;
 
@@ -34,7 +35,8 @@ public class TestLstmA3C {
 
     private ActorCriticFactoryCompGraphStdDense.Configuration getConfig() {
         ActorCriticFactoryCompGraphStdDense.Configuration config = ActorCriticFactoryCompGraphStdDense.Configuration.builder()
-                .learningRate(1e-3)
+                .updater(new Adam(1e-3))
+//                .learningRate(1e-3)
                 .l2(0)
                 .numHiddenNodes(128)
                 .numLayer(2)

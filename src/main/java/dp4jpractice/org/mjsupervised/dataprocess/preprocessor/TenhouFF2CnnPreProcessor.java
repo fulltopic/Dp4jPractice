@@ -1,6 +1,7 @@
 package dp4jpractice.org.mjsupervised.dataprocess.preprocessor;
 
 import org.deeplearning4j.nn.conf.preprocessor.FeedForwardToCnnPreProcessor;
+import org.deeplearning4j.nn.workspace.LayerWorkspaceMgr;
 import org.nd4j.linalg.api.ndarray.INDArray;
 import org.nd4j.linalg.factory.Nd4j;
 import org.nd4j.shade.jackson.annotation.JsonProperty;
@@ -17,7 +18,7 @@ public class TenhouFF2CnnPreProcessor extends FeedForwardToCnnPreProcessor {
         super (inputHeight, inputWidth, numChannels);
     }
 
-    public INDArray preProcess(INDArray input, int miniBatchSize) {
+    public INDArray preProcess(INDArray input, int miniBatchSize, LayerWorkspaceMgr mgr) {
         System.out.println("input shape " + Arrays.toString(input.shape()));
         System.out.println("input" + input);
 
@@ -33,6 +34,7 @@ public class TenhouFF2CnnPreProcessor extends FeedForwardToCnnPreProcessor {
 
         logger.debug("Processed input");
         logger.debug("output " + output);
-       return super.preProcess(output, miniBatchSize);
+
+        return super.preProcess(output, miniBatchSize, mgr);
     }
 }

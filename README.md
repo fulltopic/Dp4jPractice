@@ -1,5 +1,5 @@
 # Dp4jPractice
-Newbie practicing dp4j.
+Newbie practicing dp4j-1.0.0-beta5
 
 Documents: [my gitio](https://fulltopic.github.io/)
 

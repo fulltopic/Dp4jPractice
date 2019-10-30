@@ -39,22 +39,24 @@ import tenhouclient.impl.mdp.TenhouArray;
 import java.util.Map;
 
 public class A3CTenhouDense extends A3CDiscrete<TenhouArray> {
-    static Logger StaticLogger = LoggerFactory.getLogger(A3CTenhouDense.class + "static");
-    Logger logger = LoggerFactory.getLogger(A3CTenhouDense.class);
+    private static Logger StaticLogger = LoggerFactory.getLogger(A3CTenhouDense.class + "static");
+    private Logger logger = LoggerFactory.getLogger(A3CTenhouDense.class);
     private ACPolicy tenhouPolicy = null;
     private int saveCounter = 0;
 
 
     public static ComputationGraph CreateComputeGraph(ActorCriticFactoryCompGraphStdDense.Configuration netConf, int numInputs, int numOutputs) {
         ComputationGraphConfiguration.GraphBuilder confB =
-                new NeuralNetConfiguration.Builder().seed(Constants.NEURAL_NET_SEED).iterations(1)
+                new NeuralNetConfiguration.Builder().seed(Constants.NEURAL_NET_SEED)
+//                        .iterations(1)
                         .optimizationAlgo(OptimizationAlgorithm.STOCHASTIC_GRADIENT_DESCENT)
-                        .learningRate(netConf.getLearningRate())
+//                        .learningRate(netConf.getLearningRate())
                         //.updater(Updater.NESTEROVS).momentum(0.9)
 //                        .updater(Updater.RMSPROP).rmsDecay(conf.getRmsDecay())
-                        .updater(netConf.getUpdater() != null ? netConf.getUpdater() : new Adam())
+//                        .updater(netConf.getUpdater() != null ? netConf.getUpdater() : new Adam(netConf.getLearningRate()))
+                        .updater(netConf.getUpdater() != null ? netConf.getUpdater() : new Adam(1e-2))//TODO: Decide initial learning rate
                         .weightInit(WeightInit.XAVIER)
-                        .regularization(netConf.getL2() > 0)
+//                        .regularization(netConf.getL2() > 0)
                         .l2(netConf.getL2()).graphBuilder()
                         .setInputTypes(netConf.isUseLSTM() ? InputType.recurrent(numInputs)
                                 : InputType.feedForward(numInputs)).addInputs("input")
@@ -95,7 +97,9 @@ public class A3CTenhouDense extends A3CDiscrete<TenhouArray> {
 //        }
 
 
-        ComputationGraphConfiguration cgconf = confB.pretrain(false).backprop(true).build();
+        ComputationGraphConfiguration cgconf = confB
+//                .pretrain(false).backprop(true)
+                .build();
 
 
 
@@ -226,8 +230,8 @@ public class A3CTenhouDense extends A3CDiscrete<TenhouArray> {
         startGlobalThread();
         for (int i = 0; i < getConfiguration().getNumThread(); i++) {
             Thread t = newThread(i);
-            Nd4j.getAffinityManager().attachThreadToDevice(t,
-                    (i + 1) % Nd4j.getAffinityManager().getNumberOfDevices());
+//            Nd4j.getAffinityManager().attachThreadToDevice(t,
+//                    (i + 1) % Nd4j.getAffinityManager().getNumberOfDevices());
             t.start();
 
         }

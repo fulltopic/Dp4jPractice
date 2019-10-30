@@ -12,6 +12,7 @@ import org.deeplearning4j.nn.conf.preprocessor.RnnToCnnPreProcessor;
 import org.deeplearning4j.nn.graph.ComputationGraph;
 import org.deeplearning4j.nn.weights.WeightInit;
 import org.deeplearning4j.optimize.api.IterationListener;
+import org.deeplearning4j.optimize.api.TrainingListener;
 import org.deeplearning4j.optimize.listeners.ScoreIterationListener;
 import org.deeplearning4j.rl4j.network.ac.ActorCriticCompGraph;
 import org.deeplearning4j.rl4j.network.ac.ActorCriticFactoryCompGraphStdDense;
@@ -38,14 +39,15 @@ public class A3CTenhouModelFactory {
         StaticLogger.info("Create dense model");
 
         ComputationGraphConfiguration.GraphBuilder confB =
-                new NeuralNetConfiguration.Builder().seed(Constants.NEURAL_NET_SEED).iterations(1)
+                new NeuralNetConfiguration.Builder().seed(Constants.NEURAL_NET_SEED)
+//                        .iterations(1)
                         .optimizationAlgo(OptimizationAlgorithm.STOCHASTIC_GRADIENT_DESCENT)
-                        .learningRate(netConf.getLearningRate())
+//                        .learningRate(netConf.getLearningRate())
                         //.updater(Updater.NESTEROVS).momentum(0.9)
 //                        .updater(Updater.RMSPROP).rmsDecay(conf.getRmsDecay())
-                        .updater(netConf.getUpdater() != null ? netConf.getUpdater() : new Adam())
+                        .updater(netConf.getUpdater() != null ? netConf.getUpdater() : new Adam(1e-2))//TODO: Decide initial learning rate
                         .weightInit(WeightInit.XAVIER)
-                        .regularization(netConf.getL2() > 0)
+//                        .regularization(netConf.getL2() > 0)
                         .l2(netConf.getL2()).graphBuilder()
                         .setInputTypes(netConf.isUseLSTM() ? InputType.recurrent(numInputs)
                                 : InputType.feedForward(numInputs)).addInputs("input")
@@ -86,7 +88,9 @@ public class A3CTenhouModelFactory {
 //        }
 
 
-        ComputationGraphConfiguration cgconf = confB.pretrain(false).backprop(true).build();
+        ComputationGraphConfiguration cgconf = confB
+//                .pretrain(false).backprop(true)
+                .build();
         cgconf.setTrainingWorkspaceMode(WorkspaceMode.SEPARATE);
 
 
@@ -108,14 +112,15 @@ public class A3CTenhouModelFactory {
         int convNum = 0;
 
         ComputationGraphConfiguration.GraphBuilder confB = new NeuralNetConfiguration.Builder()
-                .seed(Constants.NEURAL_NET_SEED).
-                        iterations(1)
+                .seed(Constants.NEURAL_NET_SEED)
+//                .iterations(1)
                 .optimizationAlgo(OptimizationAlgorithm.STOCHASTIC_GRADIENT_DESCENT)
-                .learningRate(netConf.getLearningRate())
-                .updater(new Adam()) //.updater(Updater.NESTEROVS).momentum(0.9)
+//                .learningRate(netConf.getLearningRate())
+//                .updater(new Adam(netConf.getLearningRate())) //.updater(Updater.NESTEROVS).momentum(0.9)
+                .updater(netConf.getUpdater())
                 //.updater(Updater.RMSPROP).rmsDecay(conf.getRmsDecay())
                 .weightInit(WeightInit.XAVIER)
-                .regularization(netConf.getL2() > 0)
+//                .regularization(netConf.getL2() > 0)
                 .l2(netConf.getL2())
                 .graphBuilder().addInputs("input")
                 .addLayer("conv0", new ConvolutionLayer.Builder(1, kernelW).nIn(1).nOut(hiddenKernels).activation(Activation.RELU).build(), "input");
@@ -160,15 +165,18 @@ public class A3CTenhouModelFactory {
 
 //        confB.inputPreProcessor("densepre", new TenhouInputPreProcessor())
 
-        ComputationGraphConfiguration cgconf = confB.pretrain(false).backprop(true).build();
+        ComputationGraphConfiguration cgconf = confB
+//                .pretrain(false).backprop(true)
+                .build();
         cgconf.setTrainingWorkspaceMode(WorkspaceMode.SEPARATE);
 
         TenhouComputationGraph model = new TenhouComputationGraph(cgconf);
         model.init();
 
         if (netConf.getListeners() != null) {
-            List<IterationListener> listeners = new ArrayList<>();
-            for (IterationListener listener: netConf.getListeners()) {
+//            List<IterationListener> listeners = new ArrayList<>();
+            List<TrainingListener> listeners = new ArrayList<TrainingListener>();
+            for (TrainingListener listener: netConf.getListeners()) {
                 listeners.add(listener);
             }
             model.setListeners(listeners);

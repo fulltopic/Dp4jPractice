@@ -67,8 +67,8 @@ class TenhouCompMaskCnnLstmIterator(xmlParentDir: String, batchSize: Int, winner
     val batchSize = math.min(num, currentData.length)
     val input: INDArray = Nd4j.zeros(Array[Int](batchSize, PeerStateLen, seqLen), 'f')
     val labels: INDArray = Nd4j.zeros(Array[Int](batchSize, ActionLenWoAccept, seqLen), 'f')
-    val inputMask: INDArray = Nd4j.zeros(batchSize, seqLen)
-    val labelMask: INDArray = Nd4j.zeros(batchSize, seqLen)
+    val inputMask: INDArray = Nd4j.zeros(batchSize.toLong, seqLen)
+    val labelMask: INDArray = Nd4j.zeros(batchSize.toLong, seqLen)
     var index: Int = 0
 
     while (currentData.nonEmpty && index < batchSize) {
@@ -81,7 +81,7 @@ class TenhouCompMaskCnnLstmIterator(xmlParentDir: String, batchSize: Int, winner
                   inputMask.putScalar(index, j, 1.0)
                   labelMask.putScalar(index, j, 1.0)
         for (i <- 0 until PeerStateLen) {
-          input.putScalar(index, i, j, data(j)._1.getDouble(i))
+          input.putScalar(index, i, j, data(j)._1.getDouble(i.toLong))
         }
 
         labels.putScalar(index, data(j)._2, j,1.0)
