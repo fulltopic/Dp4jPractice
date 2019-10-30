@@ -1,5 +1,5 @@
 .idea/
 target/
 LOG_HOME_IS_UNDEFINED/
-datasets/reports/
+**/reports/*.txt
 mjpractice.iml

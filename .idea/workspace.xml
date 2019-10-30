@@ -2,78 +2,56 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa0fa9a1-06ba-4bef-827a-db61e5239291" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LOG_HOME_IS_UNDEFINED/error.2019-10-28.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/reports/scratchreport1572272358251.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/reports/scratchreport1572275257634.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/reports/scratchreport1572275800647.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/reports/scratchreport1572276805759.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/reports/scratchreport1572276993412.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/reports/scratchreport1572332005404.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/reports/scratchreport1572346082299.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/reports/scratchreport1572350863962.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/reports/scratchreport1572352673809.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/reports/scratchreport1572355775995.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/reports/scratchreport1572355927722.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/reports/scratchreport1572363990668.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/reports/scratchreport1572364212013.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/reports/scratchreport1572365424163.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/reports/scratchreport1572404191119.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/reports/scratchreport1572404326151.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/reports/scratchreport1572425322213.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/reports/scratchreport1572426754684.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/reports/scratchreport1572426969652.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/reports/scratchreport1572433031224.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/reports/scratchreport1572436686489.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/reports/scratchreport1572437052240.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/reports/scratchreport1572440736302.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/reports/scratchreport1572440830440.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/reports/scratchreport1572440898792.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/reports/scratchreport1572441128469.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/reports/scratchreport1572441307305.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/reports/scratchreport1572441419049.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/reports/scratchreport1572442773038.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logback.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Dp4jPractice.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/hydra.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/markdown-navigator.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/markdown-navigator/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjclassifier/LenetMnistExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjclassifier/LenetMnistExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjclassifier/MahjongClassifier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjclassifier/MahjongClassifier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjdrl/nn/a3c/A3CTenhouDense.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjdrl/nn/a3c/A3CTenhouDense.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjdrl/nn/a3c/A3CTenhouModelFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjdrl/nn/a3c/A3CTenhouModelFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjdrl/nn/a3c/A3CTenhouThreadDiscrete.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjdrl/nn/a3c/A3CTenhouThreadDiscrete.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjdrl/nn/a3c/TestLstmA3C.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjdrl/nn/a3c/TestLstmA3C.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjdrl/nn/dqn/TestCnnDqn.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjdrl/nn/dqn/TestCnnDqn.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjdrl/nn/dqn/TestDoubleNNDqn.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjdrl/nn/dqn/TestDoubleNNDqn.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjdrl/nn/dqn/TestDqn.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjdrl/nn/dqn/TestDqn.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjdrl/nn/dqn/TestLstmDqn.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjdrl/nn/dqn/TestLstmDqn.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjdrl/nn/dqn/TestNNDqn.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjdrl/nn/dqn/TestNNDqn.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjdrl/nn/dqn/nn/DqnUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjdrl/nn/dqn/nn/DqnUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjdrl/nn/dqn/nn/TenhouSimpleDenseQLDiscrete.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjdrl/nn/dqn/nn/TenhouSimpleDenseQLDiscrete.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjdrl/nn/dqn/nn/TenhouSimpleDoubleDenseQLDiscrete.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjdrl/nn/dqn/nn/TenhouSimpleDoubleDenseQLDiscrete.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjdrl/nn/dqn/nn/lstm/TenhouLstmQLDiscrete.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjdrl/nn/dqn/nn/lstm/TenhouLstmQLDiscrete.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjsupervised/SupervisedComp.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjsupervised/SupervisedComp.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjsupervised/dataprocess/iterator/TenhouCompCnnLstmIterator.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjsupervised/dataprocess/iterator/TenhouCompCnnLstmIterator.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjsupervised/dataprocess/iterator/TenhouCompMaskCnnLstmIterator.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjsupervised/dataprocess/iterator/TenhouCompMaskCnnLstmIterator.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjsupervised/dataprocess/iterator/TenhouLstmIterator.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjsupervised/dataprocess/iterator/TenhouLstmIterator.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjsupervised/dataprocess/preprocessor/TenhouFF2CnnPreProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjsupervised/dataprocess/preprocessor/TenhouFF2CnnPreProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjsupervised/dataprocess/preprocessor/TenhouInputPreProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjsupervised/dataprocess/preprocessor/TenhouInputPreProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjsupervised/dataprocess/preprocessor/TenhouRnnToCnnPreProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjsupervised/dataprocess/preprocessor/TenhouRnnToCnnPreProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjsupervised/nn/A3CTenhouModelFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjsupervised/nn/A3CTenhouModelFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dp4jpractice/org/tools/dataprocess/dbprocess/ExtractFiles.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dp4jpractice/org/tools/dataprocess/dbprocess/ExtractFiles.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dp4jpractice/org/tools/dataprocess/dbprocess/TenhouXmlStringReader.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dp4jpractice/org/tools/dataprocess/dbprocess/TenhouXmlStringReader.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dp4jpractice/org/tools/dataprocess/dbprocess/ZipTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dp4jpractice/org/tools/dataprocess/dbprocess/ZipTest.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/reports/scratchreport1526318160396.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/reports/scratchreport1526318160396.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/reports/scratchreport1526318160396.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/reports/scratchreport1526439038958.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/reports/scratchreport1526439038958.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/reports/scratchreport1526465021815.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/reports/scratchreport1526465021815.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/reports/scratchreport1526468553868.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/reports/scratchreport1526468553868.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/reports/scratchreport1526468553868.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/reports/scratchreport1526478733608.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/reports/scratchreport1526478733608.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/reports/scratchreport1526526489358.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/reports/scratchreport1526541748551.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/reports/scratchreport1526541748551.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/reports/scratchreport1572272358251.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/reports/scratchreport1572275257634.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/reports/scratchreport1572275800647.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/reports/scratchreport1572276805759.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/reports/scratchreport1572276993412.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/reports/scratchreport1572332005404.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/reports/scratchreport1572346082299.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/reports/scratchreport1572350863962.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/reports/scratchreport1572352673809.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/reports/scratchreport1572355775995.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/reports/scratchreport1572355927722.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/reports/scratchreport1572356223585.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/reports/scratchreport1572359067503.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/reports/scratchreport1572360876216.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/reports/scratchreport1572361321774.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/reports/scratchreport1572361430657.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/reports/scratchreport1572363990668.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/reports/scratchreport1572364212013.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/reports/scratchreport1572365424163.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/reports/scratchreport1572404191119.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/reports/scratchreport1572404326151.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/reports/scratchreport1572425322213.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/reports/scratchreport1572426754684.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/reports/scratchreport1572426969652.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/reports/scratchreport1572433031224.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/reports/scratchreport1572436686489.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/reports/scratchreport1572437052240.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/reports/scratchreport1572440736302.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/reports/scratchreport1572440830440.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/reports/scratchreport1572440898792.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/reports/scratchreport1572441128469.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/reports/scratchreport1572441307305.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/reports/scratchreport1572441419049.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/reports/scratchreport1572442773038.txt" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
