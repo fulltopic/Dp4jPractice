@@ -183,6 +183,16 @@
         </pluginManagement>
         <plugins>
             <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.5.1</version>
+                <configuration>
+                    <source>${java.version}</source>
+                    <target>${java.version}</target>
+                </configuration>
+            </plugin>
+
+            <plugin>
                 <groupId>net.alchim31.maven</groupId>
                 <artifactId>scala-maven-plugin</artifactId>
                 <executions>
@@ -215,7 +225,9 @@
                             -->
                             <mainClass>
 <!--                                dp4jpractice.org.mjclassifier.LenetMnistExample-->
-                                dp4jpractice.org.mjclassifier.MahjongClassifier
+<!--                                dp4jpractice.org.mjclassifier.MahjongClassifier-->
+                                dp4jpractice.org.mjsupervised.SupervisedComp
+<!--                                dp4jpractice.org.mjsupervised.UCISequenceClassificationExample-->
                             </mainClass>
                             <!--
                                                       <mainClass>dp4jpractice.org.mjsupervised.dataprocess.dbprocess.lmdbprocess.LmdbTest</mainClass>

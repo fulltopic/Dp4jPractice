@@ -2,4 +2,8 @@
 target/
 LOG_HOME_IS_UNDEFINED/
 **/reports/*.txt
+datasets/mjsupervised/logs/evals_dense_conv_dense*.txt
+**/evals_dense_conv_dense.txt
+**/*.csv
 mjpractice.iml
+**/UCISequenceClassificationExample.java

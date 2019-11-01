@@ -15,7 +15,6 @@ import tenhouclient.impl.ImplConsts._
 import scala.concurrent.duration.Duration
 import scala.concurrent.{Await, Future}
 import scala.util.{Failure, Random, Success}
-//import dp4jpractice.org.mjsupervised.utils.ImplConsts._
 
 class TenhouLstmIterator(xmlParentDir: String, batchSize: Int, winner: Boolean = false, val model: MultiLayerNetwork = null) extends  DataSetIterator{
   val logger = Logger("TenhouLstmIterator")
@@ -46,11 +45,6 @@ class TenhouLstmIterator(xmlParentDir: String, batchSize: Int, winner: Boolean =
     this.next(batchSize)
   }
 
-//  override def totalExamples(): Int = {
-//    logger.debug("----------------------------> Called totalExamples: ")
-//    0
-//  }
-
   override def inputColumns(): Int = {
     PeerStateLen
   }
@@ -69,10 +63,6 @@ class TenhouLstmIterator(xmlParentDir: String, batchSize: Int, winner: Boolean =
 
   override def batch(): Int = batchSize
 
-//  override def numExamples(): Int = {
-//    logger.debug("-------------------------> Total num examples ")
-//    0
-//  }
 
   override def setPreProcessor(preProcessor: DataSetPreProcessor): Unit = {
     //do nothing
@@ -85,10 +75,6 @@ class TenhouLstmIterator(xmlParentDir: String, batchSize: Int, winner: Boolean =
     null
   }
 
-//  override def cursor(): Int = {
-//    logger.debug("-------------------------> Cursor ")
-//    0
-//  }
 
   override def hasNext: Boolean = {
     fileIndex < files.length
@@ -156,7 +142,7 @@ class TenhouLstmIterator(xmlParentDir: String, batchSize: Int, winner: Boolean =
 
 
     for (i <- 0 until batchSize) {
-      if (!currentData.isEmpty) {
+      if (currentData.nonEmpty) {
         val data = currentData.head
         currentData = currentData.tail
 
@@ -171,10 +157,9 @@ class TenhouLstmIterator(xmlParentDir: String, batchSize: Int, winner: Boolean =
           }else {
             delta = data(j)._1.sub(data(j - 1)._1)
           }
-//          logger.debug(delta)
+          logger.debug("" + delta)
 
           for (k <- 0 until inputColumns()) {
-//            input.putScalar(Array[Int](i, k, j), data(j)._1.getDouble(k))
             input.putScalar(Array[Int](i, k, j), delta.getDouble(k.toLong))
           }
           labels.putScalar(Array[Int](i, data(j)._2, j), 1.0)
@@ -184,114 +169,5 @@ class TenhouLstmIterator(xmlParentDir: String, batchSize: Int, winner: Boolean =
 
     new DataSet(input, labels)
   }
-
-
-//  var myData = List.empty[(INDArray, Int)]
-//  var lastData: INDArray = null
-//  var lastState0: util.Map[String, INDArray] = null
-//  var lastState1: util.Map[String, INDArray] = null
-//  override def next(num: Int): DataSet = {
-//    if (myData.isEmpty && hasNext) {
-//      loadNewFile()
-//      while (currentData.nonEmpty) {
-//        myData = myData ++ currentData.head
-//        myData = myData :+ (null, -1)
-//        currentData = currentData.tail
-//      }
-//    }
-//
-//    val myBatchSize: Int = 1
-//    val mySeqLen: Int = 1
-//
-//    val actionLen = ActionLenWoAccept
-//    val input = Nd4j.create(Array[Int](myBatchSize, inputColumns(), mySeqLen), 'f')
-//    val labels = Nd4j.create(Array[Int](myBatchSize, actionLen, mySeqLen), 'f')
-//
-//
-//    if (myData.nonEmpty) {
-//      val data = myData.head
-//      myData = myData.tail
-//
-//      if (data._2 >= 0) {
-//        val inputArray = data._1
-//        val action = data._2
-//        var delta = inputArray
-//        if (lastData != null) {
-////          logger.debug("lastData " + lastData)
-//
-//          delta = inputArray.sub(lastData)
-//          if (model != null) {
-//          }
-//        }
-//        lastData = data._1
-//
-//        for (k <- 0 until inputColumns()) {
-//          input.putScalar(Array[Int](0, k, 0), delta.getDouble(k))
-//        }
-//        labels.putScalar(Array[Int](0, action, 0), 1.0)
-////        logger.debug("data_.1 " + data._1)
-////        logger.debug("inputArray " + inputArray)
-////        logger.debug("delta " + delta)
-////        logger.debug("action " + action)
-//      } else {
-//        if (model != null)
-//        {
-////          logger.debug("Reset previous state")
-////          model.rnnClearPreviousState()
-//        }
-//        lastData = null
-//      }
-//    }
-//    new DataSet(input, labels)
-//  }
-
-//  var currentScene = Array.empty[(INDArray, Int)]
-//  var stepIndex: Int = 0
-//  val myBatchSize: Int = 1
-
-//  override def next(num: Int): DataSet = {
-//    if (currentData.length < num && hasNext) {
-//      loadNewFile()
-//    }
-//
-//    if (stepIndex >= currentScene.length) {
-//      currentScene = currentData.head.toArray
-//      currentData = currentData.tail
-//      stepIndex = 0
-////      logger.debug("reset " + stepIndex + ", " + currentScene.length)
-//    }
-////    logger.debug(stepIndex)
-//
-//    val mySeqLen = stepIndex + 1
-//    val actionLen = ActionLenWoAccept
-//    val input = Nd4j.create(Array[Int](myBatchSize, inputColumns(), mySeqLen), 'f')
-//    val labels = Nd4j.create(Array[Int](myBatchSize, actionLen, mySeqLen), 'f')
-//
-//    for (i <- 0 until mySeqLen) {
-////      if (i >= currentScene.length) {
-////        logger.debug("---------------------------------------------->")
-////        logger.debug(i)
-////        logger.debug(stepIndex)
-////        logger.debug(currentScene.length)
-////        logger.debug(currentData.length)
-////        logger.debug(fileIndex)
-////        logger.debug(files.length)
-////      }
-//      var delta = currentScene(i)._1
-//      if (i > 0) {
-//        delta = currentScene(i)._1.sub(currentScene(i - 1)._1)
-//      }
-//      val action = currentScene(i)._2
-//      for (k <- 0 until inputColumns()) {
-//        input.putScalar(Array[Int](0, k, i), delta.getDouble(k))
-//      }
-//      labels.putScalar(Array[Int](0, action, i), 1.0)
-//    }
-//
-//    stepIndex += 1
-////    logger.debug("update " + stepIndex)
-//
-//    new DataSet(input, labels)
-//  }
 
 }

@@ -91,7 +91,7 @@ public class A3CTenhouModelFactory {
 //                                                .pretrain(false)
 //                                                .backprop(true)
                                                 .build();
-        cgconf.setTrainingWorkspaceMode(WorkspaceMode.SEPARATE);
+        cgconf.setTrainingWorkspaceMode(WorkspaceMode.ENABLED);
 
 
         ComputationGraph model = new ComputationGraph(cgconf);
@@ -132,7 +132,8 @@ public class A3CTenhouModelFactory {
 //    println(originW - (kernelW - 1) * convNum)
         confB.addLayer("dense0", new DenseLayer.Builder().nIn((originW - (kernelW - 1) * convNum) * netConf.getNumHiddenNodes()).nOut(netConf.getNumHiddenNodes()).activation(Activation.RELU).build(), "conv1");
 
-        GravesLSTM lstmLayer = new GravesLSTM.Builder().nIn(netConf.getNumHiddenNodes()).nOut(netConf.getNumHiddenNodes()).activation(Activation.TANH).build();
+//        GravesLSTM lstmLayer = new GravesLSTM.Builder().nIn(netConf.getNumHiddenNodes()).nOut(netConf.getNumHiddenNodes()).activation(Activation.TANH).build();
+        LSTM lstmLayer = new LSTM.Builder().activation(Activation.TANH).nIn(netConf.getNumHiddenNodes()).nOut(netConf.getNumHiddenNodes()).build();
         confB.addLayer("lstm0", lstmLayer, "dense0");
 
 
@@ -154,20 +155,13 @@ public class A3CTenhouModelFactory {
             confB.inputPreProcessor("dense0", new CnnToFeedForwardPreProcessor(1, originW - (kernelW - 1) * convNum, netConf.getNumHiddenNodes()));
             confB.inputPreProcessor("lstm0", new FeedForwardToRnnPreProcessor());
 //            confB.inputPreProcessor("value", new RnnToFeedForwardPreProcessor());
-//            confB.inputPreProcessor("softmax", new RnnToFeedForwardPrePr
-// ocessor());
+//            confB.inputPreProcessor("softmax", new RnnToFeedForwardPreProcessor());
         }
-
-//    confB.setInputTypes(InputType.convolutionalFlat(1, 74, 1))
-
-//    confB.inputPreProcessor("conv0", new RnnToCnnPreProcessor(1, 74, 1))
-
-//        confB.inputPreProcessor("densepre", new TenhouInputPreProcessor())
 
         ComputationGraphConfiguration cgconf = confB
 //                .pretrain(false).backprop(true)
                 .build();
-        cgconf.setTrainingWorkspaceMode(WorkspaceMode.SEPARATE);
+        cgconf.setTrainingWorkspaceMode(WorkspaceMode.ENABLED);
 
         TenhouComputationGraph model = new TenhouComputationGraph(cgconf);
         model.init();

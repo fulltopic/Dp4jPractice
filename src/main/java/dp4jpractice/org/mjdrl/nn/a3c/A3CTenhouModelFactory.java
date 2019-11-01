@@ -91,7 +91,7 @@ public class A3CTenhouModelFactory {
         ComputationGraphConfiguration cgconf = confB
 //                .pretrain(false).backprop(true)
                 .build();
-        cgconf.setTrainingWorkspaceMode(WorkspaceMode.SEPARATE);
+        cgconf.setTrainingWorkspaceMode(WorkspaceMode.ENABLED);
 
 
         ComputationGraph model = new ComputationGraph(cgconf);
@@ -168,7 +168,7 @@ public class A3CTenhouModelFactory {
         ComputationGraphConfiguration cgconf = confB
 //                .pretrain(false).backprop(true)
                 .build();
-        cgconf.setTrainingWorkspaceMode(WorkspaceMode.SEPARATE);
+        cgconf.setTrainingWorkspaceMode(WorkspaceMode.ENABLED);
 
         TenhouComputationGraph model = new TenhouComputationGraph(cgconf);
         model.init();

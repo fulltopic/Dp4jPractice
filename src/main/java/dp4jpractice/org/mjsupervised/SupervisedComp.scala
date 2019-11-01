@@ -13,8 +13,8 @@ import org.deeplearning4j.nn.conf.preprocessor.{CnnToFeedForwardPreProcessor, Fe
 import org.deeplearning4j.nn.conf.{ComputationGraphConfiguration, NeuralNetConfiguration, WorkspaceMode}
 import org.deeplearning4j.nn.graph.ComputationGraph
 import org.deeplearning4j.nn.weights.WeightInit
-import org.deeplearning4j.optimize.api.{IterationListener, TrainingListener}
-import org.deeplearning4j.optimize.listeners.ScoreIterationListener
+import org.deeplearning4j.optimize.api.{InvocationType, IterationListener, TrainingListener}
+import org.deeplearning4j.optimize.listeners.{EvaluativeListener, ScoreIterationListener}
 import org.deeplearning4j.rl4j.network.ac.{ActorCriticFactoryCompGraphStdDense, ActorCriticLoss}
 import org.deeplearning4j.rl4j.util.Constants
 import org.deeplearning4j.ui.api.UIServer
@@ -25,30 +25,23 @@ import org.nd4j.linalg.activations.Activation
 import org.nd4j.linalg.factory.Nd4j
 import org.nd4j.linalg.learning.config.Adam
 import org.nd4j.linalg.lossfunctions.LossFunctions
-import org.nd4j.evaluation.classification.Evaluation
-
-import tenhouclient.impl.ImplConsts._
-//import dp4jpractice.org.mjsupervised.utils.ImplConsts._
+import org.slf4j.{Logger, LoggerFactory}
 
 object SupervisedComp extends App{
+  private val logger = LoggerFactory.getLogger(SupervisedComp.getClass)
+
   def CreateActorCritic(netConf: ActorCriticFactoryCompGraphStdDense.Configuration, numInputs: Int, numOutputs: Int, supervised: Boolean): ComputationGraph = {
     var inputType = InputType.feedForward(numInputs)
     if (!supervised) inputType = InputType.recurrent(numInputs)
-//  netConf.getUpdater.l
     val confB = new NeuralNetConfiguration.Builder()
       .seed(Constants.NEURAL_NET_SEED)
-//      .iterations(1)
       .optimizationAlgo(OptimizationAlgorithm.STOCHASTIC_GRADIENT_DESCENT)
-//      .learningRate(netConf.getLearningRate)
       .updater(netConf.getUpdater)
 //      .updater(new Adam(netConf.getLearningRate)) //.updater(Updater.NESTEROVS).momentum(0.9)
-      //.updater(Updater.RMSPROP).rmsDecay(conf.getRmsDecay())
       .weightInit(WeightInit.XAVIER)
-//      .regularization(netConf.getL2 > 0)
       .l2(netConf.getL2)
       .graphBuilder.addInputs("input")
       .addLayer("conv0", new ConvolutionLayer.Builder(1, 4).nOut(8).activation(Activation.RELU).build, "input")
-//      .addLayer("sub0", new SubsamplingLayer.Builder(SubsamplingLayer.PoolingType.AVG).kernelSize(1, 4).build(), "conv0")
 
 //    confB.addLayer("conv1", new ConvolutionLayer.Builder(1, 4).nOut(netConf.getNumHiddenNodes).activation(Activation.RELU).build, "conv0")
     confB.addLayer("dense0", new DenseLayer.Builder().nOut(netConf.getNumHiddenNodes).activation(Activation.RELU).build, "conv0")
@@ -71,14 +64,11 @@ object SupervisedComp extends App{
 
     //        confB.inputPreProcessor("0", new TenhouInputPreProcessor());
 
-    val cgconf = graphConf
-//      .pretrain(false).backprop(true)
-      .build
+    val cgconf = graphConf.build
     val model = new ComputationGraph(cgconf)
     model.init()
 
     if (netConf.getListeners != null) {
-//      val listeners = new util.ArrayList[IterationListener]()
       val listeners = new util.ArrayList[TrainingListener]()
       for (listener <- netConf.getListeners) {
         listeners.add(listener)
@@ -99,14 +89,11 @@ object SupervisedComp extends App{
 
     val confB = new NeuralNetConfiguration.Builder()
       .seed(Constants.NEURAL_NET_SEED)
-//      .iterations(1)
       .optimizationAlgo(OptimizationAlgorithm.STOCHASTIC_GRADIENT_DESCENT)
-//      .learningRate(netConf.getLearningRate)
       .updater(netConf.getUpdater)
 //      .updater(new Adam(netConf.getLearningRate)) //.updater(Updater.NESTEROVS).momentum(0.9)
       //.updater(Updater.RMSPROP).rmsDecay(conf.getRmsDecay())
       .weightInit(WeightInit.XAVIER)
-//      .regularization(netConf.getL2 > 0)
       .l2(netConf.getL2)
       .graphBuilder.addInputs("input")
       .addLayer("conv0", new ConvolutionLayer.Builder(1, kernelW).nIn(1).nOut(hiddenKernels).activation(Activation.RELU).build, "input")
@@ -145,16 +132,13 @@ object SupervisedComp extends App{
     val graphConf = confB.asInstanceOf[ComputationGraphConfiguration.GraphBuilder]
 
 
-    val cgconf = graphConf
-//      .pretrain(false).backprop(true)
-      .build
+    val cgconf = graphConf.build
     cgconf.setTrainingWorkspaceMode(WorkspaceMode.ENABLED)
 
     val model = new ComputationGraph(cgconf)
     model.init()
 
     if (netConf.getListeners != null) {
-//      val listeners = new util.ArrayList[IterationListener]()
       val listeners = new util.ArrayList[TrainingListener]()
 
       for (listener <- netConf.getListeners) {
@@ -176,14 +160,11 @@ object SupervisedComp extends App{
 
     val confB = new NeuralNetConfiguration.Builder()
       .seed(Constants.NEURAL_NET_SEED)
-//      .iterations(1)
       .optimizationAlgo(OptimizationAlgorithm.STOCHASTIC_GRADIENT_DESCENT)
-//      .learningRate(netConf.getLearningRate)
       .updater(netConf.getUpdater)
 //      .updater(new Adam(netConf.getLearningRate)) //.updater(Updater.NESTEROVS).momentum(0.9)
       //.updater(Updater.RMSPROP).rmsDecay(conf.getRmsDecay())
       .weightInit(WeightInit.XAVIER)
-//      .regularization(netConf.getL2 > 0)
       .l2(netConf.getL2)
       .graphBuilder.addInputs("input")
       .addLayer("densepre", new DenseLayer.Builder().nIn(originW).nOut(originW).activation(Activation.IDENTITY).build(), "input")
@@ -222,14 +203,11 @@ object SupervisedComp extends App{
     val graphConf = confB.asInstanceOf[ComputationGraphConfiguration.GraphBuilder]
 
 
-    val cgconf = graphConf
-//      .pretrain(false).backprop(true)
-      .build
+    val cgconf = graphConf.build
     val model = new ComputationGraph(cgconf)
     model.init()
 
     if (netConf.getListeners != null) {
-//      val listeners = new util.ArrayList[IterationListener]()
       val listeners = new util.ArrayList[TrainingListener]()
 
       for (listener <- netConf.getListeners) {
@@ -242,6 +220,7 @@ object SupervisedComp extends App{
 
   private def getConfig(lstmTraining: Boolean): ActorCriticFactoryCompGraphStdDense.Configuration = {
     val config = ActorCriticFactoryCompGraphStdDense.Configuration.builder
+
       .updater(new Adam(1e-2))
 //      .learningRate(1e-2)
       .l2(0)
@@ -260,6 +239,7 @@ object SupervisedComp extends App{
   private val resourcePath = resourceDir.getAbsolutePath
   private val trainPath = resourcePath + "/mjsupervised/xmlfiles/train/"
   private val validPath = resourcePath + "/mjsupervised/xmlfiles/validation/"
+  private val testPath = resourcePath + "/mjsupervised/xmlfiles/minitest/"
   private val modelPath = resourcePath + "/mjsupervised/xmlfiles/models/nnmodel"
   private val logFile = new PrintWriter(new File(resourcePath + "/mjsupervised/logs/evals_dense_conv_dense_lstm" + System.currentTimeMillis() + ".txt"))
 
@@ -270,46 +250,24 @@ object SupervisedComp extends App{
 
   def train(): Unit = {
     val batchSize = 64
-    val iterationNum = 1
-    val epochNum = 16
+    val epochNum = 2
 
     val trainIte = new TenhouCompMaskCnnLstmIterator(trainPath, batchSize, true)
     val validIte = new TenhouCompMaskCnnLstmIterator(validPath, batchSize, true)
+    val testIte = new TenhouCompMaskCnnLstmIterator(testPath, batchSize, true)
 
-//    val trainFetcher = new TenhouXmlCnnFetcher(trainPath, TileNum, true)
-//    val trainIte = new BaseDatasetIterator(batchSize, iterationNum, trainFetcher)
-//    val validFetcher = new TenhouXmlCnnFetcher(validPath, TileNum, true)
-//    val validIte = new BaseDatasetIterator(batchSize, iterationNum, validFetcher)
-
-//    val model = CreatePreProcessorActorCritic(getConfig(true), 74, 42, true)
     val model = A3CTenhouModelFactory.CreateLstmComputeGraph(getConfig(true), 74, 42, true);
 
     val uiServer = UIServer.getInstance
     val statsStorage = new InMemoryStatsStorage
     uiServer.attach(statsStorage)
-    model.setListeners(new StatsListener(statsStorage))
+    model.setListeners(new StatsListener(statsStorage), new EvaluativeListener(validIte, 1, InvocationType.EPOCH_END))
 
-    for (i <- 0 until epochNum) {
-      trainIte.reset()
-      model.fit(trainIte)
+    model.fit(trainIte, epochNum)
 
-      validIte.reset()
-      val eval:Evaluation = model.evaluate(validIte)
-
-      val stat = eval.stats()
-//      val stat = model.evaluate(validIte).stats()
-      writeLog("=========================================> Evaluation")
-      writeLog(stat)
-      println(stat)
-
-      val MJModelFile = new File(modelPath + "_" + System.currentTimeMillis() + ".xml")
-      val fos = new FileOutputStream(MJModelFile)
-      ModelSerializer.writeModel(model, fos, true)
-
-//      Nd4j.getWorkspaceManager.destroyAllWorkspacesForCurrentThread()
-    }
 
     writeLog("::::::::::::::::::::::::::::::::::::::::: End of training")
+//    uiServer.detach(statsStorage)
   }
 
   def test(): Unit = {
@@ -340,7 +298,6 @@ object SupervisedComp extends App{
 
     while(testIte.hasNext && count < expCount) {
       val next = testIte.next()
-//      val feature = next.getFeatureMatrix
       val feature = next.getFeatures
       val label = next.getLabels
       val mask = next.getFeaturesMaskArray
@@ -382,8 +339,6 @@ object SupervisedComp extends App{
     }
 
     println("" + matchExample + " / " + totalExample)
-//    val eval = model.evaluate(testIte)
-//    println(eval)
   }
 
   train()

@@ -4,8 +4,6 @@ import akka.event.slf4j.Logger
 import org.deeplearning4j.rl4j.learning.sync.Transition
 import org.nd4j.linalg.api.ndarray.INDArray
 import org.nd4j.linalg.factory.Nd4j
-//import dp4jpractice.org.mjsupervised.utils.TenhouConsts._
-//import dp4jpractice.org.mjsupervised.utils.ImplConsts._
 import tenhouclient.impl.ImplConsts._
 import tenhouclient.utils.TenhouConsts._
 
@@ -30,29 +28,28 @@ class TenhouXmlFileReader(fileName: String) {
   }
 
   def readFile(): List[(INDArray, Int)] = {
-    //    logger.debug("-------------------------> To read file " + fileName)
+    logger.debug("-------------------------> To read file " + fileName)
     val root = XML.loadFile(fileName)
     val a = root \ "Scene"
 
-    //    logger.debug("Get game size " + a.length)
+    logger.debug("Get game size " + a.length)
 
     a.foreach(readScene)
 
     playerData = datas.toList.flatten
-
     playerData
   }
 
   def readScene(sceneNode: Node): Unit = {
     gameCount += 1
-    //    logger.debug("Read game " + gameCount)
+    logger.debug("Read game " + gameCount)
     val byeNode = sceneNode \ "BYE"
     if (byeNode.length > 0) {
-      //      logger.debug("--------------------------> Interrupted game, give up")
+      logger.debug("--------------------------> Interrupted game, give up")
     }else{
       sceneNode.child.foreach { child => {
         child match {
-          case _: Text => //logger.debug(child.head.label)
+          case _: Text => logger.debug(child.head.label)
           case _: Node => readNodeInSeq(child)
         }
       }
@@ -61,7 +58,7 @@ class TenhouXmlFileReader(fileName: String) {
   }
 
   def readNodeInSeq(node: Node): Unit = {
-    //    logger.debug("===========================> Get a node " + node.label)
+    logger.debug("===========================> Get a node " + node.label)
     node.label match {
       case "INIT" => parseInit(node)
       case "N" => parseSteal(node)
@@ -141,11 +138,6 @@ class TenhouXmlFileReader(fileName: String) {
     }
   }
 
-//  private def createTransition(state: Array[Int], nextState: Array[Int], action: Int, reward: Int, gameOver: Boolean): Unit = {
-//    val (stateIND, nextStateIND) = createINDState(state, nextState)
-//    val transition = new Transition[Integer](stateIND, action, reward, gameOver, nextStateIND)
-//    trans = trans :+ transition
-//  }
 
   protected def createDataPair(action: Int, who: Int): Unit = {
     val state = currentStats(who)
@@ -163,7 +155,6 @@ class TenhouXmlFileReader(fileName: String) {
 
   def parseAccept(node: Node, index: Int): Unit = {
     val origTile = node.label.substring(1).toInt
-//    val currState = currentStats(index).clone()
     acceptTile(currentStats(index), origTile)
   }
 
@@ -180,7 +171,7 @@ class TenhouXmlFileReader(fileName: String) {
 
   //TODO: Parse steal should create transition
   def parseSteal(node: Node): Unit = {
-    //    logger.debug("steal " + node.text)
+    logger.debug("steal " + node.text)
     val whoAttr = node.attribute("who")
     whoAttr match {
       case Some(x) => {
@@ -284,8 +275,6 @@ class TenhouXmlFileReader(fileName: String) {
     acceptTile(currentStats(index), pongTile)
     updatePlayer(index, tiles, fixTile)
     updateBoard(tiles.tail)
-
-//    createTransition(origState, currentStats(index), PongWoAccept, DefaultReward, false)
   }
 
 
@@ -325,26 +314,12 @@ class TenhouXmlFileReader(fileName: String) {
     acceptTile(currentStats(index), chowTile)
     updatePlayer(index, candidates, fixTile)
     updateBoard(peers)
-
-//    createTransition(origState, currentStats(index), ChowWoAccept, DefaultReward, false)
   }
 
-//  def createINDState(state: Array[Int], nextState: Array[Int]): (Array[INDArray], INDArray) = {
-//    val stateIND = new Array[INDArray](1)
-//    stateIND(0) = Nd4j.zeros(1, PeerStateLen)
-//    val nextStateIND = Nd4j.zeros(1, PeerStateLen)
-//
-//    for(i <- 0 until PeerStateLen) {
-//      stateIND(0).putScalar(i, state(i))
-//      nextStateIND.putScalar(i, nextState(i))
-//    }
-//
-//    (stateIND, nextStateIND)
-//  }
 
   //TODO: create transition
   def parseTerminal(node: Node): Unit = {
-    //    logger.debug("end of game " + gameCount)
+    logger.debug("end of game " + gameCount)
 
     val rewards = node.attribute("sc").map(_.text.split(",").map(_.toInt).zipWithIndex.filter(_._2 % 2 == 1).map(_._1))
       .getOrElse(Array.fill[Int](PlayerNum)(0))
@@ -378,12 +353,8 @@ class TenhouXmlFileReader(fileName: String) {
         currentStats.foreach(state => state(PeerCommonReach + who) = ReachStep1)
         currentStats(who)(PeerReachIndex) = ReachStep1
       case 2 =>
-        //        val origState = currentStats(who).clone()
         currentStats.foreach(state => state(PeerCommonReach + who) = ReachStep2)
         currentStats(who)(PeerReachIndex) = ReachStep2
-      //Only one reach action executed
-      //        createTransition(origState, currentStats(who), REACH, DefaultReward, false)
-
       case _ => logger.debug("Received invalid reach step " + step)
     }
   }

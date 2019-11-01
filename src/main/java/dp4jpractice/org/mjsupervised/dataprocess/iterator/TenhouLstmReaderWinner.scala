@@ -5,9 +5,6 @@ import org.nd4j.linalg.api.ndarray.INDArray
 import org.nd4j.linalg.factory.Nd4j
 import tenhouclient.impl.ImplConsts._
 import tenhouclient.utils.TenhouConsts._
-//import dp4jpractice.org.mjsupervised.utils.TenhouConsts._
-//import dp4jpractice.org.mjsupervised.utils.ImplConsts._
-
 
 
 import scala.xml.Node
@@ -29,17 +26,8 @@ class TenhouLstmReaderWinner(fileName: String) extends TenhouLstmReader (fileNam
 
   override protected def createDataPair(action: Int, who: Int): Unit = {
     val state = currentStats(who)
-
     val indState = Nd4j.create(state)
-//    val indState = Nd4j.zeros(state.length)
-//    for (i <- state.indices) {
-//      val v = state(i)
-//      val remainV = v - v.toInt.toDouble
-//      val nV = ((v.toInt & ExtraValueFlag).toDouble + remainV) / NumPerTile.toDouble
-//      indState.putScalar(i, nV)
-//    }
 
-    //    datas(who) = datas(who) :+ (indState, action)
     tmpDatas(who) = tmpDatas(who) :+ (indState, action)
   }
 
