@@ -13,7 +13,6 @@ import org.deeplearning4j.eval.Evaluation;
 import org.deeplearning4j.nn.api.OptimizationAlgorithm;
 import org.deeplearning4j.nn.conf.MultiLayerConfiguration;
 import org.deeplearning4j.nn.conf.NeuralNetConfiguration;
-import org.deeplearning4j.nn.conf.Updater;
 import org.deeplearning4j.nn.conf.WorkspaceMode;
 import org.deeplearning4j.nn.conf.inputs.InputType;
 import org.deeplearning4j.nn.conf.layers.ConvolutionLayer;
@@ -25,6 +24,9 @@ import org.deeplearning4j.nn.multilayer.MultiLayerNetwork;
 import org.deeplearning4j.nn.transferlearning.FineTuneConfiguration;
 import org.deeplearning4j.nn.transferlearning.TransferLearning;
 import org.deeplearning4j.nn.weights.WeightInit;
+import org.deeplearning4j.optimize.api.InvocationType;
+import org.deeplearning4j.optimize.api.TrainingListener;
+import org.deeplearning4j.optimize.listeners.EvaluativeListener;
 import org.deeplearning4j.ui.api.UIServer;
 import org.deeplearning4j.ui.stats.StatsListener;
 import org.deeplearning4j.ui.storage.InMemoryStatsStorage;
@@ -42,7 +44,6 @@ import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
 import java.util.Arrays;
-import java.util.Iterator;
 import java.util.List;
 import java.util.Random;
 
@@ -51,14 +52,13 @@ public class MahjongClassifier {
     private static final int ParamSeed = 89;
     private static Random ParamRandom = new Random(ParamSeed);
     private static Random MjRandom = new Random(Seed);
-    private static final int IterationNum = 1;
     private static final int ChannelNum = 1;
     private static final int ClassNum = 3;
     private static final int ScratchHeight = 30;
     private static final int ScratchWidth = 20;
     private static final int TestBatchSize = 9;
     private static final int TestEpochNum = 1;
-    //TODO: To set relative path
+
     private static final String ResourcePath = "datasets/";
     private static final String ResourceTrainPath = "/dataset6/";
     private static final String ResourceTestPath = "/datasettest/";
@@ -80,40 +80,54 @@ public class MahjongClassifier {
     private static final Logger log = LoggerFactory.getLogger(MahjongClassifier.class);
 
 
-    private interface Model {
-        void fit(DataSetIterator iterator);
-        Evaluation evaluate(DataSetIterator iterator);
+    private abstract class Model {
+        abstract public void fit(DataSetIterator iterator, int epochNum);
+        abstract protected void addListener(TrainingListener listener);
+
+        public void setListeners(boolean setUIiListener, boolean setEvalListener, DataSetIterator validIte)
+        {
+            if (setUIiListener) {
+                UIServer uiServer = UIServer.getInstance();
+                InMemoryStatsStorage statsStorage = new InMemoryStatsStorage();
+                uiServer.attach(statsStorage);
+
+                addListener(new StatsListener(statsStorage));
+            }
+            if (setEvalListener) {
+                addListener(new EvaluativeListener(validIte, 1, InvocationType.EPOCH_END));
+            }
+        }
     }
 
-    private class NetworkModel implements Model{
+    private class NetworkModel extends Model{
         private MultiLayerNetwork model;
 
-        public NetworkModel(MultiLayerNetwork model) {
+        NetworkModel(MultiLayerNetwork model) {
             this.model = model;
         }
 
-        public void fit(DataSetIterator iterator) {
-            model.fit(iterator);
+        public void fit(DataSetIterator iterator, int epochNum) {
+            model.fit(iterator, epochNum);
         }
 
-        public Evaluation evaluate(DataSetIterator iterator) {
-            return model.evaluate(iterator);
+        protected void addListener(TrainingListener listener) {
+            model.addListeners(listener);
         }
     }
 
-    private class GraphModel implements Model {
+    private class GraphModel extends Model {
         private ComputationGraph graph;
 
-        public GraphModel(ComputationGraph graph) {
+        GraphModel(ComputationGraph graph) {
             this.graph = graph;
         }
 
-        public void fit(DataSetIterator iterator) {
-            graph.fit(iterator);
+        public void fit(DataSetIterator iterator, int epochNum) {
+            graph.fit(iterator, epochNum);
         }
 
-        public Evaluation evaluate(DataSetIterator iterator) {
-            return graph.evaluate(iterator);
+        protected  void addListener(TrainingListener listener) {
+            graph.addListeners(listener);
         }
     }
 
@@ -159,13 +173,9 @@ public class MahjongClassifier {
         MultiLayerConfiguration config = new NeuralNetConfiguration.Builder()
                 .seed(Seed)
                 .updater(new AdaGrad(learningRate))
-//                .learningRate(learningRate)
-//                .iterations(IterationNum)
-//                .regularization(true)
                 .l2(l2NormBeta)
                 .weightInit(WeightInit.XAVIER)
                 .optimizationAlgo(OptimizationAlgorithm.STOCHASTIC_GRADIENT_DESCENT)
-//                .updater(Updater.ADAGRAD)
                 .list()
                 //Layers
                 .layer(0, new ConvolutionLayer.Builder(l1KernelSize, l1KernelSize)
@@ -195,17 +205,12 @@ public class MahjongClassifier {
                         .activation(Activation.SOFTMAX)
                         .build())
                 //Input
-                .setInputType(InputType.convolutionalFlat(ScratchHeight, ScratchWidth, ChannelNum))
-//                .backprop(true)
-//                .pretrain(false)
-                .build();
-        config.setTrainingWorkspaceMode(WorkspaceMode.SEPARATE);
+                .setInputType(InputType.convolutionalFlat(ScratchHeight, ScratchWidth, ChannelNum)).build();
+        config.setTrainingWorkspaceMode(WorkspaceMode.ENABLED);
 
         List<NeuralNetConfiguration> confs = config.getConfs();
         log.info("===================================================> Get config size " + confs.size());
-        Iterator<NeuralNetConfiguration> confIte = confs.iterator();
-        while(confIte.hasNext()) {
-            NeuralNetConfiguration conf = confIte.next();
+        for (NeuralNetConfiguration conf : confs) {
             log.info("Conf : \n" + conf.toJson());
         }
 
@@ -228,12 +233,9 @@ public class MahjongClassifier {
                 .optimizationAlgo(OptimizationAlgorithm.STOCHASTIC_GRADIENT_DESCENT)
                 .updater(new AdaGrad(learningRate))
                 .seed(Seed)
-//                                                .learningRatePolicy(LearningRatePolicy.Schedule)
-//                                                .learningRateSchedule(lrSchedule)
-//                .learningRate(learningRate)
                 .build();
 
-        ComputationGraph lenetTransfer = new TransferLearning.GraphBuilder(pretrainedNet)
+        return new TransferLearning.GraphBuilder(pretrainedNet)
                 .fineTuneConfiguration(fineTuneConf)
                 .setFeatureExtractor("fc")
                 .removeVertexAndConnections("output")
@@ -245,8 +247,6 @@ public class MahjongClassifier {
                                 .activation(Activation.SOFTMAX).build(), "fc")
                 .setOutputs("output")
                 .build();
-
-        return lenetTransfer;
     }
 
     private void reportParams(int batchSize, int epochNum, double l2NormBeta, double learningRate, int l1KernelSize) {
@@ -305,40 +305,37 @@ public class MahjongClassifier {
         DataSetIterator trainDataIter = new RecordReaderDataSetIterator(trainRecordReader, batchSize, 1, ClassNum);
         trainDataIter.setPreProcessor(normalizer);
         normalizer.fit(trainDataIter);
-        DataSetIterator trainEpochIte = new MultipleEpochsIterator(epochNum, trainDataIter);
 
 
-        model.fit(trainEpochIte);
+        model.fit(trainDataIter, epochNum);
 
+        DataSetIterator testDataIter = createDataSetIterator(testPath, height, width, TestBatchSize);
+        model.setListeners(true, true, testDataIter);
 
         ImageTransform flipTransform = new FlipImageTransform(new Random(123));
         ImageTransform flipTransform1 = new FlipImageTransform(Seed);
 
         List<ImageTransform> transforms = Arrays.asList(
-                new ImageTransform[]{
-                        flipTransform,
-                        flipTransform1,
-                });
+                flipTransform,
+                flipTransform1);
 
         for (ImageTransform transform: transforms) {
             trainRecordReader.initialize(trainSplit, transform);
             trainDataIter = new RecordReaderDataSetIterator(trainRecordReader, batchSize, 1, ClassNum);
             trainDataIter.setPreProcessor(normalizer);
             normalizer.fit(trainDataIter);
-            trainEpochIte = new MultipleEpochsIterator(epochNum, trainDataIter);
-            model.fit(trainEpochIte);
+            model.fit(trainDataIter, epochNum);
         }
 
-        DataSetIterator testDataIter = createDataSetIterator(testPath, height, width, TestBatchSize);
         DataSetIterator testEpochIte = new MultipleEpochsIterator(TestEpochNum, testDataIter);
 
 
-        Evaluation eval = model.evaluate(testEpochIte);
-        log.info("-------------> " + eval.stats());
-        System.out.println("-----------------> " + eval.stats());
-
-        reportWriter.write(eval.stats());
-        reportWriter.flush();
+//        Evaluation eval = model.evaluate(testEpochIte);
+//        log.info("-------------> " + eval.stats());
+//        System.out.println("-----------------> " + eval.stats());
+//
+//        reportWriter.write(eval.stats());
+//        reportWriter.flush();
 
         System.out.println("End of tests");
         log.info("End of test");
@@ -370,7 +367,6 @@ public class MahjongClassifier {
         report("Running scratch models");
 //        runScratchModel(16, 20, 0.0005, 0.01, 2);
 
-//        double[] batchSizes = {16, 32, 64};
         double[] batchSizes = {16,};
         double[] epochNums = {15, 20, 25, 30};
         double[] l2NormBetas = {0.0005, 0.0002, 0.0001};
@@ -379,9 +375,7 @@ public class MahjongClassifier {
 
         double[][] params = {batchSizes, epochNums, l2NormBetas, learningRates, l1KernelSizes};
         double[] modelParam = new double[params.length];
-        for(int i = 0; i < modelParam.length; i ++) {
-            modelParam[i] = 0;
-        }
+        Arrays.fill(modelParam, 0);
 
         runAllScratchModels(params, 0, modelParam);
     }
@@ -406,9 +400,7 @@ public class MahjongClassifier {
 
         double[][] params = { epochNums, learningRates};
         double[] modelParam = new double[params.length];
-        for(int i = 0; i < modelParam.length; i ++) {
-            modelParam[i] = 0;
-        }
+        Arrays.fill(modelParam, 0);
 
         runAllTransferModels(params, 0, modelParam);
     }

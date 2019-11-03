@@ -5,7 +5,6 @@ import org.nd4j.linalg.api.ndarray.INDArray
 import org.nd4j.linalg.dataset.DataSet
 import org.nd4j.linalg.factory.Nd4j
 import tenhouclient.impl.ImplConsts._
-//import dp4jpractice.org.mjsupervised.utils.ImplConsts._
 
 class TenhouCompCnnLstmIterator(xmlParentDir: String, batchSize: Int, winner: Boolean = false, model: MultiLayerNetwork = null)
   extends  TenhouLstmIterator(xmlParentDir, batchSize, winner, model){
@@ -18,9 +17,6 @@ class TenhouCompCnnLstmIterator(xmlParentDir: String, batchSize: Int, winner: Bo
       loadNewFile()
       currentData = currentData.filter(data => data.nonEmpty)
     }
-
-
-//    val actionLen = ActionLenWoAccept
 
     val seqLen = 20
     var input: INDArray = null

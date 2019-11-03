@@ -1,12 +1,8 @@
 package dp4jpractice.org.tools.dataprocess.dbprocess
 
-import java.io.{ByteArrayInputStream, ByteArrayOutputStream, File, FileInputStream, FileOutputStream, IOException, PrintWriter}
-import java.nio.charset.StandardCharsets
-import java.util.zip.{GZIPInputStream, ZipEntry, ZipFile, ZipInputStream, ZipOutputStream}
+import java.io.{ByteArrayInputStream, ByteArrayOutputStream, FileInputStream}
+import java.util.zip.{GZIPInputStream, ZipInputStream}
 
-//import sun.misc.IOUtils
-
-import scala.io.Source
 
 object ExtractFiles {
   def parseZip(zis: ZipInputStream, files: scala.collection.mutable.Map[String, String]): Unit = {

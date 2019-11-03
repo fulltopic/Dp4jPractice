@@ -52,7 +52,8 @@ class LmdbOperator(parentPath: String, dbName: String, order: ByteOrder) {
     val key = ByteBuffer.allocateDirect(env.getMaxKeySize).order(order)
     val value = ByteBuffer.allocateDirect(1000).order(order)
 
-    val trans = scene.getTrans()
+//    scene.getTrans
+    val trans = scene.getTrans
 
     for (tran <- trans) {
       val tensor = buildTensor(tran)
@@ -70,7 +71,7 @@ class LmdbOperator(parentPath: String, dbName: String, order: ByteOrder) {
 
   def saveTensor(scene: SceneRecord): Unit = {
     val tensorProtosBuilder = TensorProtos.newBuilder()
-    val trans = scene.getTrans()
+    val trans = scene.getTrans
     for (tran <- trans) {
       buildTensor(tensorProtosBuilder, tran)
     }
@@ -79,11 +80,11 @@ class LmdbOperator(parentPath: String, dbName: String, order: ByteOrder) {
     val key = ByteBuffer.allocateDirect(env.getMaxKeySize).order(order)
     val value = ByteBuffer.allocateDirect(4 * 40 * DbConsts.StatePlayerNum * DbConsts.StateLen * 4)
 
-    key.put(scene.getKey().getBytes(StandardCharsets.UTF_8)).flip()
+    key.put(scene.getKey.getBytes(StandardCharsets.UTF_8)).flip()
     value.put(tensor.toByteString.asReadOnlyByteBuffer()).flip()
 
     db.put(key, value)
-    println("Save tensor for " + scene.getKey())
+    println("Save tensor for " + scene.getKey)
   }
 
   def readFirstOne(): Unit = {

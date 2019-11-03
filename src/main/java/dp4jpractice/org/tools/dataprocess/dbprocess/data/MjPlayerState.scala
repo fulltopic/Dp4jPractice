@@ -1,7 +1,7 @@
 package dp4jpractice.org.tools.dataprocess.dbprocess.data
 
 class MjPlayerState {
-  val state = Array.fill[Int](DbConsts.StateLen)(0)
+  val state: Array[Int] = Array.fill[Int](DbConsts.StateLen)(0)
 
   def addTile (tileIndex: Int, tileNum: Int): Unit = {
     state(tileIndex) += tileNum //TODO: Check it

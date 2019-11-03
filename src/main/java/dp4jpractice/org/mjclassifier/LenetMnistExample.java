@@ -38,7 +38,6 @@ public class LenetMnistExample {
         int outputNum = 10; // The number of possible outcomes
         int batchSize = 16; // Test batch size
         int nEpochs = 1; // Number of training epochs
-        int iterations = 1; // Number of training iterations
         int seed = 123; //
 
         /*
@@ -63,10 +62,6 @@ public class LenetMnistExample {
 
         ComputationGraphConfiguration graphConfiguration = new NeuralNetConfiguration.Builder()
                 .seed(seed)
-//                .regularization(true).l2(0.0005)
-//                .learningRate(.01)
-//                .learningRateDecayPolicy(LearningRatePolicy.Schedule)
-//                .learningRateSchedule(lrSchedule)
                 .updater(new Nesterovs(.01))
                 .weightInit(WeightInit.XAVIER)
                 .optimizationAlgo(OptimizationAlgorithm.STOCHASTIC_GRADIENT_DESCENT)
@@ -107,72 +102,8 @@ public class LenetMnistExample {
                         .build(), "fc")
                 .setInputTypes(InputType.convolutionalFlat(28,28,1)) //See note below
                 .setOutputs("output")
-//                .backprop(true)
-//                .pretrain(false)
                 .build();
 
-
-//        MultiLayerConfiguration conf = new NeuralNetConfiguration.Builder()
-//                .seed(seed)
-//                .iterations(iterations) // Training iterations as above
-//                .regularization(true).l2(0.0005)
-//                /*
-//                    Uncomment the following for learning decay and bias
-//                 */
-//                .learningRate(.01)//.biasLearningRate(0.02)
-//                /*
-//                    Alternatively, you can use a learning rate schedule.
-//
-//                    NOTE: this LR schedule defined here overrides the rate set in .learningRate(). Also,
-//                    if you're using the Transfer Learning API, this same override will carry over to
-//                    your new model configuration.
-//                */
-//                .learningRateDecayPolicy(LearningRatePolicy.Schedule)
-//                .learningRateSchedule(lrSchedule)
-//                /*
-//                    Below is an example of using inverse policy rate decay for learning rate
-//                */
-//                //.learningRateDecayPolicy(LearningRatePolicy.Inverse)
-//                //.lrPolicyDecayRate(0.001)
-//                //.lrPolicyPower(0.75)
-//                .weightInit(WeightInit.XAVIER)
-//                .optimizationAlgo(OptimizationAlgorithm.STOCHASTIC_GRADIENT_DESCENT)
-//                .updater(Updater.NESTEROVS) //To configure: .updater(new Nesterovs(0.9))
-//                .list()
-//                .layer(0, new ConvolutionLayer.Builder(5, 5)
-//                        //nIn and nOut specify depth. nIn here is the nChannels and nOut is the number of filters to be applied
-//                        .nIn(nChannels)
-//                        .stride(1, 1)
-//                        .nOut(20)
-//                        .activation(Activation.IDENTITY)
-//                        .name("conv_1")
-//                        .build())
-//                .layer(1, new SubsamplingLayer.Builder(SubsamplingLayer.PoolingType.MAX)
-//                        .kernelSize(2,2)
-//                        .stride(2,2)
-//                        .name("pool_1")
-//                        .build())
-//                .layer(2, new ConvolutionLayer.Builder(5, 5)
-//                        //Note that nIn need not be specified in later layers
-//                        .stride(1, 1)
-//                        .nOut(50)
-//                        .activation(Activation.IDENTITY)
-//                        .name("conv_2")
-//                        .build())
-//                .layer(3, new SubsamplingLayer.Builder(SubsamplingLayer.PoolingType.MAX)
-//                        .kernelSize(2,2)
-//                        .stride(2,2)
-//                        .name("pool_2")
-//                        .build())
-//                .layer(4, new DenseLayer.Builder().activation(Activation.RELU)
-//                        .nOut(500).name("fc").build())
-//                .layer(5, new OutputLayer.Builder(LossFunctions.LossFunction.NEGATIVELOGLIKELIHOOD)
-//                        .nOut(outputNum)
-//                        .activation(Activation.SOFTMAX)
-//                        .name("output")
-//                        .build())
-//                .setInputType(InputType.convolutionalFlat(28,28,1)) //See note below
-//                .backprop(true).pretrain(false).build();
 
         /*
         Regarding the .setInputType(InputType.convolutionalFlat(28,28,1)) line: This does a few things.
@@ -188,13 +119,9 @@ public class LenetMnistExample {
         row vector format (i.e., 1x784 vectors), hence the "convolutionalFlat" input type used here.
         */
 
-//        MultiLayerNetwork model = new MultiLayerNetwork(conf);
         ComputationGraph model = new ComputationGraph(graphConfiguration);
         model.init();
 
-
-//        log.info("Train model....");
-//        model.setListeners(new ScoreIterationListener(1));
 
         UIServer uiServer = UIServer.getInstance();
         StatsStorage statsStorage = new InMemoryStatsStorage();
@@ -216,8 +143,6 @@ public class LenetMnistExample {
         log.info("****************Example finished********************");
 
 
-//        String fileName = "/home/zf/books/DeepLearning-master/majiong/datasets/models/lenet.zip";
-//        File MJModelFile = new File(fileName);
         File MJModelFile = new File("datasets/models/lenet.zip");
         FileOutputStream fos = new FileOutputStream(MJModelFile);
         ModelSerializer.writeModel(model, fos, true);

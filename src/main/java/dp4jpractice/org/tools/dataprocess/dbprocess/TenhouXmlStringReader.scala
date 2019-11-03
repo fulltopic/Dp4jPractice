@@ -1,6 +1,5 @@
 package dp4jpractice.org.tools.dataprocess.dbprocess
 
-//import com.sun.media.jfxmedia.events.PlayerStateEvent.PlayerState
 import akka.event.slf4j.Logger
 import scala.xml.{Node, Text, XML}
 import dp4jpractice.org.tools.dataprocess.dbprocess.data._
@@ -37,7 +36,6 @@ class TenhouXmlStringReader(fileName: String, rawBuffer: String) {
       logger.debug("-------------------------> To read file as player " + viewer)
 
       val root = XML.loadString(rawBuffer)
-//      val root = XML.loadFile("/home/zf/workspaces/workspace_java/mjpratice_git/Dp4jPractice/datasets/mjsupervised/xmlfiles/smalltest/mj/test.xml")
       val a = root \ "Scene"
 //      logger.debug("" + root)
 //      logger.debug("Get game size " + a.length)
@@ -115,8 +113,6 @@ class TenhouXmlStringReader(fileName: String, rawBuffer: String) {
     //    logger.debug(oya)
 
     // dora
-//    val dora = node.attribute("seed").map(_.head.text.split(",").map(_.toInt).apply(DbTenhouConsts.DoraInSeed)).getOrElse(-1)
-//    parseDora(dora / DbTenhouConsts.NumPerTile)
 
     val haiName = "hai" + viewer.toString
     val hai = node.attribute(haiName)
@@ -136,9 +132,9 @@ class TenhouXmlStringReader(fileName: String, rawBuffer: String) {
     }
   }
 
-  val flag2Player = Map[Char, Int]('T' -> 0, 'D' -> 0, 'U' -> 1, 'E' -> 1, 'V' -> 2, 'F' -> 2, 'W' -> 3, 'G' -> 3)
-  val acceptFlags = Set('T', 'U', 'V', 'W')
-  val dropFlags = Set('D', 'E', 'F', 'G')
+  val flag2Player: Map[Char, Int] = Map[Char, Int]('T' -> 0, 'D' -> 0, 'U' -> 1, 'E' -> 1, 'V' -> 2, 'F' -> 2, 'W' -> 3, 'G' -> 3)
+  val acceptFlags: Set[Char] = Set('T', 'U', 'V', 'W')
+  val dropFlags: Set[Char] = Set('D', 'E', 'F', 'G')
 
   def parsePlayer(node: Node): Unit = {
     logger.debug("player " + node.label)
@@ -204,7 +200,6 @@ class TenhouXmlStringReader(fileName: String, rawBuffer: String) {
     }
   }
 
-  // mjlog_pf4-20_n2/2010033123gm-0029-0000-53c6c5e8&tw=0.xml
   def parseKita(index: Int, m: Int): Unit = {
     //To throw exception
     logger.debug("Want to process kita: " + m)
@@ -340,21 +335,6 @@ class TenhouXmlStringReader(fileName: String, rawBuffer: String) {
       createTransaction(DbConsts.NoopAction)
     }
     scenes = scenes :+ currScene
-
-//    for (i <- rewards.indices) {
-//      if (i == who) {
-//        val machi = node.attribute("machi").map(_.head.text.toInt).getOrElse(-1)
-//        val state = currentStats(i).clone()
-//        val fromWho = node.attribute("fromWho").map(_.head.text.toInt).getOrElse(who)
-//        if (fromWho != who && machi >= 0) {
-//          acceptTile(currentStats(who), machi)
-//        }
-//
-//        createDataPair(RonWoAccept, i)
-//      }else {
-//        createDataPair(NOOPWoAccept, i)
-//      }
-//    }
   }
 
   //TODO: Create transition
@@ -371,44 +351,9 @@ class TenhouXmlStringReader(fileName: String, rawBuffer: String) {
         }
       case 2 =>
         logger.debug("Reach step2")
-//        currentStats.foreach(state => state(PeerCommonReach + who) = ReachStep2)
-//        currentStats(who)(PeerReachIndex) = ReachStep2
 
       case _ => logger.debug("Received invalid reach step " + step)
     }
   }
 
-
-//  def getDora(hai: Int): Int = {
-//    hai match {
-//      case tile if tile >= 0 && tile < 27 =>
-//        val tmp = tile / 9
-//        (tile + 1) % 9 + tmp * 9
-//      case tile if tile >= 27 && tile < 31 =>
-//        val tmp = tile - 27
-//        (tmp + 1) % 4 + 27
-//      case _ =>
-//        val tmp = hai - 31
-//        (hai + 1) % 3 + 31
-//    }
-//  }
-//
-//  def parseDora(hai: Int): Unit = {
-//    if (hai >= 0) {
-//      val doraHai = getDora(hai)
-//      doraValue(doraHai) = DoraValue
-//      currState.foreach(state => {
-//        if (state(doraHai) > 0) {
-//          var tileNum = state(doraHai).toInt & DbTenhouConsts.ExtraValueFlag
-//          tileNum += state(doraHai).toInt / MValue // fixed
-//          state(doraHai) += tileNum * DoraValue
-//        }
-//      })
-//    }
-//  }
-//
-//  def parseDora(node: Node): Unit = {
-//    val hai = node.attribute("hai").map(_.head.text.toInt / DbTenhouConsts.NumPerTile).getOrElse(-1)
-//    parseDora(hai)
-//  }
 }

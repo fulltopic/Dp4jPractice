@@ -20,8 +20,6 @@ class TenhouCompMaskCnnLstmIterator(xmlParentDir: String, batchSize: Int, winner
       currentData = currentData.filter(data => data.nonEmpty)
     }
 
-    val actionLen = ActionLenWoAccept
-
     val seqLen = 20
 
     val batchSize = math.min(num, currentData.length)

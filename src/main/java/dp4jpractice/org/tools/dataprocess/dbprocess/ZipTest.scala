@@ -1,12 +1,8 @@
 package dp4jpractice.org.tools.dataprocess.dbprocess
 
-import java.io.{ByteArrayInputStream, ByteArrayOutputStream, File, FileInputStream, FileOutputStream, IOException, PrintWriter}
 import java.nio.ByteOrder
-import java.nio.charset.StandardCharsets
-import java.util.zip.{GZIPInputStream, ZipEntry, ZipFile, ZipInputStream, ZipOutputStream}
 
 import dp4jpractice.org.tools.dataprocess.dbprocess.lmdbprocess.LmdbOperator
-//import sun.misc.IOUtils
 
 import scala.io.Source
 
@@ -17,16 +13,13 @@ object ZipTest extends App {
 
   def testExtract(): Unit = {
     val files = ExtractFiles.unzip(ZipFilePath)
-    //  files.map(entry => {
-    //    println(entry._1)
-    //    println(entry._2.length)
-    //  })
-    //  val entry = files.head
-    //  println("File " + entry._1)
-    //  val output = new PrintWriter(new File("./testzipoutput.xml"))
-    //  output.write(genXml(entry._2))
-    //  output.close()
-    //  println(entry._2)
+      files.foreach(entry => {
+        println(entry._1)
+        println(entry._2.length)
+      })
+      val entry = files.head
+      println("File " + entry._1)
+      println(entry._2)
   }
 
   def testReadFile(): Unit = {
@@ -49,7 +42,7 @@ object ZipTest extends App {
     val reader = new TenhouXmlStringReader(files.head._1, files.head._2)
     val scenes = reader.readFile()
 
-//    println(scenes.head)
+    println(scenes.head)
   }
 
   def testReadZipFiles(): Unit = {

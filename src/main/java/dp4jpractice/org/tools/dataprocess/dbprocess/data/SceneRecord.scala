@@ -9,9 +9,9 @@ class SceneRecord(fileName: String, sceneIndex: Int, player: Int) {
     ts = ts :+ trans
   }
 
-  def getTrans(): List[Transaction] = ts
+  def getTrans: List[Transaction] = ts
 
-  def getKey(): String = fileName + "_" + sceneIndex.toString + "_" + player
+  def getKey: String = fileName + "_" + sceneIndex.toString + "_" + player
 
   override def toString: String = {
     val buff = new StringBuilder

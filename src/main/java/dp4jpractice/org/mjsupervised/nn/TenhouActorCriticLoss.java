@@ -27,15 +27,6 @@ public class TenhouActorCriticLoss extends ActorCriticLoss {
             LossUtil.applyMask(grad, mask);
         }
 
-//        int[] tmp = new int[2];
-//        logger.debug("try " + tmp[3]);
-
-//        try {
-//            throw new Exception("Figure out where the preOutput comes from");
-//        }catch(Exception e) {
-//            e.printStackTrace();
-//        }
-
         return grad;
     }
 }

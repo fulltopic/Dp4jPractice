@@ -35,32 +35,6 @@ public class TenhouRnnToCnnPreProcessor extends RnnToCnnPreProcessor {
 
         INDArray output = super.preProcess(input2, miniBatchSize, mgr);
         output.fmodi(7).divi(4);
-//        logger.debug("----------------------> rnnt2cnn output " + output);
-//        logger.debug("----------------------------------------------> rnntocnn output " + output.shape().length + ": " + output.shape()[0] + " " + output.shape()[1] + " " + output.shape()[2] + " " + output.shape()[3]);
-
-//        output.fmodi(7).divi(4);
-
-//        for (int i = 0; i < output.shape()[0]; i ++) {
-//            for (int j = 0; j < output.shape()[1]; j ++) {
-//                for (int k = 0; k < output.shape()[2]; k ++) {
-//                    for (int t = 33; t < 35; t ++) {
-//                        if (output.getDouble(i, j, k, t) > 0) {
-//                            output.putScalar(i, j, k, t, 1.0);
-//                        }
-//                    }
-//                }
-//            }
-//        }
-
-//        for (int i = 0; i < output.shape()[0]; i ++) {
-//            for (int j = 0; j < output.shape()[1]; j ++) {
-//                for (int k = 0; k < 1; k ++) {
-//                    int v = output.getInt(i, j, k);
-//                    double newV = (double)(v & 7) / 4.0;
-//                    output.putScalar(i, j, k, newV);
-//                }
-//            }
-//        }
 
 //        logger.debug("Preprocessor " + output);
 

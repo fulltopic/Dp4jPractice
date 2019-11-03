@@ -150,7 +150,6 @@ class TenhouLstmIterator(xmlParentDir: String, batchSize: Int, winner: Boolean =
 
         for (j <- 0 until actualLen) {
           var delta: INDArray = null
-//          delta = data(j)._1
 
           if (j == 0) {
             delta = data(j)._1

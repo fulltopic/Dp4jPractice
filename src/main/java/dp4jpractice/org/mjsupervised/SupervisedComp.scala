@@ -106,7 +106,7 @@ object SupervisedComp extends App{
 //    println(originW - (kernelW - 1) * convNum)
     confB.addLayer("dense0", new DenseLayer.Builder().nIn((originW - (kernelW - 1) * convNum) * netConf.getNumHiddenNodes).nOut(netConf.getNumHiddenNodes).activation(Activation.RELU).build, "conv1")
 
-    val lstmLayer = new GravesLSTM.Builder().nIn(netConf.getNumHiddenNodes).nOut(netConf.getNumHiddenNodes).activation(Activation.TANH).build()
+    val lstmLayer = new LSTM.Builder().nIn(netConf.getNumHiddenNodes).nOut(netConf.getNumHiddenNodes).activation(Activation.TANH).build()
     confB.addLayer("lstm0", lstmLayer, "dense0")
 
     if (supervised) {
@@ -162,8 +162,6 @@ object SupervisedComp extends App{
       .seed(Constants.NEURAL_NET_SEED)
       .optimizationAlgo(OptimizationAlgorithm.STOCHASTIC_GRADIENT_DESCENT)
       .updater(netConf.getUpdater)
-//      .updater(new Adam(netConf.getLearningRate)) //.updater(Updater.NESTEROVS).momentum(0.9)
-      //.updater(Updater.RMSPROP).rmsDecay(conf.getRmsDecay())
       .weightInit(WeightInit.XAVIER)
       .l2(netConf.getL2)
       .graphBuilder.addInputs("input")

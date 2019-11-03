@@ -11,7 +11,7 @@ import org.slf4j.LoggerFactory;
 import java.util.Arrays;
 
 public class TenhouFF2CnnPreProcessor extends FeedForwardToCnnPreProcessor {
-    Logger logger = LoggerFactory.getLogger(TenhouFF2CnnPreProcessor.class);
+    private Logger logger = LoggerFactory.getLogger(TenhouFF2CnnPreProcessor.class);
 
     public TenhouFF2CnnPreProcessor(@JsonProperty("inputHeight") int inputHeight,
                                     @JsonProperty("inputWidth") int inputWidth, @JsonProperty("numChannels") int numChannels) {

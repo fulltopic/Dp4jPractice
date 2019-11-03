@@ -19,17 +19,7 @@ public class TenhouInputPreProcessor implements InputPreProcessor {
         INDArray output = input.dup();
         long[] shape = input.shape();
         logger.debug("Preprocessor----------------------> shape " + shape.length);
-//        StackTraceElement[] elements = Thread.currentThread().getStackTrace();
-//        for (int i = 0; i < elements.length; i ++) {
-//            StackTraceElement s = elements[i];
-//            System.out.println("\tat " + s.getClassName() + "." + s.getMethodName()
-//                    + "(" + s.getFileName() + ":" + s.getLineNumber() + ")");
-//        }
 
-//        for (int i = 0; i < shape.length; i ++) {
-//            System.out.print(shape[i] + ", ");
-//        }
-//        System.out.println(" ");
 
         for (int i = 0; i < shape[0]; i ++) {
             for (int k = 0; k < shape[1]; k ++) {

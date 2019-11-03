@@ -60,15 +60,6 @@ public class TenhouComputationGraph extends ComputationGraph {
                 cg.getUpdater().setStateViewArray(updaterState.dup());
             }
         }
-//        cg.listeners = this.listeners;
-//        for (int i = 0; i < topologicalOrder.length; i++) {
-//            if (!vertices[topologicalOrder[i]].hasLayer())
-//                continue;
-//            String layerName = vertices[topologicalOrder[i]].getVertexName();
-//            if (getLayer(layerName) instanceof FrozenLayer) {
-//                cg.getVertex(layerName).setLayerAsFrozen();
-//            }
-//        }
         return cg;
     }
 

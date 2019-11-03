@@ -97,7 +97,7 @@ class TenhouXmlFileReader(fileName: String) {
     // oya
     oya = node.attribute("oya").map(_.head.text.toInt).getOrElse(0)
     currentStats(oya)(PeerOyaIndex) = 1
-    //    logger.debug(oya)
+    logger.debug("" + oya)
 
     // dora
     val dora = node.attribute("seed").map(_.head.text.split(",").map(_.toInt).apply(DoraInSeed)).getOrElse(-1)

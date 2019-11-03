@@ -13,7 +13,6 @@ import org.deeplearning4j.nn.conf.preprocessor.FeedForwardToRnnPreProcessor;
 import org.deeplearning4j.nn.conf.preprocessor.RnnToCnnPreProcessor;
 import org.deeplearning4j.nn.graph.ComputationGraph;
 import org.deeplearning4j.nn.weights.WeightInit;
-import org.deeplearning4j.optimize.api.IterationListener;
 import org.deeplearning4j.optimize.api.TrainingListener;
 import org.deeplearning4j.optimize.listeners.ScoreIterationListener;
 import org.deeplearning4j.rl4j.network.ac.ActorCriticCompGraph;
@@ -33,7 +32,7 @@ import java.util.List;
 import java.util.Map;
 
 public class A3CTenhouModelFactory {
-    static Logger StaticLogger = LoggerFactory.getLogger(A3CTenhouModelFactory.class);
+    private static Logger StaticLogger = LoggerFactory.getLogger(A3CTenhouModelFactory.class);
 
     public static ComputationGraph CreateDenseComputeGraph(ActorCriticFactoryCompGraphStdDense.Configuration netConf, int numInputs, int numOutputs) {
         StaticLogger.info("Create dense model");
@@ -41,9 +40,6 @@ public class A3CTenhouModelFactory {
         ComputationGraphConfiguration.GraphBuilder confB =
                 new NeuralNetConfiguration.Builder().seed(Constants.NEURAL_NET_SEED)
                         .optimizationAlgo(OptimizationAlgorithm.STOCHASTIC_GRADIENT_DESCENT)
-//                        .learningRate(netConf.getLearningRate())
-                        //.updater(Updater.NESTEROVS).momentum(0.9)
-//                        .updater(Updater.RMSPROP).rmsDecay(conf.getRmsDecay())
                         .updater(netConf.getUpdater() != null ? netConf.getUpdater() : new Adam(1e-2))
                         .weightInit(WeightInit.XAVIER)
 //                        .regularization(netConf.getL2() > 0)
@@ -81,16 +77,8 @@ public class A3CTenhouModelFactory {
         confB.setOutputs("value", "softmax");
 
         confB.inputPreProcessor("0", new TenhouInputPreProcessor());
-//        Map<String, InputPreProcessor> processorMap  = confB.getInputPreProcessors();
-//        for (Map.Entry<String, InputPreProcessor> entry: processorMap.entrySet()) {
-//            System.out.println(entry.getKey() + ": " + entry.getValue().getClass());
-//        }
 
-
-        ComputationGraphConfiguration cgconf = confB
-//                                                .pretrain(false)
-//                                                .backprop(true)
-                                                .build();
+        ComputationGraphConfiguration cgconf = confB.build();
         cgconf.setTrainingWorkspaceMode(WorkspaceMode.ENABLED);
 
 
@@ -113,13 +101,9 @@ public class A3CTenhouModelFactory {
 
         ComputationGraphConfiguration.GraphBuilder confB = new NeuralNetConfiguration.Builder()
                 .seed(Constants.NEURAL_NET_SEED)
-//                .iterations(1)
                 .optimizationAlgo(OptimizationAlgorithm.STOCHASTIC_GRADIENT_DESCENT)
-//                .learningRate(netConf.getLearningRate())
                 .updater(netConf.getUpdater()) //.updater(Updater.NESTEROVS).momentum(0.9)
-                //.updater(Updater.RMSPROP).rmsDecay(conf.getRmsDecay())
                 .weightInit(WeightInit.XAVIER)
-//                .regularization(netConf.getL2() > 0)
                 .l2(netConf.getL2())
                 .graphBuilder().addInputs("input")
                 .addLayer("conv0", new ConvolutionLayer.Builder(1, kernelW).nIn(1).nOut(hiddenKernels).activation(Activation.RELU).build(), "input");
@@ -158,9 +142,7 @@ public class A3CTenhouModelFactory {
 //            confB.inputPreProcessor("softmax", new RnnToFeedForwardPreProcessor());
         }
 
-        ComputationGraphConfiguration cgconf = confB
-//                .pretrain(false).backprop(true)
-                .build();
+        ComputationGraphConfiguration cgconf = confB.build();
         cgconf.setTrainingWorkspaceMode(WorkspaceMode.ENABLED);
 
         TenhouComputationGraph model = new TenhouComputationGraph(cgconf);
@@ -171,7 +153,6 @@ public class A3CTenhouModelFactory {
             for (TrainingListener listener: netConf.getListeners()) {
                 listeners.add(listener);
             }
-//            model.setListeners(listeners);
             model.setListeners(netConf.getListeners());
         } else {
             model.setListeners(new ScoreIterationListener(Constants.NEURAL_NET_ITERATION_LISTENER));
@@ -210,12 +191,6 @@ public class A3CTenhouModelFactory {
         }
 
         model.init();
-//        if (netConf.getListeners() != null) {
-//            model.setListeners(netConf.getListeners());
-//        } else {
-//            model.setListeners(new ScoreIterationListener(Constants.NEURAL_NET_ITERATION_LISTENER));
-//        }
-        //        return new ActorCriticCompGraph(model);
 
         return model;
     }
@@ -236,23 +211,10 @@ public class A3CTenhouModelFactory {
             }
         }
 
-//        newModel.setUpdater(importModel.getUpdater());
-
-//        if (netConf.getListeners() != null) {
-//            newModel.setListeners(netConf.getListeners());
-//        } else {
-//            newModel.setListeners(new ScoreIterationListener(Constants.NEURAL_NET_ITERATION_LISTENER));
-//        }
-
-//        return new ActorCriticCompGraph(newModel);
-
         return newModel;
     }
 
     public static ActorCriticCompGraph CreateActorCritic(ActorCriticFactoryCompGraphStdDense.Configuration netConf, ComputationGraph model) {
-//        ComputationGraph model = CreateComputeGraph(netConf, numInputs, numOutputs);
-
-//        model.init();
         if (netConf.getListeners() != null) {
             model.setListeners(netConf.getListeners());
         } else {

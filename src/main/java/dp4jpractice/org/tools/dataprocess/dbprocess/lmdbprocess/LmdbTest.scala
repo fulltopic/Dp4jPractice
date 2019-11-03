@@ -1,6 +1,6 @@
 package dp4jpractice.org.tools.dataprocess.dbprocess.lmdbprocess
 
-import java.io.{ByteArrayInputStream, File}
+import java.io.File
 import java.nio.{ByteBuffer, ByteOrder}
 import java.nio.charset.StandardCharsets
 
@@ -120,10 +120,6 @@ object LmdbTest extends App {
   }
 
   def readCppTensor(): Unit = {
-//    val file = new File(DbFilePath)
-//    val env: Env[ByteBuffer] = Env.create().setMapSize(10 * 100 * 100L).setMaxDbs(1).open(file)
-//    val db = env.openDbi(TensorLittleDbName, DbiFlags.MDB_CREATE)
-
     val file = new File("/home/zf/workspaces/workspace_java/mjpratice_git/Dp4jPractice/lmdbcpptest")
     val env: Env[ByteBuffer] = Env.create().setMapSize(10 * 100 * 100).setMaxDbs(1).open(file)
     val dbName: String = null
