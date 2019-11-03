@@ -35,6 +35,7 @@
         <maven.minimum.version>3.3.1</maven.minimum.version>
         <aws.sdk.version>1.11.109</aws.sdk.version>
         <scala.plugin.version>3.2.2</scala.plugin.version>
+        <scala.version>2.11.12</scala.version>
         <scala.binary.version>2.11</scala.binary.version>
     </properties>
 
@@ -49,6 +50,11 @@
     </dependencyManagement>
 
     <dependencies>
+        <dependency>
+            <groupId>org.scala-lang</groupId>
+            <artifactId>scala-library</artifactId>
+            <version>${scala.version}</version>
+        </dependency>
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
@@ -166,6 +172,16 @@
 <!--            <artifactId>httpclient</artifactId>-->
 <!--            <version>4.3.5</version>-->
 <!--        </dependency>-->
+<!--        <dependency>-->
+<!--            <groupId>org.scala-lang</groupId>-->
+<!--            <artifactId>scala-compiler</artifactId>-->
+<!--            <version>${scala.binary.version}.12</version>-->
+<!--        </dependency>-->
+<!--        <dependency>-->
+<!--            <groupId>org.scala-lang</groupId>-->
+<!--            <artifactId>scala-library</artifactId>-->
+<!--            <version>${scala.binary.version}.12</version>-->
+<!--        </dependency>-->
     </dependencies>
 
     <build>
@@ -226,8 +242,9 @@
                             <mainClass>
 <!--                                dp4jpractice.org.mjclassifier.LenetMnistExample-->
 <!--                                dp4jpractice.org.mjclassifier.MahjongClassifier-->
-                                dp4jpractice.org.mjsupervised.SupervisedComp
+<!--                                dp4jpractice.org.mjsupervised.SupervisedComp-->
 <!--                                dp4jpractice.org.mjsupervised.UCISequenceClassificationExample-->
+                                dp4jpractice.org.mjdrl.nn.a3c.TestLstmA3C
                             </mainClass>
                             <!--
                                                       <mainClass>dp4jpractice.org.mjsupervised.dataprocess.dbprocess.lmdbprocess.LmdbTest</mainClass>

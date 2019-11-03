@@ -22,6 +22,7 @@ import org.deeplearning4j.util.ModelSerializer;
 import org.nd4j.linalg.activations.Activation;
 import org.nd4j.linalg.api.ndarray.INDArray;
 import org.nd4j.linalg.learning.config.Adam;
+import org.nd4j.linalg.learning.config.RmsProp;
 import org.nd4j.linalg.lossfunctions.LossFunctions;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -118,6 +119,7 @@ public class A3CTenhouModelFactory {
 //                .learningRate(netConf.getLearningRate())
 //                .updater(new Adam(netConf.getLearningRate())) //.updater(Updater.NESTEROVS).momentum(0.9)
                 .updater(netConf.getUpdater())
+//                .updater(new RmsProp(netConf.getUpdater().getLearningRate()))
                 //.updater(Updater.RMSPROP).rmsDecay(conf.getRmsDecay())
                 .weightInit(WeightInit.XAVIER)
 //                .regularization(netConf.getL2() > 0)

@@ -6,7 +6,7 @@ object DqnSettings {
   /*
   For All
    */
-  private var ConfigFileName = "/home/zf/workspaces/workspace_java/mjconv4/src/main/java/rl/dqn/reinforcement/dqn/config/DqnSetting_lstm_a3c.txt"
+  private var ConfigFileName = "/home/zf/workspaces/workspace_java/Dp4jPractice/src/main/java/dp4jpractice/org/mjdrl/config/DqnSetting_lstm_a3c.txt"
 //  private var ConfigFileName = "/home/zf/workspaces/workspace_java/mjconv4/src/main/java/rl/dqn/reinforcement/dqn/config/DqnSetting_a3c.txt"
 
   //  private val ConfigFileName = "/home/ec2-user/mjconv4/src/main/java/rl/dqn/reinforcement/dqn/config/DqnSetting_cloud.txt"
@@ -15,7 +15,7 @@ object DqnSettings {
 //    ConfigFileName = fileName
 //  }
 
-  val TestName0 = "ID10632D03-BZRFdSab" //fullrand
+  val TestName0 = "ID0CAF3DF9-HBH66B8c" //a3ctest1
   val TestName1 = "ID52C61588-fBT9HfYQ" //fullaca //deprecated
   val TestName2 = "ID2E336B42-BfAf8H9F" //fullcnn
   val TestName3 = "ID5F0B11CB-PU9nHfDM" //fullnn
@@ -63,7 +63,9 @@ object DqnSettings {
   ).toArray
 
 
-  private val lines = Source.fromFile(ConfigFileName).getLines().filter(line => !line.startsWith("#")).filter(line => line.trim.length > 0).toArray
+  private val fileSource = Source.fromFile(ConfigFileName)
+  private val lines = fileSource.getLines().filter(line => !line.startsWith("#")).filter(line => line.trim.length > 0).toArray
+  fileSource.close()
   private val paramMap = scala.collection.mutable.Map[String, String]()
 
   for (i <- lines.indices) {
@@ -95,7 +97,7 @@ object DqnSettings {
 //  private val userNameId = paramMap.getOrElse("UserNameId", "0").toInt
 //  val UserName: String = TestNames(userNameId)
   private val UserNameStr = paramMap.getOrElse("UserNames", "")
-  val TestNames = UserNameStr.split(",").map(_.trim).toArray
+  val TestNames: Array[String] = UserNameStr.split(",").map(_.trim).toArray
 
   val StartEpsilon: Float = paramMap.getOrElse("StartEpsilon", "1").toFloat
   val MinEpsilon: Float = paramMap.getOrElse("MinEpsilon", "0").toFloat
