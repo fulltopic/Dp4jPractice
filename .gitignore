@@ -1,7 +1,6 @@
 .idea/
 target/
 LOG_HOME_IS_UNDEFINED/
-src/main/resources/
 **/reports/*.txt
 datasets/mjsupervised/logs/
 **/evals_dense_conv_dense.txt
