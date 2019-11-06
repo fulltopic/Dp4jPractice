@@ -30,7 +30,7 @@ public class ACTenhouPolicy extends ACPolicy<TenhouArray> {
 
     public Integer nextAction(INDArray input) {
         INDArray output = this.getNeuralNet().outputAll(input)[1];
-        logger.info("policy " + output);
+        logger.debug("policy " + output);
         Pair<Double, Integer> pair = MessageParseUtilsImpl.getLegalQAction(input, output);
         logger.info(pair.getFirst() + ", " + pair.getSecond());
         return pair.getSecond();
@@ -38,19 +38,19 @@ public class ACTenhouPolicy extends ACPolicy<TenhouArray> {
 
     public Integer nextAction(INDArray input, INDArray output) {
         float epsilon = tenhouRd.nextFloat();
-        logger.info("policy " + output);
-        logger.info("nextAction " + input);
-        logger.info("epsilon " + epsilon);
+        logger.debug("policy " + output);
+        logger.debug("nextAction " + input);
+        logger.debug("epsilon " + epsilon);
 
 
         if (epsilon > DqnSettings.MinEpsilon() || DqnSettings.IsTest()) {
             Pair<Double, Integer> pair = MessageParseUtilsImpl.getLegalQAction(input, output);
-            logger.info(pair.getFirst() + ", " + pair.getSecond());
+            logger.debug(pair.getFirst() + ", " + pair.getSecond());
             return pair.getSecond();
         }else {
             logger.debug("Random");
             Pair<Double, Integer> pair = MessageParseUtilsImpl.getRandomAction(input, output);
-            logger.info(pair.getFirst() + ", " + pair.getSecond());
+            logger.debug(pair.getFirst() + ", " + pair.getSecond());
             return pair.getSecond();
         }
     }

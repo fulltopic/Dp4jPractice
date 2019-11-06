@@ -22,8 +22,9 @@ import org.nd4j.linalg.api.ndarray.INDArray
 import org.nd4j.linalg.factory.Nd4j
 import org.nd4j.linalg.learning.config.RmsProp
 import org.nd4j.linalg.lossfunctions.LossFunctions
+import tenhouclient.config.ClientConfig
 import tenhouclient.impl.ImplConsts.{ActionLenWoAccept, PeerStateLen}
-import tenhouclient.impl.mdp.TenhouEncodableMdp
+import tenhouclient.impl.mdp.{TenhouEncodableMdp, TenhouEncodableMdpFactory}
 
 object TestDoubleNNDqn {
   private val logger = Logger("TestDoubleNNDqn")
@@ -117,7 +118,9 @@ object TestDoubleNNDqn {
 
   def createDqn(): TenhouSimpleDenseQLDiscrete = {
     val manager = new DataManager(true) //TODO: Why true?
-    val mdp = new TenhouEncodableMdp()
+//    val mdp = new TenhouEncodableMdp()
+    val clientConfig = new ClientConfig(DqnSettings.TestNames, DqnSettings.A3CServerIP, DqnSettings.A3CServerPort, DqnSettings.LNLimit, DqnSettings.IsPrivateLobby)
+    val mdp = new TenhouEncodableMdpFactory(true, clientConfig)
 
 //    val model = createModel()
 //    loadParams(model)

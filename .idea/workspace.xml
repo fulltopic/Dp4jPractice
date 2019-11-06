@@ -3,27 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="aa0fa9a1-06ba-4bef-827a-db61e5239291" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjclassifier/LenetMnistExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjclassifier/LenetMnistExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjclassifier/MahjongClassifier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjclassifier/MahjongClassifier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjsupervised/SupervisedComp.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjsupervised/SupervisedComp.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjsupervised/dataprocess/iterator/TenhouCompCnnLstmIterator.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjsupervised/dataprocess/iterator/TenhouCompCnnLstmIterator.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjsupervised/dataprocess/iterator/TenhouCompMaskCnnLstmIterator.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjsupervised/dataprocess/iterator/TenhouCompMaskCnnLstmIterator.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjsupervised/dataprocess/iterator/TenhouLstmIterator.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjsupervised/dataprocess/iterator/TenhouLstmIterator.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjsupervised/dataprocess/iterator/TenhouXmlFileReader.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjsupervised/dataprocess/iterator/TenhouXmlFileReader.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjsupervised/dataprocess/preprocessor/TenhouFF2CnnPreProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjsupervised/dataprocess/preprocessor/TenhouFF2CnnPreProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjsupervised/dataprocess/preprocessor/TenhouInputPreProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjsupervised/dataprocess/preprocessor/TenhouInputPreProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjsupervised/dataprocess/preprocessor/TenhouRnnToCnnPreProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjsupervised/dataprocess/preprocessor/TenhouRnnToCnnPreProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjsupervised/nn/A3CTenhouModelFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjsupervised/nn/A3CTenhouModelFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjsupervised/nn/TenhouActorCriticLoss.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjsupervised/nn/TenhouActorCriticLoss.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjsupervised/nn/TenhouComputationGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjsupervised/nn/TenhouComputationGraph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dp4jpractice/org/tools/dataprocess/dbprocess/ExtractFiles.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dp4jpractice/org/tools/dataprocess/dbprocess/ExtractFiles.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dp4jpractice/org/tools/dataprocess/dbprocess/TenhouXmlStringReader.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dp4jpractice/org/tools/dataprocess/dbprocess/TenhouXmlStringReader.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dp4jpractice/org/tools/dataprocess/dbprocess/ZipTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dp4jpractice/org/tools/dataprocess/dbprocess/ZipTest.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dp4jpractice/org/tools/dataprocess/dbprocess/data/MjPlayerState.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dp4jpractice/org/tools/dataprocess/dbprocess/data/MjPlayerState.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dp4jpractice/org/tools/dataprocess/dbprocess/data/SceneRecord.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dp4jpractice/org/tools/dataprocess/dbprocess/data/SceneRecord.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dp4jpractice/org/tools/dataprocess/dbprocess/data/Transaction.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dp4jpractice/org/tools/dataprocess/dbprocess/data/Transaction.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dp4jpractice/org/tools/dataprocess/dbprocess/lmdbprocess/LmdbOperator.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dp4jpractice/org/tools/dataprocess/dbprocess/lmdbprocess/LmdbOperator.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dp4jpractice/org/tools/dataprocess/dbprocess/lmdbprocess/LmdbTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dp4jpractice/org/tools/dataprocess/dbprocess/lmdbprocess/LmdbTest.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjdrl/config/DqnSetting_lstm_a3c.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjdrl/config/DqnSetting_lstm_a3c.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjdrl/config/DqnSettings.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjdrl/config/DqnSettings.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjdrl/nn/a3c/ACTenhouPolicy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjdrl/nn/a3c/ACTenhouPolicy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjdrl/nn/a3c/TestLstmA3C.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjdrl/nn/a3c/TestLstmA3C.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjdrl/nn/dqn/TestCnnDqn.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjdrl/nn/dqn/TestCnnDqn.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjdrl/nn/dqn/TestDoubleNNDqn.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjdrl/nn/dqn/TestDoubleNNDqn.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjdrl/nn/dqn/TestDqn.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjdrl/nn/dqn/TestDqn.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjdrl/nn/dqn/TestLstmDqn.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjdrl/nn/dqn/TestLstmDqn.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjdrl/nn/dqn/TestNNDqn.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dp4jpractice/org/mjdrl/nn/dqn/TestNNDqn.scala" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -68,13 +56,15 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/target/classes" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.37078652" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
       <recent name="$PROJECT_DIR$/target/classes" />
     </key>
   </component>

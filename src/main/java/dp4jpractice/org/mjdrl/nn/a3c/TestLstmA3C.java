@@ -12,26 +12,46 @@ import org.nd4j.linalg.api.ndarray.INDArray;
 
 import dp4jpractice.org.mjdrl.config.DqnSettings;
 import org.nd4j.linalg.learning.config.Adam;
+import tenhouclient.config.ClientConfig;
 import tenhouclient.impl.mdp.TenhouEncodableMdp;
 import dp4jpractice.org.mjsupervised.dataprocess.iterator.TenhouCompCnnLstmIterator;
+import tenhouclient.impl.mdp.TenhouEncodableMdpFactory;
 
 import java.util.Map;
 
 public class TestLstmA3C {
     private String fileName = "/home/zf/workspaces/workspace_java/tenhoulogs/logs/xmlfiles/supervised/models/conv_conv_dense_lstm_bestsofar.xml";
 
-    private static A3CDiscrete.A3CConfiguration CARTPOLE_A3C =
-            new A3CDiscrete.A3CConfiguration(
-                    123,            //Random seed
-                    Integer.MAX_VALUE,            //Max step By epoch
-                    Integer.MAX_VALUE,         //Max step
-                    DqnSettings.A3CThreadNum(),              //Number of threads
-                    Integer.MAX_VALUE,              //t_max
-                    1,             //num step noop warmup
-                    0.02,           //reward scaling
-                    0.99,           //gamma
-                    1.0           //td-error clipping
-            );
+    private A3CDiscrete.A3CConfiguration CARTPOLE_A3C;
+//    =
+//            new A3CDiscrete.A3CConfiguration(
+//                    123,            //Random seed
+//                    Integer.MAX_VALUE,            //Max step By epoch
+//                    Integer.MAX_VALUE,         //Max step
+//                    DqnSettings.A3CThreadNum(),              //Number of threads
+//                    Integer.MAX_VALUE,              //t_max
+//                    1,             //num step noop warmup
+//                    0.02,           //reward scaling
+//                    0.99,           //gamma
+//                    1.0           //td-error clipping
+//            );
+
+    TestLstmA3C(String configFileName) {
+//        DqnSettings.setConfigFileName(configFileName);
+
+        CARTPOLE_A3C =
+                new A3CDiscrete.A3CConfiguration(
+                        123,            //Random seed
+                        Integer.MAX_VALUE,            //Max step By epoch
+                        Integer.MAX_VALUE,         //Max step
+                        DqnSettings.A3CThreadNum(),              //Number of threads
+                        Integer.MAX_VALUE,              //t_max
+                        1,             //num step noop warmup
+                        0.02,           //reward scaling
+                        0.99,           //gamma
+                        1.0           //td-error clipping
+                );
+    }
 
     private ActorCriticFactoryCompGraphStdDense.Configuration getConfig() {
         ActorCriticFactoryCompGraphStdDense.Configuration config = ActorCriticFactoryCompGraphStdDense.Configuration.builder()
@@ -99,7 +119,15 @@ public class TestLstmA3C {
         DqnSettings.printConfig();
         ActorCriticCompGraph graph = A3CTenhouModelFactory.GetCriticActor(DqnSettings.LoadNNModelFileName(), getConfig(), 74, 42);
 
-        MDP mdp = new TenhouEncodableMdp(false, -1);
+        ClientConfig clientConfig =
+                new ClientConfig(DqnSettings.TestNames(),
+                    DqnSettings.ServerIP(),
+                    DqnSettings.Port(),
+                    DqnSettings.LNLimit(),
+                    DqnSettings.IsPrivateLobby()
+                );
+
+        MDP mdp = new TenhouEncodableMdpFactory(true, clientConfig);
         DataManager manager = new DataManager();
         A3CTenhouDense criticActor = new A3CTenhouDense(mdp, CARTPOLE_A3C, manager, graph);
 
@@ -108,7 +136,8 @@ public class TestLstmA3C {
     }
 
     public static void main(String[] args) throws Exception{
-        TestLstmA3C tester = new TestLstmA3C();
+        String configFileName = "/home/zf/workspaces/workspace_java/Dp4jPractice/src/main/java/dp4jpractice/org/mjdrl/config/DqnSetting_lstm_a3c.txt";
+        TestLstmA3C tester = new TestLstmA3C(configFileName);
 //        tester.testLoadModel();
 //        tester.checkBestModel();
         tester.train();

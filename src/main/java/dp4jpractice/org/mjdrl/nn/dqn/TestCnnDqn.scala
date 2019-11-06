@@ -5,7 +5,7 @@ import java.io.{File, FileInputStream}
 import org.deeplearning4j.nn.api.OptimizationAlgorithm
 import org.deeplearning4j.nn.conf.inputs.InputType
 import org.deeplearning4j.nn.conf.layers._
-import org.deeplearning4j.nn.conf.{ NeuralNetConfiguration, Updater, WorkspaceMode}
+import org.deeplearning4j.nn.conf.{NeuralNetConfiguration, Updater, WorkspaceMode}
 import org.deeplearning4j.nn.multilayer.MultiLayerNetwork
 import org.deeplearning4j.nn.weights.WeightInit
 import org.deeplearning4j.rl4j.learning.sync.qlearning.QLearning
@@ -16,11 +16,12 @@ import org.nd4j.linalg.activations.Activation
 import org.nd4j.linalg.factory.Nd4j
 import org.nd4j.linalg.lossfunctions.LossFunctions
 import tenhouclient.impl.ImplConsts._
-import tenhouclient.impl.mdp.TenhouEncodableMdp
+import tenhouclient.impl.mdp.{TenhouEncodableMdp, TenhouEncodableMdpFactory}
 import dp4jpractice.org.mjdrl.config.DqnSettings
 import dp4jpractice.org.mjdrl.nn.dqn.nn.TenhouSimpleDenseQLDiscrete
 import org.nd4j.linalg.learning.config.AdaGrad
 import org.nd4j.linalg.schedule.{MapSchedule, ScheduleType}
+import tenhouclient.config.ClientConfig
 
 import scala.util.Random
 
@@ -143,8 +144,11 @@ object TestCnnDqn {
 
   def createDqn(): TenhouSimpleDenseQLDiscrete = {
     val manager = new DataManager(true) //TODO: Why true?
-    val mdp = new TenhouEncodableMdp()
+//    val mdp = new TenhouEncodableMdp()
+  val clientConfig: ClientConfig = new ClientConfig(DqnSettings.TestNames, DqnSettings.A3CServerIP, DqnSettings.A3CServerPort, DqnSettings.LNLimit, DqnSettings.IsPrivateLobby)
 
+    //        MDP mdp = new TenhouEncodableMdp(false, -1);
+    val mdp = new TenhouEncodableMdpFactory(true, clientConfig)
     val model = createModel()
     loadParams(model)
     val dqn = new DQN(model)

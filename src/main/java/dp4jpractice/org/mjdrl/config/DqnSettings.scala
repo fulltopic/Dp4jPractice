@@ -2,40 +2,10 @@ package dp4jpractice.org.mjdrl.config
 
 import scala.io.Source
 
-object DqnSettings {
-  /*
-  For All
-   */
-  private var ConfigFileName = "/home/zf/workspaces/workspace_java/Dp4jPractice/src/main/java/dp4jpractice/org/mjdrl/config/DqnSetting_lstm_a3c.txt"
-//  private var ConfigFileName = "/home/zf/workspaces/workspace_java/mjconv4/src/main/java/rl/dqn/reinforcement/dqn/config/DqnSetting_a3c.txt"
-
-  //  private val ConfigFileName = "/home/ec2-user/mjconv4/src/main/java/rl/dqn/reinforcement/dqn/config/DqnSetting_cloud.txt"
-//  private var ConfigFileName = "/root/DqnSetting.txt"
-//  def setConfigFile(fileName: String): Unit = {
-//    ConfigFileName = fileName
-//  }
-
-  val TestName0 = "ID0CAF3DF9-HBH66B8c" //a3ctest1
-  val TestName1 = "ID52C61588-fBT9HfYQ" //fullaca //deprecated
-  val TestName2 = "ID2E336B42-BfAf8H9F" //fullcnn
-  val TestName3 = "ID5F0B11CB-PU9nHfDM" //fullnn
-  val TestName4 = "ID48547DBC-bBYmSGLD" //fulllstm deprecated
-  val TestName5 = "ID14BA4AD0-38gaDVBG" //fulllsta
-  val TestName6 = "ID59DC5036-YQSVMgX6" //deprecated
-  val TestName7 = "ID682C234B-PbdLRGV4" //fullacb
-  val TestName8 = "ID612E00B1-8eVaBXdR" //fullacc
-  val TestName9 = "ID78A24927-c5bhBcQb" //fullacd
-  val TestName10 = "ID471075C5-D3M5e8bQ" //fullace
-  val TestName11 = "ID6502540D-H6f5DMCZ" //fullacf
-
-  val IsTest: Boolean = true
-  val IsPrivateLobby: Boolean = false
-
-//  val TestNames = Array[String] (TestName0, TestName1, TestName2, TestName3, TestName4, TestName5, TestName6)
-
+sealed class DqnSettingsClass protected (ConfigFileName: String) {
   val LstmSeqCap: Int = 50
 
-  val Local2LayerLstmModelFile = "/home/zf/workspaces/workspace_java/tenhoulogs/logs/xmlfiles/supervised/models/model_lstm_2layer.xml/"
+
 
   private val keySet = Set[String](
     "ReplayBufferSize",
@@ -59,13 +29,16 @@ object DqnSettings {
     "LoadNNModelFileName",
     "A3CServerIP",
     "A3CServerPort",
-    "A3CThreadNum"
+    "A3CThreadNum",
+    "IsTest",
+    "IsPrivateLobby",
+    "Local2LayerLstmModelFile"
   ).toArray
 
 
-  private val fileSource = Source.fromFile(ConfigFileName)
-  private val lines = fileSource.getLines().filter(line => !line.startsWith("#")).filter(line => line.trim.length > 0).toArray
-  fileSource.close()
+  println("The config file " + ConfigFileName)
+  private val fileSource = Source.fromInputStream(getClass.getClassLoader.getResourceAsStream(ConfigFileName))
+  private val lines = try fileSource.getLines().filter(line => !line.startsWith("#")).filter(line => line.trim.length > 0).toArray finally fileSource.close()
   private val paramMap = scala.collection.mutable.Map[String, String]()
 
   for (i <- lines.indices) {
@@ -84,6 +57,11 @@ object DqnSettings {
     }
   }
 
+  val TestNames: Array[String] = paramMap.getOrElse("UserNames", "").split(",").map(_.trim)
+
+  val IsTest: Boolean = paramMap.getOrElse("IsTest", "false").toBoolean
+  val IsPrivateLobby: Boolean = paramMap.getOrElse("IsPrivateLobby", "false").toBoolean
+  val Local2LayerLstmModelFile: String = paramMap.getOrElse("Local2LayerLstmModelFile", "")
 
   val ReplayBufferSize: Int = paramMap.getOrElse("ReplayBufferSize", "50").toInt
 
@@ -93,11 +71,6 @@ object DqnSettings {
 
   val ServerIP: String = paramMap.getOrElse("ServerIP", "")
   val Port: Int = paramMap.getOrElse("Port", "10080").toInt
-
-//  private val userNameId = paramMap.getOrElse("UserNameId", "0").toInt
-//  val UserName: String = TestNames(userNameId)
-  private val UserNameStr = paramMap.getOrElse("UserNames", "")
-  val TestNames: Array[String] = UserNameStr.split(",").map(_.trim).toArray
 
   val StartEpsilon: Float = paramMap.getOrElse("StartEpsilon", "1").toFloat
   val MinEpsilon: Float = paramMap.getOrElse("MinEpsilon", "0").toFloat
@@ -126,6 +99,8 @@ object DqnSettings {
   val A3CTiePenalty: Double = -0.10
 
   def printConfig(): Unit = {
+    println("IsTest: " + IsTest)
+    println("IsPrivateLobby: " + IsPrivateLobby)
     println("ReplayBufferSize: " + ReplayBufferSize)
     println("GameEndWaitTime: " + GameEndWaitTime)
     println("KALimit: " + KALimit)
@@ -151,3 +126,5 @@ object DqnSettings {
   }
 
 }
+
+object DqnSettings extends DqnSettingsClass ("DqnSetting_lstm_a3c.txt"){}

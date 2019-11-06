@@ -18,8 +18,9 @@ import org.deeplearning4j.util.ModelSerializer
 import org.nd4j.linalg.activations.Activation
 import org.nd4j.linalg.learning.config.RmsProp
 import org.nd4j.linalg.lossfunctions.LossFunctions
+import tenhouclient.config.ClientConfig
 import tenhouclient.impl.ImplConsts._
-import tenhouclient.impl.mdp.TenhouEncodableMdp
+import tenhouclient.impl.mdp.{TenhouEncodableMdp, TenhouEncodableMdpFactory}
 
 
 object TestNNDqn {
@@ -115,7 +116,12 @@ object TestNNDqn {
 
   def createDqn(): TenhouSimpleDenseQLDiscrete = {
     val manager = new DataManager(true) //TODO: Why true?
-    val mdp = new TenhouEncodableMdp()
+//    val mdp = new TenhouEncodableMdp()
+
+    val clientConfig = new ClientConfig(DqnSettings.TestNames, DqnSettings.A3CServerIP, DqnSettings.A3CServerPort, DqnSettings.LNLimit, DqnSettings.IsPrivateLobby)
+
+    //        MDP mdp = new TenhouEncodableMdp(false, -1);
+    val mdp = new TenhouEncodableMdpFactory(true, clientConfig)
 
     val model = createModel()
     loadParams(model)

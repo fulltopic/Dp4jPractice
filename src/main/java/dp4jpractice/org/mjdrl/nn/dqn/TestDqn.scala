@@ -18,8 +18,9 @@ import org.nd4j.linalg.activations.Activation
 import org.nd4j.linalg.factory.Nd4j
 import org.nd4j.linalg.learning.config.AdaGrad
 import org.nd4j.linalg.lossfunctions.LossFunctions
+import tenhouclient.config.ClientConfig
 import tenhouclient.impl.ImplConsts._
-import tenhouclient.impl.mdp.TenhouEncodableMdp
+import tenhouclient.impl.mdp.{TenhouEncodableMdp, TenhouEncodableMdpFactory}
 
 import scala.util.Random
 
@@ -145,7 +146,12 @@ object TestDqn {
 
   def createDqn(): TenhouSimpleDenseQLDiscrete = {
     val manager = new DataManager(true) //TODO: Why true?
-    val mdp = new TenhouEncodableMdp()
+//    val mdp = new TenhouEncodableMdp()
+
+    val clientConfig = new ClientConfig(DqnSettings.TestNames, DqnSettings.A3CServerIP, DqnSettings.A3CServerPort, DqnSettings.LNLimit, DqnSettings.IsPrivateLobby)
+
+    //        MDP mdp = new TenhouEncodableMdp(false, -1);
+    val mdp = new TenhouEncodableMdpFactory(true, clientConfig)
 
     val model = createModel()
     loadParams(model)

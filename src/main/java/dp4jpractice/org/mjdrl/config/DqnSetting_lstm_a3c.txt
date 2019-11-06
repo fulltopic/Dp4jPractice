@@ -10,7 +10,8 @@ A3CThreadNum = 4
 
 ServerIP = 133.242.10.78
 Port = 10080
-UserNames = ID471075C5-D3M5e8bQ,ID612E00B1-8eVaBXdR,ID78A24927-c5bhBcQb,ID6502540D-H6f5DMCZ,ID14BA4AD0-38gaDVBG
+#usernames: a3ctest1,
+UserNames = ID0CAF3DF9-HBH66B8c,ID612E00B1-8eVaBXdR,ID78A24927-c5bhBcQb,ID6502540D-H6f5DMCZ,ID14BA4AD0-38gaDVBG
 
 StartEpsilon = 0.30f
 MinEpsilon = 0.15f
@@ -18,6 +19,10 @@ EpsilonScaleRate  = 0.02f
 AggressiveStealue  = 0.0f
 UpdateTillSave = 60
 
+IsTest = true
+IsPrivateLobby = false
+
+Local2LayerLstmModelFile = /home/zf/workspaces/workspace_java/tenhoulogs/logs/xmlfiles/supervised/models/model_lstm_2layer.xml/
 RewardFileName = /home/zf/workspaces/workspace_java/tenhoulogs/testdqnmodels/rewards/reward
 ModelFileName = /home/zf/workspaces/workspace_java/tenhoulogs/testdqnmodels/models/modela3clstm
 ModelLstmFileName = /home/zf/workspaces/workspace_java/tenhoulogs/testdqnmodels/models/modellstm
