@@ -8,7 +8,7 @@ import scala.io.Source
 
 object ZipTest extends App {
   val ZipFilePath: String = "/home/zf/workspaces/res/mjzips/zips/mjlog_pf4-20_n1.zip"
-  val TensorDbFilePath = "/home/zf/workspaces/workspace_java/lmdbscenetest/"
+  val TensorDbFilePath = "/home/zf/workspaces/res/dbs/lmdbscenetest"
 
 
   def testExtract(): Unit = {
@@ -66,14 +66,46 @@ object ZipTest extends App {
 //    val DbName = "TensorDb"
     val DbName: String = null
     val dbOp = new LmdbOperator(TensorDbFilePath, DbName, ByteOrder.BIG_ENDIAN)
-    dbOp.saveTensor(scenes.head)
+
+    scenes.foreach(scene => dbOp.saveTensor(scene))
+//    dbOp.saveTensor(scenes.head)
+//    dbOp.saveTensor(scenes.tail.head)
+    dbOp.close()
+  }
+
+  def saveDb(): Unit = {
+    val DbName: String = null
+    val dbOp = new LmdbOperator(TensorDbFilePath, DbName, ByteOrder.BIG_ENDIAN)
+    val Num = 1000
+    var num: Long = 0
+
+    val files = ExtractFiles.unzip(ZipFilePath);
+
+    files.foreach(file => {
+      val reader = new TenhouXmlStringReader(file._1, file._2)
+      val scenes = reader.readFile()
+
+      scenes.foreach(scene => dbOp.saveTensor(scene))
+      num += scenes.size
+      println("----------------------------------------------------------_> Num: " + num)
+    })
+//    for (file <- files) {
+//      if (num < Num) {
+//        val reader = new TenhouXmlStringReader(file._1, file._2)
+//        val scenes = reader.readFile()
+//
+//        num += scenes.size
+//        scenes.foreach(scene => dbOp.saveTensor(scene))
+//      }
+//    }
     dbOp.close()
   }
 
   def testReadDb(): Unit = {
 //     val TensorDbFilePath = "/home/zf/workspaces/workspace_java/mjpratice_git/Dp4jPractice"
     val DbName = "TensorDb"
-    val dbOp = new LmdbOperator(TensorDbFilePath, DbName, ByteOrder.LITTLE_ENDIAN)
+    val nullDbName: String = null
+    val dbOp = new LmdbOperator(TensorDbFilePath, nullDbName, ByteOrder.LITTLE_ENDIAN)
     dbOp.readFirstOne()
     dbOp.close()
   }
@@ -83,5 +115,7 @@ object ZipTest extends App {
 //  testReadZipFiles()
 //  println(scala.runtime.toString)
 //  testSaveDb()
-  testReadDb()
+//  testReadDb()
+
+  saveDb()
 }

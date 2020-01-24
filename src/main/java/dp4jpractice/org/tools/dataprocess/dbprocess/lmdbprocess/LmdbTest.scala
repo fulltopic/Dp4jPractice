@@ -70,7 +70,7 @@ object LmdbTest extends App {
   }
 
 
-  val TensorDbFilePath = "/home/zf/workspaces/workspace_java/mjpratice_git/Dp4jPractice"
+  val TensorDbFilePath = "/home/zf/workspaces/res/dbs/lmdbtest"
   val TensorDbName = "DbTensor"
   def saveTensor(): Unit = {
     val tensorPtotos = buildTensor()
@@ -103,30 +103,37 @@ object LmdbTest extends App {
 
   val TensorLittleDbName = "DbSmallEndianTensor"
   val TestKey = "test"
+  val NullName: String = null //Set db name as null for simpler cpp operations
   def saveCppTensor(): Unit = {
     val tensorProtos = buildTensor()
 
     val file = new File(TensorDbFilePath)
     val env: Env[ByteBuffer] = Env.create().setMapSize(10 * 100 * 100L).setMaxDbs(1).open(file)
-    val db = env.openDbi(TensorLittleDbName, DbiFlags.MDB_CREATE)
+    val db = env.openDbi(NullName, DbiFlags.MDB_CREATE)
 
     val key = ByteBuffer.allocateDirect(env.getMaxKeySize).order(ByteOrder.LITTLE_ENDIAN)
     val value = ByteBuffer.allocateDirect(1000).order(ByteOrder.LITTLE_ENDIAN)
     key.put(TestKey.getBytes(StandardCharsets.UTF_8)).flip()
     value.put(tensorProtos.toByteString.asReadOnlyByteBuffer()).flip()
 
+    println("Save for key " + TestKey)
     db.put(key, value)
     db.close()
   }
 
   def readCppTensor(): Unit = {
-    val file = new File("/home/zf/workspaces/workspace_java/mjpratice_git/Dp4jPractice/lmdbcpptest")
+//    val file = new File("/home/zf/workspaces/workspace_java/mjpratice_git/Dp4jPractice/lmdbcpptest")
+    println(TensorDbFilePath)
+    val file = new File(TensorDbFilePath)
+    println("" +  file.isDirectory + ", " + file.exists())
     val env: Env[ByteBuffer] = Env.create().setMapSize(10 * 100 * 100).setMaxDbs(1).open(file)
-    val dbName: String = null
+    val dbName: String = TensorLittleDbName
     val db = env.openDbi(dbName, DbiFlags.MDB_CREATE)
+    println(dbName)
 
     val key = ByteBuffer.allocateDirect(env.getMaxKeySize).order(ByteOrder.LITTLE_ENDIAN)
-    key.put("Testtesttesttest".getBytes(StandardCharsets.UTF_8)).flip()
+//    key.put("Testtesttesttest".getBytes(StandardCharsets.UTF_8)).flip()
+    key.put(TestKey.getBytes(StandardCharsets.UTF_8)).flip()
     val txn = env.txnRead()
     val found = db.get(txn, key)
     if (found == null) {

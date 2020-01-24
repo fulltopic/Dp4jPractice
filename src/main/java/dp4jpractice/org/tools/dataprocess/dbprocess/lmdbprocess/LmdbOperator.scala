@@ -11,7 +11,8 @@ import org.lmdbjava.{DbiFlags, Env, SeekOp}
 
 class LmdbOperator(parentPath: String, dbName: String, order: ByteOrder) {
   val file = new File(parentPath)
-  val env: Env[ByteBuffer] = Env.create().setMapSize(10 * 100 * 100L).setMaxDbs(1).open(file)
+  file.deleteOnExit()
+  val env: Env[ByteBuffer] = Env.create().setMapSize((1024 * 1024) * 100L).setMaxDbs(1).open(file)
   val db = env.openDbi(dbName, DbiFlags.MDB_CREATE)
   val javaDims: java.util.List[java.lang.Long] = Transaction.getDims().map(d => new java.lang.Long(d)).asJava
 
@@ -44,7 +45,7 @@ class LmdbOperator(parentPath: String, dbName: String, order: ByteOrder) {
 
     val labelProtoBuilder = tensorProtosBuilder.addProtosBuilder()
     labelProtoBuilder.addDims(1).setDataType(TensorProto.DataType.INT32).addInt32Data(tran.action)
-    println("Put label " + tran.action)
+//    println("Put label " + tran.action)
   }
 
   def saveTensor(dbKey: String, scene: SceneRecord): Unit = {
@@ -78,7 +79,7 @@ class LmdbOperator(parentPath: String, dbName: String, order: ByteOrder) {
     val tensor = tensorProtosBuilder.build()
 
     val key = ByteBuffer.allocateDirect(env.getMaxKeySize).order(order)
-    val value = ByteBuffer.allocateDirect(4 * 40 * DbConsts.StatePlayerNum * DbConsts.StateLen * 4)
+    val value = ByteBuffer.allocateDirect(1024 * 1024 * DbConsts.StatePlayerNum * DbConsts.StateLen * 4)
 
     key.put(scene.getKey.getBytes(StandardCharsets.UTF_8)).flip()
     value.put(tensor.toByteString.asReadOnlyByteBuffer()).flip()
